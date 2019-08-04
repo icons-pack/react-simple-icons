@@ -1,0 +1,72 @@
+{
+  "name": "@icons-pack/simple-icons",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Simple and complete library of components icons,  created with simple-icon SVG",
+  "author": "Jorge Luis Calleja <jorgelca1205@gmail.com>",
+  "homepage": "https://github.com/wootsbot/icons-pack#readme",
+  "license": "MIT",
+  "main": "lib/react-simple-icons.js",
+  "directories": {
+    "lib": "dist"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wootsbot/icons-pack.git"
+  },
+  "keywords": [
+    "codea",
+    "react",
+    "icons",
+    "svg",
+    "inline",
+    "simple-icons",
+    "design",
+    "component"
+  ],
+  "scripts": {
+    "prepare": "yarn build",
+    "clean": "rm -rf dist",
+    "clean:icons-components": "rm -rf ./src/**",
+    "build": "yarn clean && yarn build:lib",
+    "build:lib": "NODE_ENV=production babel src/ --out-dir ./dist",
+    "compile": "yarn clean:icons-components && node scripts/generate-icons",
+    "lint:eslint": "eslint --fix .",
+    "lint": "yarn lint:eslint",
+    "prettier": "prettier --ignore-path \"./.prettierignore\" --config .prettierrc --write \"./packages/**/*.js\""
+  },
+  "bugs": {
+    "url": "https://github.com/wootsbot/icons-pack/issues"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-export-default-from": "^7.5.2",
+    "@babel/plugin-proposal-export-namespace-from": "^7.5.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.2",
+    "babel-loader": "^8.0.6",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-import-resolver-webpack": "^0.11.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "prettier": "^1.18.2",
+    "prettier-eslint": "^9.0.0",
+    "prop-types": "^15.7.2",
+    "signale": "^1.4.0",
+    "simple-icons": "^1.12.0",
+    "uppercamelcase": "^3.0.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6"
+  }
+}
