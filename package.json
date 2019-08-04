@@ -4,7 +4,6 @@
   "scripts": {
     "build": "lerna bootstrap && lerna run build",
     "packages:clean": "lerna exec -- rm -rf node_modules",
-    "release": "lerna publish --exact --skip-npm --conventional-commits --yes",
     "compile:icons": "lerna run compile",
     "compile:react-simple-icons": "lerna exec yarn compile react-simple-icons"
   },
