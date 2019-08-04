@@ -1,0 +1,10 @@
+# Don't check auto-generated stuff into git
+dist
+.cache
+node_modules
+storybook
+scripts
+
+# Cruft
+.DS_Store
+npm-debug.log
