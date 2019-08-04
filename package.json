@@ -6,7 +6,7 @@
     "packages:clean": "lerna exec -- rm -rf node_modules",
     "compile:icons": "lerna run compile",
     "compile:react-simple-icons": "lerna exec yarn compile react-simple-icons",
-    "test": "echo \"not test\" && exit 1"
+    "test": "Done"
   },
   "devDependencies": {
     "lerna": "^3.16.4"
