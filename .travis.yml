@@ -13,8 +13,6 @@ node_js:
   - "12"
 install:
   - yarn
-test: skip
-
 build:
   - yarn build
 compile-icons:
