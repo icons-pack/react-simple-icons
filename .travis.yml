@@ -11,11 +11,13 @@ node_js:
   - "8"
   - "10"
   - "12"
-install:
-  - yarn
-build:
-  - yarn build
-compile-icons:
-  - yarn compile:icons
+jobs:
+  include:
+    - install:
+        - yarn
+    - build:
+        - yarn build
+    - compile-icons:
+        - yarn compile:icons
 branches:
   only: master
