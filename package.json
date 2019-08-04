@@ -1,6 +1,6 @@
 {
   "name": "root",
-  "private": false,
+  "private": true,
   "scripts": {
     "build": "lerna bootstrap && lerna run build",
     "packages:clean": "lerna exec -- rm -rf node_modules",
