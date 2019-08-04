@@ -2,14 +2,18 @@ sudo: false
 language: node_js
 cache:
   yarn: true
+  directories:
+    - node_modules
 notifications:
-  email: false
+  email:
+    - jorgelca1205@gmail.com
 node_js:
   - "8"
   - "10"
   - "12"
 install:
   - yarn
+test: skip
 
 build:
   - yarn build
