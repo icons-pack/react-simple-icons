@@ -1,11 +1,15 @@
 # `@icons-pack/react-simple-icons`
 
-> TODO: description
+> Coming soon
 
 ## Usage
 
 ```
-const reactSimpleIcons = require('@icons-pack/react-simple-icons');
+import { ReactJs } from '@icons-pack/simple-icons';
 
-// TODO: DEMONSTRATE API
+function Example() {
+  return (
+    <ReactJs color="#61DAFB" size={24} />
+  )
+}
 ```
