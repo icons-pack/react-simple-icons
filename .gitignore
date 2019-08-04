@@ -3,6 +3,11 @@
 # dependencies
 /node_modules
 
+# production
+/build
+/packages/react-simple-icons/dist
+
+
 # misc
 .DS_Store
 .env.local
