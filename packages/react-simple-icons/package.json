@@ -1,6 +1,6 @@
 {
   "name": "@icons-pack/simple-icons",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "description": "Simple and complete library of components icons,  created with simple-icon SVG",
   "author": "Jorge Luis Calleja <jorgelca1205@gmail.com>",
@@ -61,12 +61,14 @@
     "eslint-plugin-react": "^7.14.3",
     "prettier": "^1.18.2",
     "prettier-eslint": "^9.0.0",
-    "prop-types": "^15.7.2",
     "signale": "^1.4.0",
     "simple-icons": "^1.12.0",
     "uppercamelcase": "^3.0.0"
   },
   "peerDependencies": {
     "react": "^16.8.6"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2"
   }
 }
