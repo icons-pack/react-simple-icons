@@ -13,9 +13,11 @@ node_js:
   - "12"
 install:
   - yarn
-build:
-  - yarn build
-compile-icons:
-  - yarn compile:icons
+jobs:
+  include:
+    - stage: build packages
+      script:
+        - yarn build
+        - yarn compile:icons
 branches:
   only: master
