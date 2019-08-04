@@ -1,0 +1,19 @@
+sudo: false
+language: node_js
+cache:
+  yarn: true
+notifications:
+  email: false
+node_js:
+  - "8"
+  - "10"
+  - "12"
+install:
+  - yarn
+
+build:
+  - yarn build
+compile-icons:
+  - yarn compile:icons
+branches:
+  only: master
