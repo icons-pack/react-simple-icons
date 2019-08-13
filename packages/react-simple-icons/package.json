@@ -1,8 +1,8 @@
 {
-  "name": "@icons-pack/simple-icons",
+  "name": "@icons-pack/react-simple-icons",
   "version": "1.0.4",
   "private": false,
-  "description": "Simple and complete library of components icons,  created with simple-icon SVG",
+  "description": "Simple and complete library of components icons, created with simple-icon SVG",
   "author": "Jorge Luis Calleja <jorgelca1205@gmail.com>",
   "homepage": "https://github.com/wootsbot/icons-pack#readme",
   "license": "MIT",
@@ -39,7 +39,7 @@
     "compile": "yarn clean:icons-components && node scripts/generate-icons",
     "lint:eslint": "eslint --fix .",
     "lint": "yarn lint:eslint",
-    "prettier": "prettier --ignore-path \"./.prettierignore\" --config .prettierrc --write \"./packages/**/*.js\""
+    "prettier": "prettier --ignore-path \"./.prettierignore\" --config .prettierrc --write \"./**/*.js\""
   },
   "bugs": {
     "url": "https://github.com/wootsbot/icons-pack/issues"
