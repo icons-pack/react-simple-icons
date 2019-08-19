@@ -9,6 +9,7 @@
     "test": "echo \"Not Test\" && exit 0"
   },
   "devDependencies": {
-    "lerna": "^3.16.4"
+    "lerna": "^3.16.4",
+    "simple-icons": "^1.13.0"
   }
 }
