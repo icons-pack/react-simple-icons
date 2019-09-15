@@ -1,16 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Get = props => {
+const Opencollective = props => {
   const { color, size, ...others } = props;
   return (
     <svg width={size} height={size} fill={color} viewBox="0 0 24 24" {...others}>
-      <path d="undefined" />
+      <path d="M21.86 5.17a11.94 11.94 0 0 1 0 13.66l-3.1-3.1a7.68 7.68 0 0 0 0-7.46l3.1-3.1zm-3.03-3.03l-3.1 3.1a7.71 7.71 0 1 0 0 13.51l3.1 3.11a12 12 0 1 1 0-19.73 M21.86 5.17a11.94 11.94 0 0 1 0 13.66l-3.1-3.1a7.68 7.68 0 0 0 0-7.46l3.1-3.1z" />
     </svg>
   );
 };
 
-Get.propTypes = {
+Opencollective.propTypes = {
   /**
    * Hex color or color name
    */
@@ -21,9 +21,9 @@ Get.propTypes = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
-Get.defaultProps = {
+Opencollective.defaultProps = {
   color: 'currentColor',
   size: '24',
 };
 
-export default Get;
+export default Opencollective;
