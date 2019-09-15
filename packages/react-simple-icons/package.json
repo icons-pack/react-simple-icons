@@ -6,12 +6,12 @@
   "author": "Jorge Luis Calleja <jorgelca1205@gmail.com>",
   "homepage": "https://github.com/wootsbot/icons-pack#readme",
   "license": "MIT",
-  "main": "lib/react-simple-icons.js",
+  "main": "lib/index.js",
   "directories": {
-    "lib": "dist"
+    "lib": "lib"
   },
   "files": [
-    "dist"
+    "lib"
   ],
   "publishConfig": {
     "access": "public"
@@ -32,10 +32,10 @@
   ],
   "scripts": {
     "prepare": "yarn build",
-    "clean": "rm -rf dist",
+    "clean": "rm -rf lib",
     "clean:icons-components": "rm -rf ./src/**",
     "build": "yarn clean && yarn build:lib",
-    "build:lib": "NODE_ENV=production babel src/ --out-dir ./dist",
+    "build:lib": "NODE_ENV=production babel src/ --out-dir ./lib",
     "compile": "yarn clean:icons-components && node scripts/generate-icons",
     "lint:eslint": "eslint --fix .",
     "lint": "yarn lint:eslint",
@@ -62,7 +62,7 @@
     "prettier": "^1.18.2",
     "prettier-eslint": "^9.0.0",
     "signale": "^1.4.0",
-    "simple-icons": "^1.14.0",
+    "simple-icons": "^1.15.0",
     "uppercamelcase": "^3.0.0"
   },
   "peerDependencies": {

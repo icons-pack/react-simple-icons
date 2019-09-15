@@ -3629,10 +3629,10 @@ signale@^1.4.0:
     figures "^2.0.0"
     pkg-conf "^2.1.0"
 
-simple-icons@^1.14.0:
-  version "1.14.0"
-  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-1.14.0.tgz#72498ac4da9b5903e21da4cb85fa7dea6ea1d826"
-  integrity sha512-X8wH5bDrXHHM63JygweVpVfLNrhNPPNyWed68tvjllcvVlYmb39TgOgpblM5V7Lanzyq+4j9CinjzOJfdKe6tQ==
+simple-icons@^1.15.0:
+  version "1.15.0"
+  resolved "https://gbmcode.pkgs.visualstudio.com/_packaging/GBMNuget/npm/registry/simple-icons/-/simple-icons-1.15.0.tgz#87e5d28693b7e2ae123402f29381206a841ebb13"
+  integrity sha1-h+XShpO34q4SNALyk4EgaoQeuxM=
 
 slash@^2.0.0:
   version "2.0.0"
