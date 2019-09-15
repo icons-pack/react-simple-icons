@@ -10,4 +10,5 @@ yarn-error.log*
 
 node_modules
 build
+lib
 dist
