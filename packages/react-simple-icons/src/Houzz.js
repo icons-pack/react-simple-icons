@@ -5,7 +5,7 @@ const Houzz = props => {
   const { color, size, ...others } = props;
   return (
     <svg width={size} height={size} fill={color} viewBox="0 0 24 24" {...others}>
-      <path d="M18.93 12v8L12 24v-8.002L5.07 20V3.998L12 0v8l-6.928 4L12 15.998V8l6.93-4.002V12z" />
+      <path d="M1.27 0V24H9.32V16.44H14.68V24H22.73V10.37L6.61 5.75V0H1.27Z" />
     </svg>
   );
 };
