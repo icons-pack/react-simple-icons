@@ -39,7 +39,8 @@ module.exports = {
       .replace(/ò|ó|ô|õ|ö/, 'o')
       .replace(/ù|ú|û|ü/, 'u')
       .replace(/ý|ÿ/, 'y')
-      .replace(/500px/, 'five-hundred-px'),
+      .replace(/500px/, 'five-hundred-px')
+      .replace(/1password/, 'onePassword'),
 
   outputFileFormat: element =>
     format({
