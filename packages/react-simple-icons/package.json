@@ -62,7 +62,7 @@
     "prettier": "^1.18.2",
     "prettier-eslint": "^9.0.0",
     "signale": "^1.4.0",
-    "simple-icons": "^2.2.0",
+    "simple-icons": "^2.3.0",
     "uppercamelcase": "^3.0.0"
   },
   "peerDependencies": {
