@@ -12,3 +12,5 @@ node_modules
 build
 lib
 dist
+
+lerna-debug.log
