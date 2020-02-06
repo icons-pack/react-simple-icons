@@ -1,16 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Twitch = props => {
+const Affinity = props => {
   const { color, size, ...others } = props;
   return (
     <svg width={size} height={size} fill={color} viewBox="0 0 24 24" {...others}>
-      <path d="M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0L1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143l-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714Z" />
+      <path d="M9.368 1.08h3.778l.318.55h1.082L24 18.004v.001l-2.036 3.47H13.69l.84 1.445h-.365l-.84-1.446H3.057l-.526-.923h-.652L0 17.298l.002-.001 2.41-4.176 2.23-1.288 3.69-6.39-.742-1.285L9.368 1.08zm2.224 5.652L5.066 18.008h6.25l-.723-1.246 6.808.006-5.809-10.036Z" />
     </svg>
   );
 };
 
-Twitch.propTypes = {
+Affinity.propTypes = {
   /**
    * Hex color or color name
    */
@@ -21,9 +21,9 @@ Twitch.propTypes = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
-Twitch.defaultProps = {
+Affinity.defaultProps = {
   color: 'currentColor',
   size: '24',
 };
 
-export default Twitch;
+export default Affinity;

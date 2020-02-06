@@ -1,16 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Twitch = props => {
+const Googlenearby = props => {
   const { color, size, ...others } = props;
   return (
     <svg width={size} height={size} fill={color} viewBox="0 0 24 24" {...others}>
-      <path d="M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0L1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143l-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714Z" />
+      <path d="M6.546 12l5.455-5.455L17.455 12l-5.454 5.454zm16.976-1.154L13.158.48a1.635 1.635 0 00-2.314 0L.478 10.846a1.629 1.629 0 000 2.305l10.37 10.371a1.629 1.629 0 002.304 0l10.37-10.371a1.629 1.629 0 000-2.305zM12 20.726l-8.727-8.728L12 3.27l8.727 8.728Z" />
     </svg>
   );
 };
 
-Twitch.propTypes = {
+Googlenearby.propTypes = {
   /**
    * Hex color or color name
    */
@@ -21,9 +21,9 @@ Twitch.propTypes = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
-Twitch.defaultProps = {
+Googlenearby.defaultProps = {
   color: 'currentColor',
   size: '24',
 };
 
-export default Twitch;
+export default Googlenearby;

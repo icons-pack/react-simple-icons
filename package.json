@@ -4,8 +4,8 @@
   "scripts": {
     "build": "lerna bootstrap && lerna run build",
     "packages:clean": "lerna exec -- rm -rf node_modules",
-    "compile:icons": "lerna run compile",
-    "compile:react-simple-icons": "lerna exec yarn compile react-simple-icons",
+    "generate:icons": "lerna run generate:icons",
+    "generate:react-simple-icons": "lerna exec yarn generate:icons react-simple-icons",
     "test": "echo \"Not Test\" && exit 0"
   },
   "devDependencies": {

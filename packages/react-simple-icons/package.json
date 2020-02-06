@@ -39,7 +39,7 @@
     "clean:icons-components": "rm -rf ./src/**",
     "build": "yarn clean && yarn build:lib",
     "build:lib": "NODE_ENV=production babel src/ --out-dir ./lib",
-    "compile": "yarn clean:icons-components && node scripts/generate-icons",
+    "generate:icons": "yarn clean:icons-components && node scripts/generate-icons",
     "lint:eslint": "eslint --fix .",
     "lint": "yarn lint:eslint",
     "prettier": "prettier --config .prettierrc \"./**/*.+(js|json|jsx)\" --write"
@@ -78,7 +78,7 @@
     "prettier-eslint": "^9.0.0",
     "rimraf": "^3.0.0",
     "signale": "^1.4.0",
-    "simple-icons": "^2.3.0",
+    "simple-icons": "^2.4.0",
     "uppercamelcase": "^3.0.0"
   }
 }
