@@ -1,23 +1,20 @@
-sudo: false
 language: node_js
+
 cache:
   yarn: true
   directories:
     - node_modules
+
 notifications:
   email:
     - jorgelca1205@gmail.com
+
 node_js:
-  - "8"
-  - "10"
-  - "12"
+  - '10'
+
 install:
   - yarn
-jobs:
-  include:
-    - stage: build packages
-      script:
-        - yarn build
-        - yarn compile:icons
-branches:
-  only: master
+
+script:
+  - yarn build
+  - yarn generate:icons
