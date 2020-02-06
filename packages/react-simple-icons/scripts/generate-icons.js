@@ -1,7 +1,8 @@
 const path = require('path');
 const fs = require('fs');
 const upperCamelCase = require('uppercamelcase');
-const featherIcons = require('simple-icons/index.js');
+
+const SimpleIcons = require('simple-icons/index.js');
 
 const { titleToFilename, outputFileFormat, signale } = require('./utils');
 
@@ -11,7 +12,7 @@ const dir = path.join(rootDir, 'src/');
 
 const pathIndexExport = path.join(rootDir, 'src', 'index.js');
 
-const ICONS = Object.keys(featherIcons);
+const ICONS = Object.keys(SimpleIcons);
 
 if (!fs.existsSync(dir)) {
   fs.mkdirSync(dir);
@@ -55,7 +56,7 @@ ICONS.forEach(icon => {
       const { color, size, ...others } = props;
       return (
         <svg ${attrsToString(defaultAttrs)}>
-          <path d="${featherIcons[baseName].path}" />
+          <path d="${SimpleIcons[baseName].path}" />
         </svg>
       )
     };
