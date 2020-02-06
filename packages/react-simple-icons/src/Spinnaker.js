@@ -1,16 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Twitch = props => {
+const Spinnaker = props => {
   const { color, size, ...others } = props;
   return (
     <svg width={size} height={size} fill={color} viewBox="0 0 24 24" {...others}>
-      <path d="M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0L1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143l-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714Z" />
+      <path d="M21.343 0C17.785 8.741 11.317 21.987.815 23.882c10.806 1.064 19.481-5.327 21.646-8.066C24.627 13.076 21.343 0 21.343 0zM.815 23.882L.8 23.88v.004l.015-.003zM17.182 5.8C15.409 10.988 10.477 18.547 5.4 20.39c.885.033 1.74-.019 2.561-.132 3.989-3.221 7.14-8.037 9.577-12.771-.193-.981-.356-1.687-.356-1.687z" />
     </svg>
   );
 };
 
-Twitch.propTypes = {
+Spinnaker.propTypes = {
   /**
    * Hex color or color name
    */
@@ -21,9 +21,9 @@ Twitch.propTypes = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
-Twitch.defaultProps = {
+Spinnaker.defaultProps = {
   color: 'currentColor',
   size: '24',
 };
 
-export default Twitch;
+export default Spinnaker;

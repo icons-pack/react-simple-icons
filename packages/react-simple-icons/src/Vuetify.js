@@ -1,16 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Twitch = props => {
+const Vuetify = props => {
   const { color, size, ...others } = props;
   return (
     <svg width={size} height={size} fill={color} viewBox="0 0 24 24" {...others}>
-      <path d="M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0L1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143l-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714Z" />
+      <path d="M7.094 0L12 11.596 16.906 0H7.094zM1.5 3.5L12 24 22.5 3.5H17L12 15 7 3.5z" />
     </svg>
   );
 };
 
-Twitch.propTypes = {
+Vuetify.propTypes = {
   /**
    * Hex color or color name
    */
@@ -21,9 +21,9 @@ Twitch.propTypes = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
-Twitch.defaultProps = {
+Vuetify.defaultProps = {
   color: 'currentColor',
   size: '24',
 };
 
-export default Twitch;
+export default Vuetify;
