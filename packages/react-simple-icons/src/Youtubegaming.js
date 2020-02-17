@@ -1,16 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Kirby = props => {
+const Youtubegaming = props => {
   const { color, size, ...others } = props;
   return (
     <svg width={size} height={size} fill={color} viewBox="0 0 24 24" {...others}>
-      <path d="M16.571 12l-2.857 1.48v.234h2.857V16H7.43v-2.286h2.857v-.25L7.429 12V9.143L12 11.598l4.571-2.455M12 0l10.286 5.999V18L12 24 1.714 18.001V6zM2.857 6.682v10.636L12 22.651l9.143-5.333V6.682L12 1.349Z" />
+      <path d="M24 13.2v-6l-6-3.6-6 3.6-6-3.6-6 3.6v6l12 7.2zM8.4 10.8H6v2.4H4.8v-2.4H2.4V9.6h2.4V7.2H6v2.4h2.4zm7.2 2.4a1.2 1.2 0 01-1.2-1.2c0-.66.54-1.2 1.2-1.2.66 0 1.2.54 1.2 1.2 0 .66-.54 1.2-1.2 1.2zm3.6-2.4A1.2 1.2 0 0118 9.6c0-.66.54-1.2 1.2-1.2.66 0 1.2.54 1.2 1.2 0 .66-.54 1.2-1.2 1.2Z" />
     </svg>
   );
 };
 
-Kirby.propTypes = {
+Youtubegaming.propTypes = {
   /**
    * Hex color or color name
    */
@@ -21,9 +21,9 @@ Kirby.propTypes = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
-Kirby.defaultProps = {
+Youtubegaming.defaultProps = {
   color: 'currentColor',
   size: '24',
 };
 
-export default Kirby;
+export default Youtubegaming;

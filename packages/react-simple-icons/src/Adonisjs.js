@@ -1,16 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Kirby = props => {
+const Adonisjs = props => {
   const { color, size, ...others } = props;
   return (
     <svg width={size} height={size} fill={color} viewBox="0 0 24 24" {...others}>
-      <path d="M16.571 12l-2.857 1.48v.234h2.857V16H7.43v-2.286h2.857v-.25L7.429 12V9.143L12 11.598l4.571-2.455M12 0l10.286 5.999V18L12 24 1.714 18.001V6zM2.857 6.682v10.636L12 22.651l9.143-5.333V6.682L12 1.349Z" />
+      <path d="M13.333 1.333l-.596 1.193-2.404 4.807L8 2.667l-8 16h4.667l-2 4H24zm0 2.982l8.51 17.018H4.823l1.334-2.666H16l-4.922-9.843Z" />
     </svg>
   );
 };
 
-Kirby.propTypes = {
+Adonisjs.propTypes = {
   /**
    * Hex color or color name
    */
@@ -21,9 +21,9 @@ Kirby.propTypes = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
-Kirby.defaultProps = {
+Adonisjs.defaultProps = {
   color: 'currentColor',
   size: '24',
 };
 
-export default Kirby;
+export default Adonisjs;
