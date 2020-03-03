@@ -3486,10 +3486,10 @@ signale@^1.4.0:
     figures "^2.0.0"
     pkg-conf "^2.1.0"
 
-simple-icons@^2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-2.5.0.tgz#910edd11f2cb46920c3a83e856e920aa53e7f23c"
-  integrity sha512-AuGV7c+NfcgTdExkXeuwFbVKpTyv9aP+hdJIMnU+0jrHi+bWHQcifmjoXXJWmjPbV6TeSBjuEi7B0c70mclX5A==
+simple-icons@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-2.6.0.tgz#62e567b42a4b40df20efebb5fdc713020ce64e44"
+  integrity sha512-Zwe3aXt2GBBRSHlifJYqmEj3mDR4tZNT1TofjnjBwD+h75OCBu1Mqdp6/W4ILB5qjuN9uiksUXu98luCrCW6uw==
 
 slash@^2.0.0:
   version "2.0.0"

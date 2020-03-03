@@ -11,6 +11,7 @@ const rootDir = path.join(__dirname, '..');
 const dir = path.join(rootDir, 'src/');
 
 const pathIndexExport = path.join(rootDir, 'src', 'index.js');
+const pathIndexExportTypeScript = path.join(rootDir, 'src', 'index.d.ts');
 
 const ICONS = Object.keys(SimpleIcons);
 
@@ -18,7 +19,20 @@ if (!fs.existsSync(dir)) {
   fs.mkdirSync(dir);
 }
 
+const initialTypeDefinitions = `
+import { ComponentType, SVGAttributes } from 'react';
+
+interface Props extends SVGAttributes<SVGElement> {
+  color?: string;
+  size?: string | number;
+}
+
+type Icon = ComponentType<Props>;
+
+`;
+
 fs.writeFileSync(pathIndexExport, '', formatFile);
+fs.writeFileSync(pathIndexExportTypeScript, initialTypeDefinitions, formatFile);
 
 const attrsToString = attrs => {
   return Object.keys(attrs)
@@ -41,6 +55,7 @@ ICONS.forEach(icon => {
   const location = path.join(rootDir, 'src', `${componentName}.js`);
 
   const defaultAttrs = {
+    xmlns: 'http://www.w3.org/2000/svg',
     width: 'size',
     height: 'size',
     fill: 'color',
@@ -90,10 +105,13 @@ ICONS.forEach(icon => {
   signale.success(`${componentName}`);
 
   const exportComponent = outputFileFormat(`export { default as ${componentName} } from './${componentName}';\r\n`);
+  const exportComponentTypeScript = `export const ${componentName}: Icon;\n`;
 
   signale.pending(`export { default as ${componentName} } from './${componentName}';\r\n`);
 
   fs.appendFileSync(pathIndexExport, exportComponent, formatFile);
+
+  fs.appendFileSync(pathIndexExportTypeScript, exportComponentTypeScript, formatFile);
 });
 
 signale.complete(`Ready components`);
