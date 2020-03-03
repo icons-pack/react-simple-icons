@@ -2,7 +2,7 @@
 
 # `@icons-pack/react-simple-icons`
 
-This package provides the [Simple Icons 2.5.0](https://simpleicons.org) packaged as a set of [React](https://facebook.github.io/react/) components.
+This package provides the [Simple Icons 2.6.0](https://simpleicons.org) packaged as a set of [React](https://facebook.github.io/react/) components.
 
   <a href="https://www.npmjs.com/package/@icons-pack/react-simple-icons" target="_blank">
     <img src="https://img.shields.io/npm/v/@icons-pack/react-simple-icons?color=red&style=flat-square" alt="www.npmjs.com!" />
@@ -52,11 +52,3 @@ function Example() {
   return <ReactJs color="#61DAFB" size={24} />;
 }
 ```
-
-## note
-
-We can change from `uppercamelcase` to `PascalCase` in future version
-
-## Documentation
-
-> Coming soon

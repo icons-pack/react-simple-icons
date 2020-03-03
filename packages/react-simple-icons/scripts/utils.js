@@ -40,7 +40,9 @@ module.exports = {
       .replace(/ù|ú|û|ü/, 'u')
       .replace(/ý|ÿ/, 'y')
       .replace(/500px/, 'five-hundred-px')
-      .replace(/1password/, 'onePassword'),
+      .replace(/1password/, 'onePassword')
+      .replace(/1001tracklists/, 'OneThousandOneTracklists')
+      .replace(/micro:bit/, 'MicroBit'),
 
   outputFileFormat: element =>
     format({
