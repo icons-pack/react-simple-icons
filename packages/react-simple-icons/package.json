@@ -7,7 +7,6 @@
   "homepage": "https://github.com/wootsbot/icons-pack#readme",
   "license": "MIT",
   "main": "lib/index.js",
-  "module": "lib/index.js",
   "sideEffects": false,
   "typings": "lib/index.d.ts",
   "directories": {
@@ -41,7 +40,7 @@
     "clean": "rm -rf lib",
     "clean:icons-components": "rm -rf ./src/**",
     "build": "yarn clean && yarn build:lib",
-    "build:lib": "NODE_ENV=production babel src/ --out-dir ./lib",
+    "build:lib": "NODE_ENV=production babel src/ --out-dir ./lib --copy-files",
     "generate:icons": "yarn clean:icons-components && node scripts/generate-icons",
     "lint:eslint": "eslint --fix .",
     "lint": "yarn lint:eslint",
