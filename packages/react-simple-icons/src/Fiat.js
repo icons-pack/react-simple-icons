@@ -1,16 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Chase = props => {
+const Fiat = props => {
   const { color, size, ...others } = props;
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" {...others}>
-      <path d="M0 15.415c0 .468.38.85.848.85h5.937V.575L0 7.72v7.695m15.416 8.582c.467 0 .846-.38.846-.849v-5.937H.573l7.146 6.785h7.697M24 8.587a.844.844 0 0 0-.847-.846h-5.938V23.43l6.782-7.148L24 8.586M8.585.003a.847.847 0 0 0-.847.847v5.94h15.688L16.282.003H8.585Z" />
+      <path d="M12.572 11.348l.027-5.957h1.34c.608 1.327.998 3.081 1.304 5.957zm-2.141 9.42h2.222l.025-7.252h2.663c.209 1.28.26 5.231.273 7.252h2.155c.204-8.953-.428-14.014-2.174-17.537h-5.367zm8.873 0h2.322l.493-15.327H24l-.014-2.21h-6.524v2.213h1.896zM8.952 3.233H6.21l.294 17.537h2.4zm-6.2 10.264h1.95V11.23h-1.95l.007-5.706h2.545L5.29 3.232H0l.478 17.537h2.325Z" />
     </svg>
   );
 };
 
-Chase.propTypes = {
+Fiat.propTypes = {
   /**
    * Hex color or color name
    */
@@ -21,9 +21,9 @@ Chase.propTypes = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
-Chase.defaultProps = {
+Fiat.defaultProps = {
   color: 'currentColor',
   size: '24',
 };
 
-export default Chase;
+export default Fiat;

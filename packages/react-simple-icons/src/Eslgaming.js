@@ -1,16 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Chase = props => {
+const Eslgaming = props => {
   const { color, size, ...others } = props;
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" {...others}>
-      <path d="M0 15.415c0 .468.38.85.848.85h5.937V.575L0 7.72v7.695m15.416 8.582c.467 0 .846-.38.846-.849v-5.937H.573l7.146 6.785h7.697M24 8.587a.844.844 0 0 0-.847-.846h-5.938V23.43l6.782-7.148L24 8.586M8.585.003a.847.847 0 0 0-.847.847v5.94h15.688L16.282.003H8.585Z" />
+      <path d="M12 0C5.373 0 0 5.373 0 12c0 6.628 5.373 12 12 12s12-5.372 12-12c0-6.627-5.373-12-12-12zm.455 2.163a9.8 9.8 0 0 1 5.789 2.222L4.384 18.244a9.862 9.862 0 0 1-1.06-1.582zm7.191 3.632a9.802 9.802 0 0 1 2.192 5.806l-14.45 9.1a9.834 9.834 0 0 1-1.592-1.055zm1.979 8.292c-.888 4.45-5.619 8.892-11.9 7.494Z" />
     </svg>
   );
 };
 
-Chase.propTypes = {
+Eslgaming.propTypes = {
   /**
    * Hex color or color name
    */
@@ -21,9 +21,9 @@ Chase.propTypes = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
-Chase.defaultProps = {
+Eslgaming.defaultProps = {
   color: 'currentColor',
   size: '24',
 };
 
-export default Chase;
+export default Eslgaming;

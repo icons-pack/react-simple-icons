@@ -23,6 +23,7 @@ module.exports = {
   titleToFilename: title =>
     title
       .toLowerCase()
+      .replace(/'/g, '')
       .replace(/\+/g, 'plus')
       .replace(/^\./, 'dot-')
       .replace(/\.$/, '-dot')
