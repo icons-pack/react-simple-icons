@@ -80,7 +80,7 @@
     "prettier-eslint": "^9.0.0",
     "rimraf": "^3.0.0",
     "signale": "^1.4.0",
-    "simple-icons": "^2.7.0",
+    "simple-icons": "^2.8.0",
     "uppercamelcase": "^3.0.0"
   }
 }
