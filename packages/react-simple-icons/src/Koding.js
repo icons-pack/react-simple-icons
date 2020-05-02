@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Koding = forwardRef(function Koding({ color = 'currentColor', size = 24, ...others }, ref) {
+const Koding = forwardRef(function Koding({ color = 'currentColor', size = 24, title = 'Koding', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -11,6 +11,7 @@ const Koding = forwardRef(function Koding({ color = 'currentColor', size = 24, .
       viewBox="0 0 24 24"
       ref={ref}
       {...others}>
+      <title>{title}</title>
       <path d="M.8 0H23v6H1V0zm0 9H18v6H.7V9zm0 9H23v6H1v-6z" />
     </svg>
   );
@@ -25,6 +26,10 @@ Koding.propTypes = {
    * The size of the Icon.
    */
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  /**
+   * The <title> element provides an accessible, short-text description of any SVG
+   */
+  title: PropTypes.string,
 };
 
 export default Koding;

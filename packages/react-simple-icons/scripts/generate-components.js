@@ -68,10 +68,11 @@ ICONS.forEach(icon => {
     import React, {forwardRef} from 'react';
     import PropTypes from 'prop-types';
 
-    const ${componentName} = forwardRef(function ${componentName}({color = 'currentColor', size = 24, ...others}, ref) {
+    const ${componentName} = forwardRef(function ${componentName}({color = 'currentColor', size = 24, title = "${baseName}", ...others}, ref) {
 
       return (
         <svg ${attrsToString(defaultAttrs)}>
+          <title>{title}</title>
           <path d="${SimpleIcons[baseName].path}" />
         </svg>
       );
@@ -89,6 +90,10 @@ ICONS.forEach(icon => {
         PropTypes.string,
         PropTypes.number
       ]),
+      /**
+       * The title provides an accessible short text description to the SVG
+       */
+      title: PropTypes.string,
     }
 
     export default ${componentName}

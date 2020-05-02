@@ -1,7 +1,10 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Adonisjs = forwardRef(function Adonisjs({ color = 'currentColor', size = 24, ...others }, ref) {
+const Adonisjs = forwardRef(function Adonisjs(
+  { color = 'currentColor', size = 24, title = 'AdonisJS', ...others },
+  ref
+) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -11,6 +14,7 @@ const Adonisjs = forwardRef(function Adonisjs({ color = 'currentColor', size = 2
       viewBox="0 0 24 24"
       ref={ref}
       {...others}>
+      <title>{title}</title>
       <path d="M13.333 1.333l-.596 1.193-2.404 4.807L8 2.667l-8 16h4.667l-2 4H24zm0 2.982l8.51 17.018H4.823l1.334-2.666H16l-4.922-9.843Z" />
     </svg>
   );
@@ -25,6 +29,10 @@ Adonisjs.propTypes = {
    * The size of the Icon.
    */
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  /**
+   * The <title> element provides an accessible, short-text description of any SVG
+   */
+  title: PropTypes.string,
 };
 
 export default Adonisjs;
