@@ -91,7 +91,7 @@ ICONS.forEach(icon => {
         PropTypes.number
       ]),
       /**
-       * The <title> element provides an accessible, short-text description of any SVG
+       * The title provides an accessible short text description to the SVG
        */
       title: PropTypes.string,
     }
