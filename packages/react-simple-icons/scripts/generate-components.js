@@ -9,6 +9,7 @@ const { titleToFilename, outputFileFormat, signale } = require('./utils');
 const formatFile = 'utf-8';
 const rootDir = path.join(__dirname, '..');
 const dir = path.join(rootDir, 'src/');
+const outputComponent = 'src/components';
 
 const pathIndexExport = path.join(rootDir, 'src', 'index.js');
 const pathIndexExportTypeScript = path.join(rootDir, 'src', 'index.d.ts');
@@ -17,6 +18,10 @@ const ICONS = Object.keys(SimpleIcons);
 
 if (!fs.existsSync(dir)) {
   fs.mkdirSync(dir);
+}
+
+if (!fs.existsSync(outputComponent)) {
+  fs.mkdirSync(outputComponent);
 }
 
 const initialTypeDefinitions = `
@@ -52,7 +57,7 @@ ICONS.forEach(icon => {
   const baseName = String(icon);
   const componentName = baseName === 'React' ? 'ReactJs' : upperCamelCase(titleToFilename(baseName));
 
-  const location = path.join(rootDir, 'src', `${componentName}.js`);
+  const locationOutputComponent = path.join(rootDir, `${outputComponent}/`, `${componentName}.js`);
 
   const defaultAttrs = {
     xmlns: 'http://www.w3.org/2000/svg',
@@ -101,14 +106,16 @@ ICONS.forEach(icon => {
 
   const component = outputFileFormat(element);
 
-  fs.writeFileSync(location, component, formatFile);
+  fs.writeFileSync(locationOutputComponent, component, formatFile);
 
   signale.success(`${componentName}`);
 
-  const exportComponent = outputFileFormat(`export { default as ${componentName} } from './${componentName}';\r\n`);
+  const exportComponent = outputFileFormat(
+    `export { default as ${componentName} } from './components/${componentName}';\r\n`
+  );
   const exportComponentTypeScript = `export const ${componentName}: Icon;\n`;
 
-  signale.pending(`export { default as ${componentName} } from './${componentName}';\r\n`);
+  signale.pending(`export { default as ${componentName} } from './components/${componentName}';\r\n`);
 
   fs.appendFileSync(pathIndexExport, exportComponent, formatFile);
 
