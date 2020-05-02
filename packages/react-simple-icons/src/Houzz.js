@@ -1,14 +1,20 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Houzz = props => {
-  const { color, size, ...others } = props;
+const Houzz = forwardRef(function Houzz({ color = 'currentColor', size = 24, ...others }, ref) {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" {...others}>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width={size}
+      height={size}
+      fill={color}
+      viewBox="0 0 24 24"
+      ref={ref}
+      {...others}>
       <path d="M1.27 0V24H9.32V16.44H14.68V24H22.73V10.37L6.61 5.75V0H1.27Z" />
     </svg>
   );
-};
+});
 
 Houzz.propTypes = {
   /**
@@ -19,11 +25,6 @@ Houzz.propTypes = {
    * The size of the Icon.
    */
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-};
-
-Houzz.defaultProps = {
-  color: 'currentColor',
-  size: '24',
 };
 
 export default Houzz;

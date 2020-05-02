@@ -20,14 +20,14 @@ if (!fs.existsSync(dir)) {
 }
 
 const initialTypeDefinitions = `
-import { ComponentType, SVGAttributes } from 'react';
+import { FC, SVGAttributes } from 'react';
 
 interface Props extends SVGAttributes<SVGElement> {
   color?: string;
   size?: string | number;
 }
 
-type Icon = ComponentType<Props>;
+type Icon = FC<Props>;
 
 `;
 
@@ -37,7 +37,7 @@ fs.writeFileSync(pathIndexExportTypeScript, initialTypeDefinitions, formatFile);
 const attrsToString = attrs => {
   return Object.keys(attrs)
     .map(key => {
-      if (key === 'width' || key === 'height' || key === 'fill') {
+      if (key === 'width' || key === 'height' || key === 'fill' || key === 'ref') {
         return key + '={' + attrs[key] + '}';
       }
       if (key === 'others') {
@@ -60,21 +60,22 @@ ICONS.forEach(icon => {
     height: 'size',
     fill: 'color',
     viewBox: '0 0 24 24',
+    ref: 'ref',
     others: '...others',
   };
 
   const element = `
-    import React from 'react';
+    import React, {forwardRef} from 'react';
     import PropTypes from 'prop-types';
 
-    const ${componentName} = (props) => {
-      const { color, size, ...others } = props;
+    const ${componentName} = forwardRef(function ${componentName}({color = 'currentColor', size = 24, ...others}, ref) {
+
       return (
         <svg ${attrsToString(defaultAttrs)}>
           <path d="${SimpleIcons[baseName].path}" />
         </svg>
-      )
-    };
+      );
+    });
 
     ${componentName}.propTypes = {
       /**
@@ -88,11 +89,6 @@ ICONS.forEach(icon => {
         PropTypes.string,
         PropTypes.number
       ]),
-    }
-
-    ${componentName}.defaultProps = {
-      color: 'currentColor',
-      size: '24',
     }
 
     export default ${componentName}

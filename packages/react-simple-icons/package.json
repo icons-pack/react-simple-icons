@@ -40,7 +40,7 @@
     "clean:components": "rm -rf ./src/**",
     "build:lib": "yarn clean:lib && NODE_ENV=production babel src/ --out-dir ./lib --copy-files",
     "build:bundle": "yarn clean:build && rollup --config rollup.config.js",
-    "generate:components": "yarn clean:icons-components && node scripts/generate-components",
+    "generate:components": "yarn clean:components && node scripts/generate-components",
     "build": "yarn build:lib && yarn build:bundle",
     "lint:eslint": "eslint --fix .",
     "lint": "yarn lint:eslint",
