@@ -1,7 +1,10 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Nextdoor = forwardRef(function Nextdoor({ color = 'currentColor', size = 24, ...others }, ref) {
+const Nextdoor = forwardRef(function Nextdoor(
+  { color = 'currentColor', size = 24, title = 'Nextdoor', ...others },
+  ref
+) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -11,6 +14,7 @@ const Nextdoor = forwardRef(function Nextdoor({ color = 'currentColor', size = 2
       viewBox="0 0 24 24"
       ref={ref}
       {...others}>
+      <title>{title}</title>
       <path d="M23.993 9.816L12 2.473l-4.12 2.524V2.473H4.124v4.819L.004 9.816l1.961 3.202 2.16-1.315v9.826h15.749v-9.826l2.159 1.315 1.96-3.202" />
     </svg>
   );
@@ -25,6 +29,10 @@ Nextdoor.propTypes = {
    * The size of the Icon.
    */
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  /**
+   * The <title> element provides an accessible, short-text description of any SVG
+   */
+  title: PropTypes.string,
 };
 
 export default Nextdoor;

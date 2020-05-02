@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Kibana = forwardRef(function Kibana({ color = 'currentColor', size = 24, ...others }, ref) {
+const Kibana = forwardRef(function Kibana({ color = 'currentColor', size = 24, title = 'Kibana', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -11,6 +11,7 @@ const Kibana = forwardRef(function Kibana({ color = 'currentColor', size = 24, .
       viewBox="0 0 24 24"
       ref={ref}
       {...others}>
+      <title>{title}</title>
       <path d="M21.04 23.99H4.18l9.88-11.86c4.23 2.76 6.98 7.04 6.98 11.86zm0-23.95H3.08v21.55z" />
     </svg>
   );
@@ -25,6 +26,10 @@ Kibana.propTypes = {
    * The size of the Icon.
    */
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  /**
+   * The <title> element provides an accessible, short-text description of any SVG
+   */
+  title: PropTypes.string,
 };
 
 export default Kibana;

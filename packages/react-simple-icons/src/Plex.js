@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Plex = forwardRef(function Plex({ color = 'currentColor', size = 24, ...others }, ref) {
+const Plex = forwardRef(function Plex({ color = 'currentColor', size = 24, title = 'Plex', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -11,6 +11,7 @@ const Plex = forwardRef(function Plex({ color = 'currentColor', size = 24, ...ot
       viewBox="0 0 24 24"
       ref={ref}
       {...others}>
+      <title>{title}</title>
       <path d="M11.643 0H4.68l7.679 12L4.68 24h6.963l7.677-12-7.677-12" />
     </svg>
   );
@@ -25,6 +26,10 @@ Plex.propTypes = {
    * The size of the Icon.
    */
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  /**
+   * The <title> element provides an accessible, short-text description of any SVG
+   */
+  title: PropTypes.string,
 };
 
 export default Plex;

@@ -1,7 +1,10 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Quantcast = forwardRef(function Quantcast({ color = 'currentColor', size = 24, ...others }, ref) {
+const Quantcast = forwardRef(function Quantcast(
+  { color = 'currentColor', size = 24, title = 'Quantcast', ...others },
+  ref
+) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -11,6 +14,7 @@ const Quantcast = forwardRef(function Quantcast({ color = 'currentColor', size =
       viewBox="0 0 24 24"
       ref={ref}
       {...others}>
+      <title>{title}</title>
       <path d="M15.11 20.474A10.024 10.024 0 0 0 19.737 12c0-5.523-4.419-10-9.869-10S0 6.477 0 12s4.418 10 9.868 10H24v-1.526h-8.89z" />
     </svg>
   );
@@ -25,6 +29,10 @@ Quantcast.propTypes = {
    * The size of the Icon.
    */
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  /**
+   * The <title> element provides an accessible, short-text description of any SVG
+   */
+  title: PropTypes.string,
 };
 
 export default Quantcast;
