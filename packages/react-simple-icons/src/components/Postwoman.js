@@ -1,0 +1,38 @@
+import React, { forwardRef } from 'react';
+import PropTypes from 'prop-types';
+
+const Postwoman = forwardRef(function Postwoman(
+  { color = 'currentColor', size = 24, title = 'Postwoman', ...others },
+  ref
+) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width={size}
+      height={size}
+      fill={color}
+      viewBox="0 0 24 24"
+      ref={ref}
+      {...others}>
+      <title>{title}</title>
+      <path d="M2.534 9.287C2.534 15.46 7.56 24 12 24c4.18 0 9.466-8.539 9.466-14.713C21.467 3.113 17.228 0 12 0 6.772 0 2.534 3.113 2.534 9.287zm11.926 4.565a4.649 4.649 0 014.257-1.261 4.649 4.649 0 01-1.262 4.256 4.649 4.649 0 01-4.257 1.262 4.649 4.649 0 011.262-4.257zm-9.177-1.261a4.649 4.649 0 014.258 1.261 4.649 4.649 0 011.261 4.257 4.649 4.649 0 01-4.257-1.262 4.649 4.649 0 01-1.262-4.256z" />
+    </svg>
+  );
+});
+
+Postwoman.propTypes = {
+  /**
+   * Hex color or color name
+   */
+  color: PropTypes.string,
+  /**
+   * The size of the Icon.
+   */
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  /**
+   * The title provides an accessible short text description to the SVG
+   */
+  title: PropTypes.string,
+};
+
+export default Postwoman;
