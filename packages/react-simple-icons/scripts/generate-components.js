@@ -20,14 +20,14 @@ if (!fs.existsSync(dir)) {
 }
 
 const initialTypeDefinitions = `
-import { ComponentType, SVGAttributes } from 'react';
+import { FC, SVGAttributes } from 'react';
 
 interface Props extends SVGAttributes<SVGElement> {
   color?: string;
   size?: string | number;
 }
 
-type Icon = ComponentType<Props>;
+type Icon = FC<Props>;
 
 `;
 
