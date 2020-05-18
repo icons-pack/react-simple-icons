@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Adobe = forwardRef(function Adobe({ color = 'currentColor', size = 24, title = 'Adobe', ...others }, ref) {
+const Yoast = forwardRef(function Yoast({ color = 'currentColor', size = 24, title = 'Yoast', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -12,12 +12,12 @@ const Adobe = forwardRef(function Adobe({ color = 'currentColor', size = 24, tit
       ref={ref}
       {...others}>
       <title>{title}</title>
-      <path d="M13.966 22.624l-1.69-4.281H8.122l3.892-9.144 5.662 13.425zM8.884 1.376H0v21.248zm15.116 0h-8.884L24 22.624Z" />
+      <path d="M15.864 0L14.55 3.652H5.422A3.592 3.592 0 0 0 1.84 7.233v9.529a3.592 3.592 0 0 0 3.582 3.581h1.495a4.9 4.9 0 0 1-.18.029l-.34.047V24h.391c2.76 0 4.442-1.385 5.706-3.657h9.666V7.233a3.593 3.593 0 0 0-3.253-3.565L20.275 0zm.556.778h2.738l-6.055 16.22c-1.55 4.335-3.186 6.064-5.924 6.21v-2.12c1.767-.354 2.418-1.461 2.785-2.408a3.902 3.902 0 0 0 0-2.828L6.43 6.772h2.488l2.512 7.86z" />
     </svg>
   );
 });
 
-Adobe.propTypes = {
+Yoast.propTypes = {
   /**
    * Hex color or color name
    */
@@ -32,4 +32,4 @@ Adobe.propTypes = {
   title: PropTypes.string,
 };
 
-export default Adobe;
+export default Yoast;

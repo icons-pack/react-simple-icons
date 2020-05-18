@@ -115,11 +115,9 @@ ICONS.forEach(icon => {
   );
   const exportComponentTypeScript = `export const ${componentName}: Icon;\n`;
 
-  signale.pending(`export { default as ${componentName} } from './components/${componentName}';\r\n`);
-
   fs.appendFileSync(pathIndexExport, exportComponent, formatFile);
 
   fs.appendFileSync(pathIndexExportTypeScript, exportComponentTypeScript, formatFile);
 });
 
-signale.complete(`Ready components`);
+signale.complete({ prefix: '[Components]', message: 'Ready components', suffix: '(@wootsbot)' });

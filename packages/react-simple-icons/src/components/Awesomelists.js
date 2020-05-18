@@ -1,7 +1,10 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Adobe = forwardRef(function Adobe({ color = 'currentColor', size = 24, title = 'Adobe', ...others }, ref) {
+const Awesomelists = forwardRef(function Awesomelists(
+  { color = 'currentColor', size = 24, title = 'Awesome Lists', ...others },
+  ref
+) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -12,12 +15,12 @@ const Adobe = forwardRef(function Adobe({ color = 'currentColor', size = 24, tit
       ref={ref}
       {...others}>
       <title>{title}</title>
-      <path d="M13.966 22.624l-1.69-4.281H8.122l3.892-9.144 5.662 13.425zM8.884 1.376H0v21.248zm15.116 0h-8.884L24 22.624Z" />
+      <path d="M23.996 10.648l-6.153-5.644-.865.944 5.127 4.7H1.895l5.127-4.705L6.157 5 .004 10.648H0v3.72c0 1.682 1.62 3.052 3.61 3.052h3.794c1.99 0 3.61-1.37 3.61-3.051v-2.445h1.968v2.445c0 1.681 1.62 3.051 3.61 3.051h3.794c1.99 0 3.61-1.37 3.61-3.051v-3.72z" />
     </svg>
   );
 });
 
-Adobe.propTypes = {
+Awesomelists.propTypes = {
   /**
    * Hex color or color name
    */
@@ -32,4 +35,4 @@ Adobe.propTypes = {
   title: PropTypes.string,
 };
 
-export default Adobe;
+export default Awesomelists;
