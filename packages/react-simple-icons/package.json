@@ -83,7 +83,7 @@
     "rollup": "^2.7.6",
     "rollup-plugin-babel": "^4.4.0",
     "signale": "^1.4.0",
-    "simple-icons": "^2.11.0",
+    "simple-icons": "^2.13.0",
     "uppercamelcase": "^3.0.0"
   }
 }
