@@ -10,11 +10,11 @@ notifications:
     - jorgelca1205@gmail.com
 
 node_js:
-  - "10"
+  - '10'
 
 install:
   - yarn
 
 script:
-  - yarn build
   - yarn generate:components
+  - yarn build

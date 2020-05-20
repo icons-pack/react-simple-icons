@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Codea" src="docs/images/svg/react-simple-icons.svg" width="150" />
+  <img alt="Codea" src="https://raw.githubusercontent.com/icons-pack/react-simple-icons/canary/docs/images/svg/react-simple-icons.svg" width="150" />
 
 # react-simple-icons
 
@@ -9,8 +9,8 @@ This package provides the [Simple Icons 2.13.0](https://simpleicons.org) package
     <img src="https://img.shields.io/npm/v/@icons-pack/react-simple-icons?color=red&style=flat-square" alt="www.npmjs.com!" />
   </a>
 
-  <a href="https://travis-ci.org/mamut-dev/icons-pack/builds/" target="_blank">
-    <img src="https://img.shields.io/travis/mamut-dev/icons-pack/master?style=flat-square" alt="builds!" />
+  <a href="https://travis-ci.com/github/icons-pack/react-simple-icons" target="_blank">
+    <img src="https://img.shields.io/travis/icons-pack/react-simple-icons?style=flat-square" alt="builds!" />
   </a>
 
 </div>
