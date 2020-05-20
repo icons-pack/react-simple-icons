@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Codea" src="docs/images/svg/react-simple-icons.svg" width="150" />
+  <img alt="Codea" src="https://raw.githubusercontent.com/icons-pack/react-simple-icons/canary/docs/images/svg/react-simple-icons.svg" width="150" />
 
 # react-simple-icons
 

@@ -3,8 +3,8 @@
   "version": "3.0.0",
   "private": false,
   "description": "This package provides the Simple Icons packaged as a set of React components.",
-  "author": "Jorge Luis Calleja <jorgelca1205@gmail.com>",
-  "homepage": "https://github.com/wootsbot/icons-pack#readme",
+  "author": "Jorge Luis Calleja <jorge.calleja@wootsbot.dev>",
+  "homepage": "https://github.com/icons-pack/react-simple-icons#readme",
   "license": "MIT",
   "main": "build/index.js",
   "module": "lib/index.js",
@@ -19,17 +19,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wootsbot/icons-pack.git"
+    "url": "git+https://github.com/icons-pack/react-simple-icons.git"
   },
   "bugs": {
-    "url": "https://github.com/wootsbot/icons-pack/issues"
+    "url": "https://github.com/icons-pack/react-simple-icons/issues"
   },
   "keywords": [
     "react",
+    "simple-icons",
     "icons",
     "svg",
     "inline",
-    "simple-icons",
     "design",
     "component",
     "codea"
