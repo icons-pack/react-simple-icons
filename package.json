@@ -1,14 +1,89 @@
 {
-  "name": "root",
-  "private": true,
+  "name": "@icons-pack/react-simple-icons",
+  "version": "3.1.0",
+  "private": false,
+  "description": "This package provides the Simple Icons packaged as a set of React components.",
+  "author": "Jorge Luis Calleja <jorge.calleja@wootsbot.dev>",
+  "homepage": "https://github.com/icons-pack/react-simple-icons#readme",
+  "license": "MIT",
+  "main": "build/index.js",
+  "module": "lib/index.js",
+  "sideEffects": false,
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "build"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icons-pack/react-simple-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/icons-pack/react-simple-icons/issues"
+  },
+  "keywords": [
+    "react",
+    "simple-icons",
+    "icons",
+    "svg",
+    "inline",
+    "design",
+    "component",
+    "codea"
+  ],
   "scripts": {
-    "build": "lerna bootstrap && lerna run build",
-    "packages:clean": "lerna exec -- rm -rf node_modules",
-    "generate:components": "lerna run generate:components",
-    "generate:react-simple-icons": "lerna exec yarn generate:components react-simple-icons",
-    "test": "echo \"Not Test\" && exit 0"
+    "clean:lib": "rm -rf lib",
+    "clean:build": "rm -rf build",
+    "clean:components": "rm -rf ./src/**",
+    "build:lib": "yarn clean:lib && NODE_ENV=production babel src/ --out-dir ./lib --copy-files",
+    "build:bundle": "yarn clean:build && rollup --config rollup.config.js",
+    "generate:components": "yarn clean:components && node scripts/generate-components",
+    "build": "yarn build:lib && yarn build:bundle",
+    "lint:eslint": "eslint --fix .",
+    "lint": "yarn lint:eslint",
+    "prettier": "prettier --config .prettierrc \"./**/*.+(js|json|jsx)\" --write"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix"
+    ],
+    "./**/*.+(js|json|jsx)": [
+      "prettier --write"
+    ]
+  },
+  "peerDependencies": {
+    "react": "^16.13.1"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2"
   },
   "devDependencies": {
-    "lerna": "^3.16.4"
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-export-default-from": "^7.5.2",
+    "@babel/plugin-proposal-export-namespace-from": "^7.5.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.2",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "cross-env": "^6.0.3",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-import-resolver-webpack": "^0.11.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "prettier": "^1.18.2",
+    "prettier-eslint": "^9.0.0",
+    "rimraf": "^3.0.0",
+    "rollup": "^2.7.6",
+    "rollup-plugin-babel": "^4.4.0",
+    "signale": "^1.4.0",
+    "simple-icons": "^2.14.0",
+    "uppercamelcase": "^3.0.0"
   }
 }

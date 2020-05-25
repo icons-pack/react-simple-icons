@@ -1,11 +1,21 @@
 {
-  "plugins": [
+  "presets": [
     [
-      "module-resolver",
+      "@babel/env",
       {
-        "root": ["./"],
-        "modules": ["packages/react-simple-icons", "scripts"]
+        "loose": true,
+        "shippedProposals": true,
+        "modules": false,
+        "targets": {
+          "ie": 9
+        }
       }
-    ]
+    ],
+    "@babel/react"
+  ],
+  "plugins": [
+    "@babel/plugin-proposal-export-default-from",
+    "@babel/plugin-proposal-export-namespace-from",
+    "@babel/plugin-proposal-object-rest-spread"
   ]
 }

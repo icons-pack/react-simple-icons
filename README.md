@@ -1,21 +1,66 @@
 <div align="center">
- <a href="/" rel="noopener" target="_blank"><img width="200" src="www/static/images/icons-pack.png" alt="Icon-Pack-Logo"></a></p>
-</div>
+  <img alt="react simple icons" src="https://raw.githubusercontent.com/icons-pack/react-simple-icons/canary/docs/images/svg/react-simple-icons.svg" width="150" />
 
-<br />
+# react-simple-icons
 
-<div align="center">📦 Simple and complete icon pack to react, created with SVG, using popular packages of icons</div>
+This package provides the [Simple Icons 2.14.0](https://github.com/simple-icons/simple-icons/releases/tag/2.14.0) packaged as a set of [React](https://facebook.github.io/react/) components.
 
-<br />
-
-<div align="center">
-   <a href="https://github.com/mamut-dev/icons-pack/pulls" target="_blank">
-    <img src="https://img.shields.io/badge/prs-welcome-blue.svg?longCache=true" alt="PRs welcome!" />
+  <a href="https://www.npmjs.com/package/@icons-pack/react-simple-icons" target="_blank">
+    <img src="https://img.shields.io/npm/v/@icons-pack/react-simple-icons?color=CB061D&style=flat-square" alt="www.npmjs.com!" />
   </a>
 
-  <a href="https://github.com/mamut-dev/icons-pack/blob/master/LICENSE" target="_blank">
-    <img src="https://img.shields.io/npm/l/@icons-pack/react-simple-icons?style=flat-square" alt="LICENSE" />
+  <a href="https://travis-ci.com/github/icons-pack/react-simple-icons" target="_blank">
+    <img src="https://img.shields.io/travis/icons-pack/react-simple-icons?color=008660&style=flat-square" alt="builds!" />
+  </a>
+
+  <a href="https://www.npmjs.com/package/@icons-pack/react-simple-icons" target="_blank">
+    <img src="https://img.shields.io/npm/dw/@icons-pack/react-simple-icons?color=087BB4&style=flat-square" alt="downloads" />
+  </a>
+
+  <a href="https://github.com/icons-pack/react-simple-icons/blob/canary/LICENSE" target="_blank">
+    <img src="https://img.shields.io/npm/l/@icons-pack/react-simple-icons?color=008660&style=flat-square" alt="licence" />
   </a>
 </div>
 
-The icon package is to create components in your favorite technologies from the icon packages that are in svg or other format and convert them into components.
+## Installation
+
+Install the package in your project directory with:
+
+```sh
+// with yarn
+yarn add @icons-pack/react-simple-icons
+
+// with npm
+npm add @icons-pack/react-simple-icons
+```
+
+## Usage
+
+> TypeScript Support
+
+You can use [simpleicons.org](https://simpleicons.org) to find a specific icon.
+When importing an icon, keep in mind that the names of the icons are [upperCamelCase](https://github.com/samverschueren/uppercamelcase) , for instance:
+
+- [`Material Design`](https://simpleicons.org/?q=material) is exposed as `{ Materialdesign } from @icons-pack/react-simple-icons`
+- [`azure devOps`](https://simpleicons.org/?q=azure%20devOps) is exposed as `{ Azuredevops } from @icons-pack/react-simple-icons`
+
+These are some exceptions to this rule:
+
+- [`500px`](https://simpleicons.org/?q=500px) is exposed as `{ FiveHundredPx } from @icons-pack/react-simple-icons`
+- [`c++`](https://simpleicons.org/?q=+) is exposed as `{ Cplusplus } from @icons-pack/react-simple-icons`
+- [`.Net`](https://simpleicons.org/?q=.net) is exposed as `{ DotNet } from @icons-pack/react-simple-icons`
+- [`D3.js`](https://simpleicons.org/?q=d3) is exposed as `{ D3DotJs } from @icons-pack/react-simple-icons`
+- [`dev.to`](https://simpleicons.org/?q=dev.to) is exposed as `{ DevDotTo } from @icons-pack/react-simple-icons`
+- [`webcomponents.org`](https://simpleicons.org/?q=webcomponents.org) is exposed as `{ WebcomponentsDotOrg } from @icons-pack/react-simple-icons`
+- [`X.Org`](https://simpleicons.org/?q=x.Org) is exposed as `{ XDotOrg } from @icons-pack/react-simple-icons`
+- [`FerrarinDotVDot`](https://simpleicons.org/?q=Ferrari%20N.V) is exposed as `{ FerrarinDotVDot } from @icons-pack/react-simple-icons`
+
+## Example
+
+```jsx
+import { ReactJs } from '@icons-pack/react-simple-icons';
+
+function Example() {
+  return <ReactJs color="#61DAFB" size={24} />;
+}
+```
