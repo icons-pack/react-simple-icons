@@ -1,9 +1,9 @@
 <div align="center">
-  <img alt="Codea" src="https://raw.githubusercontent.com/icons-pack/react-simple-icons/canary/docs/images/svg/react-simple-icons.svg" width="150" />
+  <img alt="react simple icons" src="https://raw.githubusercontent.com/icons-pack/react-simple-icons/canary/docs/images/svg/react-simple-icons.svg" width="150" />
 
 # react-simple-icons
 
-This package provides the [Simple Icons 2.13.0](https://simpleicons.org) packaged as a set of [React](https://facebook.github.io/react/) components.
+This package provides the [Simple Icons 2.14.0](https://github.com/simple-icons/simple-icons/releases/tag/2.14.0) packaged as a set of [React](https://facebook.github.io/react/) components.
 
   <a href="https://www.npmjs.com/package/@icons-pack/react-simple-icons" target="_blank">
     <img src="https://img.shields.io/npm/v/@icons-pack/react-simple-icons?color=CB061D&style=flat-square" alt="www.npmjs.com!" />
@@ -12,11 +12,11 @@ This package provides the [Simple Icons 2.13.0](https://simpleicons.org) package
   <a href="https://travis-ci.com/github/icons-pack/react-simple-icons" target="_blank">
     <img src="https://img.shields.io/travis/icons-pack/react-simple-icons?color=008660&style=flat-square" alt="builds!" />
   </a>
- 
+
   <a href="https://www.npmjs.com/package/@icons-pack/react-simple-icons" target="_blank">
     <img src="https://img.shields.io/npm/dw/@icons-pack/react-simple-icons?color=087BB4&style=flat-square" alt="downloads" />
   </a>
-  
+
   <a href="https://github.com/icons-pack/react-simple-icons/blob/canary/LICENSE" target="_blank">
     <img src="https://img.shields.io/npm/l/@icons-pack/react-simple-icons?color=008660&style=flat-square" alt="licence" />
   </a>
