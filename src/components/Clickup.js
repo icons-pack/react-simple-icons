@@ -1,10 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Googlescholar = forwardRef(function Googlescholar(
-  { color = 'currentColor', size = 24, title = 'Google Scholar', ...others },
-  ref
-) {
+const Clickup = forwardRef(function Clickup({ color = 'currentColor', size = 24, title = 'ClickUp', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -15,12 +12,12 @@ const Googlescholar = forwardRef(function Googlescholar(
       ref={ref}
       {...others}>
       <title>{title}</title>
-      <path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z" />
+      <path d="M2 18.439l3.69-2.828c1.961 2.56 4.044 3.739 6.363 3.739 2.307 0 4.33-1.166 6.203-3.704L22 18.405C19.298 22.065 15.941 24 12.053 24 8.178 24 4.788 22.078 2 18.439zM12.04 6.15l-6.568 5.66-3.036-3.52L12.055 0l9.543 8.296-3.05 3.509z" />
     </svg>
   );
 });
 
-Googlescholar.propTypes = {
+Clickup.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +32,4 @@ Googlescholar.propTypes = {
   title: PropTypes.string,
 };
 
-export default Googlescholar;
+export default Clickup;
