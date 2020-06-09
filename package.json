@@ -1,6 +1,6 @@
 {
   "name": "@icons-pack/react-simple-icons",
-  "version": "3.2.0",
+  "version": "3.3.0",
   "private": false,
   "description": "This package provides the Simple Icons packaged as a set of React components.",
   "author": "Jorge Luis Calleja <jorge.calleja@wootsbot.dev>",
@@ -35,9 +35,9 @@
     "codea"
   ],
   "scripts": {
-    "clean:lib": "rm -rf lib",
-    "clean:build": "rm -rf build",
-    "clean:components": "rm -rf ./src/**",
+    "clean:lib": "rimraf -rf lib",
+    "clean:build": "rimraf -rf build",
+    "clean:components": "rimraf -rf ./src/**",
     "build:lib": "yarn clean:lib && NODE_ENV=production babel src/ --out-dir ./lib --copy-files",
     "build:bundle": "yarn clean:build && rollup --config rollup.config.js",
     "generate:components": "yarn clean:components && node scripts/generate-components",
@@ -83,7 +83,7 @@
     "rollup": "^2.7.6",
     "rollup-plugin-babel": "^4.4.0",
     "signale": "^1.4.0",
-    "simple-icons": "^2.15.0",
+    "simple-icons": "^2.16.0",
     "uppercamelcase": "^3.0.0"
   }
 }
