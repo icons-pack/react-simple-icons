@@ -1,7 +1,10 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Spacex = forwardRef(function Spacex({ color = 'currentColor', size = 24, title = 'SpaceX', ...others }, ref) {
+const Metrodelaciudaddemexico = forwardRef(function Metrodelaciudaddemexico(
+  { color = 'currentColor', size = 24, title = 'Metro de la Ciudad de México', ...others },
+  ref
+) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -12,12 +15,12 @@ const Spacex = forwardRef(function Spacex({ color = 'currentColor', size = 24, t
       ref={ref}
       {...others}>
       <title>{title}</title>
-      <path d="M24 7.417C8.882 8.287 1.89 14.75.321 16.28L0 16.583h2.797C10.356 9.005 21.222 7.663 24 7.417zm-17.046 6.35c-.472.321-.945.68-1.398 1.02l2.457 1.796h2.778zM2.948 10.8H.189l3.25 2.381c.473-.321 1.02-.661 1.512-.945Z" />
+      <path d="M3.965 8.704V24H.008V6.864h2.097c1.066 0 1.86.774 1.86 1.84m2.366-1.84c.268.521.521 1.315.521 1.84V24h3.685V8.704a1.784 1.784 0 0 0-1.84-1.84M17.4 24V8.704a1.795 1.795 0 0 0-1.844-1.84h-2.382c.269.521.269 1.315.269 1.84V24M.008 3.953V0h15.549c4.75 0 8.435 3.953 8.435 8.704V24h-3.685V8.704a4.735 4.735 0 0 0-4.75-4.75z" />
     </svg>
   );
 });
 
-Spacex.propTypes = {
+Metrodelaciudaddemexico.propTypes = {
   /**
    * Hex color or color name
    */
@@ -32,4 +35,4 @@ Spacex.propTypes = {
   title: PropTypes.string,
 };
 
-export default Spacex;
+export default Metrodelaciudaddemexico;

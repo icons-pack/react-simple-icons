@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Spacex = forwardRef(function Spacex({ color = 'currentColor', size = 24, title = 'SpaceX', ...others }, ref) {
+const Ktm = forwardRef(function Ktm({ color = 'currentColor', size = 24, title = 'KTM', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -12,12 +12,12 @@ const Spacex = forwardRef(function Spacex({ color = 'currentColor', size = 24, t
       ref={ref}
       {...others}>
       <title>{title}</title>
-      <path d="M24 7.417C8.882 8.287 1.89 14.75.321 16.28L0 16.583h2.797C10.356 9.005 21.222 7.663 24 7.417zm-17.046 6.35c-.472.321-.945.68-1.398 1.02l2.457 1.796h2.778zM2.948 10.8H.189l3.25 2.381c.473-.321 1.02-.661 1.512-.945Z" />
+      <path d="M0 15.735h3.354l.843-2.06 1.55 2.06h7.225l2.234-2.081-.372 2.081h2.83L20 13.675l-.32 2.06h3.052L24 9.99h-3.068l-2.486 2.191.48-2.19h-2.942l-3.209 3.216 1.342-3.938h4.907l.225-1.003H6.381l-.378 1.003h4.732l-1.994 5.054-1.572-2.066L9.886 9.99H7.612l-2.787 2.23.938-2.23H2.44L0 15.735Z" />
     </svg>
   );
 });
 
-Spacex.propTypes = {
+Ktm.propTypes = {
   /**
    * Hex color or color name
    */
@@ -32,4 +32,4 @@ Spacex.propTypes = {
   title: PropTypes.string,
 };
 
-export default Spacex;
+export default Ktm;

@@ -1,7 +1,10 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Spacex = forwardRef(function Spacex({ color = 'currentColor', size = 24, title = 'SpaceX', ...others }, ref) {
+const Virustotal = forwardRef(function Virustotal(
+  { color = 'currentColor', size = 24, title = 'VirusTotal', ...others },
+  ref
+) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -12,12 +15,12 @@ const Spacex = forwardRef(function Spacex({ color = 'currentColor', size = 24, t
       ref={ref}
       {...others}>
       <title>{title}</title>
-      <path d="M24 7.417C8.882 8.287 1.89 14.75.321 16.28L0 16.583h2.797C10.356 9.005 21.222 7.663 24 7.417zm-17.046 6.35c-.472.321-.945.68-1.398 1.02l2.457 1.796h2.778zM2.948 10.8H.189l3.25 2.381c.473-.321 1.02-.661 1.512-.945Z" />
+      <path d="M10.87 12L0 22.68h24V1.32H0zm10.73 8.52H5.28l8.637-8.448L5.28 3.48H21.6z" />
     </svg>
   );
 });
 
-Spacex.propTypes = {
+Virustotal.propTypes = {
   /**
    * Hex color or color name
    */
@@ -32,4 +35,4 @@ Spacex.propTypes = {
   title: PropTypes.string,
 };
 
-export default Spacex;
+export default Virustotal;
