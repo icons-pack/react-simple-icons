@@ -1,6 +1,6 @@
 {
   "name": "@icons-pack/react-simple-icons",
-  "version": "3.3.0",
+  "version": "3.4.0",
   "private": false,
   "description": "This package provides the Simple Icons packaged as a set of React components.",
   "author": "Jorge Luis Calleja <jorge.calleja@wootsbot.dev>",
@@ -58,7 +58,8 @@
     "react": "^16.13.1"
   },
   "dependencies": {
-    "prop-types": "^15.7.2"
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
@@ -83,7 +84,7 @@
     "rollup": "^2.7.6",
     "rollup-plugin-babel": "^4.4.0",
     "signale": "^1.4.0",
-    "simple-icons": "^2.16.0",
+    "simple-icons": "^2.17.1",
     "uppercamelcase": "^3.0.0"
   }
 }
