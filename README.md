@@ -3,7 +3,7 @@
 
 # react-simple-icons
 
-This package provides the [Simple Icons 2.16.0](https://github.com/simple-icons/simple-icons/releases/tag/2.16.0) packaged as a set of [React](https://facebook.github.io/react/) components.
+This package provides the [Simple Icons 2.17.1](https://github.com/simple-icons/simple-icons/releases/tag/2.17.1) packaged as a set of [React](https://facebook.github.io/react/) components.
 
   <a href="https://www.npmjs.com/package/@icons-pack/react-simple-icons" target="_blank">
     <img src="https://img.shields.io/npm/v/@icons-pack/react-simple-icons?color=CB061D&style=flat-square" alt="www.npmjs.com!" />
@@ -34,9 +34,9 @@ yarn add @icons-pack/react-simple-icons
 npm add @icons-pack/react-simple-icons
 ```
 
-## Usage
-
 > TypeScript Support
+
+## Usage
 
 You can use [simpleicons.org](https://simpleicons.org) to find a specific icon.
 When importing an icon, keep in mind that the names of the icons are [upperCamelCase](https://github.com/samverschueren/uppercamelcase) , for instance:
