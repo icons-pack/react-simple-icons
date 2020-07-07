@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Adobepremiere = forwardRef(function Adobepremiere(
-  { color = 'currentColor', size = 24, title = 'Adobe Premiere', ...others },
+const Adobepremierepro = forwardRef(function Adobepremierepro(
+  { color = 'currentColor', size = 24, title = 'Adobe Premiere Pro', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const Adobepremiere = forwardRef(function Adobepremiere(
   );
 });
 
-Adobepremiere.propTypes = {
+Adobepremierepro.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ Adobepremiere.propTypes = {
   title: PropTypes.string,
 };
 
-export default Adobepremiere;
+export default Adobepremierepro;

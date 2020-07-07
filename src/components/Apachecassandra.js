@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Cassandra = forwardRef(function Cassandra(
-  { color = 'currentColor', size = 24, title = 'Cassandra', ...others },
+const Apachecassandra = forwardRef(function Apachecassandra(
+  { color = 'currentColor', size = 24, title = 'Apache Cassandra', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const Cassandra = forwardRef(function Cassandra(
   );
 });
 
-Cassandra.propTypes = {
+Apachecassandra.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ Cassandra.propTypes = {
   title: PropTypes.string,
 };
 
-export default Cassandra;
+export default Apachecassandra;

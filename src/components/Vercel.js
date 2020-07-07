@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Zeit = forwardRef(function Zeit({ color = 'currentColor', size = 24, title = 'Zeit', ...others }, ref) {
+const Vercel = forwardRef(function Vercel({ color = 'currentColor', size = 24, title = 'Vercel', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -17,7 +17,7 @@ const Zeit = forwardRef(function Zeit({ color = 'currentColor', size = 24, title
   );
 });
 
-Zeit.propTypes = {
+Vercel.propTypes = {
   /**
    * Hex color or color name
    */
@@ -32,4 +32,4 @@ Zeit.propTypes = {
   title: PropTypes.string,
 };
 
-export default Zeit;
+export default Vercel;

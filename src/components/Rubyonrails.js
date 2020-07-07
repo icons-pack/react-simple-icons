@@ -1,7 +1,10 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Rails = forwardRef(function Rails({ color = 'currentColor', size = 24, title = 'Rails', ...others }, ref) {
+const Rubyonrails = forwardRef(function Rubyonrails(
+  { color = 'currentColor', size = 24, title = 'Ruby on Rails', ...others },
+  ref
+) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -17,7 +20,7 @@ const Rails = forwardRef(function Rails({ color = 'currentColor', size = 24, tit
   );
 });
 
-Rails.propTypes = {
+Rubyonrails.propTypes = {
   /**
    * Hex color or color name
    */
@@ -32,4 +35,4 @@ Rails.propTypes = {
   title: PropTypes.string,
 };
 
-export default Rails;
+export default Rubyonrails;
