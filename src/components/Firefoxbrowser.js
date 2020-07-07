@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Mozillafirefox = forwardRef(function Mozillafirefox(
-  { color = 'currentColor', size = 24, title = 'Mozilla Firefox', ...others },
+const Firefoxbrowser = forwardRef(function Firefoxbrowser(
+  { color = 'currentColor', size = 24, title = 'Firefox Browser', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const Mozillafirefox = forwardRef(function Mozillafirefox(
   );
 });
 
-Mozillafirefox.propTypes = {
+Firefoxbrowser.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ Mozillafirefox.propTypes = {
   title: PropTypes.string,
 };
 
-export default Mozillafirefox;
+export default Firefoxbrowser;

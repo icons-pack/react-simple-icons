@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Tiktok = forwardRef(function Tiktok({ color = 'currentColor', size = 24, title = 'Tik Tok', ...others }, ref) {
+const Tiktok = forwardRef(function Tiktok({ color = 'currentColor', size = 24, title = 'TikTok', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

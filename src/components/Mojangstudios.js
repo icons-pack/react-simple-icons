@@ -1,7 +1,10 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Mojang = forwardRef(function Mojang({ color = 'currentColor', size = 24, title = 'Mojang', ...others }, ref) {
+const Mojangstudios = forwardRef(function Mojangstudios(
+  { color = 'currentColor', size = 24, title = 'Mojang Studios', ...others },
+  ref
+) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -17,7 +20,7 @@ const Mojang = forwardRef(function Mojang({ color = 'currentColor', size = 24, t
   );
 });
 
-Mojang.propTypes = {
+Mojangstudios.propTypes = {
   /**
    * Hex color or color name
    */
@@ -32,4 +35,4 @@ Mojang.propTypes = {
   title: PropTypes.string,
 };
 
-export default Mojang;
+export default Mojangstudios;
