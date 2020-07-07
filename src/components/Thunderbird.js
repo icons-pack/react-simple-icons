@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Mozillathunderbird = forwardRef(function Mozillathunderbird(
-  { color = 'currentColor', size = 24, title = 'Mozilla Thunderbird', ...others },
+const Thunderbird = forwardRef(function Thunderbird(
+  { color = 'currentColor', size = 24, title = 'Thunderbird', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const Mozillathunderbird = forwardRef(function Mozillathunderbird(
   );
 });
 
-Mozillathunderbird.propTypes = {
+Thunderbird.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ Mozillathunderbird.propTypes = {
   title: PropTypes.string,
 };
 
-export default Mozillathunderbird;
+export default Thunderbird;

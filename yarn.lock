@@ -3803,10 +3803,10 @@ signale@^1.4.0:
     figures "^2.0.0"
     pkg-conf "^2.1.0"
 
-simple-icons@^2.19.0:
-  version "2.19.0"
-  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-2.19.0.tgz#02f3e1d544812a54b0460a6557bbd0e66ac46a3c"
-  integrity sha512-DI0ZIKGoZlEnGqPF5jIGaOWWDvcXL323SZc7JBQp+pT/k0p72GU9Vxy7+UEtU9zZfWTbKiSQgtERF3pzPFhV2A==
+simple-icons@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-3.0.1.tgz#8b84e29afb91ffab2e464f09c0103578fa8cc988"
+  integrity sha512-BabLJLIvC0abhQMsBQ4I6cKwRTgc3ck5FS7Ri1U8noIfUnVQwk5mc0a7mg9ro+6Mkt6meWN/azNrsmn2jMVDtA==
 
 slash@^2.0.0:
   version "2.0.0"

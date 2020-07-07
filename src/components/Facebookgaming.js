@@ -1,7 +1,10 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Jira = forwardRef(function Jira({ color = 'currentColor', size = 24, title = 'Jira', ...others }, ref) {
+const Facebookgaming = forwardRef(function Facebookgaming(
+  { color = 'currentColor', size = 24, title = 'Facebook Gaming', ...others },
+  ref
+) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -12,12 +15,12 @@ const Jira = forwardRef(function Jira({ color = 'currentColor', size = 24, title
       ref={ref}
       {...others}>
       <title>{title}</title>
-      <path d="M11.571 11.513H0a5.218 5.218 0 0 0 5.232 5.215h2.13v2.057A5.215 5.215 0 0 0 12.575 24V12.518a1.005 1.005 0 0 0-1.005-1.005zm5.723-5.756H5.736a5.215 5.215 0 0 0 5.215 5.214h2.129v2.058a5.218 5.218 0 0 0 5.215 5.214V6.758a1.001 1.001 0 0 0-1.001-1.001zM23.013 0H11.455a5.215 5.215 0 0 0 5.215 5.215h2.129v2.057A5.215 5.215 0 0 0 24 12.483V1.005A1.001 1.001 0 0 0 23.013 0Z" />
+      <path d="M0 0v24h15.67v-7.35H7.35v-9.3H24V0zm8.33 15.68h8.32V24H24V8.32H8.33Z" />
     </svg>
   );
 });
 
-Jira.propTypes = {
+Facebookgaming.propTypes = {
   /**
    * Hex color or color name
    */
@@ -32,4 +35,4 @@ Jira.propTypes = {
   title: PropTypes.string,
 };
 
-export default Jira;
+export default Facebookgaming;
