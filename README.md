@@ -3,7 +3,7 @@
 
 # react-simple-icons
 
-This package provides the [Simple Icons 2.19.0](https://github.com/simple-icons/simple-icons/releases/tag/2.19.0) packaged as a set of [React](https://facebook.github.io/react/) components.
+This package provides the [Simple Icons 3.0.1](https://github.com/simple-icons/simple-icons/releases/tag/3.0.1) packaged as a set of [React](https://facebook.github.io/react/) components.
 
   <a href="https://www.npmjs.com/package/@icons-pack/react-simple-icons" target="_blank">
     <img src="https://img.shields.io/npm/v/@icons-pack/react-simple-icons?color=CB061D&style=flat-square" alt="www.npmjs.com!" />
@@ -55,12 +55,45 @@ These are some exceptions to this rule:
 - [`X.Org`](https://simpleicons.org/?q=x.Org) is exposed as `{ XDotOrg } from @icons-pack/react-simple-icons`
 - [`FerrarinDotVDot`](https://simpleicons.org/?q=Ferrari%20N.V) is exposed as `{ FerrarinDotVDot } from @icons-pack/react-simple-icons`
 
-## Example
+## Basic example
 
 ```jsx
 import { ReactJs } from '@icons-pack/react-simple-icons';
 
-function Example() {
+function BasicExample() {
   return <ReactJs color="#61DAFB" size={24} />;
+}
+```
+
+## Change title
+
+`@icons-pack/react-simple-icons` provides a default title referring to the component name
+
+> The `<title>` element provides an accessible, short-text description of any SVG container element or graphics element.
+
+```jsx
+import { ReactJs } from '@icons-pack/react-simple-icons';
+
+// title default "React"
+function ChangeTitle() {
+  return <ReactJs title="My title" color="#61DAFB" size={24} />;
+}
+```
+
+## Custom styles
+
+```jsx
+import { ReactJs } from '@icons-pack/react-simple-icons';
+
+// title default "React"
+function CustomStyles() {
+  return <ReactJs className="myStyle" />;
+}
+```
+
+```css
+.myStyle {
+  width: 35px;
+  height: 35px;
 }
 ```
