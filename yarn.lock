@@ -4218,10 +4218,10 @@ signale@^1.4.0:
     figures "^2.0.0"
     pkg-conf "^2.1.0"
 
-simple-icons@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-3.3.0.tgz#7adceb780cacb89c9ed2cffb91e65a2ea13d7136"
-  integrity sha512-Ian40Pk0D2t0HgjanUX5RydaviREuYJ4qNZd7iukCKwl6J1WSV5JB6u0tahRWMg8GdjbQSXGRWAvooPuX45dlw==
+simple-icons@^3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-3.4.0.tgz#ecebbab6a2d319c85f035e6a00673d7401b47c4c"
+  integrity sha512-OmFxO282wTYD5uxNfWdQdRf4Z0V86zgidxuBvrC6XroE24DwyDjjBGS3rNqvIt8ZlVvYCFnK9VMK6VtDuZiMSg==
 
 slash@^2.0.0:
   version "2.0.0"
