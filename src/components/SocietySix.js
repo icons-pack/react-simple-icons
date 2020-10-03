@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Society6 = forwardRef(function Society6(
+const SocietySix = forwardRef(function SocietySix(
   { color = 'currentColor', size = 24, title = 'Society6', ...others },
   ref
 ) {
@@ -20,7 +20,7 @@ const Society6 = forwardRef(function Society6(
   );
 });
 
-Society6.propTypes = {
+SocietySix.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ Society6.propTypes = {
   title: PropTypes.string,
 };
 
-export default Society6;
+export default SocietySix;

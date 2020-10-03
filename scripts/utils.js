@@ -43,7 +43,25 @@ module.exports = {
       .replace(/500px/, 'fiveHundredPx')
       .replace(/1password/, 'onePassword')
       .replace(/1001tracklists/, 'OneThousandOneTracklists')
-      .replace(/micro:bit/, 'MicroBit'),
+      .replace(/micro:bit/, 'MicroBit')
+      .replace(/^365/, 'threeHundredSixtyFive-')
+      .replace(/365$/, '-threeHundredSixtyFive')
+      .replace(/365/g, '-threeHundredSixtyFive-')
+      .replace(/^42/, 'fortyTwo-')
+      .replace(/42$/, '-fortyTwo')
+      .replace(/42/g, '-fortyTwo-')
+      .replace(/^26/, 'twentySix-')
+      .replace(/26$/, '-twentySix')
+      .replace(/26/g, '-twentySix-')
+      .replace(/^2/, 'two-')
+      .replace(/2$/, '-two')
+      .replace(/2/g, '-two-')
+      .replace(/^4/, 'four-')
+      .replace(/4$/, '-four')
+      .replace(/4/g, '-four-')
+      .replace(/^6/, 'six-')
+      .replace(/6$/, '-six')
+      .replace(/6/g, '-six-'),
 
   outputFileFormat: element =>
     format({

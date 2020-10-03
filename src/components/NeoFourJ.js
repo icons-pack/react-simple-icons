@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Neo4j = forwardRef(function Neo4j({ color = 'currentColor', size = 24, title = 'Neo4j', ...others }, ref) {
+const NeoFourJ = forwardRef(function NeoFourJ({ color = 'currentColor', size = 24, title = 'Neo4j', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -17,7 +17,7 @@ const Neo4j = forwardRef(function Neo4j({ color = 'currentColor', size = 24, tit
   );
 });
 
-Neo4j.propTypes = {
+NeoFourJ.propTypes = {
   /**
    * Hex color or color name
    */
@@ -32,4 +32,4 @@ Neo4j.propTypes = {
   title: PropTypes.string,
 };
 
-export default Neo4j;
+export default NeoFourJ;
