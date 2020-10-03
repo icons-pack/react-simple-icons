@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Cinema4d = forwardRef(function Cinema4d(
+const CinemaFourD = forwardRef(function CinemaFourD(
   { color = 'currentColor', size = 24, title = 'Cinema 4D', ...others },
   ref
 ) {
@@ -20,7 +20,7 @@ const Cinema4d = forwardRef(function Cinema4d(
   );
 });
 
-Cinema4d.propTypes = {
+CinemaFourD.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ Cinema4d.propTypes = {
   title: PropTypes.string,
 };
 
-export default Cinema4d;
+export default CinemaFourD;

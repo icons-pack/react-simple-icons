@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Playstation4 = forwardRef(function Playstation4(
+const PlaystationFour = forwardRef(function PlaystationFour(
   { color = 'currentColor', size = 24, title = 'PlayStation 4', ...others },
   ref
 ) {
@@ -20,7 +20,7 @@ const Playstation4 = forwardRef(function Playstation4(
   );
 });
 
-Playstation4.propTypes = {
+PlaystationFour.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ Playstation4.propTypes = {
   title: PropTypes.string,
 };
 
-export default Playstation4;
+export default PlaystationFour;
