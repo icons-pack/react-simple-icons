@@ -1,7 +1,10 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const N26 = forwardRef(function N26({ color = 'currentColor', size = 24, title = 'N26', ...others }, ref) {
+const NTwentySix = forwardRef(function NTwentySix(
+  { color = 'currentColor', size = 24, title = 'N26', ...others },
+  ref
+) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -17,7 +20,7 @@ const N26 = forwardRef(function N26({ color = 'currentColor', size = 24, title =
   );
 });
 
-N26.propTypes = {
+NTwentySix.propTypes = {
   /**
    * Hex color or color name
    */
@@ -32,4 +35,4 @@ N26.propTypes = {
   title: PropTypes.string,
 };
 
-export default N26;
+export default NTwentySix;

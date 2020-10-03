@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Playstation2 = forwardRef(function Playstation2(
-  { color = 'currentColor', size = 24, title = 'PlayStation 2', ...others },
+const Starlingbank = forwardRef(function Starlingbank(
+  { color = 'currentColor', size = 24, title = 'Starling Bank', ...others },
   ref
 ) {
   return (
@@ -15,12 +15,12 @@ const Playstation2 = forwardRef(function Playstation2(
       ref={ref}
       {...others}>
       <title>{title}</title>
-      <path d="M7.46 13.779v.292h4.142v-3.85h3.796V9.93h-4.115v3.85zm16.248-3.558v1.62h-7.195v2.23H24v-.292h-7.168v-1.646H24V9.929h-7.487v.292zm-16.513 0v1.62H0v2.23h.292v-1.938H7.46V9.929H0v.292Z" />
+      <path d="M12 0C5.3726 0 0 5.3727 0 12c0 6.627 5.3726 12 12 12 6.6279 0 12-5.373 12-12 0-6.6273-5.3721-12-12-12zm3.6094 4.7559v1.4668c-3.1771 0-5.754 2.5766-5.754 5.7539H8.3888c0-3.9882 3.2327-7.2207 7.2207-7.2207zm-1.4649 7.2207h1.4668c0 3.9889-3.233 7.2226-7.2226 7.2226v-1.4687c3.1787 0 5.7558-2.5757 5.7558-5.754Z" />
     </svg>
   );
 });
 
-Playstation2.propTypes = {
+Starlingbank.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ Playstation2.propTypes = {
   title: PropTypes.string,
 };
 
-export default Playstation2;
+export default Starlingbank;
