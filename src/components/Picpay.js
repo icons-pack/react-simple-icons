@@ -1,10 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Firebase = forwardRef(function Firebase(
-  { color = 'currentColor', size = 24, title = 'Firebase', ...others },
-  ref
-) {
+const Picpay = forwardRef(function Picpay({ color = 'currentColor', size = 24, title = 'PicPay', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -15,12 +12,12 @@ const Firebase = forwardRef(function Firebase(
       ref={ref}
       {...others}>
       <title>{title}</title>
-      <path d="M3.89 15.672L6.255.461A.542.542 0 017.27.288l2.543 4.771zm16.794 3.692l-2.25-14a.54.54 0 00-.919-.295L3.316 19.365l7.856 4.427a1.621 1.621 0 001.588 0zM14.3 7.147l-1.82-3.482a.542.542 0 00-.96 0L3.53 17.984z" />
+      <path d="M16.463 1.587v7.537H24V1.587zm1.256 1.256h5.025v5.025h-5.025zm1.256 1.256v2.513h2.513V4.099zM3.77 5.355V8.53h3.376c2.142 0 3.358 1.04 3.358 2.939 0 1.947-1.216 3.011-3.358 3.011H3.769V8.53H0v13.884h3.769v-4.76h3.57c4.333 0 6.815-2.352 6.815-6.32 0-3.771-2.482-5.978-6.814-5.978Z" />
     </svg>
   );
 });
 
-Firebase.propTypes = {
+Picpay.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +32,4 @@ Firebase.propTypes = {
   title: PropTypes.string,
 };
 
-export default Firebase;
+export default Picpay;

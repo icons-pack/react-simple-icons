@@ -1,10 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Firebase = forwardRef(function Firebase(
-  { color = 'currentColor', size = 24, title = 'Firebase', ...others },
-  ref
-) {
+const Julia = forwardRef(function Julia({ color = 'currentColor', size = 24, title = 'Julia', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -15,12 +12,12 @@ const Firebase = forwardRef(function Firebase(
       ref={ref}
       {...others}>
       <title>{title}</title>
-      <path d="M3.89 15.672L6.255.461A.542.542 0 017.27.288l2.543 4.771zm16.794 3.692l-2.25-14a.54.54 0 00-.919-.295L3.316 19.365l7.856 4.427a1.621 1.621 0 001.588 0zM14.3 7.147l-1.82-3.482a.542.542 0 00-.96 0L3.53 17.984z" />
+      <path d="M11.138 17.569a5.569 5.569 0 1 1-11.138 0 5.569 5.569 0 1 1 11.138 0zm6.431-11.138a5.569 5.569 0 1 1-11.138 0 5.569 5.569 0 1 1 11.138 0zM24 17.569a5.569 5.569 0 1 1-11.138 0 5.569 5.569 0 1 1 11.138 0z" />
     </svg>
   );
 });
 
-Firebase.propTypes = {
+Julia.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +32,4 @@ Firebase.propTypes = {
   title: PropTypes.string,
 };
 
-export default Firebase;
+export default Julia;

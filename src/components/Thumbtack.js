@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Firebase = forwardRef(function Firebase(
-  { color = 'currentColor', size = 24, title = 'Firebase', ...others },
+const Thumbtack = forwardRef(function Thumbtack(
+  { color = 'currentColor', size = 24, title = 'Thumbtack', ...others },
   ref
 ) {
   return (
@@ -15,12 +15,12 @@ const Firebase = forwardRef(function Firebase(
       ref={ref}
       {...others}>
       <title>{title}</title>
-      <path d="M3.89 15.672L6.255.461A.542.542 0 017.27.288l2.543 4.771zm16.794 3.692l-2.25-14a.54.54 0 00-.919-.295L3.316 19.365l7.856 4.427a1.621 1.621 0 001.588 0zM14.3 7.147l-1.82-3.482a.542.542 0 00-.96 0L3.53 17.984z" />
+      <path d="M6.18 6.38h11.69v2.68H6.17zm7.27 3.8v3.14c0 3.23-.02 3.74-.14 4.36a7.95 7.95 0 0 1-1.3 2.87c-.03 0-.78-1.35-.9-1.62-.17-.4-.3-.8-.4-1.25l-.09-.41-.02-5.78.16-.2a3.3 3.3 0 0 1 2.44-1.1zM12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0Z" />
     </svg>
   );
 });
 
-Firebase.propTypes = {
+Thumbtack.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ Firebase.propTypes = {
   title: PropTypes.string,
 };
 
-export default Firebase;
+export default Thumbtack;
