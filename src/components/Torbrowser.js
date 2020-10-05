@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Firebase = forwardRef(function Firebase(
-  { color = 'currentColor', size = 24, title = 'Firebase', ...others },
+const Torbrowser = forwardRef(function Torbrowser(
+  { color = 'currentColor', size = 24, title = 'Tor Browser', ...others },
   ref
 ) {
   return (
@@ -15,12 +15,12 @@ const Firebase = forwardRef(function Firebase(
       ref={ref}
       {...others}>
       <title>{title}</title>
-      <path d="M3.89 15.672L6.255.461A.542.542 0 017.27.288l2.543 4.771zm16.794 3.692l-2.25-14a.54.54 0 00-.919-.295L3.316 19.365l7.856 4.427a1.621 1.621 0 001.588 0zM14.3 7.147l-1.82-3.482a.542.542 0 00-.96 0L3.53 17.984z" />
+      <path d="M12 21.82v-1.46A8.36 8.36 0 0020.36 12 8.36 8.36 0 0012 3.64V2.18A9.83 9.83 0 0121.82 12 9.83 9.83 0 0112 21.82zm0-5.09A4.74 4.74 0 0016.73 12 4.74 4.74 0 0012 7.27V5.82A6.17 6.17 0 0118.18 12 6.17 6.17 0 0112 18.18zm0-7.27A2.54 2.54 0 0114.55 12 2.54 2.54 0 0112 14.54zM0 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0 12 12 0 000 12z" />
     </svg>
   );
 });
 
-Firebase.propTypes = {
+Torbrowser.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ Firebase.propTypes = {
   title: PropTypes.string,
 };
 
-export default Firebase;
+export default Torbrowser;
