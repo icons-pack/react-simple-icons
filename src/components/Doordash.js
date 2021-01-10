@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Googlehangoutsmeet = forwardRef(function Googlehangoutsmeet(
-  { color = 'currentColor', size = 24, title = 'Google Hangouts Meet', ...others },
+const Doordash = forwardRef(function Doordash(
+  { color = 'currentColor', size = 24, title = 'DoorDash', ...others },
   ref
 ) {
   return (
@@ -15,12 +15,12 @@ const Googlehangoutsmeet = forwardRef(function Googlehangoutsmeet(
       ref={ref}
       {...others}>
       <title>{title}</title>
-      <path d="M12 0C6.28 0 1.636 4.641 1.636 10.364c0 5.421 4.945 9.817 10.364 9.817V24c6.295-3.194 10.364-8.333 10.364-13.636C22.364 4.64 17.72 0 12 0zM7.5 6.272h6.817a1.363 1.363 0 0 1 1.365 1.365v1.704l2.728-2.727v7.501l-2.726-2.726v1.703a1.362 1.362 0 0 1-1.365 1.365H7.5c-.35 0-.698-.133-.965-.4a1.358 1.358 0 0 1-.4-.965V7.637A1.362 1.362 0 0 1 7.5 6.272Z" />
+      <path d="M23.071 8.409a6.09 6.09 0 00-5.396-3.228H.584A.589.589 0 00.17 6.184L3.894 9.93a1.752 1.752 0 001.242.516h12.049a1.554 1.554 0 11.031 3.108H8.91a.589.589 0 00-.415 1.003l3.725 3.747a1.75 1.75 0 001.242.516h3.757c4.887 0 8.584-5.225 5.852-10.413" />
     </svg>
   );
 });
 
-Googlehangoutsmeet.propTypes = {
+Doordash.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ Googlehangoutsmeet.propTypes = {
   title: PropTypes.string,
 };
 
-export default Googlehangoutsmeet;
+export default Doordash;

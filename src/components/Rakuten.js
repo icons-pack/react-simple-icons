@@ -1,10 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Postwoman = forwardRef(function Postwoman(
-  { color = 'currentColor', size = 24, title = 'Postwoman', ...others },
-  ref
-) {
+const Rakuten = forwardRef(function Rakuten({ color = 'currentColor', size = 24, title = 'Rakuten', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -15,12 +12,12 @@ const Postwoman = forwardRef(function Postwoman(
       ref={ref}
       {...others}>
       <title>{title}</title>
-      <path d="M2.534 9.287C2.534 15.46 7.56 24 12 24c4.18 0 9.466-8.539 9.466-14.713C21.467 3.113 17.228 0 12 0 6.772 0 2.534 3.113 2.534 9.287zm11.926 4.565a4.649 4.649 0 014.257-1.261 4.649 4.649 0 01-1.262 4.256 4.649 4.649 0 01-4.257 1.262 4.649 4.649 0 011.262-4.257zm-9.177-1.261a4.649 4.649 0 014.258 1.261 4.649 4.649 0 011.261 4.257 4.649 4.649 0 01-4.257-1.262 4.649 4.649 0 01-1.262-4.256z" />
+      <path d="M23.277 21.3L3.939 24 .722 21.3h22.555zM7.6 19.276H3.939V0h6.052a6.653 6.653 0 0 1 6.65 6.646c0 2.234-1.108 4.204-2.799 5.418l5.418 7.211h-4.585l-4.486-5.979H7.6v5.98zm0-9.64h2.392a2.992 2.992 0 0 0 2.989-2.989 2.994 2.994 0 0 0-2.989-2.986H7.6v5.975z" />
     </svg>
   );
 });
 
-Postwoman.propTypes = {
+Rakuten.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +32,4 @@ Postwoman.propTypes = {
   title: PropTypes.string,
 };
 
-export default Postwoman;
+export default Rakuten;

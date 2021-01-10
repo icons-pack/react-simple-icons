@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Googlehangoutschat = forwardRef(function Googlehangoutschat(
-  { color = 'currentColor', size = 24, title = 'Google Hangouts Chat', ...others },
+const Googlechat = forwardRef(function Googlechat(
+  { color = 'currentColor', size = 24, title = 'Google Chat', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const Googlehangoutschat = forwardRef(function Googlehangoutschat(
   );
 });
 
-Googlehangoutschat.propTypes = {
+Googlechat.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ Googlehangoutschat.propTypes = {
   title: PropTypes.string,
 };
 
-export default Googlehangoutschat;
+export default Googlechat;

@@ -1,7 +1,10 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Groovy = forwardRef(function Groovy({ color = 'currentColor', size = 24, title = 'Groovy', ...others }, ref) {
+const Apachegroovy = forwardRef(function Apachegroovy(
+  { color = 'currentColor', size = 24, title = 'Apache Groovy', ...others },
+  ref
+) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -17,7 +20,7 @@ const Groovy = forwardRef(function Groovy({ color = 'currentColor', size = 24, t
   );
 });
 
-Groovy.propTypes = {
+Apachegroovy.propTypes = {
   /**
    * Hex color or color name
    */
@@ -32,4 +35,4 @@ Groovy.propTypes = {
   title: PropTypes.string,
 };
 
-export default Groovy;
+export default Apachegroovy;

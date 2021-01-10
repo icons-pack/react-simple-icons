@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Adobelightroomcc = forwardRef(function Adobelightroomcc(
-  { color = 'currentColor', size = 24, title = 'Adobe Lightroom CC', ...others },
+const Adobelightroom = forwardRef(function Adobelightroom(
+  { color = 'currentColor', size = 24, title = 'Adobe Lightroom', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const Adobelightroomcc = forwardRef(function Adobelightroomcc(
   );
 });
 
-Adobelightroomcc.propTypes = {
+Adobelightroom.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ Adobelightroomcc.propTypes = {
   title: PropTypes.string,
 };
 
-export default Adobelightroomcc;
+export default Adobelightroom;
