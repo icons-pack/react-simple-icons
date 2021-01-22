@@ -15,7 +15,7 @@ const Linuxfoundation = forwardRef(function Linuxfoundation(
       ref={ref}
       {...others}>
       <title>{title}</title>
-      <path d="M4.8 9.6v9.6h9.6V24H0V9.6h4.8zM24 0v24h-7.2v-4.8h2.4V4.8H4.8v2.4H0V0h24z" />
+      <path d="M4.8 19.2h9.6V24H0V9.6h4.8v9.6zM0 0v7.2h4.8V4.822h14.4V19.2h-2.4V24H24V0H0z" />
     </svg>
   );
 });

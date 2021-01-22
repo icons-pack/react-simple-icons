@@ -12,7 +12,7 @@ const Kibana = forwardRef(function Kibana({ color = 'currentColor', size = 24, t
       ref={ref}
       {...others}>
       <title>{title}</title>
-      <path d="M21.04 23.99H4.18l9.88-11.86c4.23 2.76 6.98 7.04 6.98 11.86zm0-23.95H3.08v21.55z" />
+      <path d="M2.625 0v21.591L21.375 0zm10.864 12.47L3.477 24h17.522a18.755 18.755 0 0 0-7.51-11.53z" />
     </svg>
   );
 });

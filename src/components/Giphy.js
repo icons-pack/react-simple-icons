@@ -12,7 +12,7 @@ const Giphy = forwardRef(function Giphy({ color = 'currentColor', size = 24, tit
       ref={ref}
       {...others}>
       <title>{title}</title>
-      <path d="M2.666 0v24h18.666V8.668l-2.666 2.664v10H5.332V2.668H10L12.666 0h-10zm10.666 0v8h8V5.332h-2.666V2.668H16V0h-2.668z" />
+      <path d="M2.666 0v24h18.668V8.666l-2.668 2.668v10H5.334V2.668H10L12.666 0zm10.668 0v8h8V5.334h-2.668V2.668H16V0" />
     </svg>
   );
 });
