@@ -12,7 +12,7 @@ const Kotlin = forwardRef(function Kotlin({ color = 'currentColor', size = 24, t
       ref={ref}
       {...others}>
       <title>{title}</title>
-      <path d="M1.3 24l11.3-11.5L24 24zM0 0h12L0 12.5zM13.4 0L0 14v10l12-12L24 0z" />
+      <path d="M0 24V13.848L13.505 0H24L0 24zM0 0v12.672L12.05 0H0zm1.335 24H24L12.699 12.618 1.335 24z" />
     </svg>
   );
 });

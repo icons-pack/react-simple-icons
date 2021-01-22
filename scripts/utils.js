@@ -56,12 +56,19 @@ module.exports = {
       .replace(/^2/, 'two-')
       .replace(/2$/, '-two')
       .replace(/2/g, '-two-')
+      .replace(/^3/, 'three-')
+      .replace(/3$/, '-three')
+      .replace(/3/g, '-three-')
       .replace(/^4/, 'four-')
       .replace(/4$/, '-four')
       .replace(/4/g, '-four-')
       .replace(/^6/, 'six-')
       .replace(/6$/, '-six')
-      .replace(/6/g, '-six-'),
+      .replace(/6/g, '-six-')
+      .replace(/^24/, 'twenty-four-')
+      .replace(/24$/, '-twenty-four')
+      .replace(/24/g, '-twenty-four-')
+      .replace(/tado°/, 'Tado'),
 
   outputFileFormat: element =>
     format({
