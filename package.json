@@ -1,6 +1,6 @@
 {
   "name": "@icons-pack/react-simple-icons",
-  "version": "3.13.0",
+  "version": "4.0.0",
   "private": false,
   "description": "This package provides the Simple Icons packaged as a set of React components.",
   "keywords": [
@@ -72,7 +72,7 @@
     "rollup": "^2.7.6",
     "rollup-plugin-babel": "^4.4.0",
     "signale": "^1.4.0",
-    "simple-icons": "^3.12.3",
+    "simple-icons": "^4.7.0",
     "uppercamelcase": "^3.0.0"
   },
   "peerDependencies": {
