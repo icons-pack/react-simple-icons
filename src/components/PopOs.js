@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const PopOs = forwardRef(function PopOs({ color = 'currentColor', size = 24, title = 'Pop!_OS', ...others }, ref) {
+const PopOs = forwardRef(function PopOs({ color = 'currentColor', size = 24, title = 'pop_os', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

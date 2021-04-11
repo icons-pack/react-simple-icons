@@ -3,7 +3,7 @@
 
 # react-simple-icons
 
-This package provides the [Simple Icons 4.11.0](https://github.com/simple-icons/simple-icons/releases/tag/4.11.0) packaged as a set of [React](https://facebook.github.io/react/) components.
+This package provides the [Simple Icons 4.18.0](https://github.com/simple-icons/simple-icons/releases/tag/4.18.0) packaged as a set of [React](https://facebook.github.io/react/) components.
 
   <a href="https://www.npmjs.com/package/@icons-pack/react-simple-icons" target="_blank">
     <img src="https://img.shields.io/npm/v/@icons-pack/react-simple-icons?color=CB061D&style=flat-square" alt="www.npmjs.com!" />
@@ -54,6 +54,10 @@ These are some exceptions to this rule:
 - [`webcomponents.org`](https://simpleicons.org/?q=webcomponents.org) is exposed as `{ WebcomponentsDotOrg } from @icons-pack/react-simple-icons`
 - [`X.Org`](https://simpleicons.org/?q=x.Org) is exposed as `{ XDotOrg } from @icons-pack/react-simple-icons`
 - [`FerrarinDotVDot`](https://simpleicons.org/?q=Ferrari%20N.V) is exposed as `{ FerrarinDotVDot } from @icons-pack/react-simple-icons`
+
+## Demo
+
+[Edit codesandbox](https://codesandbox.io/s/interesting-yonath-x7o7g?file=/src/App.js)
 
 ## Basic example
 
