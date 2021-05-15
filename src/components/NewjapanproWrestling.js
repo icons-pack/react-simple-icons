@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const NewjapanproWrestling = forwardRef(function NewjapanproWrestling(
-  { color = 'currentColor', size = 24, title = 'New Japan Pro-Wrestling', ...others },
+  { color = 'currentColor', size = 24, title = 'newjapanpro-wrestling', ...others },
   ref
 ) {
   return (

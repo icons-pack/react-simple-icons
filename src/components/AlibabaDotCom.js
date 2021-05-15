@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const AlibabaDotCom = forwardRef(function AlibabaDotCom(
-  { color = 'currentColor', size = 24, title = 'Alibaba.com', ...others },
+  { color = 'currentColor', size = 24, title = 'alibaba-dot-com', ...others },
   ref
 ) {
   return (

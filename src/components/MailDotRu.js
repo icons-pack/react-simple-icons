@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const MailDotRu = forwardRef(function MailDotRu(
-  { color = 'currentColor', size = 24, title = 'Mail.Ru', ...others },
+  { color = 'currentColor', size = 24, title = 'mail-dot-ru', ...others },
   ref
 ) {
   return (

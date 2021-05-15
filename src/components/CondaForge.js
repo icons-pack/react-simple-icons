@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const CondaForge = forwardRef(function CondaForge(
-  { color = 'currentColor', size = 24, title = 'Conda-Forge', ...others },
+  { color = 'currentColor', size = 24, title = 'conda-forge', ...others },
   ref
 ) {
   return (

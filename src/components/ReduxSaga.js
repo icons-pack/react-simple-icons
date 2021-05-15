@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const ReduxSaga = forwardRef(function ReduxSaga(
-  { color = 'currentColor', size = 24, title = 'Redux-Saga', ...others },
+  { color = 'currentColor', size = 24, title = 'redux-saga', ...others },
   ref
 ) {
   return (

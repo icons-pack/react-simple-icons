@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const ItchDotIo = forwardRef(function ItchDotIo(
-  { color = 'currentColor', size = 24, title = 'Itch.io', ...others },
+  { color = 'currentColor', size = 24, title = 'itch-dot-io', ...others },
   ref
 ) {
   return (

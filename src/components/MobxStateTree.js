@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const MobxStateTree = forwardRef(function MobxStateTree(
-  { color = 'currentColor', size = 24, title = 'MobX-State-Tree', ...others },
+  { color = 'currentColor', size = 24, title = 'mobx-state-tree', ...others },
   ref
 ) {
   return (

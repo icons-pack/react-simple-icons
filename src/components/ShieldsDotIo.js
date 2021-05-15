@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const ShieldsDotIo = forwardRef(function ShieldsDotIo(
-  { color = 'currentColor', size = 24, title = 'Shields.io', ...others },
+  { color = 'currentColor', size = 24, title = 'shields-dot-io', ...others },
   ref
 ) {
   return (

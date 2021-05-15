@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const WriteDotAs = forwardRef(function WriteDotAs(
-  { color = 'currentColor', size = 24, title = 'write.as', ...others },
+  { color = 'currentColor', size = 24, title = 'write-dot-as', ...others },
   ref
 ) {
   return (

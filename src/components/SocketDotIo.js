@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const SocketDotIo = forwardRef(function SocketDotIo(
-  { color = 'currentColor', size = 24, title = 'Socket.io', ...others },
+  { color = 'currentColor', size = 24, title = 'socket-dot-io', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const RollupDotJs = forwardRef(function RollupDotJs(
-  { color = 'currentColor', size = 24, title = 'rollup.js', ...others },
+  { color = 'currentColor', size = 24, title = 'rollup-dot-js', ...others },
   ref
 ) {
   return (

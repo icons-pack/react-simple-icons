@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const WebcomponentsDotOrg = forwardRef(function WebcomponentsDotOrg(
-  { color = 'currentColor', size = 24, title = 'webcomponents.org', ...others },
+  { color = 'currentColor', size = 24, title = 'webcomponents-dot-org', ...others },
   ref
 ) {
   return (

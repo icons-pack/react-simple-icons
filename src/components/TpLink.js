@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const TpLink = forwardRef(function TpLink({ color = 'currentColor', size = 24, title = 'TP-Link', ...others }, ref) {
+const TpLink = forwardRef(function TpLink({ color = 'currentColor', size = 24, title = 'tp-link', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

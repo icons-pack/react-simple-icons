@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const DThreeDotJs = forwardRef(function DThreeDotJs(
-  { color = 'currentColor', size = 24, title = 'D3.js', ...others },
+  { color = 'currentColor', size = 24, title = 'd3-dot-js', ...others },
   ref
 ) {
   return (

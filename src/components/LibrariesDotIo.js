@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const LibrariesDotIo = forwardRef(function LibrariesDotIo(
-  { color = 'currentColor', size = 24, title = 'Libraries.io', ...others },
+  { color = 'currentColor', size = 24, title = 'libraries-dot-io', ...others },
   ref
 ) {
   return (

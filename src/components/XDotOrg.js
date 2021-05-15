@@ -1,7 +1,10 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const XDotOrg = forwardRef(function XDotOrg({ color = 'currentColor', size = 24, title = 'X.Org', ...others }, ref) {
+const XDotOrg = forwardRef(function XDotOrg(
+  { color = 'currentColor', size = 24, title = 'x-dot-org', ...others },
+  ref
+) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

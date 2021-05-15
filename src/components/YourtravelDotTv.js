@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const YourtravelDotTv = forwardRef(function YourtravelDotTv(
-  { color = 'currentColor', size = 24, title = 'YourTravel.TV', ...others },
+  { color = 'currentColor', size = 24, title = 'yourtravel-dot-tv', ...others },
   ref
 ) {
   return (

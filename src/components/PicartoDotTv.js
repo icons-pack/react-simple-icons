@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const PicartoDotTv = forwardRef(function PicartoDotTv(
-  { color = 'currentColor', size = 24, title = 'Picarto.TV', ...others },
+  { color = 'currentColor', size = 24, title = 'picarto-dot-tv', ...others },
   ref
 ) {
   return (

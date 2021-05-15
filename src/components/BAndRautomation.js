@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const BAndRautomation = forwardRef(function BAndRautomation(
-  { color = 'currentColor', size = 24, title = 'B&R Automation', ...others },
+  { color = 'currentColor', size = 24, title = 'b-and-rautomation', ...others },
   ref
 ) {
   return (

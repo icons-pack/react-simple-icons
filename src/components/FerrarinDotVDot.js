@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const FerrarinDotVDot = forwardRef(function FerrarinDotVDot(
-  { color = 'currentColor', size = 24, title = 'Ferrari N.V.', ...others },
+  { color = 'currentColor', size = 24, title = 'ferrarin-dot-v-dot', ...others },
   ref
 ) {
   return (

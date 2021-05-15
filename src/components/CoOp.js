@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const CoOp = forwardRef(function CoOp({ color = 'currentColor', size = 24, title = 'Co-op', ...others }, ref) {
+const CoOp = forwardRef(function CoOp({ color = 'currentColor', size = 24, title = 'co-op', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

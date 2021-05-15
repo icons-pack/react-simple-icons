@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const MaxPlanckGesellschaft = forwardRef(function MaxPlanckGesellschaft(
-  { color = 'currentColor', size = 24, title = 'Max-Planck-Gesellschaft', ...others },
+  { color = 'currentColor', size = 24, title = 'max-planck-gesellschaft', ...others },
   ref
 ) {
   return (

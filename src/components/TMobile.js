@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const TMobile = forwardRef(function TMobile({ color = 'currentColor', size = 24, title = 'T-Mobile', ...others }, ref) {
+const TMobile = forwardRef(function TMobile({ color = 'currentColor', size = 24, title = 't-mobile', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
