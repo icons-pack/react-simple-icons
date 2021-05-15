@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const KoFi = forwardRef(function KoFi({ color = 'currentColor', size = 24, title = 'Ko-fi', ...others }, ref) {
+const KoFi = forwardRef(function KoFi({ color = 'currentColor', size = 24, title = 'ko-fi', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

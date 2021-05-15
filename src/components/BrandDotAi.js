@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const BrandDotAi = forwardRef(function BrandDotAi(
-  { color = 'currentColor', size = 24, title = 'Brand.ai', ...others },
+  { color = 'currentColor', size = 24, title = 'brand-dot-ai', ...others },
   ref
 ) {
   return (

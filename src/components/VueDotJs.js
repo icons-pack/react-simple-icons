@@ -1,7 +1,10 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const VueDotJs = forwardRef(function VueDotJs({ color = 'currentColor', size = 24, title = 'Vue.js', ...others }, ref) {
+const VueDotJs = forwardRef(function VueDotJs(
+  { color = 'currentColor', size = 24, title = 'vue-dot-js', ...others },
+  ref
+) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -1,7 +1,10 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const GovDotUk = forwardRef(function GovDotUk({ color = 'currentColor', size = 24, title = 'GOV.UK', ...others }, ref) {
+const GovDotUk = forwardRef(function GovDotUk(
+  { color = 'currentColor', size = 24, title = 'gov-dot-uk', ...others },
+  ref
+) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

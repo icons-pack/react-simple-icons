@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const DiagramsDotNet = forwardRef(function DiagramsDotNet(
-  { color = 'currentColor', size = 24, title = 'diagrams.net', ...others },
+  { color = 'currentColor', size = 24, title = 'diagrams-dot-net', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const AboutDotMe = forwardRef(function AboutDotMe(
-  { color = 'currentColor', size = 24, title = 'About.me', ...others },
+  { color = 'currentColor', size = 24, title = 'about-dot-me', ...others },
   ref
 ) {
   return (

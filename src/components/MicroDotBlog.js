@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const MicroDotBlog = forwardRef(function MicroDotBlog(
-  { color = 'currentColor', size = 24, title = 'Micro.blog', ...others },
+  { color = 'currentColor', size = 24, title = 'micro-dot-blog', ...others },
   ref
 ) {
   return (

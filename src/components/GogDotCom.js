@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const GogDotCom = forwardRef(function GogDotCom(
-  { color = 'currentColor', size = 24, title = 'GOG.com', ...others },
+  { color = 'currentColor', size = 24, title = 'gog-dot-com', ...others },
   ref
 ) {
   return (

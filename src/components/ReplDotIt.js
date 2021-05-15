@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const ReplDotIt = forwardRef(function ReplDotIt(
-  { color = 'currentColor', size = 24, title = 'repl.it', ...others },
+  { color = 'currentColor', size = 24, title = 'repl-dot-it', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const NuxtDotJs = forwardRef(function NuxtDotJs(
-  { color = 'currentColor', size = 24, title = 'Nuxt.js', ...others },
+  { color = 'currentColor', size = 24, title = 'nuxt-dot-js', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const FraunhoferGesellschaft = forwardRef(function FraunhoferGesellschaft(
-  { color = 'currentColor', size = 24, title = 'Fraunhofer-Gesellschaft', ...others },
+  { color = 'currentColor', size = 24, title = 'fraunhofer-gesellschaft', ...others },
   ref
 ) {
   return (

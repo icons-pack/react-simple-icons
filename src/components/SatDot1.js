@@ -1,7 +1,10 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const SatDot1 = forwardRef(function SatDot1({ color = 'currentColor', size = 24, title = 'Sat.1', ...others }, ref) {
+const SatDot1 = forwardRef(function SatDot1(
+  { color = 'currentColor', size = 24, title = 'sat-dot-1', ...others },
+  ref
+) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

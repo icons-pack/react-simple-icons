@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const DigiKeyelectronics = forwardRef(function DigiKeyelectronics(
-  { color = 'currentColor', size = 24, title = 'Digi-Key Electronics', ...others },
+  { color = 'currentColor', size = 24, title = 'digi-keyelectronics', ...others },
   ref
 ) {
   return (

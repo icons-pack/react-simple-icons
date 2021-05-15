@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const NextDotJs = forwardRef(function NextDotJs(
-  { color = 'currentColor', size = 24, title = 'Next.js', ...others },
+  { color = 'currentColor', size = 24, title = 'next-dot-js', ...others },
   ref
 ) {
   return (

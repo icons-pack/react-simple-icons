@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const DWavesystems = forwardRef(function DWavesystems(
-  { color = 'currentColor', size = 24, title = 'D-Wave Systems', ...others },
+  { color = 'currentColor', size = 24, title = 'd-wavesystems', ...others },
   ref
 ) {
   return (

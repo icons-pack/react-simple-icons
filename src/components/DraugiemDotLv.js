@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const DraugiemDotLv = forwardRef(function DraugiemDotLv(
-  { color = 'currentColor', size = 24, title = 'Draugiem.lv', ...others },
+  { color = 'currentColor', size = 24, title = 'draugiem-dot-lv', ...others },
   ref
 ) {
   return (

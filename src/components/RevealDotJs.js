@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const RevealDotJs = forwardRef(function RevealDotJs(
-  { color = 'currentColor', size = 24, title = 'reveal.js', ...others },
+  { color = 'currentColor', size = 24, title = 'reveal-dot-js', ...others },
   ref
 ) {
   return (

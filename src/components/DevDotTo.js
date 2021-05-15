@@ -1,7 +1,10 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const DevDotTo = forwardRef(function DevDotTo({ color = 'currentColor', size = 24, title = 'dev.to', ...others }, ref) {
+const DevDotTo = forwardRef(function DevDotTo(
+  { color = 'currentColor', size = 24, title = 'dev-dot-to', ...others },
+  ref
+) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

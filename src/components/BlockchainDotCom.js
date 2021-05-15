@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const BlockchainDotCom = forwardRef(function BlockchainDotCom(
-  { color = 'currentColor', size = 24, title = 'Blockchain.com', ...others },
+  { color = 'currentColor', size = 24, title = 'blockchain-dot-com', ...others },
   ref
 ) {
   return (

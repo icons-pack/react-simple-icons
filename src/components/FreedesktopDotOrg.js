@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const FreedesktopDotOrg = forwardRef(function FreedesktopDotOrg(
-  { color = 'currentColor', size = 24, title = 'freedesktop.org', ...others },
+  { color = 'currentColor', size = 24, title = 'freedesktop-dot-org', ...others },
   ref
 ) {
   return (

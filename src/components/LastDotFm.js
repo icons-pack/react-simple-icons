@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const LastDotFm = forwardRef(function LastDotFm(
-  { color = 'currentColor', size = 24, title = 'Last.fm', ...others },
+  { color = 'currentColor', size = 24, title = 'last-dot-fm', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const CounterStrike = forwardRef(function CounterStrike(
-  { color = 'currentColor', size = 24, title = 'Counter-Strike', ...others },
+  { color = 'currentColor', size = 24, title = 'counter-strike', ...others },
   ref
 ) {
   return (

@@ -1,7 +1,10 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const P5DotJs = forwardRef(function P5DotJs({ color = 'currentColor', size = 24, title = 'p5.js', ...others }, ref) {
+const P5DotJs = forwardRef(function P5DotJs(
+  { color = 'currentColor', size = 24, title = 'p5-dot-js', ...others },
+  ref
+) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

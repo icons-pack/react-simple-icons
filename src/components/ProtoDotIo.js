@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const ProtoDotIo = forwardRef(function ProtoDotIo(
-  { color = 'currentColor', size = 24, title = 'Proto.io', ...others },
+  { color = 'currentColor', size = 24, title = 'proto-dot-io', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const EmberDotJs = forwardRef(function EmberDotJs(
-  { color = 'currentColor', size = 24, title = 'Ember.js', ...others },
+  { color = 'currentColor', size = 24, title = 'ember-dot-js', ...others },
   ref
 ) {
   return (

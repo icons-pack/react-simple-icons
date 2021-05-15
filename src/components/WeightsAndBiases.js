@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const WeightsAndBiases = forwardRef(function WeightsAndBiases(
-  { color = 'currentColor', size = 24, title = 'Weights & Biases', ...others },
+  { color = 'currentColor', size = 24, title = 'weights-and-biases', ...others },
   ref
 ) {
   return (

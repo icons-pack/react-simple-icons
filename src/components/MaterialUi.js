@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const MaterialUi = forwardRef(function MaterialUi(
-  { color = 'currentColor', size = 24, title = 'Material-UI', ...others },
+  { color = 'currentColor', size = 24, title = 'material-ui', ...others },
   ref
 ) {
   return (

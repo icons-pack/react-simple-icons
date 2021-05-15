@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const ChartDotJs = forwardRef(function ChartDotJs(
-  { color = 'currentColor', size = 24, title = 'Chart.js', ...others },
+  { color = 'currentColor', size = 24, title = 'chart-dot-js', ...others },
   ref
 ) {
   return (
