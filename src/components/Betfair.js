@@ -1,10 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Delicious = forwardRef(function Delicious(
-  { color = 'currentColor', size = 24, title = 'delicious', ...others },
-  ref
-) {
+const Betfair = forwardRef(function Betfair({ color = 'currentColor', size = 24, title = 'Betfair', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -15,12 +12,12 @@ const Delicious = forwardRef(function Delicious(
       ref={ref}
       {...others}>
       <title>{title}</title>
-      <path d="M12 12H0v12h12V12zM24 0H12v12h12V0z" />
+      <path d="M20.218 3.14h-7.083v3.6H9.352l7.359 8.582L24 6.67h-3.782zM0 17.26h3.782v3.6h7.083v-3.6h3.783l-7.29-8.583z" />
     </svg>
   );
 });
 
-Delicious.propTypes = {
+Betfair.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +32,4 @@ Delicious.propTypes = {
   title: PropTypes.string,
 };
 
-export default Delicious;
+export default Betfair;

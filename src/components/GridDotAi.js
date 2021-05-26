@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Delicious = forwardRef(function Delicious(
-  { color = 'currentColor', size = 24, title = 'delicious', ...others },
+const GridDotAi = forwardRef(function GridDotAi(
+  { color = 'currentColor', size = 24, title = 'Grid.ai', ...others },
   ref
 ) {
   return (
@@ -15,12 +15,12 @@ const Delicious = forwardRef(function Delicious(
       ref={ref}
       {...others}>
       <title>{title}</title>
-      <path d="M12 12H0v12h12V12zM24 0H12v12h12V0z" />
+      <path d="M17.732 9.091v-3.52H6.506v12.816h5.612v-5.613h11.226V24h-5.613v-5.613H12.12V24h-4.5a6.965 6.965 0 0 1-6.964-6.964V6.966A6.966 6.966 0 0 1 7.619 0h8.762a6.965 6.965 0 0 1 6.964 6.964v2.127h-5.613z" />
     </svg>
   );
 });
 
-Delicious.propTypes = {
+GridDotAi.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ Delicious.propTypes = {
   title: PropTypes.string,
 };
 
-export default Delicious;
+export default GridDotAi;
