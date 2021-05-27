@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Delicious = forwardRef(function Delicious(
-  { color = 'currentColor', size = 24, title = 'delicious', ...others },
+const Micropython = forwardRef(function Micropython(
+  { color = 'currentColor', size = 24, title = 'MicroPython', ...others },
   ref
 ) {
   return (
@@ -15,12 +15,12 @@ const Delicious = forwardRef(function Delicious(
       ref={ref}
       {...others}>
       <title>{title}</title>
-      <path d="M12 12H0v12h12V12zM24 0H12v12h12V0z" />
+      <path d="M0 0h11.509v18.737h.982V0H24v24h-5.263V5.263h-.983V24H6.246V5.263l-.983.035V24H0zm22.246 19.509h-1.404v2.386h1.404z" />
     </svg>
   );
 });
 
-Delicious.propTypes = {
+Micropython.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ Delicious.propTypes = {
   title: PropTypes.string,
 };
 
-export default Delicious;
+export default Micropython;

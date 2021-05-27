@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Delicious = forwardRef(function Delicious(
-  { color = 'currentColor', size = 24, title = 'delicious', ...others },
+const Alacritty = forwardRef(function Alacritty(
+  { color = 'currentColor', size = 24, title = 'Alacritty', ...others },
   ref
 ) {
   return (
@@ -15,12 +15,12 @@ const Delicious = forwardRef(function Delicious(
       ref={ref}
       {...others}>
       <title>{title}</title>
-      <path d="M12 12H0v12h12V12zM24 0H12v12h12V0z" />
+      <path d="m10.065 0-8.57 21.269h3.595l6.91-16.244 6.91 16.244h3.594l-8.57-21.269zm1.935 9.935c-0.76666 1.8547-1.5334 3.7094-2.298 5.565 1.475 4.54 1.475 4.54 2.298 8.5 0.823-3.96 0.823-3.96 2.297-8.5-0.76637-1.8547-1.5315-3.7099-2.297-5.565z" />
     </svg>
   );
 });
 
-Delicious.propTypes = {
+Alacritty.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ Delicious.propTypes = {
   title: PropTypes.string,
 };
 
-export default Delicious;
+export default Alacritty;
