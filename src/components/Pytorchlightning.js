@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Delicious = forwardRef(function Delicious(
-  { color = 'currentColor', size = 24, title = 'delicious', ...others },
+const Pytorchlightning = forwardRef(function Pytorchlightning(
+  { color = 'currentColor', size = 24, title = 'PyTorch Lightning', ...others },
   ref
 ) {
   return (
@@ -15,12 +15,12 @@ const Delicious = forwardRef(function Delicious(
       ref={ref}
       {...others}>
       <title>{title}</title>
-      <path d="M12 12H0v12h12V12zM24 0H12v12h12V0z" />
+      <path d="M12 0L1.75 6v12L12 24l10.25-6V6zm-1.775 18l1.08-4.657-2.428-2.397L13.79 6l-1.082 4.665 2.414 2.384z" />
     </svg>
   );
 });
 
-Delicious.propTypes = {
+Pytorchlightning.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ Delicious.propTypes = {
   title: PropTypes.string,
 };
 
-export default Delicious;
+export default Pytorchlightning;

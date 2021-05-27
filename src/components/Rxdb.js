@@ -1,10 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Delicious = forwardRef(function Delicious(
-  { color = 'currentColor', size = 24, title = 'delicious', ...others },
-  ref
-) {
+const Rxdb = forwardRef(function Rxdb({ color = 'currentColor', size = 24, title = 'RxDB', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -15,12 +12,12 @@ const Delicious = forwardRef(function Delicious(
       ref={ref}
       {...others}>
       <title>{title}</title>
-      <path d="M12 12H0v12h12V12zM24 0H12v12h12V0z" />
+      <path d="M11.096 3.452h1.15v-1.15h1.151v1.15h6.411v4.932H4.192V1.15h1.15V2.3h1.151V0h1.15v1.15h1.152v2.302h1.15V1.151h1.151v2.301zM4.192 14.466h15.616V9.534H4.192v4.932zm15.616 1.15H4.192v4.932h6.41v1.15h1.151v-1.15h1.151v2.301h1.15v-2.301h1.152v2.301h1.15V24h1.151v-2.301h1.15v1.15h1.151v-7.233z" />
     </svg>
   );
 });
 
-Delicious.propTypes = {
+Rxdb.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +32,4 @@ Delicious.propTypes = {
   title: PropTypes.string,
 };
 
-export default Delicious;
+export default Rxdb;
