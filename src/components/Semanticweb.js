@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Semanticweb = forwardRef(function Semanticweb(
-  { color = 'currentColor', size = 24, title = 'Semantic Web', ...others },
+  { color = 'currentColor', size = 24, title = 'semanticweb', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Apacherocketmq = forwardRef(function Apacherocketmq(
-  { color = 'currentColor', size = 24, title = 'Apache RocketMQ', ...others },
+  { color = 'currentColor', size = 24, title = 'apacherocketmq', ...others },
   ref
 ) {
   return (

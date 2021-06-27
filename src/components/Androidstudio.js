@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Androidstudio = forwardRef(function Androidstudio(
-  { color = 'currentColor', size = 24, title = 'Android Studio', ...others },
+  { color = 'currentColor', size = 24, title = 'androidstudio', ...others },
   ref
 ) {
   return (

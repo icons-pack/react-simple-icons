@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Hexo = forwardRef(function Hexo({ color = 'currentColor', size = 24, title = 'Hexo', ...others }, ref) {
+const Hexo = forwardRef(function Hexo({ color = 'currentColor', size = 24, title = 'hexo', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

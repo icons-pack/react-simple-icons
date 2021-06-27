@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Googlefit = forwardRef(function Googlefit(
-  { color = 'currentColor', size = 24, title = 'Google Fit', ...others },
+  { color = 'currentColor', size = 24, title = 'googlefit', ...others },
   ref
 ) {
   return (

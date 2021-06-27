@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Tencentqq = forwardRef(function Tencentqq(
-  { color = 'currentColor', size = 24, title = 'Tencent QQ', ...others },
+  { color = 'currentColor', size = 24, title = 'tencentqq', ...others },
   ref
 ) {
   return (

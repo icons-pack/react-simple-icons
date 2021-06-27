@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Gimp = forwardRef(function Gimp({ color = 'currentColor', size = 24, title = 'GIMP', ...others }, ref) {
+const Gimp = forwardRef(function Gimp({ color = 'currentColor', size = 24, title = 'gimp', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Openai = forwardRef(function Openai({ color = 'currentColor', size = 24, title = 'OpenAI', ...others }, ref) {
+const Openai = forwardRef(function Openai({ color = 'currentColor', size = 24, title = 'openai', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

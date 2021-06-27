@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const MicroDotBlog = forwardRef(function MicroDotBlog(
-  { color = 'currentColor', size = 24, title = 'micro-dot-blog', ...others },
+const Microdotblog = forwardRef(function Microdotblog(
+  { color = 'currentColor', size = 24, title = 'microdotblog', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const MicroDotBlog = forwardRef(function MicroDotBlog(
   );
 });
 
-MicroDotBlog.propTypes = {
+Microdotblog.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ MicroDotBlog.propTypes = {
   title: PropTypes.string,
 };
 
-export default MicroDotBlog;
+export default Microdotblog;

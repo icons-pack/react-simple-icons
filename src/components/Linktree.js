@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Linktree = forwardRef(function Linktree(
-  { color = 'currentColor', size = 24, title = 'Linktree', ...others },
+  { color = 'currentColor', size = 24, title = 'linktree', ...others },
   ref
 ) {
   return (

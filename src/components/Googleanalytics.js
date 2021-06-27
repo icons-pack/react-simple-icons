@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Googleanalytics = forwardRef(function Googleanalytics(
-  { color = 'currentColor', size = 24, title = 'Google Analytics', ...others },
+  { color = 'currentColor', size = 24, title = 'googleanalytics', ...others },
   ref
 ) {
   return (

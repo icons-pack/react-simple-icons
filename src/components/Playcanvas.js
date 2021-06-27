@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Playcanvas = forwardRef(function Playcanvas(
-  { color = 'currentColor', size = 24, title = 'PlayCanvas', ...others },
+  { color = 'currentColor', size = 24, title = 'playcanvas', ...others },
   ref
 ) {
   return (

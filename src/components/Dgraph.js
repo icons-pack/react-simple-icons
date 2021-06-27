@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Dgraph = forwardRef(function Dgraph({ color = 'currentColor', size = 24, title = 'Dgraph', ...others }, ref) {
+const Dgraph = forwardRef(function Dgraph({ color = 'currentColor', size = 24, title = 'dgraph', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

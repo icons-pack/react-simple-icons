@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Elasticsearch = forwardRef(function Elasticsearch(
-  { color = 'currentColor', size = 24, title = 'Elasticsearch', ...others },
+  { color = 'currentColor', size = 24, title = 'elasticsearch', ...others },
   ref
 ) {
   return (

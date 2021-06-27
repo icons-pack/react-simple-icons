@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Semaphoreci = forwardRef(function Semaphoreci(
-  { color = 'currentColor', size = 24, title = 'Semaphore CI', ...others },
+  { color = 'currentColor', size = 24, title = 'semaphoreci', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Quickbooks = forwardRef(function Quickbooks(
-  { color = 'currentColor', size = 24, title = 'QuickBooks', ...others },
+  { color = 'currentColor', size = 24, title = 'quickbooks', ...others },
   ref
 ) {
   return (

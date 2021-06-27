@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Gnome = forwardRef(function Gnome({ color = 'currentColor', size = 24, title = 'GNOME', ...others }, ref) {
+const Gnome = forwardRef(function Gnome({ color = 'currentColor', size = 24, title = 'gnome', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

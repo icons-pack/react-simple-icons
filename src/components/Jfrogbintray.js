@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Jfrogbintray = forwardRef(function Jfrogbintray(
-  { color = 'currentColor', size = 24, title = 'JFrog Bintray', ...others },
+  { color = 'currentColor', size = 24, title = 'jfrogbintray', ...others },
   ref
 ) {
   return (

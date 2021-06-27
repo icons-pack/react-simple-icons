@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Eleventy = forwardRef(function Eleventy(
-  { color = 'currentColor', size = 24, title = 'Eleventy', ...others },
+  { color = 'currentColor', size = 24, title = 'eleventy', ...others },
   ref
 ) {
   return (

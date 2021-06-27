@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Googlescholar = forwardRef(function Googlescholar(
-  { color = 'currentColor', size = 24, title = 'Google Scholar', ...others },
+  { color = 'currentColor', size = 24, title = 'googlescholar', ...others },
   ref
 ) {
   return (

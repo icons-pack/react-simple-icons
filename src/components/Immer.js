@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Immer = forwardRef(function Immer({ color = 'currentColor', size = 24, title = 'Immer', ...others }, ref) {
+const Immer = forwardRef(function Immer({ color = 'currentColor', size = 24, title = 'immer', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

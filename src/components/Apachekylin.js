@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Apachekylin = forwardRef(function Apachekylin(
-  { color = 'currentColor', size = 24, title = 'Apache Kylin', ...others },
+  { color = 'currentColor', size = 24, title = 'apachekylin', ...others },
   ref
 ) {
   return (

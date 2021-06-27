@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Codesandbox = forwardRef(function Codesandbox(
-  { color = 'currentColor', size = 24, title = 'CodeSandbox', ...others },
+  { color = 'currentColor', size = 24, title = 'codesandbox', ...others },
   ref
 ) {
   return (

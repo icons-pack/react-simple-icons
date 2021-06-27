@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Appstore = forwardRef(function Appstore(
-  { color = 'currentColor', size = 24, title = 'App Store', ...others },
+  { color = 'currentColor', size = 24, title = 'appstore', ...others },
   ref
 ) {
   return (

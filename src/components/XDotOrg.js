@@ -1,10 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const XDotOrg = forwardRef(function XDotOrg(
-  { color = 'currentColor', size = 24, title = 'x-dot-org', ...others },
-  ref
-) {
+const Xdotorg = forwardRef(function Xdotorg({ color = 'currentColor', size = 24, title = 'xdotorg', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -20,7 +17,7 @@ const XDotOrg = forwardRef(function XDotOrg(
   );
 });
 
-XDotOrg.propTypes = {
+Xdotorg.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +32,4 @@ XDotOrg.propTypes = {
   title: PropTypes.string,
 };
 
-export default XDotOrg;
+export default Xdotorg;

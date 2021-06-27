@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Wemo = forwardRef(function Wemo({ color = 'currentColor', size = 24, title = 'WEMO', ...others }, ref) {
+const Wemo = forwardRef(function Wemo({ color = 'currentColor', size = 24, title = 'wemo', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

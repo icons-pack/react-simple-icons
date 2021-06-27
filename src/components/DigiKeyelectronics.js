@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const DigiKeyelectronics = forwardRef(function DigiKeyelectronics(
-  { color = 'currentColor', size = 24, title = 'digi-keyelectronics', ...others },
+const Digikeyelectronics = forwardRef(function Digikeyelectronics(
+  { color = 'currentColor', size = 24, title = 'digikeyelectronics', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const DigiKeyelectronics = forwardRef(function DigiKeyelectronics(
   );
 });
 
-DigiKeyelectronics.propTypes = {
+Digikeyelectronics.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ DigiKeyelectronics.propTypes = {
   title: PropTypes.string,
 };
 
-export default DigiKeyelectronics;
+export default Digikeyelectronics;

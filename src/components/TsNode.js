@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const TsNode = forwardRef(function TsNode({ color = 'currentColor', size = 24, title = 'ts-node', ...others }, ref) {
+const Tsnode = forwardRef(function Tsnode({ color = 'currentColor', size = 24, title = 'tsnode', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -17,7 +17,7 @@ const TsNode = forwardRef(function TsNode({ color = 'currentColor', size = 24, t
   );
 });
 
-TsNode.propTypes = {
+Tsnode.propTypes = {
   /**
    * Hex color or color name
    */
@@ -32,4 +32,4 @@ TsNode.propTypes = {
   title: PropTypes.string,
 };
 
-export default TsNode;
+export default Tsnode;

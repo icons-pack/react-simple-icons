@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Xcode = forwardRef(function Xcode({ color = 'currentColor', size = 24, title = 'Xcode', ...others }, ref) {
+const Xcode = forwardRef(function Xcode({ color = 'currentColor', size = 24, title = 'xcode', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

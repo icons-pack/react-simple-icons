@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Sonarlint = forwardRef(function Sonarlint(
-  { color = 'currentColor', size = 24, title = 'SonarLint', ...others },
+  { color = 'currentColor', size = 24, title = 'sonarlint', ...others },
   ref
 ) {
   return (

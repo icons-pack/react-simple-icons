@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const VueDotJs = forwardRef(function VueDotJs(
-  { color = 'currentColor', size = 24, title = 'vue-dot-js', ...others },
+const Vuedotjs = forwardRef(function Vuedotjs(
+  { color = 'currentColor', size = 24, title = 'vuedotjs', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const VueDotJs = forwardRef(function VueDotJs(
   );
 });
 
-VueDotJs.propTypes = {
+Vuedotjs.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ VueDotJs.propTypes = {
   title: PropTypes.string,
 };
 
-export default VueDotJs;
+export default Vuedotjs;

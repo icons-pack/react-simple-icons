@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Junipernetworks = forwardRef(function Junipernetworks(
-  { color = 'currentColor', size = 24, title = 'Juniper Networks', ...others },
+  { color = 'currentColor', size = 24, title = 'junipernetworks', ...others },
   ref
 ) {
   return (

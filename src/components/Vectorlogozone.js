@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Vectorlogozone = forwardRef(function Vectorlogozone(
-  { color = 'currentColor', size = 24, title = 'Vector Logo Zone', ...others },
+  { color = 'currentColor', size = 24, title = 'vectorlogozone', ...others },
   ref
 ) {
   return (

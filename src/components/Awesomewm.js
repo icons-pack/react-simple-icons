@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Awesomewm = forwardRef(function Awesomewm(
-  { color = 'currentColor', size = 24, title = 'awesomeWM', ...others },
+  { color = 'currentColor', size = 24, title = 'awesomewm', ...others },
   ref
 ) {
   return (

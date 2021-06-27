@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Kotlin = forwardRef(function Kotlin({ color = 'currentColor', size = 24, title = 'Kotlin', ...others }, ref) {
+const Kotlin = forwardRef(function Kotlin({ color = 'currentColor', size = 24, title = 'kotlin', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

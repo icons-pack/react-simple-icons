@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Selenium = forwardRef(function Selenium(
-  { color = 'currentColor', size = 24, title = 'Selenium', ...others },
+  { color = 'currentColor', size = 24, title = 'selenium', ...others },
   ref
 ) {
   return (

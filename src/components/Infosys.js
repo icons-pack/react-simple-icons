@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Infosys = forwardRef(function Infosys({ color = 'currentColor', size = 24, title = 'Infosys', ...others }, ref) {
+const Infosys = forwardRef(function Infosys({ color = 'currentColor', size = 24, title = 'infosys', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

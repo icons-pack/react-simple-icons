@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const SemanticRelease = forwardRef(function SemanticRelease(
-  { color = 'currentColor', size = 24, title = 'semantic-release', ...others },
+const Semanticrelease = forwardRef(function Semanticrelease(
+  { color = 'currentColor', size = 24, title = 'semanticrelease', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const SemanticRelease = forwardRef(function SemanticRelease(
   );
 });
 
-SemanticRelease.propTypes = {
+Semanticrelease.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ SemanticRelease.propTypes = {
   title: PropTypes.string,
 };
 
-export default SemanticRelease;
+export default Semanticrelease;

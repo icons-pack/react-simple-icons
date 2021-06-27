@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Letsencrypt = forwardRef(function Letsencrypt(
-  { color = 'currentColor', size = 24, title = 'Let’s Encrypt', ...others },
+  { color = 'currentColor', size = 24, title = 'letsencrypt', ...others },
   ref
 ) {
   return (

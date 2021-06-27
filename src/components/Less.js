@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Less = forwardRef(function Less({ color = 'currentColor', size = 24, title = 'Less', ...others }, ref) {
+const Less = forwardRef(function Less({ color = 'currentColor', size = 24, title = 'less', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

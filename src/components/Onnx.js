@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Onnx = forwardRef(function Onnx({ color = 'currentColor', size = 24, title = 'ONNX', ...others }, ref) {
+const Onnx = forwardRef(function Onnx({ color = 'currentColor', size = 24, title = 'onnx', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

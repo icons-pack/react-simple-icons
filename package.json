@@ -33,6 +33,7 @@
     "build"
   ],
   "scripts": {
+    "release": "standard-version",
     "build": "yarn build:lib && yarn build:bundle",
     "build:bundle": "yarn clean:build && rollup --config rollup.config.js",
     "build:lib": "yarn clean:lib && NODE_ENV=production babel src/ --out-dir ./lib --copy-files",
@@ -42,7 +43,15 @@
     "generate:components": "yarn clean:components && node scripts/generate-components",
     "lint": "yarn lint:eslint",
     "lint:eslint": "eslint --fix .",
-    "prettier": "prettier --config .prettierrc \"./**/*.+(js|json|jsx)\" --write"
+    "prettier": "prettier --config .prettierrc \"./**/*.+(js|json)\" --write"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix"
+    ],
+    "./**/*.+(js|json)": [
+      "prettier --write"
+    ]
   },
   "dependencies": {
     "prop-types": "^15.7.2"
@@ -55,6 +64,8 @@
     "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
     "babel-eslint": "^10.0.2",
     "babel-loader": "^8.0.6",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
@@ -64,15 +75,17 @@
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.3",
-    "husky": "^4.2.5",
-    "lint-staged": "^10.2.11",
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0",
     "prettier": "^1.18.2",
     "prettier-eslint": "^9.0.0",
     "rimraf": "^3.0.0",
     "rollup": "^2.7.6",
     "rollup-plugin-babel": "^4.4.0",
+    "semantic-release": "^17.4.4",
     "signale": "^1.4.0",
-    "simple-icons": "^4.25.0",
+    "simple-icons": "^5.4.0",
+    "standard-version": "^9.3.0",
     "uppercamelcase": "^3.0.0"
   },
   "peerDependencies": {

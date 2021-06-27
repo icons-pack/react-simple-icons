@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Googleassistant = forwardRef(function Googleassistant(
-  { color = 'currentColor', size = 24, title = 'Google Assistant', ...others },
+  { color = 'currentColor', size = 24, title = 'googleassistant', ...others },
   ref
 ) {
   return (

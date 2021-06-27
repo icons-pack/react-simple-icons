@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Retroarch = forwardRef(function Retroarch(
-  { color = 'currentColor', size = 24, title = 'RetroArch', ...others },
+  { color = 'currentColor', size = 24, title = 'retroarch', ...others },
   ref
 ) {
   return (

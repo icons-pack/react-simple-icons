@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Anaconda = forwardRef(function Anaconda(
-  { color = 'currentColor', size = 24, title = 'Anaconda', ...others },
+  { color = 'currentColor', size = 24, title = 'anaconda', ...others },
   ref
 ) {
   return (

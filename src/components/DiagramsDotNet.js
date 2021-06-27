@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const DiagramsDotNet = forwardRef(function DiagramsDotNet(
-  { color = 'currentColor', size = 24, title = 'diagrams-dot-net', ...others },
+const Diagramsdotnet = forwardRef(function Diagramsdotnet(
+  { color = 'currentColor', size = 24, title = 'diagramsdotnet', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const DiagramsDotNet = forwardRef(function DiagramsDotNet(
   );
 });
 
-DiagramsDotNet.propTypes = {
+Diagramsdotnet.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ DiagramsDotNet.propTypes = {
   title: PropTypes.string,
 };
 
-export default DiagramsDotNet;
+export default Diagramsdotnet;

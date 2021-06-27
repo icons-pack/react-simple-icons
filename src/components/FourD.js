@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const FourD = forwardRef(function FourD({ color = 'currentColor', size = 24, title = '4D', ...others }, ref) {
+const FourD = forwardRef(function FourD({ color = 'currentColor', size = 24, title = '4d', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

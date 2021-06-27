@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Tampermonkey = forwardRef(function Tampermonkey(
-  { color = 'currentColor', size = 24, title = 'Tampermonkey', ...others },
+  { color = 'currentColor', size = 24, title = 'tampermonkey', ...others },
   ref
 ) {
   return (

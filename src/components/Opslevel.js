@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Opslevel = forwardRef(function Opslevel(
-  { color = 'currentColor', size = 24, title = 'OpsLevel', ...others },
+  { color = 'currentColor', size = 24, title = 'opslevel', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Googlechrome = forwardRef(function Googlechrome(
-  { color = 'currentColor', size = 24, title = 'Google Chrome', ...others },
+  { color = 'currentColor', size = 24, title = 'googlechrome', ...others },
   ref
 ) {
   return (

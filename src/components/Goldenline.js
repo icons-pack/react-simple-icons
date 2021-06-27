@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Goldenline = forwardRef(function Goldenline(
-  { color = 'currentColor', size = 24, title = 'GoldenLine', ...others },
+  { color = 'currentColor', size = 24, title = 'goldenline', ...others },
   ref
 ) {
   return (

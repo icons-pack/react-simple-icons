@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Monero = forwardRef(function Monero({ color = 'currentColor', size = 24, title = 'Monero', ...others }, ref) {
+const Monero = forwardRef(function Monero({ color = 'currentColor', size = 24, title = 'monero', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

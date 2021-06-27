@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Handshake = forwardRef(function Handshake(
-  { color = 'currentColor', size = 24, title = 'Handshake', ...others },
+  { color = 'currentColor', size = 24, title = 'handshake', ...others },
   ref
 ) {
   return (

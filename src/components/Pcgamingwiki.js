@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Pcgamingwiki = forwardRef(function Pcgamingwiki(
-  { color = 'currentColor', size = 24, title = 'PCGamingWiki', ...others },
+  { color = 'currentColor', size = 24, title = 'pcgamingwiki', ...others },
   ref
 ) {
   return (

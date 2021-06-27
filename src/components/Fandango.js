@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Fandango = forwardRef(function Fandango(
-  { color = 'currentColor', size = 24, title = 'Fandango', ...others },
+  { color = 'currentColor', size = 24, title = 'fandango', ...others },
   ref
 ) {
   return (

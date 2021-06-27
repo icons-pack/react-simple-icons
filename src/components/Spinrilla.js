@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Spinrilla = forwardRef(function Spinrilla(
-  { color = 'currentColor', size = 24, title = 'Spinrilla', ...others },
+  { color = 'currentColor', size = 24, title = 'spinrilla', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Pluralsight = forwardRef(function Pluralsight(
-  { color = 'currentColor', size = 24, title = 'Pluralsight', ...others },
+  { color = 'currentColor', size = 24, title = 'pluralsight', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const CloudSixSix = forwardRef(function CloudSixSix(
-  { color = 'currentColor', size = 24, title = 'Cloud 66', ...others },
+  { color = 'currentColor', size = 24, title = 'cloud66', ...others },
   ref
 ) {
   return (

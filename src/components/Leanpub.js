@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Leanpub = forwardRef(function Leanpub({ color = 'currentColor', size = 24, title = 'Leanpub', ...others }, ref) {
+const Leanpub = forwardRef(function Leanpub({ color = 'currentColor', size = 24, title = 'leanpub', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

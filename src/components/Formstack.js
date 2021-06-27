@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Formstack = forwardRef(function Formstack(
-  { color = 'currentColor', size = 24, title = 'Formstack', ...others },
+  { color = 'currentColor', size = 24, title = 'formstack', ...others },
   ref
 ) {
   return (

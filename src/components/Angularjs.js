@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Angularjs = forwardRef(function Angularjs(
-  { color = 'currentColor', size = 24, title = 'AngularJS', ...others },
+  { color = 'currentColor', size = 24, title = 'angularjs', ...others },
   ref
 ) {
   return (

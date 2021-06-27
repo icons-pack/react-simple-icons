@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Editorconfig = forwardRef(function Editorconfig(
-  { color = 'currentColor', size = 24, title = 'EditorConfig', ...others },
+  { color = 'currentColor', size = 24, title = 'editorconfig', ...others },
   ref
 ) {
   return (

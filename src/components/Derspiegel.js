@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Derspiegel = forwardRef(function Derspiegel(
-  { color = 'currentColor', size = 24, title = 'Der Spiegel', ...others },
+  { color = 'currentColor', size = 24, title = 'derspiegel', ...others },
   ref
 ) {
   return (

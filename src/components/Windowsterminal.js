@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Windowsterminal = forwardRef(function Windowsterminal(
-  { color = 'currentColor', size = 24, title = 'Windows Terminal', ...others },
+  { color = 'currentColor', size = 24, title = 'windowsterminal', ...others },
   ref
 ) {
   return (

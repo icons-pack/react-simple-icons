@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const TpLink = forwardRef(function TpLink({ color = 'currentColor', size = 24, title = 'tp-link', ...others }, ref) {
+const Tplink = forwardRef(function Tplink({ color = 'currentColor', size = 24, title = 'tplink', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -17,7 +17,7 @@ const TpLink = forwardRef(function TpLink({ color = 'currentColor', size = 24, t
   );
 });
 
-TpLink.propTypes = {
+Tplink.propTypes = {
   /**
    * Hex color or color name
    */
@@ -32,4 +32,4 @@ TpLink.propTypes = {
   title: PropTypes.string,
 };
 
-export default TpLink;
+export default Tplink;

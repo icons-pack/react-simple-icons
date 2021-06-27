@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Jenkins = forwardRef(function Jenkins({ color = 'currentColor', size = 24, title = 'Jenkins', ...others }, ref) {
+const Jenkins = forwardRef(function Jenkins({ color = 'currentColor', size = 24, title = 'jenkins', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

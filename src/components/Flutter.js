@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Flutter = forwardRef(function Flutter({ color = 'currentColor', size = 24, title = 'Flutter', ...others }, ref) {
+const Flutter = forwardRef(function Flutter({ color = 'currentColor', size = 24, title = 'flutter', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

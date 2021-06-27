@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Protonmail = forwardRef(function Protonmail(
-  { color = 'currentColor', size = 24, title = 'ProtonMail', ...others },
+  { color = 'currentColor', size = 24, title = 'protonmail', ...others },
   ref
 ) {
   return (

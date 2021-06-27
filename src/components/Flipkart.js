@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Flipkart = forwardRef(function Flipkart(
-  { color = 'currentColor', size = 24, title = 'Flipkart', ...others },
+  { color = 'currentColor', size = 24, title = 'flipkart', ...others },
   ref
 ) {
   return (

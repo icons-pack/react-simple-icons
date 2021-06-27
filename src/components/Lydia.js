@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Lydia = forwardRef(function Lydia({ color = 'currentColor', size = 24, title = 'Lydia', ...others }, ref) {
+const Lydia = forwardRef(function Lydia({ color = 'currentColor', size = 24, title = 'lydia', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

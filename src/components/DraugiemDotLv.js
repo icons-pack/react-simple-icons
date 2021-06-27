@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const DraugiemDotLv = forwardRef(function DraugiemDotLv(
-  { color = 'currentColor', size = 24, title = 'draugiem-dot-lv', ...others },
+const Draugiemdotlv = forwardRef(function Draugiemdotlv(
+  { color = 'currentColor', size = 24, title = 'draugiemdotlv', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const DraugiemDotLv = forwardRef(function DraugiemDotLv(
   );
 });
 
-DraugiemDotLv.propTypes = {
+Draugiemdotlv.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ DraugiemDotLv.propTypes = {
   title: PropTypes.string,
 };
 
-export default DraugiemDotLv;
+export default Draugiemdotlv;

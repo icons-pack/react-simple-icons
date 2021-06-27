@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const ThreeDotJs = forwardRef(function ThreeDotJs(
-  { color = 'currentColor', size = 24, title = 'three-dot-js', ...others },
+const Threedotjs = forwardRef(function Threedotjs(
+  { color = 'currentColor', size = 24, title = 'threedotjs', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const ThreeDotJs = forwardRef(function ThreeDotJs(
   );
 });
 
-ThreeDotJs.propTypes = {
+Threedotjs.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ ThreeDotJs.propTypes = {
   title: PropTypes.string,
 };
 
-export default ThreeDotJs;
+export default Threedotjs;

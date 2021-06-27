@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Brandfolder = forwardRef(function Brandfolder(
-  { color = 'currentColor', size = 24, title = 'Brandfolder', ...others },
+  { color = 'currentColor', size = 24, title = 'brandfolder', ...others },
   ref
 ) {
   return (

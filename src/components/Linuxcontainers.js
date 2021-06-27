@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Linuxcontainers = forwardRef(function Linuxcontainers(
-  { color = 'currentColor', size = 24, title = 'Linux Containers', ...others },
+  { color = 'currentColor', size = 24, title = 'linuxcontainers', ...others },
   ref
 ) {
   return (

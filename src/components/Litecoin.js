@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Litecoin = forwardRef(function Litecoin(
-  { color = 'currentColor', size = 24, title = 'Litecoin', ...others },
+  { color = 'currentColor', size = 24, title = 'litecoin', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Windows95 = forwardRef(function Windows95(
-  { color = 'currentColor', size = 24, title = 'Windows 95', ...others },
+  { color = 'currentColor', size = 24, title = 'windows95', ...others },
   ref
 ) {
   return (

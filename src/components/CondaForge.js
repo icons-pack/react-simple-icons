@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const CondaForge = forwardRef(function CondaForge(
-  { color = 'currentColor', size = 24, title = 'conda-forge', ...others },
+const Condaforge = forwardRef(function Condaforge(
+  { color = 'currentColor', size = 24, title = 'condaforge', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const CondaForge = forwardRef(function CondaForge(
   );
 });
 
-CondaForge.propTypes = {
+Condaforge.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ CondaForge.propTypes = {
   title: PropTypes.string,
 };
 
-export default CondaForge;
+export default Condaforge;

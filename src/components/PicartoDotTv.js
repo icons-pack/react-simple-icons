@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const PicartoDotTv = forwardRef(function PicartoDotTv(
-  { color = 'currentColor', size = 24, title = 'picarto-dot-tv', ...others },
+const Picartodottv = forwardRef(function Picartodottv(
+  { color = 'currentColor', size = 24, title = 'picartodottv', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const PicartoDotTv = forwardRef(function PicartoDotTv(
   );
 });
 
-PicartoDotTv.propTypes = {
+Picartodottv.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ PicartoDotTv.propTypes = {
   title: PropTypes.string,
 };
 
-export default PicartoDotTv;
+export default Picartodottv;

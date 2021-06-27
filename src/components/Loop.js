@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Loop = forwardRef(function Loop({ color = 'currentColor', size = 24, title = 'Loop', ...others }, ref) {
+const Loop = forwardRef(function Loop({ color = 'currentColor', size = 24, title = 'loop', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

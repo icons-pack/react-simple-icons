@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Googleplay = forwardRef(function Googleplay(
-  { color = 'currentColor', size = 24, title = 'Google Play', ...others },
+  { color = 'currentColor', size = 24, title = 'googleplay', ...others },
   ref
 ) {
   return (

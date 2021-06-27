@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Erlang = forwardRef(function Erlang({ color = 'currentColor', size = 24, title = 'Erlang', ...others }, ref) {
+const Erlang = forwardRef(function Erlang({ color = 'currentColor', size = 24, title = 'erlang', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

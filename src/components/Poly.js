@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Poly = forwardRef(function Poly({ color = 'currentColor', size = 24, title = 'Poly', ...others }, ref) {
+const Poly = forwardRef(function Poly({ color = 'currentColor', size = 24, title = 'poly', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

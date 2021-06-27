@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Gridsome = forwardRef(function Gridsome(
-  { color = 'currentColor', size = 24, title = 'Gridsome', ...others },
+  { color = 'currentColor', size = 24, title = 'gridsome', ...others },
   ref
 ) {
   return (

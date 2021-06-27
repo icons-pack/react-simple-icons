@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Lubuntu = forwardRef(function Lubuntu({ color = 'currentColor', size = 24, title = 'Lubuntu', ...others }, ref) {
+const Lubuntu = forwardRef(function Lubuntu({ color = 'currentColor', size = 24, title = 'lubuntu', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

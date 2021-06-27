@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Ram = forwardRef(function Ram({ color = 'currentColor', size = 24, title = 'Ram', ...others }, ref) {
+const Ram = forwardRef(function Ram({ color = 'currentColor', size = 24, title = 'ram', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

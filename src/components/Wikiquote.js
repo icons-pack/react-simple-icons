@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Wikiquote = forwardRef(function Wikiquote(
-  { color = 'currentColor', size = 24, title = 'Wikiquote', ...others },
+  { color = 'currentColor', size = 24, title = 'wikiquote', ...others },
   ref
 ) {
   return (

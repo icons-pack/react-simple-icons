@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Bandcamp = forwardRef(function Bandcamp(
-  { color = 'currentColor', size = 24, title = 'Bandcamp', ...others },
+  { color = 'currentColor', size = 24, title = 'bandcamp', ...others },
   ref
 ) {
   return (

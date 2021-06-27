@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Apachehive = forwardRef(function Apachehive(
-  { color = 'currentColor', size = 24, title = 'Apache Hive', ...others },
+  { color = 'currentColor', size = 24, title = 'apachehive', ...others },
   ref
 ) {
   return (

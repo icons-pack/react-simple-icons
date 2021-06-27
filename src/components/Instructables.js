@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Instructables = forwardRef(function Instructables(
-  { color = 'currentColor', size = 24, title = 'Instructables', ...others },
+  { color = 'currentColor', size = 24, title = 'instructables', ...others },
   ref
 ) {
   return (

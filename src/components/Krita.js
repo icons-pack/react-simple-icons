@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Krita = forwardRef(function Krita({ color = 'currentColor', size = 24, title = 'Krita', ...others }, ref) {
+const Krita = forwardRef(function Krita({ color = 'currentColor', size = 24, title = 'krita', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

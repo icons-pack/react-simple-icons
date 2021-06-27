@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Wheniwork = forwardRef(function Wheniwork(
-  { color = 'currentColor', size = 24, title = 'When I Work', ...others },
+  { color = 'currentColor', size = 24, title = 'wheniwork', ...others },
   ref
 ) {
   return (

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Redis = forwardRef(function Redis({ color = 'currentColor', size = 24, title = 'Redis', ...others }, ref) {
+const Redis = forwardRef(function Redis({ color = 'currentColor', size = 24, title = 'redis', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

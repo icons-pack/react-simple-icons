@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Blazor = forwardRef(function Blazor({ color = 'currentColor', size = 24, title = 'Blazor', ...others }, ref) {
+const Blazor = forwardRef(function Blazor({ color = 'currentColor', size = 24, title = 'blazor', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

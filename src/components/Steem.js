@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Steem = forwardRef(function Steem({ color = 'currentColor', size = 24, title = 'Steem', ...others }, ref) {
+const Steem = forwardRef(function Steem({ color = 'currentColor', size = 24, title = 'steem', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

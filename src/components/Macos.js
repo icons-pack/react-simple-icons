@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Macos = forwardRef(function Macos({ color = 'currentColor', size = 24, title = 'macOS', ...others }, ref) {
+const Macos = forwardRef(function Macos({ color = 'currentColor', size = 24, title = 'macos', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Codio = forwardRef(function Codio({ color = 'currentColor', size = 24, title = 'Codio', ...others }, ref) {
+const Codio = forwardRef(function Codio({ color = 'currentColor', size = 24, title = 'codio', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

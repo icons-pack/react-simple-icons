@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Zingat = forwardRef(function Zingat({ color = 'currentColor', size = 24, title = 'Zingat', ...others }, ref) {
+const Zingat = forwardRef(function Zingat({ color = 'currentColor', size = 24, title = 'zingat', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

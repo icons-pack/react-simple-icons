@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Picnic = forwardRef(function Picnic({ color = 'currentColor', size = 24, title = 'Picnic', ...others }, ref) {
+const Picnic = forwardRef(function Picnic({ color = 'currentColor', size = 24, title = 'picnic', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

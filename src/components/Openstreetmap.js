@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Openstreetmap = forwardRef(function Openstreetmap(
-  { color = 'currentColor', size = 24, title = 'OpenStreetMap', ...others },
+  { color = 'currentColor', size = 24, title = 'openstreetmap', ...others },
   ref
 ) {
   return (

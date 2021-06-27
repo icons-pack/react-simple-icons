@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Yelp = forwardRef(function Yelp({ color = 'currentColor', size = 24, title = 'Yelp', ...others }, ref) {
+const Yelp = forwardRef(function Yelp({ color = 'currentColor', size = 24, title = 'yelp', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

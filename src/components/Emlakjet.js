@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Emlakjet = forwardRef(function Emlakjet(
-  { color = 'currentColor', size = 24, title = 'Emlakjet', ...others },
+  { color = 'currentColor', size = 24, title = 'emlakjet', ...others },
   ref
 ) {
   return (

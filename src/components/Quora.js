@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Quora = forwardRef(function Quora({ color = 'currentColor', size = 24, title = 'Quora', ...others }, ref) {
+const Quora = forwardRef(function Quora({ color = 'currentColor', size = 24, title = 'quora', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Figma = forwardRef(function Figma({ color = 'currentColor', size = 24, title = 'Figma', ...others }, ref) {
+const Figma = forwardRef(function Figma({ color = 'currentColor', size = 24, title = 'figma', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

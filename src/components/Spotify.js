@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Spotify = forwardRef(function Spotify({ color = 'currentColor', size = 24, title = 'Spotify', ...others }, ref) {
+const Spotify = forwardRef(function Spotify({ color = 'currentColor', size = 24, title = 'spotify', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

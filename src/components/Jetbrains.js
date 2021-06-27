@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Jetbrains = forwardRef(function Jetbrains(
-  { color = 'currentColor', size = 24, title = 'JetBrains', ...others },
+  { color = 'currentColor', size = 24, title = 'jetbrains', ...others },
   ref
 ) {
   return (

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Gitpod = forwardRef(function Gitpod({ color = 'currentColor', size = 24, title = 'Gitpod', ...others }, ref) {
+const Gitpod = forwardRef(function Gitpod({ color = 'currentColor', size = 24, title = 'gitpod', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

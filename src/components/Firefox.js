@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Firefox = forwardRef(function Firefox({ color = 'currentColor', size = 24, title = 'Firefox', ...others }, ref) {
+const Firefox = forwardRef(function Firefox({ color = 'currentColor', size = 24, title = 'firefox', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

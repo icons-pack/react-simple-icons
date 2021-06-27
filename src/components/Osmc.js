@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Osmc = forwardRef(function Osmc({ color = 'currentColor', size = 24, title = 'OSMC', ...others }, ref) {
+const Osmc = forwardRef(function Osmc({ color = 'currentColor', size = 24, title = 'osmc', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

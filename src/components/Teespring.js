@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Teespring = forwardRef(function Teespring(
-  { color = 'currentColor', size = 24, title = 'Teespring', ...others },
+  { color = 'currentColor', size = 24, title = 'teespring', ...others },
   ref
 ) {
   return (

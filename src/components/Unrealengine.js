@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Unrealengine = forwardRef(function Unrealengine(
-  { color = 'currentColor', size = 24, title = 'Unreal Engine', ...others },
+  { color = 'currentColor', size = 24, title = 'unrealengine', ...others },
   ref
 ) {
   return (

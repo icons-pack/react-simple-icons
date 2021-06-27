@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Intellijidea = forwardRef(function Intellijidea(
-  { color = 'currentColor', size = 24, title = 'IntelliJ IDEA', ...others },
+  { color = 'currentColor', size = 24, title = 'intellijidea', ...others },
   ref
 ) {
   return (

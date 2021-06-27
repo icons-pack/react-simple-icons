@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Freenas = forwardRef(function Freenas({ color = 'currentColor', size = 24, title = 'FreeNAS', ...others }, ref) {
+const Freenas = forwardRef(function Freenas({ color = 'currentColor', size = 24, title = 'freenas', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

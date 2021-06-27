@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Sparkpost = forwardRef(function Sparkpost(
-  { color = 'currentColor', size = 24, title = 'SparkPost', ...others },
+  { color = 'currentColor', size = 24, title = 'sparkpost', ...others },
   ref
 ) {
   return (

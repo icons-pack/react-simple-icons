@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Baidu = forwardRef(function Baidu({ color = 'currentColor', size = 24, title = 'Baidu', ...others }, ref) {
+const Baidu = forwardRef(function Baidu({ color = 'currentColor', size = 24, title = 'baidu', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

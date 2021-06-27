@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Microsoftsharepoint = forwardRef(function Microsoftsharepoint(
-  { color = 'currentColor', size = 24, title = 'Microsoft SharePoint', ...others },
+  { color = 'currentColor', size = 24, title = 'microsoftsharepoint', ...others },
   ref
 ) {
   return (

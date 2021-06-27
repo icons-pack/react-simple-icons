@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Microsoftword = forwardRef(function Microsoftword(
-  { color = 'currentColor', size = 24, title = 'Microsoft Word', ...others },
+  { color = 'currentColor', size = 24, title = 'microsoftword', ...others },
   ref
 ) {
   return (

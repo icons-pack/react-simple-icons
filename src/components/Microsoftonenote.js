@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Microsoftonenote = forwardRef(function Microsoftonenote(
-  { color = 'currentColor', size = 24, title = 'Microsoft OneNote', ...others },
+  { color = 'currentColor', size = 24, title = 'microsoftonenote', ...others },
   ref
 ) {
   return (

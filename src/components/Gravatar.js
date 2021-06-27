@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Gravatar = forwardRef(function Gravatar(
-  { color = 'currentColor', size = 24, title = 'Gravatar', ...others },
+  { color = 'currentColor', size = 24, title = 'gravatar', ...others },
   ref
 ) {
   return (

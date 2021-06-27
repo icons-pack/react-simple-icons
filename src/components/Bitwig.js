@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Bitwig = forwardRef(function Bitwig({ color = 'currentColor', size = 24, title = 'Bitwig', ...others }, ref) {
+const Bitwig = forwardRef(function Bitwig({ color = 'currentColor', size = 24, title = 'bitwig', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

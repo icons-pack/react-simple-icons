@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Tutanota = forwardRef(function Tutanota(
-  { color = 'currentColor', size = 24, title = 'Tutanota', ...others },
+  { color = 'currentColor', size = 24, title = 'tutanota', ...others },
   ref
 ) {
   return (

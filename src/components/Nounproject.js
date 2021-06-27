@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Nounproject = forwardRef(function Nounproject(
-  { color = 'currentColor', size = 24, title = 'Noun Project', ...others },
+  { color = 'currentColor', size = 24, title = 'nounproject', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Laravelnova = forwardRef(function Laravelnova(
-  { color = 'currentColor', size = 24, title = 'Laravel Nova', ...others },
+  { color = 'currentColor', size = 24, title = 'laravelnova', ...others },
   ref
 ) {
   return (

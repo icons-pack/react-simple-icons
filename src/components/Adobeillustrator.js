@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Adobeillustrator = forwardRef(function Adobeillustrator(
-  { color = 'currentColor', size = 24, title = 'Adobe Illustrator', ...others },
+  { color = 'currentColor', size = 24, title = 'adobeillustrator', ...others },
   ref
 ) {
   return (

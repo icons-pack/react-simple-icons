@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Nativescript = forwardRef(function Nativescript(
-  { color = 'currentColor', size = 24, title = 'NativeScript', ...others },
+  { color = 'currentColor', size = 24, title = 'nativescript', ...others },
   ref
 ) {
   return (

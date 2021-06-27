@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Coursera = forwardRef(function Coursera(
-  { color = 'currentColor', size = 24, title = 'Coursera', ...others },
+  { color = 'currentColor', size = 24, title = 'coursera', ...others },
   ref
 ) {
   return (

@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const BAndRautomation = forwardRef(function BAndRautomation(
-  { color = 'currentColor', size = 24, title = 'b-and-rautomation', ...others },
+const Bandrautomation = forwardRef(function Bandrautomation(
+  { color = 'currentColor', size = 24, title = 'bandrautomation', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const BAndRautomation = forwardRef(function BAndRautomation(
   );
 });
 
-BAndRautomation.propTypes = {
+Bandrautomation.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ BAndRautomation.propTypes = {
   title: PropTypes.string,
 };
 
-export default BAndRautomation;
+export default Bandrautomation;

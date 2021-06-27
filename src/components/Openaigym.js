@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Openaigym = forwardRef(function Openaigym(
-  { color = 'currentColor', size = 24, title = 'OpenAI Gym', ...others },
+  { color = 'currentColor', size = 24, title = 'openaigym', ...others },
   ref
 ) {
   return (

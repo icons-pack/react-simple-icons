@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Alipay = forwardRef(function Alipay({ color = 'currentColor', size = 24, title = 'Alipay', ...others }, ref) {
+const Alipay = forwardRef(function Alipay({ color = 'currentColor', size = 24, title = 'alipay', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Metabase = forwardRef(function Metabase(
-  { color = 'currentColor', size = 24, title = 'Metabase', ...others },
+  { color = 'currentColor', size = 24, title = 'metabase', ...others },
   ref
 ) {
   return (

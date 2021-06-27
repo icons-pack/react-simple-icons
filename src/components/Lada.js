@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Lada = forwardRef(function Lada({ color = 'currentColor', size = 24, title = 'Lada', ...others }, ref) {
+const Lada = forwardRef(function Lada({ color = 'currentColor', size = 24, title = 'lada', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

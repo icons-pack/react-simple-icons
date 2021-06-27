@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Whitesource = forwardRef(function Whitesource(
-  { color = 'currentColor', size = 24, title = 'WhiteSource', ...others },
+  { color = 'currentColor', size = 24, title = 'whitesource', ...others },
   ref
 ) {
   return (

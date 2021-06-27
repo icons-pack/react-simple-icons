@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Vimeo = forwardRef(function Vimeo({ color = 'currentColor', size = 24, title = 'Vimeo', ...others }, ref) {
+const Vimeo = forwardRef(function Vimeo({ color = 'currentColor', size = 24, title = 'vimeo', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

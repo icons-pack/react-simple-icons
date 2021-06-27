@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Datastax = forwardRef(function Datastax(
-  { color = 'currentColor', size = 24, title = 'DataStax', ...others },
+  { color = 'currentColor', size = 24, title = 'datastax', ...others },
   ref
 ) {
   return (

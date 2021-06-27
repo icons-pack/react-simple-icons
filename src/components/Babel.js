@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Babel = forwardRef(function Babel({ color = 'currentColor', size = 24, title = 'Babel', ...others }, ref) {
+const Babel = forwardRef(function Babel({ color = 'currentColor', size = 24, title = 'babel', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

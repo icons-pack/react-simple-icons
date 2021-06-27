@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Paloaltosoftware = forwardRef(function Paloaltosoftware(
-  { color = 'currentColor', size = 24, title = 'Palo Alto Software', ...others },
+  { color = 'currentColor', size = 24, title = 'paloaltosoftware', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Redbubble = forwardRef(function Redbubble(
-  { color = 'currentColor', size = 24, title = 'Redbubble', ...others },
+  { color = 'currentColor', size = 24, title = 'redbubble', ...others },
   ref
 ) {
   return (

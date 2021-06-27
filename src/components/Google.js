@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Google = forwardRef(function Google({ color = 'currentColor', size = 24, title = 'Google', ...others }, ref) {
+const Google = forwardRef(function Google({ color = 'currentColor', size = 24, title = 'google', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

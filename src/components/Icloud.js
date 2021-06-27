@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Icloud = forwardRef(function Icloud({ color = 'currentColor', size = 24, title = 'iCloud', ...others }, ref) {
+const Icloud = forwardRef(function Icloud({ color = 'currentColor', size = 24, title = 'icloud', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

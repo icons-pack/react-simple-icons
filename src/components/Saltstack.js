@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Saltstack = forwardRef(function Saltstack(
-  { color = 'currentColor', size = 24, title = 'SaltStack', ...others },
+  { color = 'currentColor', size = 24, title = 'saltstack', ...others },
   ref
 ) {
   return (

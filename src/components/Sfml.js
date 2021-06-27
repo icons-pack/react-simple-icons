@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Sfml = forwardRef(function Sfml({ color = 'currentColor', size = 24, title = 'SFML', ...others }, ref) {
+const Sfml = forwardRef(function Sfml({ color = 'currentColor', size = 24, title = 'sfml', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

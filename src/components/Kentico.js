@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Kentico = forwardRef(function Kentico({ color = 'currentColor', size = 24, title = 'Kentico', ...others }, ref) {
+const Kentico = forwardRef(function Kentico({ color = 'currentColor', size = 24, title = 'kentico', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

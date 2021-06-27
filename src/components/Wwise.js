@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Wwise = forwardRef(function Wwise({ color = 'currentColor', size = 24, title = 'Wwise', ...others }, ref) {
+const Wwise = forwardRef(function Wwise({ color = 'currentColor', size = 24, title = 'wwise', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

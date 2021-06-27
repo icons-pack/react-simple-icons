@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Opencollective = forwardRef(function Opencollective(
-  { color = 'currentColor', size = 24, title = 'Open Collective', ...others },
+  { color = 'currentColor', size = 24, title = 'opencollective', ...others },
   ref
 ) {
   return (

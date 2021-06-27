@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Githubactions = forwardRef(function Githubactions(
-  { color = 'currentColor', size = 24, title = 'GitHub Actions', ...others },
+  { color = 'currentColor', size = 24, title = 'githubactions', ...others },
   ref
 ) {
   return (

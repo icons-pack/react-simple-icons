@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Zigbee = forwardRef(function Zigbee({ color = 'currentColor', size = 24, title = 'Zigbee', ...others }, ref) {
+const Zigbee = forwardRef(function Zigbee({ color = 'currentColor', size = 24, title = 'zigbee', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

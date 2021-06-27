@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Angellist = forwardRef(function Angellist(
-  { color = 'currentColor', size = 24, title = 'AngelList', ...others },
+  { color = 'currentColor', size = 24, title = 'angellist', ...others },
   ref
 ) {
   return (

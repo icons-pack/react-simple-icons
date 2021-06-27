@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Gamejolt = forwardRef(function Gamejolt(
-  { color = 'currentColor', size = 24, title = 'Game Jolt', ...others },
+  { color = 'currentColor', size = 24, title = 'gamejolt', ...others },
   ref
 ) {
   return (

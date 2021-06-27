@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Zend = forwardRef(function Zend({ color = 'currentColor', size = 24, title = 'Zend', ...others }, ref) {
+const Zend = forwardRef(function Zend({ color = 'currentColor', size = 24, title = 'zend', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

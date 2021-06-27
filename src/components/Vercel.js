@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Vercel = forwardRef(function Vercel({ color = 'currentColor', size = 24, title = 'Vercel', ...others }, ref) {
+const Vercel = forwardRef(function Vercel({ color = 'currentColor', size = 24, title = 'vercel', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

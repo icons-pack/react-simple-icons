@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Soundcloud = forwardRef(function Soundcloud(
-  { color = 'currentColor', size = 24, title = 'SoundCloud', ...others },
+  { color = 'currentColor', size = 24, title = 'soundcloud', ...others },
   ref
 ) {
   return (

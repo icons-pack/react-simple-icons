@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Invision = forwardRef(function Invision(
-  { color = 'currentColor', size = 24, title = 'InVision', ...others },
+  { color = 'currentColor', size = 24, title = 'invision', ...others },
   ref
 ) {
   return (

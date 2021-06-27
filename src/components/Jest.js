@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Jest = forwardRef(function Jest({ color = 'currentColor', size = 24, title = 'Jest', ...others }, ref) {
+const Jest = forwardRef(function Jest({ color = 'currentColor', size = 24, title = 'jest', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

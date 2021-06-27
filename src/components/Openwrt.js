@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Openwrt = forwardRef(function Openwrt({ color = 'currentColor', size = 24, title = 'OpenWrt', ...others }, ref) {
+const Openwrt = forwardRef(function Openwrt({ color = 'currentColor', size = 24, title = 'openwrt', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

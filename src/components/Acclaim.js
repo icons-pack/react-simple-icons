@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Acclaim = forwardRef(function Acclaim({ color = 'currentColor', size = 24, title = 'Acclaim', ...others }, ref) {
+const Acclaim = forwardRef(function Acclaim({ color = 'currentColor', size = 24, title = 'acclaim', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

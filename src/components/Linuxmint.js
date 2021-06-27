@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Linuxmint = forwardRef(function Linuxmint(
-  { color = 'currentColor', size = 24, title = 'Linux Mint', ...others },
+  { color = 'currentColor', size = 24, title = 'linuxmint', ...others },
   ref
 ) {
   return (

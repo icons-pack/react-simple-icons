@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Iata = forwardRef(function Iata({ color = 'currentColor', size = 24, title = 'Iata', ...others }, ref) {
+const Iata = forwardRef(function Iata({ color = 'currentColor', size = 24, title = 'iata', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

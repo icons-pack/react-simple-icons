@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Wattpad = forwardRef(function Wattpad({ color = 'currentColor', size = 24, title = 'Wattpad', ...others }, ref) {
+const Wattpad = forwardRef(function Wattpad({ color = 'currentColor', size = 24, title = 'wattpad', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

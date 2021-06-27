@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Ipfs = forwardRef(function Ipfs({ color = 'currentColor', size = 24, title = 'IPFS', ...others }, ref) {
+const Ipfs = forwardRef(function Ipfs({ color = 'currentColor', size = 24, title = 'ipfs', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

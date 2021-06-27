@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Blueprint = forwardRef(function Blueprint(
-  { color = 'currentColor', size = 24, title = 'Blueprint', ...others },
+  { color = 'currentColor', size = 24, title = 'blueprint', ...others },
   ref
 ) {
   return (

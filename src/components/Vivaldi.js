@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Vivaldi = forwardRef(function Vivaldi({ color = 'currentColor', size = 24, title = 'Vivaldi', ...others }, ref) {
+const Vivaldi = forwardRef(function Vivaldi({ color = 'currentColor', size = 24, title = 'vivaldi', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

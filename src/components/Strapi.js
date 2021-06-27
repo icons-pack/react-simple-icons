@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Strapi = forwardRef(function Strapi({ color = 'currentColor', size = 24, title = 'Strapi', ...others }, ref) {
+const Strapi = forwardRef(function Strapi({ color = 'currentColor', size = 24, title = 'strapi', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

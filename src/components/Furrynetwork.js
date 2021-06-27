@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Furrynetwork = forwardRef(function Furrynetwork(
-  { color = 'currentColor', size = 24, title = 'Furry Network', ...others },
+  { color = 'currentColor', size = 24, title = 'furrynetwork', ...others },
   ref
 ) {
   return (

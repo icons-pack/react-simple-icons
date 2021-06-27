@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Qiwi = forwardRef(function Qiwi({ color = 'currentColor', size = 24, title = 'QIWI', ...others }, ref) {
+const Qiwi = forwardRef(function Qiwi({ color = 'currentColor', size = 24, title = 'qiwi', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

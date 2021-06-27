@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Torbrowser = forwardRef(function Torbrowser(
-  { color = 'currentColor', size = 24, title = 'Tor Browser', ...others },
+  { color = 'currentColor', size = 24, title = 'torbrowser', ...others },
   ref
 ) {
   return (

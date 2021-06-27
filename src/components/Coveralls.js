@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Coveralls = forwardRef(function Coveralls(
-  { color = 'currentColor', size = 24, title = 'Coveralls', ...others },
+  { color = 'currentColor', size = 24, title = 'coveralls', ...others },
   ref
 ) {
   return (

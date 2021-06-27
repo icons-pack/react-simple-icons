@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Bandlab = forwardRef(function Bandlab({ color = 'currentColor', size = 24, title = 'BandLab', ...others }, ref) {
+const Bandlab = forwardRef(function Bandlab({ color = 'currentColor', size = 24, title = 'bandlab', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

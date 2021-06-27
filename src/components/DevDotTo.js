@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const DevDotTo = forwardRef(function DevDotTo(
-  { color = 'currentColor', size = 24, title = 'dev-dot-to', ...others },
+const Devdotto = forwardRef(function Devdotto(
+  { color = 'currentColor', size = 24, title = 'devdotto', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const DevDotTo = forwardRef(function DevDotTo(
   );
 });
 
-DevDotTo.propTypes = {
+Devdotto.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ DevDotTo.propTypes = {
   title: PropTypes.string,
 };
 
-export default DevDotTo;
+export default Devdotto;

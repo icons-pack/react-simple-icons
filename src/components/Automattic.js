@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Automattic = forwardRef(function Automattic(
-  { color = 'currentColor', size = 24, title = 'Automattic', ...others },
+  { color = 'currentColor', size = 24, title = 'automattic', ...others },
   ref
 ) {
   return (

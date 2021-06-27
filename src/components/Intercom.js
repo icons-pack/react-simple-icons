@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Intercom = forwardRef(function Intercom(
-  { color = 'currentColor', size = 24, title = 'Intercom', ...others },
+  { color = 'currentColor', size = 24, title = 'intercom', ...others },
   ref
 ) {
   return (

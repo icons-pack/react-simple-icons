@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const PopOs = forwardRef(function PopOs({ color = 'currentColor', size = 24, title = 'pop_os', ...others }, ref) {
+const Popos = forwardRef(function Popos({ color = 'currentColor', size = 24, title = 'popos', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -17,7 +17,7 @@ const PopOs = forwardRef(function PopOs({ color = 'currentColor', size = 24, tit
   );
 });
 
-PopOs.propTypes = {
+Popos.propTypes = {
   /**
    * Hex color or color name
    */
@@ -32,4 +32,4 @@ PopOs.propTypes = {
   title: PropTypes.string,
 };
 
-export default PopOs;
+export default Popos;

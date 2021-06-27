@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Internetarchive = forwardRef(function Internetarchive(
-  { color = 'currentColor', size = 24, title = 'Internet Archive', ...others },
+  { color = 'currentColor', size = 24, title = 'internetarchive', ...others },
   ref
 ) {
   return (

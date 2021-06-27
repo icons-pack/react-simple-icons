@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Matrix = forwardRef(function Matrix({ color = 'currentColor', size = 24, title = 'Matrix', ...others }, ref) {
+const Matrix = forwardRef(function Matrix({ color = 'currentColor', size = 24, title = 'matrix', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

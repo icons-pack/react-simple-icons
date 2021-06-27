@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Songkick = forwardRef(function Songkick(
-  { color = 'currentColor', size = 24, title = 'Songkick', ...others },
+  { color = 'currentColor', size = 24, title = 'songkick', ...others },
   ref
 ) {
   return (

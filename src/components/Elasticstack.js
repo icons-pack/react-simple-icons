@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Elasticstack = forwardRef(function Elasticstack(
-  { color = 'currentColor', size = 24, title = 'Elastic Stack', ...others },
+  { color = 'currentColor', size = 24, title = 'elasticstack', ...others },
   ref
 ) {
   return (

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Jquery = forwardRef(function Jquery({ color = 'currentColor', size = 24, title = 'jQuery', ...others }, ref) {
+const Jquery = forwardRef(function Jquery({ color = 'currentColor', size = 24, title = 'jquery', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

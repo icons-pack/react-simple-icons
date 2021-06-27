@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Markdown = forwardRef(function Markdown(
-  { color = 'currentColor', size = 24, title = 'Markdown', ...others },
+  { color = 'currentColor', size = 24, title = 'markdown', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Thespritersresource = forwardRef(function Thespritersresource(
-  { color = 'currentColor', size = 24, title = 'The Spriters Resource', ...others },
+  { color = 'currentColor', size = 24, title = 'thespritersresource', ...others },
   ref
 ) {
   return (

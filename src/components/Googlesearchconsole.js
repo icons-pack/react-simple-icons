@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Googlesearchconsole = forwardRef(function Googlesearchconsole(
-  { color = 'currentColor', size = 24, title = 'Google Search Console', ...others },
+  { color = 'currentColor', size = 24, title = 'googlesearchconsole', ...others },
   ref
 ) {
   return (

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Gumtree = forwardRef(function Gumtree({ color = 'currentColor', size = 24, title = 'Gumtree', ...others }, ref) {
+const Gumtree = forwardRef(function Gumtree({ color = 'currentColor', size = 24, title = 'gumtree', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

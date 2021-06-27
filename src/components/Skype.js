@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Skype = forwardRef(function Skype({ color = 'currentColor', size = 24, title = 'Skype', ...others }, ref) {
+const Skype = forwardRef(function Skype({ color = 'currentColor', size = 24, title = 'skype', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

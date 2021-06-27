@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Triller = forwardRef(function Triller({ color = 'currentColor', size = 24, title = 'Triller', ...others }, ref) {
+const Triller = forwardRef(function Triller({ color = 'currentColor', size = 24, title = 'triller', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

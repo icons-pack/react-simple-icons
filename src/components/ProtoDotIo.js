@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const ProtoDotIo = forwardRef(function ProtoDotIo(
-  { color = 'currentColor', size = 24, title = 'proto-dot-io', ...others },
+const Protodotio = forwardRef(function Protodotio(
+  { color = 'currentColor', size = 24, title = 'protodotio', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const ProtoDotIo = forwardRef(function ProtoDotIo(
   );
 });
 
-ProtoDotIo.propTypes = {
+Protodotio.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ ProtoDotIo.propTypes = {
   title: PropTypes.string,
 };
 
-export default ProtoDotIo;
+export default Protodotio;

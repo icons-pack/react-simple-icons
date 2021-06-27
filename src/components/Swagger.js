@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Swagger = forwardRef(function Swagger({ color = 'currentColor', size = 24, title = 'Swagger', ...others }, ref) {
+const Swagger = forwardRef(function Swagger({ color = 'currentColor', size = 24, title = 'swagger', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

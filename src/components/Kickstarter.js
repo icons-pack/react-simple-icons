@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Kickstarter = forwardRef(function Kickstarter(
-  { color = 'currentColor', size = 24, title = 'Kickstarter', ...others },
+  { color = 'currentColor', size = 24, title = 'kickstarter', ...others },
   ref
 ) {
   return (

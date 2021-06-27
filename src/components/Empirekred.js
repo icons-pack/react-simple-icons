@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Empirekred = forwardRef(function Empirekred(
-  { color = 'currentColor', size = 24, title = 'Empire Kred', ...others },
+  { color = 'currentColor', size = 24, title = 'empirekred', ...others },
   ref
 ) {
   return (

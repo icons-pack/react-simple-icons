@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Nestjs = forwardRef(function Nestjs({ color = 'currentColor', size = 24, title = 'NestJS', ...others }, ref) {
+const Nestjs = forwardRef(function Nestjs({ color = 'currentColor', size = 24, title = 'nestjs', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

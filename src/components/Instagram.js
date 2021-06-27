@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Instagram = forwardRef(function Instagram(
-  { color = 'currentColor', size = 24, title = 'Instagram', ...others },
+  { color = 'currentColor', size = 24, title = 'instagram', ...others },
   ref
 ) {
   return (

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const FDroid = forwardRef(function FDroid({ color = 'currentColor', size = 24, title = 'f-droid', ...others }, ref) {
+const Fdroid = forwardRef(function Fdroid({ color = 'currentColor', size = 24, title = 'fdroid', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -17,7 +17,7 @@ const FDroid = forwardRef(function FDroid({ color = 'currentColor', size = 24, t
   );
 });
 
-FDroid.propTypes = {
+Fdroid.propTypes = {
   /**
    * Hex color or color name
    */
@@ -32,4 +32,4 @@ FDroid.propTypes = {
   title: PropTypes.string,
 };
 
-export default FDroid;
+export default Fdroid;

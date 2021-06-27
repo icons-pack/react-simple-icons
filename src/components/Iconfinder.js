@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Iconfinder = forwardRef(function Iconfinder(
-  { color = 'currentColor', size = 24, title = 'Iconfinder', ...others },
+  { color = 'currentColor', size = 24, title = 'iconfinder', ...others },
   ref
 ) {
   return (

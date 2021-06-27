@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Codeberg = forwardRef(function Codeberg(
-  { color = 'currentColor', size = 24, title = 'Codeberg', ...others },
+  { color = 'currentColor', size = 24, title = 'codeberg', ...others },
   ref
 ) {
   return (

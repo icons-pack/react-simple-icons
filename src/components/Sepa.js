@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Sepa = forwardRef(function Sepa({ color = 'currentColor', size = 24, title = 'SEPA', ...others }, ref) {
+const Sepa = forwardRef(function Sepa({ color = 'currentColor', size = 24, title = 'sepa', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

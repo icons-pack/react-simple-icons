@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Adobelightroom = forwardRef(function Adobelightroom(
-  { color = 'currentColor', size = 24, title = 'Adobe Lightroom', ...others },
+  { color = 'currentColor', size = 24, title = 'adobelightroom', ...others },
   ref
 ) {
   return (

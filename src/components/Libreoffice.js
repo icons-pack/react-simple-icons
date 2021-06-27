@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Libreoffice = forwardRef(function Libreoffice(
-  { color = 'currentColor', size = 24, title = 'LibreOffice', ...others },
+  { color = 'currentColor', size = 24, title = 'libreoffice', ...others },
   ref
 ) {
   return (

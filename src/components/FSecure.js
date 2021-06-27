@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const FSecure = forwardRef(function FSecure({ color = 'currentColor', size = 24, title = 'f-secure', ...others }, ref) {
+const Fsecure = forwardRef(function Fsecure({ color = 'currentColor', size = 24, title = 'fsecure', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -17,7 +17,7 @@ const FSecure = forwardRef(function FSecure({ color = 'currentColor', size = 24,
   );
 });
 
-FSecure.propTypes = {
+Fsecure.propTypes = {
   /**
    * Hex color or color name
    */
@@ -32,4 +32,4 @@ FSecure.propTypes = {
   title: PropTypes.string,
 };
 
-export default FSecure;
+export default Fsecure;

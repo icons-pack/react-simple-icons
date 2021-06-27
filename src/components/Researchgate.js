@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Researchgate = forwardRef(function Researchgate(
-  { color = 'currentColor', size = 24, title = 'ResearchGate', ...others },
+  { color = 'currentColor', size = 24, title = 'researchgate', ...others },
   ref
 ) {
   return (

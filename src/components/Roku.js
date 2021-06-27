@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Roku = forwardRef(function Roku({ color = 'currentColor', size = 24, title = 'Roku', ...others }, ref) {
+const Roku = forwardRef(function Roku({ color = 'currentColor', size = 24, title = 'roku', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Webauthn = forwardRef(function Webauthn(
-  { color = 'currentColor', size = 24, title = 'WebAuthn', ...others },
+  { color = 'currentColor', size = 24, title = 'webauthn', ...others },
   ref
 ) {
   return (

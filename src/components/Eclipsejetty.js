@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Eclipsejetty = forwardRef(function Eclipsejetty(
-  { color = 'currentColor', size = 24, title = 'Eclipse Jetty', ...others },
+  { color = 'currentColor', size = 24, title = 'eclipsejetty', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Apachedruid = forwardRef(function Apachedruid(
-  { color = 'currentColor', size = 24, title = 'Apache Druid', ...others },
+  { color = 'currentColor', size = 24, title = 'apachedruid', ...others },
   ref
 ) {
   return (

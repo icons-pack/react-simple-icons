@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Lionair = forwardRef(function Lionair({ color = 'currentColor', size = 24, title = 'Lion Air', ...others }, ref) {
+const Lionair = forwardRef(function Lionair({ color = 'currentColor', size = 24, title = 'lionair', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

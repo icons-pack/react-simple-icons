@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Owasp = forwardRef(function Owasp({ color = 'currentColor', size = 24, title = 'OWASP', ...others }, ref) {
+const Owasp = forwardRef(function Owasp({ color = 'currentColor', size = 24, title = 'owasp', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

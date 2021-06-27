@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Googlemessages = forwardRef(function Googlemessages(
-  { color = 'currentColor', size = 24, title = 'Google Messages', ...others },
+  { color = 'currentColor', size = 24, title = 'googlemessages', ...others },
   ref
 ) {
   return (

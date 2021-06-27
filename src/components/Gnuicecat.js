@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Gnuicecat = forwardRef(function Gnuicecat(
-  { color = 'currentColor', size = 24, title = 'GNU IceCat', ...others },
+  { color = 'currentColor', size = 24, title = 'gnuicecat', ...others },
   ref
 ) {
   return (

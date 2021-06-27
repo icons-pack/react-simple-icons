@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Quicktime = forwardRef(function Quicktime(
-  { color = 'currentColor', size = 24, title = 'QuickTime', ...others },
+  { color = 'currentColor', size = 24, title = 'quicktime', ...others },
   ref
 ) {
   return (

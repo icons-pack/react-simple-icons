@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Letterboxd = forwardRef(function Letterboxd(
-  { color = 'currentColor', size = 24, title = 'Letterboxd', ...others },
+  { color = 'currentColor', size = 24, title = 'letterboxd', ...others },
   ref
 ) {
   return (

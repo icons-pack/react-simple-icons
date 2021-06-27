@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Eightsleep = forwardRef(function Eightsleep(
-  { color = 'currentColor', size = 24, title = 'Eight Sleep', ...others },
+  { color = 'currentColor', size = 24, title = 'eightsleep', ...others },
   ref
 ) {
   return (

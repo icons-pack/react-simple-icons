@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Phpstorm = forwardRef(function Phpstorm(
-  { color = 'currentColor', size = 24, title = 'PhpStorm', ...others },
+  { color = 'currentColor', size = 24, title = 'phpstorm', ...others },
   ref
 ) {
   return (

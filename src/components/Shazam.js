@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Shazam = forwardRef(function Shazam({ color = 'currentColor', size = 24, title = 'Shazam', ...others }, ref) {
+const Shazam = forwardRef(function Shazam({ color = 'currentColor', size = 24, title = 'shazam', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

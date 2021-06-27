@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const LibrariesDotIo = forwardRef(function LibrariesDotIo(
-  { color = 'currentColor', size = 24, title = 'libraries-dot-io', ...others },
+const Librariesdotio = forwardRef(function Librariesdotio(
+  { color = 'currentColor', size = 24, title = 'librariesdotio', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const LibrariesDotIo = forwardRef(function LibrariesDotIo(
   );
 });
 
-LibrariesDotIo.propTypes = {
+Librariesdotio.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ LibrariesDotIo.propTypes = {
   title: PropTypes.string,
 };
 
-export default LibrariesDotIo;
+export default Librariesdotio;

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Directus = forwardRef(function Directus(
-  { color = 'currentColor', size = 24, title = 'Directus', ...others },
+  { color = 'currentColor', size = 24, title = 'directus', ...others },
   ref
 ) {
   return (

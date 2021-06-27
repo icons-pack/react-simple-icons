@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Tekton = forwardRef(function Tekton({ color = 'currentColor', size = 24, title = 'Tekton', ...others }, ref) {
+const Tekton = forwardRef(function Tekton({ color = 'currentColor', size = 24, title = 'tekton', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

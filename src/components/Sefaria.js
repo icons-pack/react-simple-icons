@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Sefaria = forwardRef(function Sefaria({ color = 'currentColor', size = 24, title = 'Sefaria', ...others }, ref) {
+const Sefaria = forwardRef(function Sefaria({ color = 'currentColor', size = 24, title = 'sefaria', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

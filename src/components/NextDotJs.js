@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const NextDotJs = forwardRef(function NextDotJs(
-  { color = 'currentColor', size = 24, title = 'next-dot-js', ...others },
+const Nextdotjs = forwardRef(function Nextdotjs(
+  { color = 'currentColor', size = 24, title = 'nextdotjs', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const NextDotJs = forwardRef(function NextDotJs(
   );
 });
 
-NextDotJs.propTypes = {
+Nextdotjs.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ NextDotJs.propTypes = {
   title: PropTypes.string,
 };
 
-export default NextDotJs;
+export default Nextdotjs;

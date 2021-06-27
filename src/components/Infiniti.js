@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Infiniti = forwardRef(function Infiniti(
-  { color = 'currentColor', size = 24, title = 'Infiniti', ...others },
+  { color = 'currentColor', size = 24, title = 'infiniti', ...others },
   ref
 ) {
   return (

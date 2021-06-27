@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Premierleague = forwardRef(function Premierleague(
-  { color = 'currentColor', size = 24, title = 'Premier League', ...others },
+  { color = 'currentColor', size = 24, title = 'premierleague', ...others },
   ref
 ) {
   return (

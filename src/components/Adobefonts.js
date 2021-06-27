@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Adobefonts = forwardRef(function Adobefonts(
-  { color = 'currentColor', size = 24, title = 'Adobe Fonts', ...others },
+  { color = 'currentColor', size = 24, title = 'adobefonts', ...others },
   ref
 ) {
   return (

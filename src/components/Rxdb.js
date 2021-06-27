@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Rxdb = forwardRef(function Rxdb({ color = 'currentColor', size = 24, title = 'RxDB', ...others }, ref) {
+const Rxdb = forwardRef(function Rxdb({ color = 'currentColor', size = 24, title = 'rxdb', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

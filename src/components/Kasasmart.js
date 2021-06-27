@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Kasasmart = forwardRef(function Kasasmart(
-  { color = 'currentColor', size = 24, title = 'Kasa Smart', ...others },
+  { color = 'currentColor', size = 24, title = 'kasasmart', ...others },
   ref
 ) {
   return (

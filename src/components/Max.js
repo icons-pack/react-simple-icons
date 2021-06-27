@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Max = forwardRef(function Max({ color = 'currentColor', size = 24, title = 'Max', ...others }, ref) {
+const Max = forwardRef(function Max({ color = 'currentColor', size = 24, title = 'max', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

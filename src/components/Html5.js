@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Html5 = forwardRef(function Html5({ color = 'currentColor', size = 24, title = 'HTML5', ...others }, ref) {
+const Html5 = forwardRef(function Html5({ color = 'currentColor', size = 24, title = 'html5', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

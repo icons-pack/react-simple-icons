@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Redhat = forwardRef(function Redhat({ color = 'currentColor', size = 24, title = 'Red Hat', ...others }, ref) {
+const Redhat = forwardRef(function Redhat({ color = 'currentColor', size = 24, title = 'redhat', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

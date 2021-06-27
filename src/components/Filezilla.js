@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Filezilla = forwardRef(function Filezilla(
-  { color = 'currentColor', size = 24, title = 'FileZilla', ...others },
+  { color = 'currentColor', size = 24, title = 'filezilla', ...others },
   ref
 ) {
   return (

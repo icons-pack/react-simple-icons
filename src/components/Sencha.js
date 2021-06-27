@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Sencha = forwardRef(function Sencha({ color = 'currentColor', size = 24, title = 'Sencha', ...others }, ref) {
+const Sencha = forwardRef(function Sencha({ color = 'currentColor', size = 24, title = 'sencha', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Fedora = forwardRef(function Fedora({ color = 'currentColor', size = 24, title = 'Fedora', ...others }, ref) {
+const Fedora = forwardRef(function Fedora({ color = 'currentColor', size = 24, title = 'fedora', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

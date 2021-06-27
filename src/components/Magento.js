@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Magento = forwardRef(function Magento({ color = 'currentColor', size = 24, title = 'Magento', ...others }, ref) {
+const Magento = forwardRef(function Magento({ color = 'currentColor', size = 24, title = 'magento', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

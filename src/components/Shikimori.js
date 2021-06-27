@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Shikimori = forwardRef(function Shikimori(
-  { color = 'currentColor', size = 24, title = 'Shikimori', ...others },
+  { color = 'currentColor', size = 24, title = 'shikimori', ...others },
   ref
 ) {
   return (

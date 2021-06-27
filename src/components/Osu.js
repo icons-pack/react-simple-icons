@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Osu = forwardRef(function Osu({ color = 'currentColor', size = 24, title = 'osu!', ...others }, ref) {
+const Osu = forwardRef(function Osu({ color = 'currentColor', size = 24, title = 'osu', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

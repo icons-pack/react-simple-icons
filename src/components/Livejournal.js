@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Livejournal = forwardRef(function Livejournal(
-  { color = 'currentColor', size = 24, title = 'LiveJournal', ...others },
+  { color = 'currentColor', size = 24, title = 'livejournal', ...others },
   ref
 ) {
   return (

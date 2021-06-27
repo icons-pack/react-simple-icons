@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Homebrew = forwardRef(function Homebrew(
-  { color = 'currentColor', size = 24, title = 'Homebrew', ...others },
+  { color = 'currentColor', size = 24, title = 'homebrew', ...others },
   ref
 ) {
   return (

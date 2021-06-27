@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Iota = forwardRef(function Iota({ color = 'currentColor', size = 24, title = 'IOTA', ...others }, ref) {
+const Iota = forwardRef(function Iota({ color = 'currentColor', size = 24, title = 'iota', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

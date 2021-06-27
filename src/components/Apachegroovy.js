@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Apachegroovy = forwardRef(function Apachegroovy(
-  { color = 'currentColor', size = 24, title = 'Apache Groovy', ...others },
+  { color = 'currentColor', size = 24, title = 'apachegroovy', ...others },
   ref
 ) {
   return (

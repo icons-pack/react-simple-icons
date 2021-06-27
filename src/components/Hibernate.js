@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Hibernate = forwardRef(function Hibernate(
-  { color = 'currentColor', size = 24, title = 'Hibernate', ...others },
+  { color = 'currentColor', size = 24, title = 'hibernate', ...others },
   ref
 ) {
   return (

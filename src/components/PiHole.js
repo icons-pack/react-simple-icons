@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const PiHole = forwardRef(function PiHole({ color = 'currentColor', size = 24, title = 'pi-hole', ...others }, ref) {
+const Pihole = forwardRef(function Pihole({ color = 'currentColor', size = 24, title = 'pihole', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -17,7 +17,7 @@ const PiHole = forwardRef(function PiHole({ color = 'currentColor', size = 24, t
   );
 });
 
-PiHole.propTypes = {
+Pihole.propTypes = {
   /**
    * Hex color or color name
    */
@@ -32,4 +32,4 @@ PiHole.propTypes = {
   title: PropTypes.string,
 };
 
-export default PiHole;
+export default Pihole;

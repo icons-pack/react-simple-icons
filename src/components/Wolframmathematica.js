@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Wolframmathematica = forwardRef(function Wolframmathematica(
-  { color = 'currentColor', size = 24, title = 'Wolfram Mathematica', ...others },
+  { color = 'currentColor', size = 24, title = 'wolframmathematica', ...others },
   ref
 ) {
   return (

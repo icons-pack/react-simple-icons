@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Googlehangouts = forwardRef(function Googlehangouts(
-  { color = 'currentColor', size = 24, title = 'Google Hangouts', ...others },
+  { color = 'currentColor', size = 24, title = 'googlehangouts', ...others },
   ref
 ) {
   return (

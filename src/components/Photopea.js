@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Photopea = forwardRef(function Photopea(
-  { color = 'currentColor', size = 24, title = 'Photopea', ...others },
+  { color = 'currentColor', size = 24, title = 'photopea', ...others },
   ref
 ) {
   return (

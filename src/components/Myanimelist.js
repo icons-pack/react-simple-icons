@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Myanimelist = forwardRef(function Myanimelist(
-  { color = 'currentColor', size = 24, title = 'MyAnimeList', ...others },
+  { color = 'currentColor', size = 24, title = 'myanimelist', ...others },
   ref
 ) {
   return (

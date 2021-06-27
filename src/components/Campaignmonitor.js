@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Campaignmonitor = forwardRef(function Campaignmonitor(
-  { color = 'currentColor', size = 24, title = 'Campaign Monitor', ...others },
+  { color = 'currentColor', size = 24, title = 'campaignmonitor', ...others },
   ref
 ) {
   return (

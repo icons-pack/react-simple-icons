@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Expensify = forwardRef(function Expensify(
-  { color = 'currentColor', size = 24, title = 'Expensify', ...others },
+  { color = 'currentColor', size = 24, title = 'expensify', ...others },
   ref
 ) {
   return (

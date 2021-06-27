@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Retropie = forwardRef(function Retropie(
-  { color = 'currentColor', size = 24, title = 'RetroPie', ...others },
+  { color = 'currentColor', size = 24, title = 'retropie', ...others },
   ref
 ) {
   return (

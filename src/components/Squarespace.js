@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Squarespace = forwardRef(function Squarespace(
-  { color = 'currentColor', size = 24, title = 'Squarespace', ...others },
+  { color = 'currentColor', size = 24, title = 'squarespace', ...others },
   ref
 ) {
   return (

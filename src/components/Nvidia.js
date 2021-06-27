@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Nvidia = forwardRef(function Nvidia({ color = 'currentColor', size = 24, title = 'NVIDIA', ...others }, ref) {
+const Nvidia = forwardRef(function Nvidia({ color = 'currentColor', size = 24, title = 'nvidia', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

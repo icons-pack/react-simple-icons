@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Yammer = forwardRef(function Yammer({ color = 'currentColor', size = 24, title = 'Yammer', ...others }, ref) {
+const Yammer = forwardRef(function Yammer({ color = 'currentColor', size = 24, title = 'yammer', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

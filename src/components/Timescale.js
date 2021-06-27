@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Timescale = forwardRef(function Timescale(
-  { color = 'currentColor', size = 24, title = 'Timescale', ...others },
+  { color = 'currentColor', size = 24, title = 'timescale', ...others },
   ref
 ) {
   return (

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Bitly = forwardRef(function Bitly({ color = 'currentColor', size = 24, title = 'Bitly', ...others }, ref) {
+const Bitly = forwardRef(function Bitly({ color = 'currentColor', size = 24, title = 'bitly', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

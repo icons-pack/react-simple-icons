@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Bigcartel = forwardRef(function Bigcartel(
-  { color = 'currentColor', size = 24, title = 'Big Cartel', ...others },
+  { color = 'currentColor', size = 24, title = 'bigcartel', ...others },
   ref
 ) {
   return (

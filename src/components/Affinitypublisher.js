@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Affinitypublisher = forwardRef(function Affinitypublisher(
-  { color = 'currentColor', size = 24, title = 'Affinity Publisher', ...others },
+  { color = 'currentColor', size = 24, title = 'affinitypublisher', ...others },
   ref
 ) {
   return (

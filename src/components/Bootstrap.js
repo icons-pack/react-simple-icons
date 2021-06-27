@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Bootstrap = forwardRef(function Bootstrap(
-  { color = 'currentColor', size = 24, title = 'Bootstrap', ...others },
+  { color = 'currentColor', size = 24, title = 'bootstrap', ...others },
   ref
 ) {
   return (

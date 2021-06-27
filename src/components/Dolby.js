@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Dolby = forwardRef(function Dolby({ color = 'currentColor', size = 24, title = 'Dolby', ...others }, ref) {
+const Dolby = forwardRef(function Dolby({ color = 'currentColor', size = 24, title = 'dolby', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Stackshare = forwardRef(function Stackshare(
-  { color = 'currentColor', size = 24, title = 'StackShare', ...others },
+  { color = 'currentColor', size = 24, title = 'stackshare', ...others },
   ref
 ) {
   return (

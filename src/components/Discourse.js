@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Discourse = forwardRef(function Discourse(
-  { color = 'currentColor', size = 24, title = 'Discourse', ...others },
+  { color = 'currentColor', size = 24, title = 'discourse', ...others },
   ref
 ) {
   return (

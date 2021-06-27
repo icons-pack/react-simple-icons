@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Zoho = forwardRef(function Zoho({ color = 'currentColor', size = 24, title = 'Zoho', ...others }, ref) {
+const Zoho = forwardRef(function Zoho({ color = 'currentColor', size = 24, title = 'zoho', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

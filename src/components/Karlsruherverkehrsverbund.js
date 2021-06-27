@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Karlsruherverkehrsverbund = forwardRef(function Karlsruherverkehrsverbund(
-  { color = 'currentColor', size = 24, title = 'Karlsruher Verkehrsverbund', ...others },
+  { color = 'currentColor', size = 24, title = 'karlsruherverkehrsverbund', ...others },
   ref
 ) {
   return (

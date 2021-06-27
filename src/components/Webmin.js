@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Webmin = forwardRef(function Webmin({ color = 'currentColor', size = 24, title = 'Webmin', ...others }, ref) {
+const Webmin = forwardRef(function Webmin({ color = 'currentColor', size = 24, title = 'webmin', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

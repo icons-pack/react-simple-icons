@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Trulia = forwardRef(function Trulia({ color = 'currentColor', size = 24, title = 'Trulia', ...others }, ref) {
+const Trulia = forwardRef(function Trulia({ color = 'currentColor', size = 24, title = 'trulia', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

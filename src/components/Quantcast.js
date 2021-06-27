@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Quantcast = forwardRef(function Quantcast(
-  { color = 'currentColor', size = 24, title = 'Quantcast', ...others },
+  { color = 'currentColor', size = 24, title = 'quantcast', ...others },
   ref
 ) {
   return (

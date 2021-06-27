@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Asciidoctor = forwardRef(function Asciidoctor(
-  { color = 'currentColor', size = 24, title = 'Asciidoctor', ...others },
+  { color = 'currentColor', size = 24, title = 'asciidoctor', ...others },
   ref
 ) {
   return (

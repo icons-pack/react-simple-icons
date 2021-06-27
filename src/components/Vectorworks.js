@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Vectorworks = forwardRef(function Vectorworks(
-  { color = 'currentColor', size = 24, title = 'Vectorworks', ...others },
+  { color = 'currentColor', size = 24, title = 'vectorworks', ...others },
   ref
 ) {
   return (

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Gradle = forwardRef(function Gradle({ color = 'currentColor', size = 24, title = 'Gradle', ...others }, ref) {
+const Gradle = forwardRef(function Gradle({ color = 'currentColor', size = 24, title = 'gradle', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

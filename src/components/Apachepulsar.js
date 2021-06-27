@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Apachepulsar = forwardRef(function Apachepulsar(
-  { color = 'currentColor', size = 24, title = 'Apache Pulsar', ...others },
+  { color = 'currentColor', size = 24, title = 'apachepulsar', ...others },
   ref
 ) {
   return (

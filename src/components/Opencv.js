@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Opencv = forwardRef(function Opencv({ color = 'currentColor', size = 24, title = 'OpenCV', ...others }, ref) {
+const Opencv = forwardRef(function Opencv({ color = 'currentColor', size = 24, title = 'opencv', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

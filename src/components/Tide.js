@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Tide = forwardRef(function Tide({ color = 'currentColor', size = 24, title = 'Tide', ...others }, ref) {
+const Tide = forwardRef(function Tide({ color = 'currentColor', size = 24, title = 'tide', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

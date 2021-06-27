@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Terraform = forwardRef(function Terraform(
-  { color = 'currentColor', size = 24, title = 'Terraform', ...others },
+  { color = 'currentColor', size = 24, title = 'terraform', ...others },
   ref
 ) {
   return (

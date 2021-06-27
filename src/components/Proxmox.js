@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Proxmox = forwardRef(function Proxmox({ color = 'currentColor', size = 24, title = 'Proxmox', ...others }, ref) {
+const Proxmox = forwardRef(function Proxmox({ color = 'currentColor', size = 24, title = 'proxmox', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

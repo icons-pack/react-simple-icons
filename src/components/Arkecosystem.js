@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Arkecosystem = forwardRef(function Arkecosystem(
-  { color = 'currentColor', size = 24, title = 'ARK Ecosystem', ...others },
+  { color = 'currentColor', size = 24, title = 'arkecosystem', ...others },
   ref
 ) {
   return (

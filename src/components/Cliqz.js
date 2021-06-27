@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Cliqz = forwardRef(function Cliqz({ color = 'currentColor', size = 24, title = 'Cliqz', ...others }, ref) {
+const Cliqz = forwardRef(function Cliqz({ color = 'currentColor', size = 24, title = 'cliqz', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

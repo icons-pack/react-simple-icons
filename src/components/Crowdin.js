@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Crowdin = forwardRef(function Crowdin({ color = 'currentColor', size = 24, title = 'Crowdin', ...others }, ref) {
+const Crowdin = forwardRef(function Crowdin({ color = 'currentColor', size = 24, title = 'crowdin', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

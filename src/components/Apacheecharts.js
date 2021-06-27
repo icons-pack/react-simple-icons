@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Apacheecharts = forwardRef(function Apacheecharts(
-  { color = 'currentColor', size = 24, title = 'Apache ECharts', ...others },
+  { color = 'currentColor', size = 24, title = 'apacheecharts', ...others },
   ref
 ) {
   return (

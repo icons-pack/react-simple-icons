@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Grav = forwardRef(function Grav({ color = 'currentColor', size = 24, title = 'Grav', ...others }, ref) {
+const Grav = forwardRef(function Grav({ color = 'currentColor', size = 24, title = 'grav', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

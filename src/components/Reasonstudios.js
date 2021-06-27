@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Reasonstudios = forwardRef(function Reasonstudios(
-  { color = 'currentColor', size = 24, title = 'Reason Studios', ...others },
+  { color = 'currentColor', size = 24, title = 'reasonstudios', ...others },
   ref
 ) {
   return (

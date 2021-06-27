@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Trino = forwardRef(function Trino({ color = 'currentColor', size = 24, title = 'Trino', ...others }, ref) {
+const Trino = forwardRef(function Trino({ color = 'currentColor', size = 24, title = 'trino', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

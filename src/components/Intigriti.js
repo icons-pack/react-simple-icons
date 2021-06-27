@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Intigriti = forwardRef(function Intigriti(
-  { color = 'currentColor', size = 24, title = 'Intigriti', ...others },
+  { color = 'currentColor', size = 24, title = 'intigriti', ...others },
   ref
 ) {
   return (

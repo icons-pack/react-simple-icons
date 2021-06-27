@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Iobroker = forwardRef(function Iobroker(
-  { color = 'currentColor', size = 24, title = 'ioBroker', ...others },
+  { color = 'currentColor', size = 24, title = 'iobroker', ...others },
   ref
 ) {
   return (

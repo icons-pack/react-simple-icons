@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Godotengine = forwardRef(function Godotengine(
-  { color = 'currentColor', size = 24, title = 'Godot Engine', ...others },
+  { color = 'currentColor', size = 24, title = 'godotengine', ...others },
   ref
 ) {
   return (

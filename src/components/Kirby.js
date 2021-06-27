@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Kirby = forwardRef(function Kirby({ color = 'currentColor', size = 24, title = 'Kirby', ...others }, ref) {
+const Kirby = forwardRef(function Kirby({ color = 'currentColor', size = 24, title = 'kirby', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

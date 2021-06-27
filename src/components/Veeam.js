@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Veeam = forwardRef(function Veeam({ color = 'currentColor', size = 24, title = 'Veeam', ...others }, ref) {
+const Veeam = forwardRef(function Veeam({ color = 'currentColor', size = 24, title = 'veeam', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

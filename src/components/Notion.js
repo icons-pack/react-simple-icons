@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Notion = forwardRef(function Notion({ color = 'currentColor', size = 24, title = 'Notion', ...others }, ref) {
+const Notion = forwardRef(function Notion({ color = 'currentColor', size = 24, title = 'notion', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

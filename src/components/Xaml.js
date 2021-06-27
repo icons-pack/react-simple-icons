@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Xaml = forwardRef(function Xaml({ color = 'currentColor', size = 24, title = 'XAML', ...others }, ref) {
+const Xaml = forwardRef(function Xaml({ color = 'currentColor', size = 24, title = 'xaml', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Audible = forwardRef(function Audible({ color = 'currentColor', size = 24, title = 'Audible', ...others }, ref) {
+const Audible = forwardRef(function Audible({ color = 'currentColor', size = 24, title = 'audible', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

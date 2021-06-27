@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Electron = forwardRef(function Electron(
-  { color = 'currentColor', size = 24, title = 'Electron', ...others },
+  { color = 'currentColor', size = 24, title = 'electron', ...others },
   ref
 ) {
   return (

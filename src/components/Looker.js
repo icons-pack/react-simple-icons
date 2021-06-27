@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Looker = forwardRef(function Looker({ color = 'currentColor', size = 24, title = 'Looker', ...others }, ref) {
+const Looker = forwardRef(function Looker({ color = 'currentColor', size = 24, title = 'looker', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

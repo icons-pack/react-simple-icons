@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Payoneer = forwardRef(function Payoneer(
-  { color = 'currentColor', size = 24, title = 'Payoneer', ...others },
+  { color = 'currentColor', size = 24, title = 'payoneer', ...others },
   ref
 ) {
   return (

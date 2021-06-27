@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Paritysubstrate = forwardRef(function Paritysubstrate(
-  { color = 'currentColor', size = 24, title = 'Parity Substrate', ...others },
+  { color = 'currentColor', size = 24, title = 'paritysubstrate', ...others },
   ref
 ) {
   return (

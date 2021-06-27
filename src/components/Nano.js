@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Nano = forwardRef(function Nano({ color = 'currentColor', size = 24, title = 'Nano', ...others }, ref) {
+const Nano = forwardRef(function Nano({ color = 'currentColor', size = 24, title = 'nano', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Probot = forwardRef(function Probot({ color = 'currentColor', size = 24, title = 'Probot', ...others }, ref) {
+const Probot = forwardRef(function Probot({ color = 'currentColor', size = 24, title = 'probot', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

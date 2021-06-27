@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Deepnote = forwardRef(function Deepnote(
-  { color = 'currentColor', size = 24, title = 'Deepnote', ...others },
+  { color = 'currentColor', size = 24, title = 'deepnote', ...others },
   ref
 ) {
   return (

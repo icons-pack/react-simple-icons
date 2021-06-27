@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Scala = forwardRef(function Scala({ color = 'currentColor', size = 24, title = 'Scala', ...others }, ref) {
+const Scala = forwardRef(function Scala({ color = 'currentColor', size = 24, title = 'scala', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

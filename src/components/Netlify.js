@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Netlify = forwardRef(function Netlify({ color = 'currentColor', size = 24, title = 'Netlify', ...others }, ref) {
+const Netlify = forwardRef(function Netlify({ color = 'currentColor', size = 24, title = 'netlify', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

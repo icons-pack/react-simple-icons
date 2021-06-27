@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Sahibinden = forwardRef(function Sahibinden(
-  { color = 'currentColor', size = 24, title = 'Sahibinden', ...others },
+  { color = 'currentColor', size = 24, title = 'sahibinden', ...others },
   ref
 ) {
   return (

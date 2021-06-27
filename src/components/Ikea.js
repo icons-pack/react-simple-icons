@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Ikea = forwardRef(function Ikea({ color = 'currentColor', size = 24, title = 'IKEA', ...others }, ref) {
+const Ikea = forwardRef(function Ikea({ color = 'currentColor', size = 24, title = 'ikea', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

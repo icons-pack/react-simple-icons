@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Countingworkspro = forwardRef(function Countingworkspro(
-  { color = 'currentColor', size = 24, title = 'CountingWorks PRO', ...others },
+  { color = 'currentColor', size = 24, title = 'countingworkspro', ...others },
   ref
 ) {
   return (

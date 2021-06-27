@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Heroku = forwardRef(function Heroku({ color = 'currentColor', size = 24, title = 'Heroku', ...others }, ref) {
+const Heroku = forwardRef(function Heroku({ color = 'currentColor', size = 24, title = 'heroku', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

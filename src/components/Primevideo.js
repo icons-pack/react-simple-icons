@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Primevideo = forwardRef(function Primevideo(
-  { color = 'currentColor', size = 24, title = 'Prime Video', ...others },
+  { color = 'currentColor', size = 24, title = 'primevideo', ...others },
   ref
 ) {
   return (

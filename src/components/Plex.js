@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Plex = forwardRef(function Plex({ color = 'currentColor', size = 24, title = 'Plex', ...others }, ref) {
+const Plex = forwardRef(function Plex({ color = 'currentColor', size = 24, title = 'plex', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

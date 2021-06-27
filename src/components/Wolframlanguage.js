@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Wolframlanguage = forwardRef(function Wolframlanguage(
-  { color = 'currentColor', size = 24, title = 'Wolfram Language', ...others },
+  { color = 'currentColor', size = 24, title = 'wolframlanguage', ...others },
   ref
 ) {
   return (

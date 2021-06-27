@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Shotcut = forwardRef(function Shotcut({ color = 'currentColor', size = 24, title = 'Shotcut', ...others }, ref) {
+const Shotcut = forwardRef(function Shotcut({ color = 'currentColor', size = 24, title = 'shotcut', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

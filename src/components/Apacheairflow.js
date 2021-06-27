@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Apacheairflow = forwardRef(function Apacheairflow(
-  { color = 'currentColor', size = 24, title = 'Apache Airflow', ...others },
+  { color = 'currentColor', size = 24, title = 'apacheairflow', ...others },
   ref
 ) {
   return (

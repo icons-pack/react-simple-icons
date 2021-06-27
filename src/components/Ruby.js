@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Ruby = forwardRef(function Ruby({ color = 'currentColor', size = 24, title = 'Ruby', ...others }, ref) {
+const Ruby = forwardRef(function Ruby({ color = 'currentColor', size = 24, title = 'ruby', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

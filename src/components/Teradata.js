@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Teradata = forwardRef(function Teradata(
-  { color = 'currentColor', size = 24, title = 'Teradata', ...others },
+  { color = 'currentColor', size = 24, title = 'teradata', ...others },
   ref
 ) {
   return (

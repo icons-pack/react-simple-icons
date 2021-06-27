@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Overcast = forwardRef(function Overcast(
-  { color = 'currentColor', size = 24, title = 'Overcast', ...others },
+  { color = 'currentColor', size = 24, title = 'overcast', ...others },
   ref
 ) {
   return (

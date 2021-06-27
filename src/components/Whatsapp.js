@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Whatsapp = forwardRef(function Whatsapp(
-  { color = 'currentColor', size = 24, title = 'WhatsApp', ...others },
+  { color = 'currentColor', size = 24, title = 'whatsapp', ...others },
   ref
 ) {
   return (

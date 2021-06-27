@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Archiveofourown = forwardRef(function Archiveofourown(
-  { color = 'currentColor', size = 24, title = 'Archive of Our Own', ...others },
+  { color = 'currentColor', size = 24, title = 'archiveofourown', ...others },
   ref
 ) {
   return (

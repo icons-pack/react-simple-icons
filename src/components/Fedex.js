@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Fedex = forwardRef(function Fedex({ color = 'currentColor', size = 24, title = 'FedEx', ...others }, ref) {
+const Fedex = forwardRef(function Fedex({ color = 'currentColor', size = 24, title = 'fedex', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

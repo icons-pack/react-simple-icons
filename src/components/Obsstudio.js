@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Obsstudio = forwardRef(function Obsstudio(
-  { color = 'currentColor', size = 24, title = 'OBS Studio', ...others },
+  { color = 'currentColor', size = 24, title = 'obsstudio', ...others },
   ref
 ) {
   return (

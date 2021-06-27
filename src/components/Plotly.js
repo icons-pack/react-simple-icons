@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Plotly = forwardRef(function Plotly({ color = 'currentColor', size = 24, title = 'Plotly', ...others }, ref) {
+const Plotly = forwardRef(function Plotly({ color = 'currentColor', size = 24, title = 'plotly', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

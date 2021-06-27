@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Flask = forwardRef(function Flask({ color = 'currentColor', size = 24, title = 'Flask', ...others }, ref) {
+const Flask = forwardRef(function Flask({ color = 'currentColor', size = 24, title = 'flask', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

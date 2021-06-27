@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Breaker = forwardRef(function Breaker({ color = 'currentColor', size = 24, title = 'Breaker', ...others }, ref) {
+const Breaker = forwardRef(function Breaker({ color = 'currentColor', size = 24, title = 'breaker', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

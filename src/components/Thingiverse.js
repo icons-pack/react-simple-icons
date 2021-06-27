@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Thingiverse = forwardRef(function Thingiverse(
-  { color = 'currentColor', size = 24, title = 'Thingiverse', ...others },
+  { color = 'currentColor', size = 24, title = 'thingiverse', ...others },
   ref
 ) {
   return (

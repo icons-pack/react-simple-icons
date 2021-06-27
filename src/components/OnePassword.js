@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const OnePassword = forwardRef(function OnePassword(
-  { color = 'currentColor', size = 24, title = '1Password', ...others },
+  { color = 'currentColor', size = 24, title = '1password', ...others },
   ref
 ) {
   return (

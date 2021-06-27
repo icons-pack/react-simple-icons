@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Mastodon = forwardRef(function Mastodon(
-  { color = 'currentColor', size = 24, title = 'Mastodon', ...others },
+  { color = 'currentColor', size = 24, title = 'mastodon', ...others },
   ref
 ) {
   return (

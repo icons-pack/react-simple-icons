@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Okta = forwardRef(function Okta({ color = 'currentColor', size = 24, title = 'Okta', ...others }, ref) {
+const Okta = forwardRef(function Okta({ color = 'currentColor', size = 24, title = 'okta', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

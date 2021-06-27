@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Cloudflare = forwardRef(function Cloudflare(
-  { color = 'currentColor', size = 24, title = 'Cloudflare', ...others },
+  { color = 'currentColor', size = 24, title = 'cloudflare', ...others },
   ref
 ) {
   return (

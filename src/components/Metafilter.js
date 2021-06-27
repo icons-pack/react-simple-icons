@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Metafilter = forwardRef(function Metafilter(
-  { color = 'currentColor', size = 24, title = 'MetaFilter', ...others },
+  { color = 'currentColor', size = 24, title = 'metafilter', ...others },
   ref
 ) {
   return (

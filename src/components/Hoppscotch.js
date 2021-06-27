@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Hoppscotch = forwardRef(function Hoppscotch(
-  { color = 'currentColor', size = 24, title = 'Hoppscotch', ...others },
+  { color = 'currentColor', size = 24, title = 'hoppscotch', ...others },
   ref
 ) {
   return (

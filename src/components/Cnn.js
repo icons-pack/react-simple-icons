@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Cnn = forwardRef(function Cnn({ color = 'currentColor', size = 24, title = 'CNN', ...others }, ref) {
+const Cnn = forwardRef(function Cnn({ color = 'currentColor', size = 24, title = 'cnn', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

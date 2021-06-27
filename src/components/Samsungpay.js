@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Samsungpay = forwardRef(function Samsungpay(
-  { color = 'currentColor', size = 24, title = 'Samsung Pay', ...others },
+  { color = 'currentColor', size = 24, title = 'samsungpay', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Shenzhenmetro = forwardRef(function Shenzhenmetro(
-  { color = 'currentColor', size = 24, title = 'Shenzhen Metro', ...others },
+  { color = 'currentColor', size = 24, title = 'shenzhenmetro', ...others },
   ref
 ) {
   return (

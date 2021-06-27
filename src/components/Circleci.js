@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Circleci = forwardRef(function Circleci(
-  { color = 'currentColor', size = 24, title = 'CircleCI', ...others },
+  { color = 'currentColor', size = 24, title = 'circleci', ...others },
   ref
 ) {
   return (

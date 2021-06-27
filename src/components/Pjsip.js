@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Pjsip = forwardRef(function Pjsip({ color = 'currentColor', size = 24, title = 'PJSIP', ...others }, ref) {
+const Pjsip = forwardRef(function Pjsip({ color = 'currentColor', size = 24, title = 'pjsip', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

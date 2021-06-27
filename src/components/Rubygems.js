@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Rubygems = forwardRef(function Rubygems(
-  { color = 'currentColor', size = 24, title = 'RubyGems', ...others },
+  { color = 'currentColor', size = 24, title = 'rubygems', ...others },
   ref
 ) {
   return (

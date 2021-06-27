@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Showtime = forwardRef(function Showtime(
-  { color = 'currentColor', size = 24, title = 'Showtime', ...others },
+  { color = 'currentColor', size = 24, title = 'showtime', ...others },
   ref
 ) {
   return (

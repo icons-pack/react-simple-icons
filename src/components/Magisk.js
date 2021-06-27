@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Magisk = forwardRef(function Magisk({ color = 'currentColor', size = 24, title = 'Magisk', ...others }, ref) {
+const Magisk = forwardRef(function Magisk({ color = 'currentColor', size = 24, title = 'magisk', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

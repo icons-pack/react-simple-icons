@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Hyperledger = forwardRef(function Hyperledger(
-  { color = 'currentColor', size = 24, title = 'Hyperledger', ...others },
+  { color = 'currentColor', size = 24, title = 'hyperledger', ...others },
   ref
 ) {
   return (

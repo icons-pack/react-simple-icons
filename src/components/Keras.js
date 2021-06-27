@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Keras = forwardRef(function Keras({ color = 'currentColor', size = 24, title = 'Keras', ...others }, ref) {
+const Keras = forwardRef(function Keras({ color = 'currentColor', size = 24, title = 'keras', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

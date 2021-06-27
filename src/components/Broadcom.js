@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Broadcom = forwardRef(function Broadcom(
-  { color = 'currentColor', size = 24, title = 'Broadcom', ...others },
+  { color = 'currentColor', size = 24, title = 'broadcom', ...others },
   ref
 ) {
   return (

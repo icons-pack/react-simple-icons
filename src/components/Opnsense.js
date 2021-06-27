@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Opnsense = forwardRef(function Opnsense(
-  { color = 'currentColor', size = 24, title = 'OPNSense', ...others },
+  { color = 'currentColor', size = 24, title = 'opnsense', ...others },
   ref
 ) {
   return (

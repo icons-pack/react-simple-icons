@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Surveymonkey = forwardRef(function Surveymonkey(
-  { color = 'currentColor', size = 24, title = 'SurveyMonkey', ...others },
+  { color = 'currentColor', size = 24, title = 'surveymonkey', ...others },
   ref
 ) {
   return (

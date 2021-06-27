@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const MaterialUi = forwardRef(function MaterialUi(
-  { color = 'currentColor', size = 24, title = 'material-ui', ...others },
+const Materialui = forwardRef(function Materialui(
+  { color = 'currentColor', size = 24, title = 'materialui', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const MaterialUi = forwardRef(function MaterialUi(
   );
 });
 
-MaterialUi.propTypes = {
+Materialui.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ MaterialUi.propTypes = {
   title: PropTypes.string,
 };
 
-export default MaterialUi;
+export default Materialui;

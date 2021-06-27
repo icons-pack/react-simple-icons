@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Rust = forwardRef(function Rust({ color = 'currentColor', size = 24, title = 'Rust', ...others }, ref) {
+const Rust = forwardRef(function Rust({ color = 'currentColor', size = 24, title = 'rust', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

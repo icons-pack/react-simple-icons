@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Ibm = forwardRef(function Ibm({ color = 'currentColor', size = 24, title = 'IBM', ...others }, ref) {
+const Ibm = forwardRef(function Ibm({ color = 'currentColor', size = 24, title = 'ibm', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

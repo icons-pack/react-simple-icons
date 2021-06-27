@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Kodi = forwardRef(function Kodi({ color = 'currentColor', size = 24, title = 'Kodi', ...others }, ref) {
+const Kodi = forwardRef(function Kodi({ color = 'currentColor', size = 24, title = 'kodi', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

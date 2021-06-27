@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Chatbot = forwardRef(function Chatbot({ color = 'currentColor', size = 24, title = 'ChatBot', ...others }, ref) {
+const Chatbot = forwardRef(function Chatbot({ color = 'currentColor', size = 24, title = 'chatbot', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

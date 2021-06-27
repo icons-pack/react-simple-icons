@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Googlecalendar = forwardRef(function Googlecalendar(
-  { color = 'currentColor', size = 24, title = 'Google Calendar', ...others },
+  { color = 'currentColor', size = 24, title = 'googlecalendar', ...others },
   ref
 ) {
   return (

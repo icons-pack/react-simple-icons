@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Redhatopenshift = forwardRef(function Redhatopenshift(
-  { color = 'currentColor', size = 24, title = 'Red Hat Open Shift', ...others },
+  { color = 'currentColor', size = 24, title = 'redhatopenshift', ...others },
   ref
 ) {
   return (

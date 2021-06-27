@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Microstrategy = forwardRef(function Microstrategy(
-  { color = 'currentColor', size = 24, title = 'MicroStrategy', ...others },
+  { color = 'currentColor', size = 24, title = 'microstrategy', ...others },
   ref
 ) {
   return (

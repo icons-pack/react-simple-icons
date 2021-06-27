@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Ulule = forwardRef(function Ulule({ color = 'currentColor', size = 24, title = 'Ulule', ...others }, ref) {
+const Ulule = forwardRef(function Ulule({ color = 'currentColor', size = 24, title = 'ulule', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

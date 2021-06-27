@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Klm = forwardRef(function Klm({ color = 'currentColor', size = 24, title = 'KLM', ...others }, ref) {
+const Klm = forwardRef(function Klm({ color = 'currentColor', size = 24, title = 'klm', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

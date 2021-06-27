@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Metro = forwardRef(function Metro({ color = 'currentColor', size = 24, title = 'Metro', ...others }, ref) {
+const Metro = forwardRef(function Metro({ color = 'currentColor', size = 24, title = 'metro', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

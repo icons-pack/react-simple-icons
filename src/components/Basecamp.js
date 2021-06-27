@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Basecamp = forwardRef(function Basecamp(
-  { color = 'currentColor', size = 24, title = 'Basecamp', ...others },
+  { color = 'currentColor', size = 24, title = 'basecamp', ...others },
   ref
 ) {
   return (

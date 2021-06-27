@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const DotNet = forwardRef(function DotNet({ color = 'currentColor', size = 24, title = 'dot-net', ...others }, ref) {
+const Dotnet = forwardRef(function Dotnet({ color = 'currentColor', size = 24, title = 'dotnet', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -17,7 +17,7 @@ const DotNet = forwardRef(function DotNet({ color = 'currentColor', size = 24, t
   );
 });
 
-DotNet.propTypes = {
+Dotnet.propTypes = {
   /**
    * Hex color or color name
    */
@@ -32,4 +32,4 @@ DotNet.propTypes = {
   title: PropTypes.string,
 };
 
-export default DotNet;
+export default Dotnet;

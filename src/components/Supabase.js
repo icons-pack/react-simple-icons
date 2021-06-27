@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Supabase = forwardRef(function Supabase(
-  { color = 'currentColor', size = 24, title = 'Supabase', ...others },
+  { color = 'currentColor', size = 24, title = 'supabase', ...others },
   ref
 ) {
   return (

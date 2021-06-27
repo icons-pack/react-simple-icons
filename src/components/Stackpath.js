@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Stackpath = forwardRef(function Stackpath(
-  { color = 'currentColor', size = 24, title = 'StackPath', ...others },
+  { color = 'currentColor', size = 24, title = 'stackpath', ...others },
   ref
 ) {
   return (

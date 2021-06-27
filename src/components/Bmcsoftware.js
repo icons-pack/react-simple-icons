@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Bmcsoftware = forwardRef(function Bmcsoftware(
-  { color = 'currentColor', size = 24, title = 'BMC Software', ...others },
+  { color = 'currentColor', size = 24, title = 'bmcsoftware', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Apachesolr = forwardRef(function Apachesolr(
-  { color = 'currentColor', size = 24, title = 'Apache Solr', ...others },
+  { color = 'currentColor', size = 24, title = 'apachesolr', ...others },
   ref
 ) {
   return (

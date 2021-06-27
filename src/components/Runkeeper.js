@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Runkeeper = forwardRef(function Runkeeper(
-  { color = 'currentColor', size = 24, title = 'Runkeeper', ...others },
+  { color = 'currentColor', size = 24, title = 'runkeeper', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Contentful = forwardRef(function Contentful(
-  { color = 'currentColor', size = 24, title = 'Contentful', ...others },
+  { color = 'currentColor', size = 24, title = 'contentful', ...others },
   ref
 ) {
   return (

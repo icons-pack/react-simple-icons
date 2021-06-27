@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const EclipsevertDotX = forwardRef(function EclipsevertDotX(
-  { color = 'currentColor', size = 24, title = 'eclipsevert-dot-x', ...others },
+const Eclipsevertdotx = forwardRef(function Eclipsevertdotx(
+  { color = 'currentColor', size = 24, title = 'eclipsevertdotx', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const EclipsevertDotX = forwardRef(function EclipsevertDotX(
   );
 });
 
-EclipsevertDotX.propTypes = {
+Eclipsevertdotx.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ EclipsevertDotX.propTypes = {
   title: PropTypes.string,
 };
 
-export default EclipsevertDotX;
+export default Eclipsevertdotx;

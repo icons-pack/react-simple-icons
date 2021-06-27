@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Fandom = forwardRef(function Fandom({ color = 'currentColor', size = 24, title = 'Fandom', ...others }, ref) {
+const Fandom = forwardRef(function Fandom({ color = 'currentColor', size = 24, title = 'fandom', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

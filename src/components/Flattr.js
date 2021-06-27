@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Flattr = forwardRef(function Flattr({ color = 'currentColor', size = 24, title = 'Flattr', ...others }, ref) {
+const Flattr = forwardRef(function Flattr({ color = 'currentColor', size = 24, title = 'flattr', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

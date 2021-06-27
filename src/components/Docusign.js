@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Docusign = forwardRef(function Docusign(
-  { color = 'currentColor', size = 24, title = 'DocuSign', ...others },
+  { color = 'currentColor', size = 24, title = 'docusign', ...others },
   ref
 ) {
   return (

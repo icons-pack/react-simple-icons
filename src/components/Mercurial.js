@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Mercurial = forwardRef(function Mercurial(
-  { color = 'currentColor', size = 24, title = 'Mercurial', ...others },
+  { color = 'currentColor', size = 24, title = 'mercurial', ...others },
   ref
 ) {
   return (

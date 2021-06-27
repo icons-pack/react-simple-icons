@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Microsoftpowerpoint = forwardRef(function Microsoftpowerpoint(
-  { color = 'currentColor', size = 24, title = 'Microsoft PowerPoint', ...others },
+  { color = 'currentColor', size = 24, title = 'microsoftpowerpoint', ...others },
   ref
 ) {
   return (

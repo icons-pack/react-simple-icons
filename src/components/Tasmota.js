@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Tasmota = forwardRef(function Tasmota({ color = 'currentColor', size = 24, title = 'Tasmota', ...others }, ref) {
+const Tasmota = forwardRef(function Tasmota({ color = 'currentColor', size = 24, title = 'tasmota', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

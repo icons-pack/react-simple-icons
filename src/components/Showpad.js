@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Showpad = forwardRef(function Showpad({ color = 'currentColor', size = 24, title = 'Showpad', ...others }, ref) {
+const Showpad = forwardRef(function Showpad({ color = 'currentColor', size = 24, title = 'showpad', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

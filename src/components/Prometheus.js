@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Prometheus = forwardRef(function Prometheus(
-  { color = 'currentColor', size = 24, title = 'Prometheus', ...others },
+  { color = 'currentColor', size = 24, title = 'prometheus', ...others },
   ref
 ) {
   return (

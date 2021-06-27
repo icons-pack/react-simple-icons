@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Turbosquid = forwardRef(function Turbosquid(
-  { color = 'currentColor', size = 24, title = 'TurboSquid', ...others },
+  { color = 'currentColor', size = 24, title = 'turbosquid', ...others },
   ref
 ) {
   return (

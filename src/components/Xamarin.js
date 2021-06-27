@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Xamarin = forwardRef(function Xamarin({ color = 'currentColor', size = 24, title = 'Xamarin', ...others }, ref) {
+const Xamarin = forwardRef(function Xamarin({ color = 'currentColor', size = 24, title = 'xamarin', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

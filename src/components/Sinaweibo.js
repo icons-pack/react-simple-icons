@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Sinaweibo = forwardRef(function Sinaweibo(
-  { color = 'currentColor', size = 24, title = 'Sina Weibo', ...others },
+  { color = 'currentColor', size = 24, title = 'sinaweibo', ...others },
   ref
 ) {
   return (

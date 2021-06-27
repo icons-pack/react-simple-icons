@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Appveyor = forwardRef(function Appveyor(
-  { color = 'currentColor', size = 24, title = 'AppVeyor', ...others },
+  { color = 'currentColor', size = 24, title = 'appveyor', ...others },
   ref
 ) {
   return (

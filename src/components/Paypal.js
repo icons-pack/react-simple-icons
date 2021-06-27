@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Paypal = forwardRef(function Paypal({ color = 'currentColor', size = 24, title = 'PayPal', ...others }, ref) {
+const Paypal = forwardRef(function Paypal({ color = 'currentColor', size = 24, title = 'paypal', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

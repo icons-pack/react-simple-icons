@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Fiat = forwardRef(function Fiat({ color = 'currentColor', size = 24, title = 'Fiat', ...others }, ref) {
+const Fiat = forwardRef(function Fiat({ color = 'currentColor', size = 24, title = 'fiat', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

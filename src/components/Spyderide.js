@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Spyderide = forwardRef(function Spyderide(
-  { color = 'currentColor', size = 24, title = 'Spyder IDE', ...others },
+  { color = 'currentColor', size = 24, title = 'spyderide', ...others },
   ref
 ) {
   return (

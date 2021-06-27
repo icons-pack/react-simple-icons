@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Webassembly = forwardRef(function Webassembly(
-  { color = 'currentColor', size = 24, title = 'WebAssembly', ...others },
+  { color = 'currentColor', size = 24, title = 'webassembly', ...others },
   ref
 ) {
   return (

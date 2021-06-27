@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Celery = forwardRef(function Celery({ color = 'currentColor', size = 24, title = 'Celery', ...others }, ref) {
+const Celery = forwardRef(function Celery({ color = 'currentColor', size = 24, title = 'celery', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

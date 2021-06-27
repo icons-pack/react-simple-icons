@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Openlayers = forwardRef(function Openlayers(
-  { color = 'currentColor', size = 24, title = 'Openlayers', ...others },
+  { color = 'currentColor', size = 24, title = 'openlayers', ...others },
   ref
 ) {
   return (

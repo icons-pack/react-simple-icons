@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Dassaultsystemes = forwardRef(function Dassaultsystemes(
-  { color = 'currentColor', size = 24, title = 'Dassault Systèmes', ...others },
+  { color = 'currentColor', size = 24, title = 'dassaultsystemes', ...others },
   ref
 ) {
   return (

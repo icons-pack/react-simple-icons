@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Radiopublic = forwardRef(function Radiopublic(
-  { color = 'currentColor', size = 24, title = 'RadioPublic', ...others },
+  { color = 'currentColor', size = 24, title = 'radiopublic', ...others },
   ref
 ) {
   return (

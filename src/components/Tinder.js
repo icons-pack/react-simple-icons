@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Tinder = forwardRef(function Tinder({ color = 'currentColor', size = 24, title = 'Tinder', ...others }, ref) {
+const Tinder = forwardRef(function Tinder({ color = 'currentColor', size = 24, title = 'tinder', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Coffeescript = forwardRef(function Coffeescript(
-  { color = 'currentColor', size = 24, title = 'CoffeeScript', ...others },
+  { color = 'currentColor', size = 24, title = 'coffeescript', ...others },
   ref
 ) {
   return (

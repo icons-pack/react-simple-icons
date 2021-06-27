@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Bosch = forwardRef(function Bosch({ color = 'currentColor', size = 24, title = 'Bosch', ...others }, ref) {
+const Bosch = forwardRef(function Bosch({ color = 'currentColor', size = 24, title = 'bosch', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

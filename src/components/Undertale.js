@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Undertale = forwardRef(function Undertale(
-  { color = 'currentColor', size = 24, title = 'Undertale', ...others },
+  { color = 'currentColor', size = 24, title = 'undertale', ...others },
   ref
 ) {
   return (

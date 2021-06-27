@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Googleoptimize = forwardRef(function Googleoptimize(
-  { color = 'currentColor', size = 24, title = 'Google Optimize', ...others },
+  { color = 'currentColor', size = 24, title = 'googleoptimize', ...others },
   ref
 ) {
   return (

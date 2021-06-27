@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Skyliner = forwardRef(function Skyliner(
-  { color = 'currentColor', size = 24, title = 'Skyliner', ...others },
+  { color = 'currentColor', size = 24, title = 'skyliner', ...others },
   ref
 ) {
   return (

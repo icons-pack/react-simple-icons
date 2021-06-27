@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Gnubash = forwardRef(function Gnubash({ color = 'currentColor', size = 24, title = 'GNU Bash', ...others }, ref) {
+const Gnubash = forwardRef(function Gnubash({ color = 'currentColor', size = 24, title = 'gnubash', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const TripDotCom = forwardRef(function TripDotCom(
-  { color = 'currentColor', size = 24, title = 'trip-dot-com', ...others },
+const Tripdotcom = forwardRef(function Tripdotcom(
+  { color = 'currentColor', size = 24, title = 'tripdotcom', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const TripDotCom = forwardRef(function TripDotCom(
   );
 });
 
-TripDotCom.propTypes = {
+Tripdotcom.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ TripDotCom.propTypes = {
   title: PropTypes.string,
 };
 
-export default TripDotCom;
+export default Tripdotcom;

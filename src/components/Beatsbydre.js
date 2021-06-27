@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Beatsbydre = forwardRef(function Beatsbydre(
-  { color = 'currentColor', size = 24, title = 'Beats by Dre', ...others },
+  { color = 'currentColor', size = 24, title = 'beatsbydre', ...others },
   ref
 ) {
   return (

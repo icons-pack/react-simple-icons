@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Gnuemacs = forwardRef(function Gnuemacs(
-  { color = 'currentColor', size = 24, title = 'GNU Emacs', ...others },
+  { color = 'currentColor', size = 24, title = 'gnuemacs', ...others },
   ref
 ) {
   return (

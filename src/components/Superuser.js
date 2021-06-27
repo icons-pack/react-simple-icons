@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Superuser = forwardRef(function Superuser(
-  { color = 'currentColor', size = 24, title = 'Super User', ...others },
+  { color = 'currentColor', size = 24, title = 'superuser', ...others },
   ref
 ) {
   return (

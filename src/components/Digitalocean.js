@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Digitalocean = forwardRef(function Digitalocean(
-  { color = 'currentColor', size = 24, title = 'DigitalOcean', ...others },
+  { color = 'currentColor', size = 24, title = 'digitalocean', ...others },
   ref
 ) {
   return (

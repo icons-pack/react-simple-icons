@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Jamstack = forwardRef(function Jamstack(
-  { color = 'currentColor', size = 24, title = 'Jamstack', ...others },
+  { color = 'currentColor', size = 24, title = 'jamstack', ...others },
   ref
 ) {
   return (

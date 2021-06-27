@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Seagate = forwardRef(function Seagate({ color = 'currentColor', size = 24, title = 'Seagate', ...others }, ref) {
+const Seagate = forwardRef(function Seagate({ color = 'currentColor', size = 24, title = 'seagate', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

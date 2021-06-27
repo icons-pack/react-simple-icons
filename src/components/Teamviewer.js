@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Teamviewer = forwardRef(function Teamviewer(
-  { color = 'currentColor', size = 24, title = 'TeamViewer', ...others },
+  { color = 'currentColor', size = 24, title = 'teamviewer', ...others },
   ref
 ) {
   return (

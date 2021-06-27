@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Awsamplify = forwardRef(function Awsamplify(
-  { color = 'currentColor', size = 24, title = 'AWS Amplify', ...others },
+  { color = 'currentColor', size = 24, title = 'awsamplify', ...others },
   ref
 ) {
   return (

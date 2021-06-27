@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Racket = forwardRef(function Racket({ color = 'currentColor', size = 24, title = 'Racket', ...others }, ref) {
+const Racket = forwardRef(function Racket({ color = 'currentColor', size = 24, title = 'racket', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

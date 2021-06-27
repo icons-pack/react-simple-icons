@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Dialogflow = forwardRef(function Dialogflow(
-  { color = 'currentColor', size = 24, title = 'Dialogflow', ...others },
+  { color = 'currentColor', size = 24, title = 'dialogflow', ...others },
   ref
 ) {
   return (

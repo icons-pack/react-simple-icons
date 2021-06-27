@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Scrimba = forwardRef(function Scrimba({ color = 'currentColor', size = 24, title = 'Scrimba', ...others }, ref) {
+const Scrimba = forwardRef(function Scrimba({ color = 'currentColor', size = 24, title = 'scrimba', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

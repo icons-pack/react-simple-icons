@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Databricks = forwardRef(function Databricks(
-  { color = 'currentColor', size = 24, title = 'Databricks', ...others },
+  { color = 'currentColor', size = 24, title = 'databricks', ...others },
   ref
 ) {
   return (

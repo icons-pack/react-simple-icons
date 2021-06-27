@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Coronarenderer = forwardRef(function Coronarenderer(
-  { color = 'currentColor', size = 24, title = 'Corona Renderer', ...others },
+  { color = 'currentColor', size = 24, title = 'coronarenderer', ...others },
   ref
 ) {
   return (

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Orcid = forwardRef(function Orcid({ color = 'currentColor', size = 24, title = 'ORCID', ...others }, ref) {
+const Orcid = forwardRef(function Orcid({ color = 'currentColor', size = 24, title = 'orcid', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

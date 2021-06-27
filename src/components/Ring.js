@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Ring = forwardRef(function Ring({ color = 'currentColor', size = 24, title = 'Ring', ...others }, ref) {
+const Ring = forwardRef(function Ring({ color = 'currentColor', size = 24, title = 'ring', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

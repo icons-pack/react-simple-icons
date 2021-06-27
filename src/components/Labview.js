@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Labview = forwardRef(function Labview({ color = 'currentColor', size = 24, title = 'LabVIEW', ...others }, ref) {
+const Labview = forwardRef(function Labview({ color = 'currentColor', size = 24, title = 'labview', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

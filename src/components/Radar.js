@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Radar = forwardRef(function Radar({ color = 'currentColor', size = 24, title = 'Radar', ...others }, ref) {
+const Radar = forwardRef(function Radar({ color = 'currentColor', size = 24, title = 'radar', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

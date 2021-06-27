@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Webdriverio = forwardRef(function Webdriverio(
-  { color = 'currentColor', size = 24, title = 'WebdriverIO', ...others },
+  { color = 'currentColor', size = 24, title = 'webdriverio', ...others },
   ref
 ) {
   return (

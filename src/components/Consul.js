@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Consul = forwardRef(function Consul({ color = 'currentColor', size = 24, title = 'Consul', ...others }, ref) {
+const Consul = forwardRef(function Consul({ color = 'currentColor', size = 24, title = 'consul', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

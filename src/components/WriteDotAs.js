@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const WriteDotAs = forwardRef(function WriteDotAs(
-  { color = 'currentColor', size = 24, title = 'write-dot-as', ...others },
+const Writedotas = forwardRef(function Writedotas(
+  { color = 'currentColor', size = 24, title = 'writedotas', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const WriteDotAs = forwardRef(function WriteDotAs(
   );
 });
 
-WriteDotAs.propTypes = {
+Writedotas.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ WriteDotAs.propTypes = {
   title: PropTypes.string,
 };
 
-export default WriteDotAs;
+export default Writedotas;

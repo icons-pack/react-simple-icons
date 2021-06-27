@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Favro = forwardRef(function Favro({ color = 'currentColor', size = 24, title = 'Favro', ...others }, ref) {
+const Favro = forwardRef(function Favro({ color = 'currentColor', size = 24, title = 'favro', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

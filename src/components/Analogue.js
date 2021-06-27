@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Analogue = forwardRef(function Analogue(
-  { color = 'currentColor', size = 24, title = 'Analogue', ...others },
+  { color = 'currentColor', size = 24, title = 'analogue', ...others },
   ref
 ) {
   return (

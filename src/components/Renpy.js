@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Renpy = forwardRef(function Renpy({ color = 'currentColor', size = 24, title = "Ren'Py", ...others }, ref) {
+const Renpy = forwardRef(function Renpy({ color = 'currentColor', size = 24, title = 'renpy', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

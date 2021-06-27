@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Algolia = forwardRef(function Algolia({ color = 'currentColor', size = 24, title = 'Algolia', ...others }, ref) {
+const Algolia = forwardRef(function Algolia({ color = 'currentColor', size = 24, title = 'algolia', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

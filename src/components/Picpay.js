@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Picpay = forwardRef(function Picpay({ color = 'currentColor', size = 24, title = 'PicPay', ...others }, ref) {
+const Picpay = forwardRef(function Picpay({ color = 'currentColor', size = 24, title = 'picpay', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

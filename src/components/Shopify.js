@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Shopify = forwardRef(function Shopify({ color = 'currentColor', size = 24, title = 'Shopify', ...others }, ref) {
+const Shopify = forwardRef(function Shopify({ color = 'currentColor', size = 24, title = 'shopify', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Swiper = forwardRef(function Swiper({ color = 'currentColor', size = 24, title = 'Swiper', ...others }, ref) {
+const Swiper = forwardRef(function Swiper({ color = 'currentColor', size = 24, title = 'swiper', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

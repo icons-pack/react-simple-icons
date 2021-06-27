@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Tripadvisor = forwardRef(function Tripadvisor(
-  { color = 'currentColor', size = 24, title = 'Tripadvisor', ...others },
+  { color = 'currentColor', size = 24, title = 'tripadvisor', ...others },
   ref
 ) {
   return (

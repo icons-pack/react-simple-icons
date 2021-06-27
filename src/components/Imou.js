@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Imou = forwardRef(function Imou({ color = 'currentColor', size = 24, title = 'Imou', ...others }, ref) {
+const Imou = forwardRef(function Imou({ color = 'currentColor', size = 24, title = 'imou', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Cdprojekt = forwardRef(function Cdprojekt(
-  { color = 'currentColor', size = 24, title = 'CD Projekt', ...others },
+  { color = 'currentColor', size = 24, title = 'cdprojekt', ...others },
   ref
 ) {
   return (

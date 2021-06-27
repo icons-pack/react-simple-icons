@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Opera = forwardRef(function Opera({ color = 'currentColor', size = 24, title = 'Opera', ...others }, ref) {
+const Opera = forwardRef(function Opera({ color = 'currentColor', size = 24, title = 'opera', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

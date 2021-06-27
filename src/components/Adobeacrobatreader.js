@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Adobeacrobatreader = forwardRef(function Adobeacrobatreader(
-  { color = 'currentColor', size = 24, title = 'Adobe Acrobat Reader', ...others },
+  { color = 'currentColor', size = 24, title = 'adobeacrobatreader', ...others },
   ref
 ) {
   return (

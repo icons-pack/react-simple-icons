@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Redwoodjs = forwardRef(function Redwoodjs(
-  { color = 'currentColor', size = 24, title = 'RedwoodJS', ...others },
+  { color = 'currentColor', size = 24, title = 'redwoodjs', ...others },
   ref
 ) {
   return (

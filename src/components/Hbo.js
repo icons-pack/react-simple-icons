@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Hbo = forwardRef(function Hbo({ color = 'currentColor', size = 24, title = 'HBO', ...others }, ref) {
+const Hbo = forwardRef(function Hbo({ color = 'currentColor', size = 24, title = 'hbo', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

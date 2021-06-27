@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Mysql = forwardRef(function Mysql({ color = 'currentColor', size = 24, title = 'MySQL', ...others }, ref) {
+const Mysql = forwardRef(function Mysql({ color = 'currentColor', size = 24, title = 'mysql', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

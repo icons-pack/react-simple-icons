@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Iheartradio = forwardRef(function Iheartradio(
-  { color = 'currentColor', size = 24, title = 'iHeartRadio', ...others },
+  { color = 'currentColor', size = 24, title = 'iheartradio', ...others },
   ref
 ) {
   return (

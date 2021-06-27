@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Woocommerce = forwardRef(function Woocommerce(
-  { color = 'currentColor', size = 24, title = 'WooCommerce', ...others },
+  { color = 'currentColor', size = 24, title = 'woocommerce', ...others },
   ref
 ) {
   return (

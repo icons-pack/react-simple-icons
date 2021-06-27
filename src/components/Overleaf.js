@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Overleaf = forwardRef(function Overleaf(
-  { color = 'currentColor', size = 24, title = 'Overleaf', ...others },
+  { color = 'currentColor', size = 24, title = 'overleaf', ...others },
   ref
 ) {
   return (

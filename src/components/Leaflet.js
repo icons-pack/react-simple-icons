@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Leaflet = forwardRef(function Leaflet({ color = 'currentColor', size = 24, title = 'Leaflet', ...others }, ref) {
+const Leaflet = forwardRef(function Leaflet({ color = 'currentColor', size = 24, title = 'leaflet', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

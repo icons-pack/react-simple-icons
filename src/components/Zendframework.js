@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Zendframework = forwardRef(function Zendframework(
-  { color = 'currentColor', size = 24, title = 'Zend Framework', ...others },
+  { color = 'currentColor', size = 24, title = 'zendframework', ...others },
   ref
 ) {
   return (

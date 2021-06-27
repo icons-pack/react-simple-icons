@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Minecraft = forwardRef(function Minecraft(
-  { color = 'currentColor', size = 24, title = 'Minecraft', ...others },
+  { color = 'currentColor', size = 24, title = 'minecraft', ...others },
   ref
 ) {
   return (

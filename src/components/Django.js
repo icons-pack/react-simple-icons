@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Django = forwardRef(function Django({ color = 'currentColor', size = 24, title = 'Django', ...others }, ref) {
+const Django = forwardRef(function Django({ color = 'currentColor', size = 24, title = 'django', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Singlestore = forwardRef(function Singlestore(
-  { color = 'currentColor', size = 24, title = 'SingleStore', ...others },
+  { color = 'currentColor', size = 24, title = 'singlestore', ...others },
   ref
 ) {
   return (

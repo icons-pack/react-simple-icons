@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Convertio = forwardRef(function Convertio(
-  { color = 'currentColor', size = 24, title = 'Convertio', ...others },
+  { color = 'currentColor', size = 24, title = 'convertio', ...others },
   ref
 ) {
   return (

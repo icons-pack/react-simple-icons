@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Googlekeep = forwardRef(function Googlekeep(
-  { color = 'currentColor', size = 24, title = 'Google Keep', ...others },
+  { color = 'currentColor', size = 24, title = 'googlekeep', ...others },
   ref
 ) {
   return (

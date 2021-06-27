@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Tinyletter = forwardRef(function Tinyletter(
-  { color = 'currentColor', size = 24, title = 'TinyLetter', ...others },
+  { color = 'currentColor', size = 24, title = 'tinyletter', ...others },
   ref
 ) {
   return (

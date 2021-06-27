@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Keepassxc = forwardRef(function Keepassxc(
-  { color = 'currentColor', size = 24, title = 'KeePassXC', ...others },
+  { color = 'currentColor', size = 24, title = 'keepassxc', ...others },
   ref
 ) {
   return (

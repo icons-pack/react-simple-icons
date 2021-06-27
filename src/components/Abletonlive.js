@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Abletonlive = forwardRef(function Abletonlive(
-  { color = 'currentColor', size = 24, title = 'Ableton Live', ...others },
+  { color = 'currentColor', size = 24, title = 'abletonlive', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Kdenlive = forwardRef(function Kdenlive(
-  { color = 'currentColor', size = 24, title = 'Kdenlive', ...others },
+  { color = 'currentColor', size = 24, title = 'kdenlive', ...others },
   ref
 ) {
   return (

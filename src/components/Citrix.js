@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Citrix = forwardRef(function Citrix({ color = 'currentColor', size = 24, title = 'Citrix', ...others }, ref) {
+const Citrix = forwardRef(function Citrix({ color = 'currentColor', size = 24, title = 'citrix', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

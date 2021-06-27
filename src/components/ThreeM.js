@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const ThreeM = forwardRef(function ThreeM({ color = 'currentColor', size = 24, title = '3M', ...others }, ref) {
+const ThreeM = forwardRef(function ThreeM({ color = 'currentColor', size = 24, title = '3m', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

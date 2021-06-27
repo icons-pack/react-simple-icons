@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Spinnaker = forwardRef(function Spinnaker(
-  { color = 'currentColor', size = 24, title = 'Spinnaker', ...others },
+  { color = 'currentColor', size = 24, title = 'spinnaker', ...others },
   ref
 ) {
   return (

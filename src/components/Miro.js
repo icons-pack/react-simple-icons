@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Miro = forwardRef(function Miro({ color = 'currentColor', size = 24, title = 'Miro', ...others }, ref) {
+const Miro = forwardRef(function Miro({ color = 'currentColor', size = 24, title = 'miro', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

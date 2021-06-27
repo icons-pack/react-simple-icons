@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Ffmpeg = forwardRef(function Ffmpeg({ color = 'currentColor', size = 24, title = 'FFmpeg', ...others }, ref) {
+const Ffmpeg = forwardRef(function Ffmpeg({ color = 'currentColor', size = 24, title = 'ffmpeg', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

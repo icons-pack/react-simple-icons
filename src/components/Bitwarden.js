@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Bitwarden = forwardRef(function Bitwarden(
-  { color = 'currentColor', size = 24, title = 'Bitwarden', ...others },
+  { color = 'currentColor', size = 24, title = 'bitwarden', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Adobecreativecloud = forwardRef(function Adobecreativecloud(
-  { color = 'currentColor', size = 24, title = 'Adobe Creative Cloud', ...others },
+  { color = 'currentColor', size = 24, title = 'adobecreativecloud', ...others },
   ref
 ) {
   return (

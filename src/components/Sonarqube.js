@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Sonarqube = forwardRef(function Sonarqube(
-  { color = 'currentColor', size = 24, title = 'SonarQube', ...others },
+  { color = 'currentColor', size = 24, title = 'sonarqube', ...others },
   ref
 ) {
   return (

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Postman = forwardRef(function Postman({ color = 'currentColor', size = 24, title = 'Postman', ...others }, ref) {
+const Postman = forwardRef(function Postman({ color = 'currentColor', size = 24, title = 'postman', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

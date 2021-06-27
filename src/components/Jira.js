@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Jira = forwardRef(function Jira({ color = 'currentColor', size = 24, title = 'Jira', ...others }, ref) {
+const Jira = forwardRef(function Jira({ color = 'currentColor', size = 24, title = 'jira', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

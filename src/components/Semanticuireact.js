@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Semanticuireact = forwardRef(function Semanticuireact(
-  { color = 'currentColor', size = 24, title = 'Semantic UI React', ...others },
+  { color = 'currentColor', size = 24, title = 'semanticuireact', ...others },
   ref
 ) {
   return (

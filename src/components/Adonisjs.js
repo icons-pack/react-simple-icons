@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Adonisjs = forwardRef(function Adonisjs(
-  { color = 'currentColor', size = 24, title = 'AdonisJS', ...others },
+  { color = 'currentColor', size = 24, title = 'adonisjs', ...others },
   ref
 ) {
   return (

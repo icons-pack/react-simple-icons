@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const NewjapanproWrestling = forwardRef(function NewjapanproWrestling(
-  { color = 'currentColor', size = 24, title = 'newjapanpro-wrestling', ...others },
+const Newjapanprowrestling = forwardRef(function Newjapanprowrestling(
+  { color = 'currentColor', size = 24, title = 'newjapanprowrestling', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const NewjapanproWrestling = forwardRef(function NewjapanproWrestling(
   );
 });
 
-NewjapanproWrestling.propTypes = {
+Newjapanprowrestling.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ NewjapanproWrestling.propTypes = {
   title: PropTypes.string,
 };
 
-export default NewjapanproWrestling;
+export default Newjapanprowrestling;

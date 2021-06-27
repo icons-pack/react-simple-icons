@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Atari = forwardRef(function Atari({ color = 'currentColor', size = 24, title = 'Atari', ...others }, ref) {
+const Atari = forwardRef(function Atari({ color = 'currentColor', size = 24, title = 'atari', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

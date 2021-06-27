@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Checkmarx = forwardRef(function Checkmarx(
-  { color = 'currentColor', size = 24, title = 'Checkmarx', ...others },
+  { color = 'currentColor', size = 24, title = 'checkmarx', ...others },
   ref
 ) {
   return (

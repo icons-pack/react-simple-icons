@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Lmms = forwardRef(function Lmms({ color = 'currentColor', size = 24, title = 'LMMS', ...others }, ref) {
+const Lmms = forwardRef(function Lmms({ color = 'currentColor', size = 24, title = 'lmms', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Symantec = forwardRef(function Symantec(
-  { color = 'currentColor', size = 24, title = 'Symantec', ...others },
+  { color = 'currentColor', size = 24, title = 'symantec', ...others },
   ref
 ) {
   return (

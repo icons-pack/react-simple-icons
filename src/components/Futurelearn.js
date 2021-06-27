@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Futurelearn = forwardRef(function Futurelearn(
-  { color = 'currentColor', size = 24, title = 'FutureLearn', ...others },
+  { color = 'currentColor', size = 24, title = 'futurelearn', ...others },
   ref
 ) {
   return (

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Tunein = forwardRef(function Tunein({ color = 'currentColor', size = 24, title = 'TuneIn', ...others }, ref) {
+const Tunein = forwardRef(function Tunein({ color = 'currentColor', size = 24, title = 'tunein', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

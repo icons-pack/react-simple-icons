@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Eclipseide = forwardRef(function Eclipseide(
-  { color = 'currentColor', size = 24, title = 'Eclipse IDE', ...others },
+  { color = 'currentColor', size = 24, title = 'eclipseide', ...others },
   ref
 ) {
   return (

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Wistia = forwardRef(function Wistia({ color = 'currentColor', size = 24, title = 'Wistia', ...others }, ref) {
+const Wistia = forwardRef(function Wistia({ color = 'currentColor', size = 24, title = 'wistia', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

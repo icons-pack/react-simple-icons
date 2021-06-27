@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Contactlesspayment = forwardRef(function Contactlesspayment(
-  { color = 'currentColor', size = 24, title = 'Contactless Payment', ...others },
+  { color = 'currentColor', size = 24, title = 'contactlesspayment', ...others },
   ref
 ) {
   return (

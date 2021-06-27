@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Homebridge = forwardRef(function Homebridge(
-  { color = 'currentColor', size = 24, title = 'Homebridge', ...others },
+  { color = 'currentColor', size = 24, title = 'homebridge', ...others },
   ref
 ) {
   return (

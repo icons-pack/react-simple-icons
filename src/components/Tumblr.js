@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Tumblr = forwardRef(function Tumblr({ color = 'currentColor', size = 24, title = 'Tumblr', ...others }, ref) {
+const Tumblr = forwardRef(function Tumblr({ color = 'currentColor', size = 24, title = 'tumblr', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

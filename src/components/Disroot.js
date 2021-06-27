@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Disroot = forwardRef(function Disroot({ color = 'currentColor', size = 24, title = 'Disroot', ...others }, ref) {
+const Disroot = forwardRef(function Disroot({ color = 'currentColor', size = 24, title = 'disroot', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

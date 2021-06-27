@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Disqus = forwardRef(function Disqus({ color = 'currentColor', size = 24, title = 'Disqus', ...others }, ref) {
+const Disqus = forwardRef(function Disqus({ color = 'currentColor', size = 24, title = 'disqus', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

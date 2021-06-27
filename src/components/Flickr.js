@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Flickr = forwardRef(function Flickr({ color = 'currentColor', size = 24, title = 'Flickr', ...others }, ref) {
+const Flickr = forwardRef(function Flickr({ color = 'currentColor', size = 24, title = 'flickr', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const NodeRed = forwardRef(function NodeRed({ color = 'currentColor', size = 24, title = 'node-red', ...others }, ref) {
+const Nodered = forwardRef(function Nodered({ color = 'currentColor', size = 24, title = 'nodered', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -17,7 +17,7 @@ const NodeRed = forwardRef(function NodeRed({ color = 'currentColor', size = 24,
   );
 });
 
-NodeRed.propTypes = {
+Nodered.propTypes = {
   /**
    * Hex color or color name
    */
@@ -32,4 +32,4 @@ NodeRed.propTypes = {
   title: PropTypes.string,
 };
 
-export default NodeRed;
+export default Nodered;

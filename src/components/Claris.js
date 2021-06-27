@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Claris = forwardRef(function Claris({ color = 'currentColor', size = 24, title = 'Claris', ...others }, ref) {
+const Claris = forwardRef(function Claris({ color = 'currentColor', size = 24, title = 'claris', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

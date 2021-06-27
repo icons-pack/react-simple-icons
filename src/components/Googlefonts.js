@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Googlefonts = forwardRef(function Googlefonts(
-  { color = 'currentColor', size = 24, title = 'Google Fonts', ...others },
+  { color = 'currentColor', size = 24, title = 'googlefonts', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Googletagmanager = forwardRef(function Googletagmanager(
-  { color = 'currentColor', size = 24, title = 'Google Tag Manager', ...others },
+  { color = 'currentColor', size = 24, title = 'googletagmanager', ...others },
   ref
 ) {
   return (

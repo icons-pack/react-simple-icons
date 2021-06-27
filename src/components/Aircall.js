@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Aircall = forwardRef(function Aircall({ color = 'currentColor', size = 24, title = 'Aircall', ...others }, ref) {
+const Aircall = forwardRef(function Aircall({ color = 'currentColor', size = 24, title = 'aircall', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

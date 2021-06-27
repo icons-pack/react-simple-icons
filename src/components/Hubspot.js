@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Hubspot = forwardRef(function Hubspot({ color = 'currentColor', size = 24, title = 'HubSpot', ...others }, ref) {
+const Hubspot = forwardRef(function Hubspot({ color = 'currentColor', size = 24, title = 'hubspot', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

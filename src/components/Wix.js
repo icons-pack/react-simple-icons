@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Wix = forwardRef(function Wix({ color = 'currentColor', size = 24, title = 'Wix', ...others }, ref) {
+const Wix = forwardRef(function Wix({ color = 'currentColor', size = 24, title = 'wix', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

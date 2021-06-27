@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Crunchbase = forwardRef(function Crunchbase(
-  { color = 'currentColor', size = 24, title = 'Crunchbase', ...others },
+  { color = 'currentColor', size = 24, title = 'crunchbase', ...others },
   ref
 ) {
   return (

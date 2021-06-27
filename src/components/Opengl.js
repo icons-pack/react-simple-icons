@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Opengl = forwardRef(function Opengl({ color = 'currentColor', size = 24, title = 'OpenGL', ...others }, ref) {
+const Opengl = forwardRef(function Opengl({ color = 'currentColor', size = 24, title = 'opengl', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

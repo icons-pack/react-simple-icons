@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Opel = forwardRef(function Opel({ color = 'currentColor', size = 24, title = 'Opel', ...others }, ref) {
+const Opel = forwardRef(function Opel({ color = 'currentColor', size = 24, title = 'opel', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

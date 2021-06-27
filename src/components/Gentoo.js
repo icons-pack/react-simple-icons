@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Gentoo = forwardRef(function Gentoo({ color = 'currentColor', size = 24, title = 'Gentoo', ...others }, ref) {
+const Gentoo = forwardRef(function Gentoo({ color = 'currentColor', size = 24, title = 'gentoo', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

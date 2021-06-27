@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Googlelens = forwardRef(function Googlelens(
-  { color = 'currentColor', size = 24, title = 'Google Lens', ...others },
+  { color = 'currentColor', size = 24, title = 'googlelens', ...others },
   ref
 ) {
   return (

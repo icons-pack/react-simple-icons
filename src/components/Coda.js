@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Coda = forwardRef(function Coda({ color = 'currentColor', size = 24, title = 'Coda', ...others }, ref) {
+const Coda = forwardRef(function Coda({ color = 'currentColor', size = 24, title = 'coda', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

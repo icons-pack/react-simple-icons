@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Jinja = forwardRef(function Jinja({ color = 'currentColor', size = 24, title = 'Jinja', ...others }, ref) {
+const Jinja = forwardRef(function Jinja({ color = 'currentColor', size = 24, title = 'jinja', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

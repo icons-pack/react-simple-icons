@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Ryanair = forwardRef(function Ryanair({ color = 'currentColor', size = 24, title = 'Ryanair', ...others }, ref) {
+const Ryanair = forwardRef(function Ryanair({ color = 'currentColor', size = 24, title = 'ryanair', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

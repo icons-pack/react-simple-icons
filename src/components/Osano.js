@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Osano = forwardRef(function Osano({ color = 'currentColor', size = 24, title = 'Osano', ...others }, ref) {
+const Osano = forwardRef(function Osano({ color = 'currentColor', size = 24, title = 'osano', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

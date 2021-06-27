@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Airchina = forwardRef(function Airchina(
-  { color = 'currentColor', size = 24, title = 'Air China', ...others },
+  { color = 'currentColor', size = 24, title = 'airchina', ...others },
   ref
 ) {
   return (

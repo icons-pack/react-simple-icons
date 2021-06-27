@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Kalilinux = forwardRef(function Kalilinux(
-  { color = 'currentColor', size = 24, title = 'Kali Linux', ...others },
+  { color = 'currentColor', size = 24, title = 'kalilinux', ...others },
   ref
 ) {
   return (

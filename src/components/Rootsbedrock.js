@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Rootsbedrock = forwardRef(function Rootsbedrock(
-  { color = 'currentColor', size = 24, title = 'Roots Bedrock', ...others },
+  { color = 'currentColor', size = 24, title = 'rootsbedrock', ...others },
   ref
 ) {
   return (

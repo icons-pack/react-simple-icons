@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Mariadb = forwardRef(function Mariadb({ color = 'currentColor', size = 24, title = 'MariaDB', ...others }, ref) {
+const Mariadb = forwardRef(function Mariadb({ color = 'currentColor', size = 24, title = 'mariadb', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

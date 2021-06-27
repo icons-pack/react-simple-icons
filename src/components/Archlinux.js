@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Archlinux = forwardRef(function Archlinux(
-  { color = 'currentColor', size = 24, title = 'Arch Linux', ...others },
+  { color = 'currentColor', size = 24, title = 'archlinux', ...others },
   ref
 ) {
   return (

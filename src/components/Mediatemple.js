@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Mediatemple = forwardRef(function Mediatemple(
-  { color = 'currentColor', size = 24, title = 'MediaTemple', ...others },
+  { color = 'currentColor', size = 24, title = 'mediatemple', ...others },
   ref
 ) {
   return (

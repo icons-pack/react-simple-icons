@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Teamspeak = forwardRef(function Teamspeak(
-  { color = 'currentColor', size = 24, title = 'TeamSpeak', ...others },
+  { color = 'currentColor', size = 24, title = 'teamspeak', ...others },
   ref
 ) {
   return (

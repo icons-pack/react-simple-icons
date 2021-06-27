@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Xsplit = forwardRef(function Xsplit({ color = 'currentColor', size = 24, title = 'XSplit', ...others }, ref) {
+const Xsplit = forwardRef(function Xsplit({ color = 'currentColor', size = 24, title = 'xsplit', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Kibana = forwardRef(function Kibana({ color = 'currentColor', size = 24, title = 'Kibana', ...others }, ref) {
+const Kibana = forwardRef(function Kibana({ color = 'currentColor', size = 24, title = 'kibana', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

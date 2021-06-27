@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Metrodelaciudaddemexico = forwardRef(function Metrodelaciudaddemexico(
-  { color = 'currentColor', size = 24, title = 'Metro de la Ciudad de México', ...others },
+  { color = 'currentColor', size = 24, title = 'metrodelaciudaddemexico', ...others },
   ref
 ) {
   return (

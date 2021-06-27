@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Grafana = forwardRef(function Grafana({ color = 'currentColor', size = 24, title = 'Grafana', ...others }, ref) {
+const Grafana = forwardRef(function Grafana({ color = 'currentColor', size = 24, title = 'grafana', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

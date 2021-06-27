@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Coinbase = forwardRef(function Coinbase(
-  { color = 'currentColor', size = 24, title = 'Coinbase', ...others },
+  { color = 'currentColor', size = 24, title = 'coinbase', ...others },
   ref
 ) {
   return (

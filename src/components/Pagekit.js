@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Pagekit = forwardRef(function Pagekit({ color = 'currentColor', size = 24, title = 'Pagekit', ...others }, ref) {
+const Pagekit = forwardRef(function Pagekit({ color = 'currentColor', size = 24, title = 'pagekit', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

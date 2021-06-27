@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Ubiquiti = forwardRef(function Ubiquiti(
-  { color = 'currentColor', size = 24, title = 'Ubiquiti', ...others },
+  { color = 'currentColor', size = 24, title = 'ubiquiti', ...others },
   ref
 ) {
   return (

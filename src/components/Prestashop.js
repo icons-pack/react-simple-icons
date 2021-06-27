@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Prestashop = forwardRef(function Prestashop(
-  { color = 'currentColor', size = 24, title = 'PrestaShop', ...others },
+  { color = 'currentColor', size = 24, title = 'prestashop', ...others },
   ref
 ) {
   return (

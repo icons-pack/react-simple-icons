@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Fnac = forwardRef(function Fnac({ color = 'currentColor', size = 24, title = 'Fnac', ...others }, ref) {
+const Fnac = forwardRef(function Fnac({ color = 'currentColor', size = 24, title = 'fnac', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

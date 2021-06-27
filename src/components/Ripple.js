@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Ripple = forwardRef(function Ripple({ color = 'currentColor', size = 24, title = 'Ripple', ...others }, ref) {
+const Ripple = forwardRef(function Ripple({ color = 'currentColor', size = 24, title = 'ripple', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

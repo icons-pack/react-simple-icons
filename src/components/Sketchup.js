@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Sketchup = forwardRef(function Sketchup(
-  { color = 'currentColor', size = 24, title = 'SketchUp', ...others },
+  { color = 'currentColor', size = 24, title = 'sketchup', ...others },
   ref
 ) {
   return (

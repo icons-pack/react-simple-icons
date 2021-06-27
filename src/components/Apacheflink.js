@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Apacheflink = forwardRef(function Apacheflink(
-  { color = 'currentColor', size = 24, title = 'Apache Flink', ...others },
+  { color = 'currentColor', size = 24, title = 'apacheflink', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Storyblok = forwardRef(function Storyblok(
-  { color = 'currentColor', size = 24, title = 'Storyblok', ...others },
+  { color = 'currentColor', size = 24, title = 'storyblok', ...others },
   ref
 ) {
   return (

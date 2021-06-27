@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const OneThousandOneTracklists = forwardRef(function OneThousandOneTracklists(
-  { color = 'currentColor', size = 24, title = '1001Tracklists', ...others },
+  { color = 'currentColor', size = 24, title = '1001tracklists', ...others },
   ref
 ) {
   return (

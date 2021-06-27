@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Kyocera = forwardRef(function Kyocera({ color = 'currentColor', size = 24, title = 'Kyocera', ...others }, ref) {
+const Kyocera = forwardRef(function Kyocera({ color = 'currentColor', size = 24, title = 'kyocera', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

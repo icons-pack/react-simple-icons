@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const GridDotAi = forwardRef(function GridDotAi(
-  { color = 'currentColor', size = 24, title = 'Grid.ai', ...others },
+const Griddotai = forwardRef(function Griddotai(
+  { color = 'currentColor', size = 24, title = 'griddotai', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const GridDotAi = forwardRef(function GridDotAi(
   );
 });
 
-GridDotAi.propTypes = {
+Griddotai.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ GridDotAi.propTypes = {
   title: PropTypes.string,
 };
 
-export default GridDotAi;
+export default Griddotai;

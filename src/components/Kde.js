@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Kde = forwardRef(function Kde({ color = 'currentColor', size = 24, title = 'KDE', ...others }, ref) {
+const Kde = forwardRef(function Kde({ color = 'currentColor', size = 24, title = 'kde', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Mdnwebdocs = forwardRef(function Mdnwebdocs(
-  { color = 'currentColor', size = 24, title = 'MDN Web Docs', ...others },
+  { color = 'currentColor', size = 24, title = 'mdnwebdocs', ...others },
   ref
 ) {
   return (

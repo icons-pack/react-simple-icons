@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Docker = forwardRef(function Docker({ color = 'currentColor', size = 24, title = 'Docker', ...others }, ref) {
+const Docker = forwardRef(function Docker({ color = 'currentColor', size = 24, title = 'docker', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

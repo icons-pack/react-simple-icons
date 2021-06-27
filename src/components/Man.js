@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Man = forwardRef(function Man({ color = 'currentColor', size = 24, title = 'MAN', ...others }, ref) {
+const Man = forwardRef(function Man({ color = 'currentColor', size = 24, title = 'man', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

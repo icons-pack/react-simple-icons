@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Notepadplusplus = forwardRef(function Notepadplusplus(
-  { color = 'currentColor', size = 24, title = 'Notepad++', ...others },
+  { color = 'currentColor', size = 24, title = 'notepadplusplus', ...others },
   ref
 ) {
   return (

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Wii = forwardRef(function Wii({ color = 'currentColor', size = 24, title = 'Wii', ...others }, ref) {
+const Wii = forwardRef(function Wii({ color = 'currentColor', size = 24, title = 'wii', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

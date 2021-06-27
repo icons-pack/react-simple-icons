@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Cocoapods = forwardRef(function Cocoapods(
-  { color = 'currentColor', size = 24, title = 'CocoaPods', ...others },
+  { color = 'currentColor', size = 24, title = 'cocoapods', ...others },
   ref
 ) {
   return (

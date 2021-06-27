@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Awesomelists = forwardRef(function Awesomelists(
-  { color = 'currentColor', size = 24, title = 'Awesome Lists', ...others },
+  { color = 'currentColor', size = 24, title = 'awesomelists', ...others },
   ref
 ) {
   return (

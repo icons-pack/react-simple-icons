@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Knowledgebase = forwardRef(function Knowledgebase(
-  { color = 'currentColor', size = 24, title = 'KnowledgeBase', ...others },
+  { color = 'currentColor', size = 24, title = 'knowledgebase', ...others },
   ref
 ) {
   return (

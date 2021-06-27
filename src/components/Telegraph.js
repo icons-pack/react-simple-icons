@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Telegraph = forwardRef(function Telegraph(
-  { color = 'currentColor', size = 24, title = 'Telegraph', ...others },
+  { color = 'currentColor', size = 24, title = 'telegraph', ...others },
   ref
 ) {
   return (

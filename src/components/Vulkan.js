@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Vulkan = forwardRef(function Vulkan({ color = 'currentColor', size = 24, title = 'Vulkan', ...others }, ref) {
+const Vulkan = forwardRef(function Vulkan({ color = 'currentColor', size = 24, title = 'vulkan', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Antdesign = forwardRef(function Antdesign(
-  { color = 'currentColor', size = 24, title = 'Ant Design', ...others },
+  { color = 'currentColor', size = 24, title = 'antdesign', ...others },
   ref
 ) {
   return (

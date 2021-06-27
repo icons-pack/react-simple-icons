@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Apachecordova = forwardRef(function Apachecordova(
-  { color = 'currentColor', size = 24, title = 'Apache Cordova', ...others },
+  { color = 'currentColor', size = 24, title = 'apachecordova', ...others },
   ref
 ) {
   return (

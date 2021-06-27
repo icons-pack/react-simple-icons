@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Elastic = forwardRef(function Elastic({ color = 'currentColor', size = 24, title = 'Elastic', ...others }, ref) {
+const Elastic = forwardRef(function Elastic({ color = 'currentColor', size = 24, title = 'elastic', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

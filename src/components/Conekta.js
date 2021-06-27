@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Conekta = forwardRef(function Conekta({ color = 'currentColor', size = 24, title = 'Conekta', ...others }, ref) {
+const Conekta = forwardRef(function Conekta({ color = 'currentColor', size = 24, title = 'conekta', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

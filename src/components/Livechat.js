@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Livechat = forwardRef(function Livechat(
-  { color = 'currentColor', size = 24, title = 'LiveChat', ...others },
+  { color = 'currentColor', size = 24, title = 'livechat', ...others },
   ref
 ) {
   return (

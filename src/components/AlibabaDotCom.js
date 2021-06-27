@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const AlibabaDotCom = forwardRef(function AlibabaDotCom(
-  { color = 'currentColor', size = 24, title = 'alibaba-dot-com', ...others },
+const Alibabadotcom = forwardRef(function Alibabadotcom(
+  { color = 'currentColor', size = 24, title = 'alibabadotcom', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const AlibabaDotCom = forwardRef(function AlibabaDotCom(
   );
 });
 
-AlibabaDotCom.propTypes = {
+Alibabadotcom.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ AlibabaDotCom.propTypes = {
   title: PropTypes.string,
 };
 
-export default AlibabaDotCom;
+export default Alibabadotcom;

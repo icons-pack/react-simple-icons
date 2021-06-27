@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Vaadin = forwardRef(function Vaadin({ color = 'currentColor', size = 24, title = 'Vaadin', ...others }, ref) {
+const Vaadin = forwardRef(function Vaadin({ color = 'currentColor', size = 24, title = 'vaadin', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

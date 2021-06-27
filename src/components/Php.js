@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Php = forwardRef(function Php({ color = 'currentColor', size = 24, title = 'PHP', ...others }, ref) {
+const Php = forwardRef(function Php({ color = 'currentColor', size = 24, title = 'php', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

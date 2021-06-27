@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Matomo = forwardRef(function Matomo({ color = 'currentColor', size = 24, title = 'Matomo', ...others }, ref) {
+const Matomo = forwardRef(function Matomo({ color = 'currentColor', size = 24, title = 'matomo', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

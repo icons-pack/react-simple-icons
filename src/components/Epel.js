@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Epel = forwardRef(function Epel({ color = 'currentColor', size = 24, title = 'EPEL', ...others }, ref) {
+const Epel = forwardRef(function Epel({ color = 'currentColor', size = 24, title = 'epel', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

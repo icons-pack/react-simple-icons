@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Eventbrite = forwardRef(function Eventbrite(
-  { color = 'currentColor', size = 24, title = 'Eventbrite', ...others },
+  { color = 'currentColor', size = 24, title = 'eventbrite', ...others },
   ref
 ) {
   return (

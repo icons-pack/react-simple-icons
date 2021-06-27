@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Accenture = forwardRef(function Accenture(
-  { color = 'currentColor', size = 24, title = 'Accenture', ...others },
+  { color = 'currentColor', size = 24, title = 'accenture', ...others },
   ref
 ) {
   return (

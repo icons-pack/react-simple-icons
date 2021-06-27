@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Ansible = forwardRef(function Ansible({ color = 'currentColor', size = 24, title = 'Ansible', ...others }, ref) {
+const Ansible = forwardRef(function Ansible({ color = 'currentColor', size = 24, title = 'ansible', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

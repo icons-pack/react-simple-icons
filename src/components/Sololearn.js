@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Sololearn = forwardRef(function Sololearn(
-  { color = 'currentColor', size = 24, title = 'SoloLearn', ...others },
+  { color = 'currentColor', size = 24, title = 'sololearn', ...others },
   ref
 ) {
   return (

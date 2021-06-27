@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Yahoo = forwardRef(function Yahoo({ color = 'currentColor', size = 24, title = 'Yahoo!', ...others }, ref) {
+const Yahoo = forwardRef(function Yahoo({ color = 'currentColor', size = 24, title = 'yahoo', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

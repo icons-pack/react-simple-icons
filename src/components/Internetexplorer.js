@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Internetexplorer = forwardRef(function Internetexplorer(
-  { color = 'currentColor', size = 24, title = 'Internet Explorer', ...others },
+  { color = 'currentColor', size = 24, title = 'internetexplorer', ...others },
   ref
 ) {
   return (

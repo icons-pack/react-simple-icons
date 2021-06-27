@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Jsonwebtokens = forwardRef(function Jsonwebtokens(
-  { color = 'currentColor', size = 24, title = 'JSON Web Tokens', ...others },
+  { color = 'currentColor', size = 24, title = 'jsonwebtokens', ...others },
   ref
 ) {
   return (

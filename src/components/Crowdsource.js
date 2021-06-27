@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Crowdsource = forwardRef(function Crowdsource(
-  { color = 'currentColor', size = 24, title = 'Crowdsource', ...others },
+  { color = 'currentColor', size = 24, title = 'crowdsource', ...others },
   ref
 ) {
   return (

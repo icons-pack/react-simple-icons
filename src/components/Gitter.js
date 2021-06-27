@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Gitter = forwardRef(function Gitter({ color = 'currentColor', size = 24, title = 'Gitter', ...others }, ref) {
+const Gitter = forwardRef(function Gitter({ color = 'currentColor', size = 24, title = 'gitter', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

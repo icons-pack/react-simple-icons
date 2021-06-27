@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Apache = forwardRef(function Apache({ color = 'currentColor', size = 24, title = 'Apache', ...others }, ref) {
+const Apache = forwardRef(function Apache({ color = 'currentColor', size = 24, title = 'apache', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

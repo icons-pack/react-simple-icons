@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const SocketDotIo = forwardRef(function SocketDotIo(
-  { color = 'currentColor', size = 24, title = 'socket-dot-io', ...others },
+const Socketdotio = forwardRef(function Socketdotio(
+  { color = 'currentColor', size = 24, title = 'socketdotio', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const SocketDotIo = forwardRef(function SocketDotIo(
   );
 });
 
-SocketDotIo.propTypes = {
+Socketdotio.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ SocketDotIo.propTypes = {
   title: PropTypes.string,
 };
 
-export default SocketDotIo;
+export default Socketdotio;

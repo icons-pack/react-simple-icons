@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Snapchat = forwardRef(function Snapchat(
-  { color = 'currentColor', size = 24, title = 'Snapchat', ...others },
+  { color = 'currentColor', size = 24, title = 'snapchat', ...others },
   ref
 ) {
   return (

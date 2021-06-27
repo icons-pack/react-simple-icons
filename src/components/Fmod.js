@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Fmod = forwardRef(function Fmod({ color = 'currentColor', size = 24, title = 'FMOD', ...others }, ref) {
+const Fmod = forwardRef(function Fmod({ color = 'currentColor', size = 24, title = 'fmod', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

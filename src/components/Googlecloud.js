@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Googlecloud = forwardRef(function Googlecloud(
-  { color = 'currentColor', size = 24, title = 'Google Cloud', ...others },
+  { color = 'currentColor', size = 24, title = 'googlecloud', ...others },
   ref
 ) {
   return (

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Pandora = forwardRef(function Pandora({ color = 'currentColor', size = 24, title = 'Pandora', ...others }, ref) {
+const Pandora = forwardRef(function Pandora({ color = 'currentColor', size = 24, title = 'pandora', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

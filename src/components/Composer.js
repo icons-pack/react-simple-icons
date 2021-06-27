@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Composer = forwardRef(function Composer(
-  { color = 'currentColor', size = 24, title = 'Composer', ...others },
+  { color = 'currentColor', size = 24, title = 'composer', ...others },
   ref
 ) {
   return (

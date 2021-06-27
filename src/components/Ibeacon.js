@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Ibeacon = forwardRef(function Ibeacon({ color = 'currentColor', size = 24, title = 'iBeacon', ...others }, ref) {
+const Ibeacon = forwardRef(function Ibeacon({ color = 'currentColor', size = 24, title = 'ibeacon', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

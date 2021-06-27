@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Amazon = forwardRef(function Amazon({ color = 'currentColor', size = 24, title = 'Amazon', ...others }, ref) {
+const Amazon = forwardRef(function Amazon({ color = 'currentColor', size = 24, title = 'amazon', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

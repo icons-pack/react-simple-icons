@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Googleclassroom = forwardRef(function Googleclassroom(
-  { color = 'currentColor', size = 24, title = 'Google Classroom', ...others },
+  { color = 'currentColor', size = 24, title = 'googleclassroom', ...others },
   ref
 ) {
   return (

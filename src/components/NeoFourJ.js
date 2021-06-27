@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const NeoFourJ = forwardRef(function NeoFourJ({ color = 'currentColor', size = 24, title = 'Neo4j', ...others }, ref) {
+const NeoFourJ = forwardRef(function NeoFourJ({ color = 'currentColor', size = 24, title = 'neo4j', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

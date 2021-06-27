@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Slack = forwardRef(function Slack({ color = 'currentColor', size = 24, title = 'Slack', ...others }, ref) {
+const Slack = forwardRef(function Slack({ color = 'currentColor', size = 24, title = 'slack', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
