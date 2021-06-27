@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Scratch = forwardRef(function Scratch({ color = 'currentColor', size = 24, title = 'Scratch', ...others }, ref) {
+const Scratch = forwardRef(function Scratch({ color = 'currentColor', size = 24, title = 'scratch', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

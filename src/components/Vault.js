@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Vault = forwardRef(function Vault({ color = 'currentColor', size = 24, title = 'Vault', ...others }, ref) {
+const Vault = forwardRef(function Vault({ color = 'currentColor', size = 24, title = 'vault', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

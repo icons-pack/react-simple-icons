@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Leetcode = forwardRef(function Leetcode(
-  { color = 'currentColor', size = 24, title = 'LeetCode', ...others },
+  { color = 'currentColor', size = 24, title = 'leetcode', ...others },
   ref
 ) {
   return (

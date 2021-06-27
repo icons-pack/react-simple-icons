@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Audiomack = forwardRef(function Audiomack(
-  { color = 'currentColor', size = 24, title = 'Audiomack', ...others },
+  { color = 'currentColor', size = 24, title = 'audiomack', ...others },
   ref
 ) {
   return (

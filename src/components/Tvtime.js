@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Tvtime = forwardRef(function Tvtime({ color = 'currentColor', size = 24, title = 'TV Time', ...others }, ref) {
+const Tvtime = forwardRef(function Tvtime({ color = 'currentColor', size = 24, title = 'tvtime', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Thymeleaf = forwardRef(function Thymeleaf(
-  { color = 'currentColor', size = 24, title = 'Thymeleaf', ...others },
+  { color = 'currentColor', size = 24, title = 'thymeleaf', ...others },
   ref
 ) {
   return (

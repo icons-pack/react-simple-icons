@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Fortran = forwardRef(function Fortran({ color = 'currentColor', size = 24, title = 'Fortran', ...others }, ref) {
+const Fortran = forwardRef(function Fortran({ color = 'currentColor', size = 24, title = 'fortran', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Protonvpn = forwardRef(function Protonvpn(
-  { color = 'currentColor', size = 24, title = 'ProtonVPN', ...others },
+  { color = 'currentColor', size = 24, title = 'protonvpn', ...others },
   ref
 ) {
   return (

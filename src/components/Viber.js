@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Viber = forwardRef(function Viber({ color = 'currentColor', size = 24, title = 'Viber', ...others }, ref) {
+const Viber = forwardRef(function Viber({ color = 'currentColor', size = 24, title = 'viber', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

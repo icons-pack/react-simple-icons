@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Resurrectionremixos = forwardRef(function Resurrectionremixos(
-  { color = 'currentColor', size = 24, title = 'Resurrection Remix OS', ...others },
+  { color = 'currentColor', size = 24, title = 'resurrectionremixos', ...others },
   ref
 ) {
   return (

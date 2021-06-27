@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Vimeolivestream = forwardRef(function Vimeolivestream(
-  { color = 'currentColor', size = 24, title = 'Vimeo Livestream', ...others },
+  { color = 'currentColor', size = 24, title = 'vimeolivestream', ...others },
   ref
 ) {
   return (

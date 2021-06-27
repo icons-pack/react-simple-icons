@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Ghostery = forwardRef(function Ghostery(
-  { color = 'currentColor', size = 24, title = 'Ghostery', ...others },
+  { color = 'currentColor', size = 24, title = 'ghostery', ...others },
   ref
 ) {
   return (

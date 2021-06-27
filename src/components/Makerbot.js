@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Makerbot = forwardRef(function Makerbot(
-  { color = 'currentColor', size = 24, title = 'MakerBot', ...others },
+  { color = 'currentColor', size = 24, title = 'makerbot', ...others },
   ref
 ) {
   return (

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Cachet = forwardRef(function Cachet({ color = 'currentColor', size = 24, title = 'Cachet', ...others }, ref) {
+const Cachet = forwardRef(function Cachet({ color = 'currentColor', size = 24, title = 'cachet', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

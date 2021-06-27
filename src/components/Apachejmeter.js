@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Apachejmeter = forwardRef(function Apachejmeter(
-  { color = 'currentColor', size = 24, title = 'Apache JMeter', ...others },
+  { color = 'currentColor', size = 24, title = 'apachejmeter', ...others },
   ref
 ) {
   return (

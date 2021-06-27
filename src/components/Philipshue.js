@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Philipshue = forwardRef(function Philipshue(
-  { color = 'currentColor', size = 24, title = 'Philips Hue', ...others },
+  { color = 'currentColor', size = 24, title = 'philipshue', ...others },
   ref
 ) {
   return (

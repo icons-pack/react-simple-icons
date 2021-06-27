@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Slashdot = forwardRef(function Slashdot(
-  { color = 'currentColor', size = 24, title = 'Slashdot', ...others },
+  { color = 'currentColor', size = 24, title = 'slashdot', ...others },
   ref
 ) {
   return (

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Grunt = forwardRef(function Grunt({ color = 'currentColor', size = 24, title = 'Grunt', ...others }, ref) {
+const Grunt = forwardRef(function Grunt({ color = 'currentColor', size = 24, title = 'grunt', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

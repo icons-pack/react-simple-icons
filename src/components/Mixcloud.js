@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Mixcloud = forwardRef(function Mixcloud(
-  { color = 'currentColor', size = 24, title = 'Mixcloud', ...others },
+  { color = 'currentColor', size = 24, title = 'mixcloud', ...others },
   ref
 ) {
   return (

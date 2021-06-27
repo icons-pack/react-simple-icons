@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Anchor = forwardRef(function Anchor({ color = 'currentColor', size = 24, title = 'Anchor', ...others }, ref) {
+const Anchor = forwardRef(function Anchor({ color = 'currentColor', size = 24, title = 'anchor', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

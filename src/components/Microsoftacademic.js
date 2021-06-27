@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Microsoftacademic = forwardRef(function Microsoftacademic(
-  { color = 'currentColor', size = 24, title = 'Microsoft Academic', ...others },
+  { color = 'currentColor', size = 24, title = 'microsoftacademic', ...others },
   ref
 ) {
   return (

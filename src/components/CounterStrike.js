@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const CounterStrike = forwardRef(function CounterStrike(
-  { color = 'currentColor', size = 24, title = 'counter-strike', ...others },
+const Counterstrike = forwardRef(function Counterstrike(
+  { color = 'currentColor', size = 24, title = 'counterstrike', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const CounterStrike = forwardRef(function CounterStrike(
   );
 });
 
-CounterStrike.propTypes = {
+Counterstrike.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ CounterStrike.propTypes = {
   title: PropTypes.string,
 };
 
-export default CounterStrike;
+export default Counterstrike;

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Airplayvideo = forwardRef(function Airplayvideo(
-  { color = 'currentColor', size = 24, title = 'AirPlay Video', ...others },
+  { color = 'currentColor', size = 24, title = 'airplayvideo', ...others },
   ref
 ) {
   return (

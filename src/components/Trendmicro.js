@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Trendmicro = forwardRef(function Trendmicro(
-  { color = 'currentColor', size = 24, title = 'Trend Micro', ...others },
+  { color = 'currentColor', size = 24, title = 'trendmicro', ...others },
   ref
 ) {
   return (

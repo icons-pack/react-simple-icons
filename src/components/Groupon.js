@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Groupon = forwardRef(function Groupon({ color = 'currentColor', size = 24, title = 'Groupon', ...others }, ref) {
+const Groupon = forwardRef(function Groupon({ color = 'currentColor', size = 24, title = 'groupon', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

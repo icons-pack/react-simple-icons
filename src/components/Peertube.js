@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Peertube = forwardRef(function Peertube(
-  { color = 'currentColor', size = 24, title = 'PeerTube', ...others },
+  { color = 'currentColor', size = 24, title = 'peertube', ...others },
   ref
 ) {
   return (

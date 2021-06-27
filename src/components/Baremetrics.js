@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Baremetrics = forwardRef(function Baremetrics(
-  { color = 'currentColor', size = 24, title = 'Baremetrics', ...others },
+  { color = 'currentColor', size = 24, title = 'baremetrics', ...others },
   ref
 ) {
   return (

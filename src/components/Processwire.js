@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Processwire = forwardRef(function Processwire(
-  { color = 'currentColor', size = 24, title = 'ProcessWire', ...others },
+  { color = 'currentColor', size = 24, title = 'processwire', ...others },
   ref
 ) {
   return (

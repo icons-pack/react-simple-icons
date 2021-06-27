@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Mediatek = forwardRef(function Mediatek(
-  { color = 'currentColor', size = 24, title = 'MediaTek', ...others },
+  { color = 'currentColor', size = 24, title = 'mediatek', ...others },
   ref
 ) {
   return (

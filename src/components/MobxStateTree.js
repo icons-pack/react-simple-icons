@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const MobxStateTree = forwardRef(function MobxStateTree(
-  { color = 'currentColor', size = 24, title = 'mobx-state-tree', ...others },
+const Mobxstatetree = forwardRef(function Mobxstatetree(
+  { color = 'currentColor', size = 24, title = 'mobxstatetree', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const MobxStateTree = forwardRef(function MobxStateTree(
   );
 });
 
-MobxStateTree.propTypes = {
+Mobxstatetree.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ MobxStateTree.propTypes = {
   title: PropTypes.string,
 };
 
-export default MobxStateTree;
+export default Mobxstatetree;

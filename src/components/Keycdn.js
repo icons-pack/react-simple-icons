@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Keycdn = forwardRef(function Keycdn({ color = 'currentColor', size = 24, title = 'KeyCDN', ...others }, ref) {
+const Keycdn = forwardRef(function Keycdn({ color = 'currentColor', size = 24, title = 'keycdn', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Lineageos = forwardRef(function Lineageos(
-  { color = 'currentColor', size = 24, title = 'LineageOS', ...others },
+  { color = 'currentColor', size = 24, title = 'lineageos', ...others },
   ref
 ) {
   return (

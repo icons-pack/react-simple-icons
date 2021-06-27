@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Pimcore = forwardRef(function Pimcore({ color = 'currentColor', size = 24, title = 'Pimcore', ...others }, ref) {
+const Pimcore = forwardRef(function Pimcore({ color = 'currentColor', size = 24, title = 'pimcore', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

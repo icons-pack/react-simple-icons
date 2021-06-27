@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Debian = forwardRef(function Debian({ color = 'currentColor', size = 24, title = 'Debian', ...others }, ref) {
+const Debian = forwardRef(function Debian({ color = 'currentColor', size = 24, title = 'debian', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

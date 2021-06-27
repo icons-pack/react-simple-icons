@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Codeclimate = forwardRef(function Codeclimate(
-  { color = 'currentColor', size = 24, title = 'Code Climate', ...others },
+  { color = 'currentColor', size = 24, title = 'codeclimate', ...others },
   ref
 ) {
   return (

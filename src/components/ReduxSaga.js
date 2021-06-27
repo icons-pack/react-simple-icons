@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const ReduxSaga = forwardRef(function ReduxSaga(
-  { color = 'currentColor', size = 24, title = 'redux-saga', ...others },
+const Reduxsaga = forwardRef(function Reduxsaga(
+  { color = 'currentColor', size = 24, title = 'reduxsaga', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const ReduxSaga = forwardRef(function ReduxSaga(
   );
 });
 
-ReduxSaga.propTypes = {
+Reduxsaga.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ ReduxSaga.propTypes = {
   title: PropTypes.string,
 };
 
-export default ReduxSaga;
+export default Reduxsaga;

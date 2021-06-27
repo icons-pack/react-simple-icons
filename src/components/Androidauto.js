@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Androidauto = forwardRef(function Androidauto(
-  { color = 'currentColor', size = 24, title = 'Android Auto', ...others },
+  { color = 'currentColor', size = 24, title = 'androidauto', ...others },
   ref
 ) {
   return (

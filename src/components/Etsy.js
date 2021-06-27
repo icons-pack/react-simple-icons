@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Etsy = forwardRef(function Etsy({ color = 'currentColor', size = 24, title = 'Etsy', ...others }, ref) {
+const Etsy = forwardRef(function Etsy({ color = 'currentColor', size = 24, title = 'etsy', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

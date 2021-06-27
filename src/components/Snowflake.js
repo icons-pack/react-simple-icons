@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Snowflake = forwardRef(function Snowflake(
-  { color = 'currentColor', size = 24, title = 'Snowflake', ...others },
+  { color = 'currentColor', size = 24, title = 'snowflake', ...others },
   ref
 ) {
   return (

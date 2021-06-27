@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Canonical = forwardRef(function Canonical(
-  { color = 'currentColor', size = 24, title = 'Canonical', ...others },
+  { color = 'currentColor', size = 24, title = 'canonical', ...others },
   ref
 ) {
   return (

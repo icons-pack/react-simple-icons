@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Microsoftaccess = forwardRef(function Microsoftaccess(
-  { color = 'currentColor', size = 24, title = 'Microsoft Access', ...others },
+  { color = 'currentColor', size = 24, title = 'microsoftaccess', ...others },
   ref
 ) {
   return (

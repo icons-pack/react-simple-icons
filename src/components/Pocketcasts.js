@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Pocketcasts = forwardRef(function Pocketcasts(
-  { color = 'currentColor', size = 24, title = 'Pocket Casts', ...others },
+  { color = 'currentColor', size = 24, title = 'pocketcasts', ...others },
   ref
 ) {
   return (

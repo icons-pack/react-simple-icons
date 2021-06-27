@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Duolingo = forwardRef(function Duolingo(
-  { color = 'currentColor', size = 24, title = 'Duolingo', ...others },
+  { color = 'currentColor', size = 24, title = 'duolingo', ...others },
   ref
 ) {
   return (

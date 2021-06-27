@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Qgis = forwardRef(function Qgis({ color = 'currentColor', size = 24, title = 'Qgis', ...others }, ref) {
+const Qgis = forwardRef(function Qgis({ color = 'currentColor', size = 24, title = 'qgis', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

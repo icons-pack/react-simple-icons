@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Udacity = forwardRef(function Udacity({ color = 'currentColor', size = 24, title = 'Udacity', ...others }, ref) {
+const Udacity = forwardRef(function Udacity({ color = 'currentColor', size = 24, title = 'udacity', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

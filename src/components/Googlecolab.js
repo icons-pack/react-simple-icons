@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Googlecolab = forwardRef(function Googlecolab(
-  { color = 'currentColor', size = 24, title = 'Google Colab', ...others },
+  { color = 'currentColor', size = 24, title = 'googlecolab', ...others },
   ref
 ) {
   return (

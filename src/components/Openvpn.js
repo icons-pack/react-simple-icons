@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Openvpn = forwardRef(function Openvpn({ color = 'currentColor', size = 24, title = 'OpenVPN', ...others }, ref) {
+const Openvpn = forwardRef(function Openvpn({ color = 'currentColor', size = 24, title = 'openvpn', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Visualstudiocode = forwardRef(function Visualstudiocode(
-  { color = 'currentColor', size = 24, title = 'Visual Studio Code', ...others },
+  { color = 'currentColor', size = 24, title = 'visualstudiocode', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Plangrid = forwardRef(function Plangrid(
-  { color = 'currentColor', size = 24, title = 'PlanGrid', ...others },
+  { color = 'currentColor', size = 24, title = 'plangrid', ...others },
   ref
 ) {
   return (

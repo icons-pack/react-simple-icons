@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Opencontainersinitiative = forwardRef(function Opencontainersinitiative(
-  { color = 'currentColor', size = 24, title = 'Open Containers Initiative', ...others },
+  { color = 'currentColor', size = 24, title = 'opencontainersinitiative', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Codersrank = forwardRef(function Codersrank(
-  { color = 'currentColor', size = 24, title = 'CodersRank', ...others },
+  { color = 'currentColor', size = 24, title = 'codersrank', ...others },
   ref
 ) {
   return (

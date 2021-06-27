@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Codeigniter = forwardRef(function Codeigniter(
-  { color = 'currentColor', size = 24, title = 'CodeIgniter', ...others },
+  { color = 'currentColor', size = 24, title = 'codeigniter', ...others },
   ref
 ) {
   return (

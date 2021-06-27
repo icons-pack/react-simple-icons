@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Oculus = forwardRef(function Oculus({ color = 'currentColor', size = 24, title = 'Oculus', ...others }, ref) {
+const Oculus = forwardRef(function Oculus({ color = 'currentColor', size = 24, title = 'oculus', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

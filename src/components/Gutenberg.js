@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Gutenberg = forwardRef(function Gutenberg(
-  { color = 'currentColor', size = 24, title = 'Gutenberg', ...others },
+  { color = 'currentColor', size = 24, title = 'gutenberg', ...others },
   ref
 ) {
   return (

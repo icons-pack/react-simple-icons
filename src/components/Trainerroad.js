@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Trainerroad = forwardRef(function Trainerroad(
-  { color = 'currentColor', size = 24, title = 'TrainerRoad', ...others },
+  { color = 'currentColor', size = 24, title = 'trainerroad', ...others },
   ref
 ) {
   return (

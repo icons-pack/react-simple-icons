@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Fozzy = forwardRef(function Fozzy({ color = 'currentColor', size = 24, title = 'Fozzy', ...others }, ref) {
+const Fozzy = forwardRef(function Fozzy({ color = 'currentColor', size = 24, title = 'fozzy', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

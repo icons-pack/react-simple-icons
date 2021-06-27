@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const EmberDotJs = forwardRef(function EmberDotJs(
-  { color = 'currentColor', size = 24, title = 'ember-dot-js', ...others },
+const Emberdotjs = forwardRef(function Emberdotjs(
+  { color = 'currentColor', size = 24, title = 'emberdotjs', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const EmberDotJs = forwardRef(function EmberDotJs(
   );
 });
 
-EmberDotJs.propTypes = {
+Emberdotjs.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ EmberDotJs.propTypes = {
   title: PropTypes.string,
 };
 
-export default EmberDotJs;
+export default Emberdotjs;

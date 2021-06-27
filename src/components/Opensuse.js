@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Opensuse = forwardRef(function Opensuse(
-  { color = 'currentColor', size = 24, title = 'openSUSE', ...others },
+  { color = 'currentColor', size = 24, title = 'opensuse', ...others },
   ref
 ) {
   return (

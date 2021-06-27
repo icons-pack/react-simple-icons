@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Adguard = forwardRef(function Adguard({ color = 'currentColor', size = 24, title = 'AdGuard', ...others }, ref) {
+const Adguard = forwardRef(function Adguard({ color = 'currentColor', size = 24, title = 'adguard', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

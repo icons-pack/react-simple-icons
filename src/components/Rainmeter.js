@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Rainmeter = forwardRef(function Rainmeter(
-  { color = 'currentColor', size = 24, title = 'Rainmeter', ...others },
+  { color = 'currentColor', size = 24, title = 'rainmeter', ...others },
   ref
 ) {
   return (

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Unicode = forwardRef(function Unicode({ color = 'currentColor', size = 24, title = 'Unicode', ...others }, ref) {
+const Unicode = forwardRef(function Unicode({ color = 'currentColor', size = 24, title = 'unicode', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

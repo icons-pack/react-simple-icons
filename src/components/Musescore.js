@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Musescore = forwardRef(function Musescore(
-  { color = 'currentColor', size = 24, title = 'MuseScore', ...others },
+  { color = 'currentColor', size = 24, title = 'musescore', ...others },
   ref
 ) {
   return (

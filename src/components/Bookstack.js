@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Bookstack = forwardRef(function Bookstack(
-  { color = 'currentColor', size = 24, title = 'BookStack', ...others },
+  { color = 'currentColor', size = 24, title = 'bookstack', ...others },
   ref
 ) {
   return (

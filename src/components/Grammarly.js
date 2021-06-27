@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Grammarly = forwardRef(function Grammarly(
-  { color = 'currentColor', size = 24, title = 'Grammarly', ...others },
+  { color = 'currentColor', size = 24, title = 'grammarly', ...others },
   ref
 ) {
   return (

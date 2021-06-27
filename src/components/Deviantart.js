@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Deviantart = forwardRef(function Deviantart(
-  { color = 'currentColor', size = 24, title = 'DeviantArt', ...others },
+  { color = 'currentColor', size = 24, title = 'deviantart', ...others },
   ref
 ) {
   return (

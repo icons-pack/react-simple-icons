@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Monkeytie = forwardRef(function Monkeytie(
-  { color = 'currentColor', size = 24, title = 'monkey tie', ...others },
+  { color = 'currentColor', size = 24, title = 'monkeytie', ...others },
   ref
 ) {
   return (

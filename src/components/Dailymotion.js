@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Dailymotion = forwardRef(function Dailymotion(
-  { color = 'currentColor', size = 24, title = 'Dailymotion', ...others },
+  { color = 'currentColor', size = 24, title = 'dailymotion', ...others },
   ref
 ) {
   return (

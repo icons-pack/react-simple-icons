@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Postgresql = forwardRef(function Postgresql(
-  { color = 'currentColor', size = 24, title = 'PostgreSQL', ...others },
+  { color = 'currentColor', size = 24, title = 'postgresql', ...others },
   ref
 ) {
   return (

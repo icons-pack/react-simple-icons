@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Furaffinity = forwardRef(function Furaffinity(
-  { color = 'currentColor', size = 24, title = 'Fur Affinity', ...others },
+  { color = 'currentColor', size = 24, title = 'furaffinity', ...others },
   ref
 ) {
   return (

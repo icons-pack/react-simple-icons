@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Zorin = forwardRef(function Zorin({ color = 'currentColor', size = 24, title = 'Zorin', ...others }, ref) {
+const Zorin = forwardRef(function Zorin({ color = 'currentColor', size = 24, title = 'zorin', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

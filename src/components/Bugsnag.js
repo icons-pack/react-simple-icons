@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Bugsnag = forwardRef(function Bugsnag({ color = 'currentColor', size = 24, title = 'Bugsnag', ...others }, ref) {
+const Bugsnag = forwardRef(function Bugsnag({ color = 'currentColor', size = 24, title = 'bugsnag', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

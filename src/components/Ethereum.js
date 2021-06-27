@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Ethereum = forwardRef(function Ethereum(
-  { color = 'currentColor', size = 24, title = 'Ethereum', ...others },
+  { color = 'currentColor', size = 24, title = 'ethereum', ...others },
   ref
 ) {
   return (

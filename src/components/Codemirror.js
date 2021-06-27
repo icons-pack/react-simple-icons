@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Codemirror = forwardRef(function Codemirror(
-  { color = 'currentColor', size = 24, title = 'CodeMirror', ...others },
+  { color = 'currentColor', size = 24, title = 'codemirror', ...others },
   ref
 ) {
   return (

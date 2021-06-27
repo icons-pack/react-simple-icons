@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Chainlink = forwardRef(function Chainlink(
-  { color = 'currentColor', size = 24, title = 'Chainlink', ...others },
+  { color = 'currentColor', size = 24, title = 'chainlink', ...others },
   ref
 ) {
   return (

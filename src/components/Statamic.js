@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Statamic = forwardRef(function Statamic(
-  { color = 'currentColor', size = 24, title = 'Statamic', ...others },
+  { color = 'currentColor', size = 24, title = 'statamic', ...others },
   ref
 ) {
   return (

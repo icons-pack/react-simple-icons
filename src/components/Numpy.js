@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Numpy = forwardRef(function Numpy({ color = 'currentColor', size = 24, title = 'NumPy', ...others }, ref) {
+const Numpy = forwardRef(function Numpy({ color = 'currentColor', size = 24, title = 'numpy', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Quarkus = forwardRef(function Quarkus({ color = 'currentColor', size = 24, title = 'Quarkus', ...others }, ref) {
+const Quarkus = forwardRef(function Quarkus({ color = 'currentColor', size = 24, title = 'quarkus', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

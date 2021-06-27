@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Haskell = forwardRef(function Haskell({ color = 'currentColor', size = 24, title = 'Haskell', ...others }, ref) {
+const Haskell = forwardRef(function Haskell({ color = 'currentColor', size = 24, title = 'haskell', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Apachetomcat = forwardRef(function Apachetomcat(
-  { color = 'currentColor', size = 24, title = 'Apache Tomcat', ...others },
+  { color = 'currentColor', size = 24, title = 'apachetomcat', ...others },
   ref
 ) {
   return (

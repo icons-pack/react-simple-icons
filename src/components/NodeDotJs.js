@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const NodeDotJs = forwardRef(function NodeDotJs(
-  { color = 'currentColor', size = 24, title = 'node-dot-js', ...others },
+const Nodedotjs = forwardRef(function Nodedotjs(
+  { color = 'currentColor', size = 24, title = 'nodedotjs', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const NodeDotJs = forwardRef(function NodeDotJs(
   );
 });
 
-NodeDotJs.propTypes = {
+Nodedotjs.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ NodeDotJs.propTypes = {
   title: PropTypes.string,
 };
 
-export default NodeDotJs;
+export default Nodedotjs;

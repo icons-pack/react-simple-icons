@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Scipy = forwardRef(function Scipy({ color = 'currentColor', size = 24, title = 'SciPy', ...others }, ref) {
+const Scipy = forwardRef(function Scipy({ color = 'currentColor', size = 24, title = 'scipy', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

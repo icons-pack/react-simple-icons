@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const DWavesystems = forwardRef(function DWavesystems(
-  { color = 'currentColor', size = 24, title = 'd-wavesystems', ...others },
+const Dwavesystems = forwardRef(function Dwavesystems(
+  { color = 'currentColor', size = 24, title = 'dwavesystems', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const DWavesystems = forwardRef(function DWavesystems(
   );
 });
 
-DWavesystems.propTypes = {
+Dwavesystems.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ DWavesystems.propTypes = {
   title: PropTypes.string,
 };
 
-export default DWavesystems;
+export default Dwavesystems;

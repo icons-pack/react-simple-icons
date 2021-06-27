@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Googlemeet = forwardRef(function Googlemeet(
-  { color = 'currentColor', size = 24, title = 'Google Meet', ...others },
+  { color = 'currentColor', size = 24, title = 'googlemeet', ...others },
   ref
 ) {
   return (

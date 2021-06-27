@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Pluscodes = forwardRef(function Pluscodes(
-  { color = 'currentColor', size = 24, title = 'Plus Codes', ...others },
+  { color = 'currentColor', size = 24, title = 'pluscodes', ...others },
   ref
 ) {
   return (

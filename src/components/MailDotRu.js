@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const MailDotRu = forwardRef(function MailDotRu(
-  { color = 'currentColor', size = 24, title = 'mail-dot-ru', ...others },
+const Maildotru = forwardRef(function Maildotru(
+  { color = 'currentColor', size = 24, title = 'maildotru', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const MailDotRu = forwardRef(function MailDotRu(
   );
 });
 
-MailDotRu.propTypes = {
+Maildotru.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ MailDotRu.propTypes = {
   title: PropTypes.string,
 };
 
-export default MailDotRu;
+export default Maildotru;

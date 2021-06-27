@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Evernote = forwardRef(function Evernote(
-  { color = 'currentColor', size = 24, title = 'Evernote', ...others },
+  { color = 'currentColor', size = 24, title = 'evernote', ...others },
   ref
 ) {
   return (

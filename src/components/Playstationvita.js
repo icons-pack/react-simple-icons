@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Playstationvita = forwardRef(function Playstationvita(
-  { color = 'currentColor', size = 24, title = 'PlayStation Vita', ...others },
+  { color = 'currentColor', size = 24, title = 'playstationvita', ...others },
   ref
 ) {
   return (

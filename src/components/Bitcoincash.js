@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Bitcoincash = forwardRef(function Bitcoincash(
-  { color = 'currentColor', size = 24, title = 'Bitcoin Cash', ...others },
+  { color = 'currentColor', size = 24, title = 'bitcoincash', ...others },
   ref
 ) {
   return (

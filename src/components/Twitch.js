@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Twitch = forwardRef(function Twitch({ color = 'currentColor', size = 24, title = 'Twitch', ...others }, ref) {
+const Twitch = forwardRef(function Twitch({ color = 'currentColor', size = 24, title = 'twitch', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

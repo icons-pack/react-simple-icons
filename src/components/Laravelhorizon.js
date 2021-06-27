@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Laravelhorizon = forwardRef(function Laravelhorizon(
-  { color = 'currentColor', size = 24, title = 'Laravel Horizon', ...others },
+  { color = 'currentColor', size = 24, title = 'laravelhorizon', ...others },
   ref
 ) {
   return (

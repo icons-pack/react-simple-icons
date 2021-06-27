@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Katacoda = forwardRef(function Katacoda(
-  { color = 'currentColor', size = 24, title = 'Katacoda', ...others },
+  { color = 'currentColor', size = 24, title = 'katacoda', ...others },
   ref
 ) {
   return (

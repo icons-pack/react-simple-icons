@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Vultr = forwardRef(function Vultr({ color = 'currentColor', size = 24, title = 'Vultr', ...others }, ref) {
+const Vultr = forwardRef(function Vultr({ color = 'currentColor', size = 24, title = 'vultr', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

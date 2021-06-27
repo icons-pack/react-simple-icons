@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Pinterest = forwardRef(function Pinterest(
-  { color = 'currentColor', size = 24, title = 'Pinterest', ...others },
+  { color = 'currentColor', size = 24, title = 'pinterest', ...others },
   ref
 ) {
   return (

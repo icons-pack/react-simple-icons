@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Redux = forwardRef(function Redux({ color = 'currentColor', size = 24, title = 'Redux', ...others }, ref) {
+const Redux = forwardRef(function Redux({ color = 'currentColor', size = 24, title = 'redux', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

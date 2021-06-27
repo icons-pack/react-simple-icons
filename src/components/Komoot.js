@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Komoot = forwardRef(function Komoot({ color = 'currentColor', size = 24, title = 'Komoot', ...others }, ref) {
+const Komoot = forwardRef(function Komoot({ color = 'currentColor', size = 24, title = 'komoot', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

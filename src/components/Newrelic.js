@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Newrelic = forwardRef(function Newrelic(
-  { color = 'currentColor', size = 24, title = 'New Relic', ...others },
+  { color = 'currentColor', size = 24, title = 'newrelic', ...others },
   ref
 ) {
   return (

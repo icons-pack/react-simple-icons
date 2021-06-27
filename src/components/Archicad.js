@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Archicad = forwardRef(function Archicad(
-  { color = 'currentColor', size = 24, title = 'Archicad', ...others },
+  { color = 'currentColor', size = 24, title = 'archicad', ...others },
   ref
 ) {
   return (

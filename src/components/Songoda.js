@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Songoda = forwardRef(function Songoda({ color = 'currentColor', size = 24, title = 'Songoda', ...others }, ref) {
+const Songoda = forwardRef(function Songoda({ color = 'currentColor', size = 24, title = 'songoda', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

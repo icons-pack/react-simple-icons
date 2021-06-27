@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Googleadsense = forwardRef(function Googleadsense(
-  { color = 'currentColor', size = 24, title = 'Google AdSense', ...others },
+  { color = 'currentColor', size = 24, title = 'googleadsense', ...others },
   ref
 ) {
   return (

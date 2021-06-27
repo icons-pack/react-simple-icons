@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Uploaded = forwardRef(function Uploaded(
-  { color = 'currentColor', size = 24, title = 'Uploaded', ...others },
+  { color = 'currentColor', size = 24, title = 'uploaded', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Castorama = forwardRef(function Castorama(
-  { color = 'currentColor', size = 24, title = 'Castorama', ...others },
+  { color = 'currentColor', size = 24, title = 'castorama', ...others },
   ref
 ) {
   return (

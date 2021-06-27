@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Mojangstudios = forwardRef(function Mojangstudios(
-  { color = 'currentColor', size = 24, title = 'Mojang Studios', ...others },
+  { color = 'currentColor', size = 24, title = 'mojangstudios', ...others },
   ref
 ) {
   return (

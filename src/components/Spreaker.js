@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Spreaker = forwardRef(function Spreaker(
-  { color = 'currentColor', size = 24, title = 'Spreaker', ...others },
+  { color = 'currentColor', size = 24, title = 'spreaker', ...others },
   ref
 ) {
   return (

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Mcafee = forwardRef(function Mcafee({ color = 'currentColor', size = 24, title = 'McAfee', ...others }, ref) {
+const Mcafee = forwardRef(function Mcafee({ color = 'currentColor', size = 24, title = 'mcafee', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

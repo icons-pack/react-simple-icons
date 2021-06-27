@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Youtubestudio = forwardRef(function Youtubestudio(
-  { color = 'currentColor', size = 24, title = 'YouTube Studio', ...others },
+  { color = 'currentColor', size = 24, title = 'youtubestudio', ...others },
   ref
 ) {
   return (

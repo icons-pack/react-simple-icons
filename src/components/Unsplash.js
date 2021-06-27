@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Unsplash = forwardRef(function Unsplash(
-  { color = 'currentColor', size = 24, title = 'Unsplash', ...others },
+  { color = 'currentColor', size = 24, title = 'unsplash', ...others },
   ref
 ) {
   return (

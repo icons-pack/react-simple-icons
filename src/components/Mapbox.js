@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Mapbox = forwardRef(function Mapbox({ color = 'currentColor', size = 24, title = 'Mapbox', ...others }, ref) {
+const Mapbox = forwardRef(function Mapbox({ color = 'currentColor', size = 24, title = 'mapbox', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

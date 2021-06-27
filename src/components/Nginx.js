@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Nginx = forwardRef(function Nginx({ color = 'currentColor', size = 24, title = 'NGINX', ...others }, ref) {
+const Nginx = forwardRef(function Nginx({ color = 'currentColor', size = 24, title = 'nginx', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

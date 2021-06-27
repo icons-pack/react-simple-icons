@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Blazemeter = forwardRef(function Blazemeter(
-  { color = 'currentColor', size = 24, title = 'Blazemeter', ...others },
+  { color = 'currentColor', size = 24, title = 'blazemeter', ...others },
   ref
 ) {
   return (

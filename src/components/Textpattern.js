@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Textpattern = forwardRef(function Textpattern(
-  { color = 'currentColor', size = 24, title = 'Textpattern', ...others },
+  { color = 'currentColor', size = 24, title = 'textpattern', ...others },
   ref
 ) {
   return (

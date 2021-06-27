@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const RollsRoyce = forwardRef(function RollsRoyce(
-  { color = 'currentColor', size = 24, title = 'rolls-royce', ...others },
+const Rollsroyce = forwardRef(function Rollsroyce(
+  { color = 'currentColor', size = 24, title = 'rollsroyce', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const RollsRoyce = forwardRef(function RollsRoyce(
   );
 });
 
-RollsRoyce.propTypes = {
+Rollsroyce.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ RollsRoyce.propTypes = {
   title: PropTypes.string,
 };
 
-export default RollsRoyce;
+export default Rollsroyce;

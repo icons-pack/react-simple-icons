@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Keybase = forwardRef(function Keybase({ color = 'currentColor', size = 24, title = 'Keybase', ...others }, ref) {
+const Keybase = forwardRef(function Keybase({ color = 'currentColor', size = 24, title = 'keybase', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

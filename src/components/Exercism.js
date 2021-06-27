@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Exercism = forwardRef(function Exercism(
-  { color = 'currentColor', size = 24, title = 'Exercism', ...others },
+  { color = 'currentColor', size = 24, title = 'exercism', ...others },
   ref
 ) {
   return (

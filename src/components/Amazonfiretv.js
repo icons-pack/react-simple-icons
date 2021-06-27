@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Amazonfiretv = forwardRef(function Amazonfiretv(
-  { color = 'currentColor', size = 24, title = 'Amazon Fire TV', ...others },
+  { color = 'currentColor', size = 24, title = 'amazonfiretv', ...others },
   ref
 ) {
   return (

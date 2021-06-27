@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Naver = forwardRef(function Naver({ color = 'currentColor', size = 24, title = 'Naver', ...others }, ref) {
+const Naver = forwardRef(function Naver({ color = 'currentColor', size = 24, title = 'naver', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

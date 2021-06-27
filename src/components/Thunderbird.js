@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Thunderbird = forwardRef(function Thunderbird(
-  { color = 'currentColor', size = 24, title = 'Thunderbird', ...others },
+  { color = 'currentColor', size = 24, title = 'thunderbird', ...others },
   ref
 ) {
   return (

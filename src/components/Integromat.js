@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Integromat = forwardRef(function Integromat(
-  { color = 'currentColor', size = 24, title = 'Integromat', ...others },
+  { color = 'currentColor', size = 24, title = 'integromat', ...others },
   ref
 ) {
   return (

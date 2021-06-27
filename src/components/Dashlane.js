@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Dashlane = forwardRef(function Dashlane(
-  { color = 'currentColor', size = 24, title = 'Dashlane', ...others },
+  { color = 'currentColor', size = 24, title = 'dashlane', ...others },
   ref
 ) {
   return (

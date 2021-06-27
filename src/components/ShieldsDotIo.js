@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const ShieldsDotIo = forwardRef(function ShieldsDotIo(
-  { color = 'currentColor', size = 24, title = 'shields-dot-io', ...others },
+const Shieldsdotio = forwardRef(function Shieldsdotio(
+  { color = 'currentColor', size = 24, title = 'shieldsdotio', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const ShieldsDotIo = forwardRef(function ShieldsDotIo(
   );
 });
 
-ShieldsDotIo.propTypes = {
+Shieldsdotio.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ ShieldsDotIo.propTypes = {
   title: PropTypes.string,
 };
 
-export default ShieldsDotIo;
+export default Shieldsdotio;

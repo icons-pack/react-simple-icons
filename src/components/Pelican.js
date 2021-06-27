@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Pelican = forwardRef(function Pelican({ color = 'currentColor', size = 24, title = 'Pelican', ...others }, ref) {
+const Pelican = forwardRef(function Pelican({ color = 'currentColor', size = 24, title = 'pelican', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

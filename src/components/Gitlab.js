@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Gitlab = forwardRef(function Gitlab({ color = 'currentColor', size = 24, title = 'GitLab', ...others }, ref) {
+const Gitlab = forwardRef(function Gitlab({ color = 'currentColor', size = 24, title = 'gitlab', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

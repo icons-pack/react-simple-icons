@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Palantir = forwardRef(function Palantir(
-  { color = 'currentColor', size = 24, title = 'Palantir', ...others },
+  { color = 'currentColor', size = 24, title = 'palantir', ...others },
   ref
 ) {
   return (

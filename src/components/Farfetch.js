@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Farfetch = forwardRef(function Farfetch(
-  { color = 'currentColor', size = 24, title = 'FARFETCH', ...others },
+  { color = 'currentColor', size = 24, title = 'farfetch', ...others },
   ref
 ) {
   return (

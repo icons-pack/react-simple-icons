@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Flathub = forwardRef(function Flathub({ color = 'currentColor', size = 24, title = 'Flathub', ...others }, ref) {
+const Flathub = forwardRef(function Flathub({ color = 'currentColor', size = 24, title = 'flathub', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

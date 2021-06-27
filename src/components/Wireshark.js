@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Wireshark = forwardRef(function Wireshark(
-  { color = 'currentColor', size = 24, title = 'Wireshark', ...others },
+  { color = 'currentColor', size = 24, title = 'wireshark', ...others },
   ref
 ) {
   return (

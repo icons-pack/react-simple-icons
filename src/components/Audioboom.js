@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Audioboom = forwardRef(function Audioboom(
-  { color = 'currentColor', size = 24, title = 'Audioboom', ...others },
+  { color = 'currentColor', size = 24, title = 'audioboom', ...others },
   ref
 ) {
   return (

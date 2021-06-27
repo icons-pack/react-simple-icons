@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Logstash = forwardRef(function Logstash(
-  { color = 'currentColor', size = 24, title = 'Logstash', ...others },
+  { color = 'currentColor', size = 24, title = 'logstash', ...others },
   ref
 ) {
   return (

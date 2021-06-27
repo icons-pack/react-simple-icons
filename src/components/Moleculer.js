@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Moleculer = forwardRef(function Moleculer(
-  { color = 'currentColor', size = 24, title = 'Moleculer', ...others },
+  { color = 'currentColor', size = 24, title = 'moleculer', ...others },
   ref
 ) {
   return (

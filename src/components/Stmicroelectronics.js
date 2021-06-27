@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Stmicroelectronics = forwardRef(function Stmicroelectronics(
-  { color = 'currentColor', size = 24, title = 'STMicroelectronics', ...others },
+  { color = 'currentColor', size = 24, title = 'stmicroelectronics', ...others },
   ref
 ) {
   return (

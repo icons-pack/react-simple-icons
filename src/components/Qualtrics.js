@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Qualtrics = forwardRef(function Qualtrics(
-  { color = 'currentColor', size = 24, title = 'Qualtrics', ...others },
+  { color = 'currentColor', size = 24, title = 'qualtrics', ...others },
   ref
 ) {
   return (

@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const LastDotFm = forwardRef(function LastDotFm(
-  { color = 'currentColor', size = 24, title = 'last-dot-fm', ...others },
+const Lastdotfm = forwardRef(function Lastdotfm(
+  { color = 'currentColor', size = 24, title = 'lastdotfm', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const LastDotFm = forwardRef(function LastDotFm(
   );
 });
 
-LastDotFm.propTypes = {
+Lastdotfm.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ LastDotFm.propTypes = {
   title: PropTypes.string,
 };
 
-export default LastDotFm;
+export default Lastdotfm;

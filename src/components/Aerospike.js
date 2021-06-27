@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Aerospike = forwardRef(function Aerospike(
-  { color = 'currentColor', size = 24, title = 'Aerospike', ...others },
+  { color = 'currentColor', size = 24, title = 'aerospike', ...others },
   ref
 ) {
   return (

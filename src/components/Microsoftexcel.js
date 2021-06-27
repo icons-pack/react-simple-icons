@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Microsoftexcel = forwardRef(function Microsoftexcel(
-  { color = 'currentColor', size = 24, title = 'Microsoft Excel', ...others },
+  { color = 'currentColor', size = 24, title = 'microsoftexcel', ...others },
   ref
 ) {
   return (

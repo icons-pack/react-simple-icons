@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Nationalgrid = forwardRef(function Nationalgrid(
-  { color = 'currentColor', size = 24, title = 'National Grid', ...others },
+  { color = 'currentColor', size = 24, title = 'nationalgrid', ...others },
   ref
 ) {
   return (

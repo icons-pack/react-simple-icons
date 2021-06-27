@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Hypothesis = forwardRef(function Hypothesis(
-  { color = 'currentColor', size = 24, title = 'Hypothesis', ...others },
+  { color = 'currentColor', size = 24, title = 'hypothesis', ...others },
   ref
 ) {
   return (

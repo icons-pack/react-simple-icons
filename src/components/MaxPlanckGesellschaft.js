@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const MaxPlanckGesellschaft = forwardRef(function MaxPlanckGesellschaft(
-  { color = 'currentColor', size = 24, title = 'max-planck-gesellschaft', ...others },
+const Maxplanckgesellschaft = forwardRef(function Maxplanckgesellschaft(
+  { color = 'currentColor', size = 24, title = 'maxplanckgesellschaft', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const MaxPlanckGesellschaft = forwardRef(function MaxPlanckGesellschaft(
   );
 });
 
-MaxPlanckGesellschaft.propTypes = {
+Maxplanckgesellschaft.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ MaxPlanckGesellschaft.propTypes = {
   title: PropTypes.string,
 };
 
-export default MaxPlanckGesellschaft;
+export default Maxplanckgesellschaft;

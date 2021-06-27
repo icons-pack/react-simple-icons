@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Googledrive = forwardRef(function Googledrive(
-  { color = 'currentColor', size = 24, title = 'Google Drive', ...others },
+  { color = 'currentColor', size = 24, title = 'googledrive', ...others },
   ref
 ) {
   return (

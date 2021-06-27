@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Hilton = forwardRef(function Hilton({ color = 'currentColor', size = 24, title = 'Hilton', ...others }, ref) {
+const Hilton = forwardRef(function Hilton({ color = 'currentColor', size = 24, title = 'hilton', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

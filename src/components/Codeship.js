@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Codeship = forwardRef(function Codeship(
-  { color = 'currentColor', size = 24, title = 'Codeship', ...others },
+  { color = 'currentColor', size = 24, title = 'codeship', ...others },
   ref
 ) {
   return (

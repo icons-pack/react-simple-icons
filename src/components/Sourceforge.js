@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Sourceforge = forwardRef(function Sourceforge(
-  { color = 'currentColor', size = 24, title = 'SourceForge', ...others },
+  { color = 'currentColor', size = 24, title = 'sourceforge', ...others },
   ref
 ) {
   return (

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Venmo = forwardRef(function Venmo({ color = 'currentColor', size = 24, title = 'Venmo', ...others }, ref) {
+const Venmo = forwardRef(function Venmo({ color = 'currentColor', size = 24, title = 'venmo', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

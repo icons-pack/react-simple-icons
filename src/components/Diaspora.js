@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Diaspora = forwardRef(function Diaspora(
-  { color = 'currentColor', size = 24, title = 'Diaspora', ...others },
+  { color = 'currentColor', size = 24, title = 'diaspora', ...others },
   ref
 ) {
   return (

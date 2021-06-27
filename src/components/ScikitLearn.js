@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const ScikitLearn = forwardRef(function ScikitLearn(
-  { color = 'currentColor', size = 24, title = 'scikit-learn', ...others },
+const Scikitlearn = forwardRef(function Scikitlearn(
+  { color = 'currentColor', size = 24, title = 'scikitlearn', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const ScikitLearn = forwardRef(function ScikitLearn(
   );
 });
 
-ScikitLearn.propTypes = {
+Scikitlearn.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ ScikitLearn.propTypes = {
   title: PropTypes.string,
 };
 
-export default ScikitLearn;
+export default Scikitlearn;

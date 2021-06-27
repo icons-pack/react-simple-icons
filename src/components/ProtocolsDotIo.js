@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const ProtocolsDotIo = forwardRef(function ProtocolsDotIo(
-  { color = 'currentColor', size = 24, title = 'protocols-dot-io', ...others },
+const Protocolsdotio = forwardRef(function Protocolsdotio(
+  { color = 'currentColor', size = 24, title = 'protocolsdotio', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const ProtocolsDotIo = forwardRef(function ProtocolsDotIo(
   );
 });
 
-ProtocolsDotIo.propTypes = {
+Protocolsdotio.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ ProtocolsDotIo.propTypes = {
   title: PropTypes.string,
 };
 
-export default ProtocolsDotIo;
+export default Protocolsdotio;

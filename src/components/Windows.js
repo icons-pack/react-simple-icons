@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Windows = forwardRef(function Windows({ color = 'currentColor', size = 24, title = 'Windows', ...others }, ref) {
+const Windows = forwardRef(function Windows({ color = 'currentColor', size = 24, title = 'windows', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

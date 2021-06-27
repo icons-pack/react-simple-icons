@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Coronaengine = forwardRef(function Coronaengine(
-  { color = 'currentColor', size = 24, title = 'Corona Engine', ...others },
+  { color = 'currentColor', size = 24, title = 'coronaengine', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Bitbucket = forwardRef(function Bitbucket(
-  { color = 'currentColor', size = 24, title = 'Bitbucket', ...others },
+  { color = 'currentColor', size = 24, title = 'bitbucket', ...others },
   ref
 ) {
   return (

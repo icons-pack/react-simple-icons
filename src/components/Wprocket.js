@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Wprocket = forwardRef(function Wprocket(
-  { color = 'currentColor', size = 24, title = 'WP Rocket', ...others },
+  { color = 'currentColor', size = 24, title = 'wprocket', ...others },
   ref
 ) {
   return (

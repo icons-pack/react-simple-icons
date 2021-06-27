@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Nim = forwardRef(function Nim({ color = 'currentColor', size = 24, title = 'Nim', ...others }, ref) {
+const Nim = forwardRef(function Nim({ color = 'currentColor', size = 24, title = 'nim', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

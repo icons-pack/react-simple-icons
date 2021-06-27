@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Influxdb = forwardRef(function Influxdb(
-  { color = 'currentColor', size = 24, title = 'InfluxDB', ...others },
+  { color = 'currentColor', size = 24, title = 'influxdb', ...others },
   ref
 ) {
   return (

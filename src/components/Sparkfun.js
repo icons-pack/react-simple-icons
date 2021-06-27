@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Sparkfun = forwardRef(function Sparkfun(
-  { color = 'currentColor', size = 24, title = 'SparkFun', ...others },
+  { color = 'currentColor', size = 24, title = 'sparkfun', ...others },
   ref
 ) {
   return (

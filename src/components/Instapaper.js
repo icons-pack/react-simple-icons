@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Instapaper = forwardRef(function Instapaper(
-  { color = 'currentColor', size = 24, title = 'Instapaper', ...others },
+  { color = 'currentColor', size = 24, title = 'instapaper', ...others },
   ref
 ) {
   return (

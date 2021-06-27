@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Mediafire = forwardRef(function Mediafire(
-  { color = 'currentColor', size = 24, title = 'MediaFire', ...others },
+  { color = 'currentColor', size = 24, title = 'mediafire', ...others },
   ref
 ) {
   return (

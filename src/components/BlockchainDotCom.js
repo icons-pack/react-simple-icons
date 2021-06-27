@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const BlockchainDotCom = forwardRef(function BlockchainDotCom(
-  { color = 'currentColor', size = 24, title = 'blockchain-dot-com', ...others },
+const Blockchaindotcom = forwardRef(function Blockchaindotcom(
+  { color = 'currentColor', size = 24, title = 'blockchaindotcom', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const BlockchainDotCom = forwardRef(function BlockchainDotCom(
   );
 });
 
-BlockchainDotCom.propTypes = {
+Blockchaindotcom.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ BlockchainDotCom.propTypes = {
   title: PropTypes.string,
 };
 
-export default BlockchainDotCom;
+export default Blockchaindotcom;

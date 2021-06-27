@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Scrumalliance = forwardRef(function Scrumalliance(
-  { color = 'currentColor', size = 24, title = 'Scrum Alliance', ...others },
+  { color = 'currentColor', size = 24, title = 'scrumalliance', ...others },
   ref
 ) {
   return (

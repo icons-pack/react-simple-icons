@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Hootsuite = forwardRef(function Hootsuite(
-  { color = 'currentColor', size = 24, title = 'Hootsuite', ...others },
+  { color = 'currentColor', size = 24, title = 'hootsuite', ...others },
   ref
 ) {
   return (

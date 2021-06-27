@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Cakephp = forwardRef(function Cakephp({ color = 'currentColor', size = 24, title = 'CakePHP', ...others }, ref) {
+const Cakephp = forwardRef(function Cakephp({ color = 'currentColor', size = 24, title = 'cakephp', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

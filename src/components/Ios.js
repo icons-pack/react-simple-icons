@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Ios = forwardRef(function Ios({ color = 'currentColor', size = 24, title = 'iOS', ...others }, ref) {
+const Ios = forwardRef(function Ios({ color = 'currentColor', size = 24, title = 'ios', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

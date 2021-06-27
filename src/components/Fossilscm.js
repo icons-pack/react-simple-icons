@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Fossilscm = forwardRef(function Fossilscm(
-  { color = 'currentColor', size = 24, title = 'Fossil SCM', ...others },
+  { color = 'currentColor', size = 24, title = 'fossilscm', ...others },
   ref
 ) {
   return (

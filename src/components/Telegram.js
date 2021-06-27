@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Telegram = forwardRef(function Telegram(
-  { color = 'currentColor', size = 24, title = 'Telegram', ...others },
+  { color = 'currentColor', size = 24, title = 'telegram', ...others },
   ref
 ) {
   return (

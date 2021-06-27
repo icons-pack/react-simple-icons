@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Cpanel = forwardRef(function Cpanel({ color = 'currentColor', size = 24, title = 'cPanel', ...others }, ref) {
+const Cpanel = forwardRef(function Cpanel({ color = 'currentColor', size = 24, title = 'cpanel', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

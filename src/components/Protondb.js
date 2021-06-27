@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Protondb = forwardRef(function Protondb(
-  { color = 'currentColor', size = 24, title = 'ProtonDB', ...others },
+  { color = 'currentColor', size = 24, title = 'protondb', ...others },
   ref
 ) {
   return (

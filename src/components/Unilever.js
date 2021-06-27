@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Unilever = forwardRef(function Unilever(
-  { color = 'currentColor', size = 24, title = 'Unilever', ...others },
+  { color = 'currentColor', size = 24, title = 'unilever', ...others },
   ref
 ) {
   return (

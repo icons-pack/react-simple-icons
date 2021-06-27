@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Lotpolishairlines = forwardRef(function Lotpolishairlines(
-  { color = 'currentColor', size = 24, title = 'LOT Polish Airlines', ...others },
+  { color = 'currentColor', size = 24, title = 'lotpolishairlines', ...others },
   ref
 ) {
   return (

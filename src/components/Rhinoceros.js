@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Rhinoceros = forwardRef(function Rhinoceros(
-  { color = 'currentColor', size = 24, title = 'Rhinoceros', ...others },
+  { color = 'currentColor', size = 24, title = 'rhinoceros', ...others },
   ref
 ) {
   return (

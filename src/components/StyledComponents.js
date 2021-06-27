@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const StyledComponents = forwardRef(function StyledComponents(
-  { color = 'currentColor', size = 24, title = 'styled-components', ...others },
+const Styledcomponents = forwardRef(function Styledcomponents(
+  { color = 'currentColor', size = 24, title = 'styledcomponents', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const StyledComponents = forwardRef(function StyledComponents(
   );
 });
 
-StyledComponents.propTypes = {
+Styledcomponents.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ StyledComponents.propTypes = {
   title: PropTypes.string,
 };
 
-export default StyledComponents;
+export default Styledcomponents;

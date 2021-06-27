@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const AboutDotMe = forwardRef(function AboutDotMe(
-  { color = 'currentColor', size = 24, title = 'about-dot-me', ...others },
+const Aboutdotme = forwardRef(function Aboutdotme(
+  { color = 'currentColor', size = 24, title = 'aboutdotme', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const AboutDotMe = forwardRef(function AboutDotMe(
   );
 });
 
-AboutDotMe.propTypes = {
+Aboutdotme.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ AboutDotMe.propTypes = {
   title: PropTypes.string,
 };
 
-export default AboutDotMe;
+export default Aboutdotme;

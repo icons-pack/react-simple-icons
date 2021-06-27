@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const ItchDotIo = forwardRef(function ItchDotIo(
-  { color = 'currentColor', size = 24, title = 'itch-dot-io', ...others },
+const Itchdotio = forwardRef(function Itchdotio(
+  { color = 'currentColor', size = 24, title = 'itchdotio', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const ItchDotIo = forwardRef(function ItchDotIo(
   );
 });
 
-ItchDotIo.propTypes = {
+Itchdotio.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ ItchDotIo.propTypes = {
   title: PropTypes.string,
 };
 
-export default ItchDotIo;
+export default Itchdotio;

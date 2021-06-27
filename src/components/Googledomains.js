@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Googledomains = forwardRef(function Googledomains(
-  { color = 'currentColor', size = 24, title = 'Google Domains', ...others },
+  { color = 'currentColor', size = 24, title = 'googledomains', ...others },
   ref
 ) {
   return (

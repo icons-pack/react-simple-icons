@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Suse = forwardRef(function Suse({ color = 'currentColor', size = 24, title = 'SUSE', ...others }, ref) {
+const Suse = forwardRef(function Suse({ color = 'currentColor', size = 24, title = 'suse', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Digg = forwardRef(function Digg({ color = 'currentColor', size = 24, title = 'Digg', ...others }, ref) {
+const Digg = forwardRef(function Digg({ color = 'currentColor', size = 24, title = 'digg', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

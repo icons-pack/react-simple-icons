@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Freebsd = forwardRef(function Freebsd({ color = 'currentColor', size = 24, title = 'FreeBSD', ...others }, ref) {
+const Freebsd = forwardRef(function Freebsd({ color = 'currentColor', size = 24, title = 'freebsd', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

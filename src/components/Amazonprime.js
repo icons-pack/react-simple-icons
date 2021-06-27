@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Amazonprime = forwardRef(function Amazonprime(
-  { color = 'currentColor', size = 24, title = 'Amazon Prime', ...others },
+  { color = 'currentColor', size = 24, title = 'amazonprime', ...others },
   ref
 ) {
   return (

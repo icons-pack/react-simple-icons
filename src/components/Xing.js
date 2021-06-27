@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Xing = forwardRef(function Xing({ color = 'currentColor', size = 24, title = 'Xing', ...others }, ref) {
+const Xing = forwardRef(function Xing({ color = 'currentColor', size = 24, title = 'xing', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

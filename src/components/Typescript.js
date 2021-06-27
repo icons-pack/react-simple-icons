@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Typescript = forwardRef(function Typescript(
-  { color = 'currentColor', size = 24, title = 'TypeScript', ...others },
+  { color = 'currentColor', size = 24, title = 'typescript', ...others },
   ref
 ) {
   return (

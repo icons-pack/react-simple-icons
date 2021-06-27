@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Openbugbounty = forwardRef(function Openbugbounty(
-  { color = 'currentColor', size = 24, title = 'Open Bug Bounty', ...others },
+  { color = 'currentColor', size = 24, title = 'openbugbounty', ...others },
   ref
 ) {
   return (

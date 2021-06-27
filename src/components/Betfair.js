@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Betfair = forwardRef(function Betfair({ color = 'currentColor', size = 24, title = 'Betfair', ...others }, ref) {
+const Betfair = forwardRef(function Betfair({ color = 'currentColor', size = 24, title = 'betfair', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

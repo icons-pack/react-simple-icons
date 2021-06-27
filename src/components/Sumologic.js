@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Sumologic = forwardRef(function Sumologic(
-  { color = 'currentColor', size = 24, title = 'Sumo Logic', ...others },
+  { color = 'currentColor', size = 24, title = 'sumologic', ...others },
   ref
 ) {
   return (

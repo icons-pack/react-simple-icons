@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Elixir = forwardRef(function Elixir({ color = 'currentColor', size = 24, title = 'Elixir', ...others }, ref) {
+const Elixir = forwardRef(function Elixir({ color = 'currentColor', size = 24, title = 'elixir', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

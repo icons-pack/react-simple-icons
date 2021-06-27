@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Shutterstock = forwardRef(function Shutterstock(
-  { color = 'currentColor', size = 24, title = 'Shutterstock', ...others },
+  { color = 'currentColor', size = 24, title = 'shutterstock', ...others },
   ref
 ) {
   return (

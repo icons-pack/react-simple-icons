@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Roamresearch = forwardRef(function Roamresearch(
-  { color = 'currentColor', size = 24, title = 'Roam Research', ...others },
+  { color = 'currentColor', size = 24, title = 'roamresearch', ...others },
   ref
 ) {
   return (

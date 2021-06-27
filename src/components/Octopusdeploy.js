@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Octopusdeploy = forwardRef(function Octopusdeploy(
-  { color = 'currentColor', size = 24, title = 'Octopus Deploy', ...others },
+  { color = 'currentColor', size = 24, title = 'octopusdeploy', ...others },
   ref
 ) {
   return (

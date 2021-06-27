@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Gmail = forwardRef(function Gmail({ color = 'currentColor', size = 24, title = 'Gmail', ...others }, ref) {
+const Gmail = forwardRef(function Gmail({ color = 'currentColor', size = 24, title = 'gmail', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

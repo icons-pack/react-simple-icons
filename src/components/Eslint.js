@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Eslint = forwardRef(function Eslint({ color = 'currentColor', size = 24, title = 'ESLint', ...others }, ref) {
+const Eslint = forwardRef(function Eslint({ color = 'currentColor', size = 24, title = 'eslint', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

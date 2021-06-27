@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Cookiecutter = forwardRef(function Cookiecutter(
-  { color = 'currentColor', size = 24, title = 'Cookiecutter', ...others },
+  { color = 'currentColor', size = 24, title = 'cookiecutter', ...others },
   ref
 ) {
   return (

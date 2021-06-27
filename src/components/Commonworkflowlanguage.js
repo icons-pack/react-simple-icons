@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Commonworkflowlanguage = forwardRef(function Commonworkflowlanguage(
-  { color = 'currentColor', size = 24, title = 'Common Workflow Language', ...others },
+  { color = 'currentColor', size = 24, title = 'commonworkflowlanguage', ...others },
   ref
 ) {
   return (

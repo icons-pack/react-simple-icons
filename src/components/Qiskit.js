@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Qiskit = forwardRef(function Qiskit({ color = 'currentColor', size = 24, title = 'Qiskit', ...others }, ref) {
+const Qiskit = forwardRef(function Qiskit({ color = 'currentColor', size = 24, title = 'qiskit', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

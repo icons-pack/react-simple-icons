@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Verizon = forwardRef(function Verizon({ color = 'currentColor', size = 24, title = 'Verizon', ...others }, ref) {
+const Verizon = forwardRef(function Verizon({ color = 'currentColor', size = 24, title = 'verizon', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

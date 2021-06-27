@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Elsevier = forwardRef(function Elsevier(
-  { color = 'currentColor', size = 24, title = 'Elsevier', ...others },
+  { color = 'currentColor', size = 24, title = 'elsevier', ...others },
   ref
 ) {
   return (

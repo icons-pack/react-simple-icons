@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Deutschebank = forwardRef(function Deutschebank(
-  { color = 'currentColor', size = 24, title = 'Deutsche Bank', ...others },
+  { color = 'currentColor', size = 24, title = 'deutschebank', ...others },
   ref
 ) {
   return (

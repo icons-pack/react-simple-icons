@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Coderwall = forwardRef(function Coderwall(
-  { color = 'currentColor', size = 24, title = 'Coderwall', ...others },
+  { color = 'currentColor', size = 24, title = 'coderwall', ...others },
   ref
 ) {
   return (

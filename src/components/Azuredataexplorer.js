@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Azuredataexplorer = forwardRef(function Azuredataexplorer(
-  { color = 'currentColor', size = 24, title = 'Azure Data Explorer', ...others },
+  { color = 'currentColor', size = 24, title = 'azuredataexplorer', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Snapcraft = forwardRef(function Snapcraft(
-  { color = 'currentColor', size = 24, title = 'Snapcraft', ...others },
+  { color = 'currentColor', size = 24, title = 'snapcraft', ...others },
   ref
 ) {
   return (

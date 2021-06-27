@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Checkio = forwardRef(function Checkio({ color = 'currentColor', size = 24, title = 'CheckiO', ...others }, ref) {
+const Checkio = forwardRef(function Checkio({ color = 'currentColor', size = 24, title = 'checkio', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

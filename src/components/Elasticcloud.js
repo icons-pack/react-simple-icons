@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Elasticcloud = forwardRef(function Elasticcloud(
-  { color = 'currentColor', size = 24, title = 'Elastic Cloud', ...others },
+  { color = 'currentColor', size = 24, title = 'elasticcloud', ...others },
   ref
 ) {
   return (

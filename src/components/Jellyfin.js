@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Jellyfin = forwardRef(function Jellyfin(
-  { color = 'currentColor', size = 24, title = 'Jellyfin', ...others },
+  { color = 'currentColor', size = 24, title = 'jellyfin', ...others },
   ref
 ) {
   return (

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Nixos = forwardRef(function Nixos({ color = 'currentColor', size = 24, title = 'NixOS', ...others }, ref) {
+const Nixos = forwardRef(function Nixos({ color = 'currentColor', size = 24, title = 'nixos', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

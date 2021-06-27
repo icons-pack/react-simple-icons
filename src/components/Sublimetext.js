@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Sublimetext = forwardRef(function Sublimetext(
-  { color = 'currentColor', size = 24, title = 'Sublime Text', ...others },
+  { color = 'currentColor', size = 24, title = 'sublimetext', ...others },
   ref
 ) {
   return (

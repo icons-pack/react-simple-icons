@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Apachemaven = forwardRef(function Apachemaven(
-  { color = 'currentColor', size = 24, title = 'Apache Maven', ...others },
+  { color = 'currentColor', size = 24, title = 'apachemaven', ...others },
   ref
 ) {
   return (

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Laravel = forwardRef(function Laravel({ color = 'currentColor', size = 24, title = 'Laravel', ...others }, ref) {
+const Laravel = forwardRef(function Laravel({ color = 'currentColor', size = 24, title = 'laravel', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Dependabot = forwardRef(function Dependabot(
-  { color = 'currentColor', size = 24, title = 'Dependabot', ...others },
+  { color = 'currentColor', size = 24, title = 'dependabot', ...others },
   ref
 ) {
   return (

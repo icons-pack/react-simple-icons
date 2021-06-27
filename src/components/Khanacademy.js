@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Khanacademy = forwardRef(function Khanacademy(
-  { color = 'currentColor', size = 24, title = 'Khan Academy', ...others },
+  { color = 'currentColor', size = 24, title = 'khanacademy', ...others },
   ref
 ) {
   return (

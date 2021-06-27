@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Applemusic = forwardRef(function Applemusic(
-  { color = 'currentColor', size = 24, title = 'Apple Music', ...others },
+  { color = 'currentColor', size = 24, title = 'applemusic', ...others },
   ref
 ) {
   return (

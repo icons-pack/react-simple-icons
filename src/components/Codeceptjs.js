@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Codeceptjs = forwardRef(function Codeceptjs(
-  { color = 'currentColor', size = 24, title = 'CodeceptJS', ...others },
+  { color = 'currentColor', size = 24, title = 'codeceptjs', ...others },
   ref
 ) {
   return (

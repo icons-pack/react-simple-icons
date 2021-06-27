@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Lua = forwardRef(function Lua({ color = 'currentColor', size = 24, title = 'Lua', ...others }, ref) {
+const Lua = forwardRef(function Lua({ color = 'currentColor', size = 24, title = 'lua', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

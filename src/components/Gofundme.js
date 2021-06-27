@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Gofundme = forwardRef(function Gofundme(
-  { color = 'currentColor', size = 24, title = 'GoFundMe', ...others },
+  { color = 'currentColor', size = 24, title = 'gofundme', ...others },
   ref
 ) {
   return (

@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const HotelsDotCom = forwardRef(function HotelsDotCom(
-  { color = 'currentColor', size = 24, title = 'hotels-dot-com', ...others },
+const Hotelsdotcom = forwardRef(function Hotelsdotcom(
+  { color = 'currentColor', size = 24, title = 'hotelsdotcom', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const HotelsDotCom = forwardRef(function HotelsDotCom(
   );
 });
 
-HotelsDotCom.propTypes = {
+Hotelsdotcom.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ HotelsDotCom.propTypes = {
   title: PropTypes.string,
 };
 
-export default HotelsDotCom;
+export default Hotelsdotcom;

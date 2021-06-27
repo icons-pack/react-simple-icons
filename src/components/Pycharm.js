@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Pycharm = forwardRef(function Pycharm({ color = 'currentColor', size = 24, title = 'PyCharm', ...others }, ref) {
+const Pycharm = forwardRef(function Pycharm({ color = 'currentColor', size = 24, title = 'pycharm', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

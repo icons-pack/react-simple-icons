@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Bitrise = forwardRef(function Bitrise({ color = 'currentColor', size = 24, title = 'Bitrise', ...others }, ref) {
+const Bitrise = forwardRef(function Bitrise({ color = 'currentColor', size = 24, title = 'bitrise', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

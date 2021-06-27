@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const WeightsAndBiases = forwardRef(function WeightsAndBiases(
-  { color = 'currentColor', size = 24, title = 'weights-and-biases', ...others },
+const Weightsandbiases = forwardRef(function Weightsandbiases(
+  { color = 'currentColor', size = 24, title = 'weightsandbiases', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const WeightsAndBiases = forwardRef(function WeightsAndBiases(
   );
 });
 
-WeightsAndBiases.propTypes = {
+Weightsandbiases.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ WeightsAndBiases.propTypes = {
   title: PropTypes.string,
 };
 
-export default WeightsAndBiases;
+export default Weightsandbiases;

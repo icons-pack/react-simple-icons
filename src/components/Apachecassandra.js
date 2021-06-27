@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Apachecassandra = forwardRef(function Apachecassandra(
-  { color = 'currentColor', size = 24, title = 'Apache Cassandra', ...others },
+  { color = 'currentColor', size = 24, title = 'apachecassandra', ...others },
   ref
 ) {
   return (

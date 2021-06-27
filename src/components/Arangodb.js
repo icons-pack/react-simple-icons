@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Arangodb = forwardRef(function Arangodb(
-  { color = 'currentColor', size = 24, title = 'ArangoDB', ...others },
+  { color = 'currentColor', size = 24, title = 'arangodb', ...others },
   ref
 ) {
   return (

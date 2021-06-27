@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const KoFi = forwardRef(function KoFi({ color = 'currentColor', size = 24, title = 'ko-fi', ...others }, ref) {
+const Kofi = forwardRef(function Kofi({ color = 'currentColor', size = 24, title = 'kofi', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -17,7 +17,7 @@ const KoFi = forwardRef(function KoFi({ color = 'currentColor', size = 24, title
   );
 });
 
-KoFi.propTypes = {
+Kofi.propTypes = {
   /**
    * Hex color or color name
    */
@@ -32,4 +32,4 @@ KoFi.propTypes = {
   title: PropTypes.string,
 };
 
-export default KoFi;
+export default Kofi;

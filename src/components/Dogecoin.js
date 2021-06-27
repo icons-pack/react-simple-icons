@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Dogecoin = forwardRef(function Dogecoin(
-  { color = 'currentColor', size = 24, title = 'Dogecoin', ...others },
+  { color = 'currentColor', size = 24, title = 'dogecoin', ...others },
   ref
 ) {
   return (

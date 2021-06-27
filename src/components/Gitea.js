@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Gitea = forwardRef(function Gitea({ color = 'currentColor', size = 24, title = 'Gitea', ...others }, ref) {
+const Gitea = forwardRef(function Gitea({ color = 'currentColor', size = 24, title = 'gitea', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

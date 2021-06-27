@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const SocietySix = forwardRef(function SocietySix(
-  { color = 'currentColor', size = 24, title = 'Society6', ...others },
+  { color = 'currentColor', size = 24, title = 'society6', ...others },
   ref
 ) {
   return (

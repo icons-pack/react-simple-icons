@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Cloudera = forwardRef(function Cloudera(
-  { color = 'currentColor', size = 24, title = 'Cloudera', ...others },
+  { color = 'currentColor', size = 24, title = 'cloudera', ...others },
   ref
 ) {
   return (

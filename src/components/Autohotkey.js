@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Autohotkey = forwardRef(function Autohotkey(
-  { color = 'currentColor', size = 24, title = 'AutoHotkey', ...others },
+  { color = 'currentColor', size = 24, title = 'autohotkey', ...others },
   ref
 ) {
   return (

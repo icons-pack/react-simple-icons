@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Reverbnation = forwardRef(function Reverbnation(
-  { color = 'currentColor', size = 24, title = 'ReverbNation', ...others },
+  { color = 'currentColor', size = 24, title = 'reverbnation', ...others },
   ref
 ) {
   return (

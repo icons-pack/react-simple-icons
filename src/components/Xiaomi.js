@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Xiaomi = forwardRef(function Xiaomi({ color = 'currentColor', size = 24, title = 'Xiaomi', ...others }, ref) {
+const Xiaomi = forwardRef(function Xiaomi({ color = 'currentColor', size = 24, title = 'xiaomi', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

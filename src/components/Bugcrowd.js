@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Bugcrowd = forwardRef(function Bugcrowd(
-  { color = 'currentColor', size = 24, title = 'Bugcrowd', ...others },
+  { color = 'currentColor', size = 24, title = 'bugcrowd', ...others },
   ref
 ) {
   return (

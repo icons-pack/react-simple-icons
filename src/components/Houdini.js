@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Houdini = forwardRef(function Houdini({ color = 'currentColor', size = 24, title = 'Houdini', ...others }, ref) {
+const Houdini = forwardRef(function Houdini({ color = 'currentColor', size = 24, title = 'houdini', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

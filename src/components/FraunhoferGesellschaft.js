@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const FraunhoferGesellschaft = forwardRef(function FraunhoferGesellschaft(
-  { color = 'currentColor', size = 24, title = 'fraunhofer-gesellschaft', ...others },
+const Fraunhofergesellschaft = forwardRef(function Fraunhofergesellschaft(
+  { color = 'currentColor', size = 24, title = 'fraunhofergesellschaft', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const FraunhoferGesellschaft = forwardRef(function FraunhoferGesellschaft(
   );
 });
 
-FraunhoferGesellschaft.propTypes = {
+Fraunhofergesellschaft.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ FraunhoferGesellschaft.propTypes = {
   title: PropTypes.string,
 };
 
-export default FraunhoferGesellschaft;
+export default Fraunhofergesellschaft;

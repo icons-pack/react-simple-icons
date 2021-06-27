@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Tailwindcss = forwardRef(function Tailwindcss(
-  { color = 'currentColor', size = 24, title = 'Tailwind CSS', ...others },
+  { color = 'currentColor', size = 24, title = 'tailwindcss', ...others },
   ref
 ) {
   return (

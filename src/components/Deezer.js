@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Deezer = forwardRef(function Deezer({ color = 'currentColor', size = 24, title = 'Deezer', ...others }, ref) {
+const Deezer = forwardRef(function Deezer({ color = 'currentColor', size = 24, title = 'deezer', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

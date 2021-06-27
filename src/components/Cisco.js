@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Cisco = forwardRef(function Cisco({ color = 'currentColor', size = 24, title = 'Cisco', ...others }, ref) {
+const Cisco = forwardRef(function Cisco({ color = 'currentColor', size = 24, title = 'cisco', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

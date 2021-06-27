@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const AudioTechnica = forwardRef(function AudioTechnica(
-  { color = 'currentColor', size = 24, title = 'audio-technica', ...others },
+const Audiotechnica = forwardRef(function Audiotechnica(
+  { color = 'currentColor', size = 24, title = 'audiotechnica', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const AudioTechnica = forwardRef(function AudioTechnica(
   );
 });
 
-AudioTechnica.propTypes = {
+Audiotechnica.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ AudioTechnica.propTypes = {
   title: PropTypes.string,
 };
 
-export default AudioTechnica;
+export default Audiotechnica;

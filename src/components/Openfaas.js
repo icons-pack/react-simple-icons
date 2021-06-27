@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Openfaas = forwardRef(function Openfaas(
-  { color = 'currentColor', size = 24, title = 'OpenFaaS', ...others },
+  { color = 'currentColor', size = 24, title = 'openfaas', ...others },
   ref
 ) {
   return (

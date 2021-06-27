@@ -55,7 +55,7 @@ const attrsToString = attrs => {
 
 ICONS.forEach(icon => {
   const baseName = String(icon);
-  const componentName = baseName === 'React' ? 'ReactJs' : upperCamelCase(titleToFilename(baseName));
+  const componentName = (baseName === 'React' || baseName === 'react') ? 'ReactJs' : upperCamelCase(titleToFilename(baseName));
 
   const locationOutputComponent = path.join(rootDir, `${outputComponent}/`, `${componentName}.js`);
 

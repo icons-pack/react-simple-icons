@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Bower = forwardRef(function Bower({ color = 'currentColor', size = 24, title = 'Bower', ...others }, ref) {
+const Bower = forwardRef(function Bower({ color = 'currentColor', size = 24, title = 'bower', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

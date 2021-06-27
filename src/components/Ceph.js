@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Ceph = forwardRef(function Ceph({ color = 'currentColor', size = 24, title = 'Ceph', ...others }, ref) {
+const Ceph = forwardRef(function Ceph({ color = 'currentColor', size = 24, title = 'ceph', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

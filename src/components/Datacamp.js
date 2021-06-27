@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Datacamp = forwardRef(function Datacamp(
-  { color = 'currentColor', size = 24, title = 'DataCamp', ...others },
+  { color = 'currentColor', size = 24, title = 'datacamp', ...others },
   ref
 ) {
   return (

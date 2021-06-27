@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Codecov = forwardRef(function Codecov({ color = 'currentColor', size = 24, title = 'Codecov', ...others }, ref) {
+const Codecov = forwardRef(function Codecov({ color = 'currentColor', size = 24, title = 'codecov', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

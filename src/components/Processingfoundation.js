@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Processingfoundation = forwardRef(function Processingfoundation(
-  { color = 'currentColor', size = 24, title = 'Processing Foundation', ...others },
+  { color = 'currentColor', size = 24, title = 'processingfoundation', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Virustotal = forwardRef(function Virustotal(
-  { color = 'currentColor', size = 24, title = 'VirusTotal', ...others },
+  { color = 'currentColor', size = 24, title = 'virustotal', ...others },
   ref
 ) {
   return (

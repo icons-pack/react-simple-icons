@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Scaleway = forwardRef(function Scaleway(
-  { color = 'currentColor', size = 24, title = 'Scaleway', ...others },
+  { color = 'currentColor', size = 24, title = 'scaleway', ...others },
   ref
 ) {
   return (

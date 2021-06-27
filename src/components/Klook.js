@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Klook = forwardRef(function Klook({ color = 'currentColor', size = 24, title = 'Klook', ...others }, ref) {
+const Klook = forwardRef(function Klook({ color = 'currentColor', size = 24, title = 'klook', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Youtubemusic = forwardRef(function Youtubemusic(
-  { color = 'currentColor', size = 24, title = 'YouTube Music', ...others },
+  { color = 'currentColor', size = 24, title = 'youtubemusic', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Fidoalliance = forwardRef(function Fidoalliance(
-  { color = 'currentColor', size = 24, title = 'Fido Alliance', ...others },
+  { color = 'currentColor', size = 24, title = 'fidoalliance', ...others },
   ref
 ) {
   return (

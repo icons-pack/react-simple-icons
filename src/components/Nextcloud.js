@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Nextcloud = forwardRef(function Nextcloud(
-  { color = 'currentColor', size = 24, title = 'Nextcloud', ...others },
+  { color = 'currentColor', size = 24, title = 'nextcloud', ...others },
   ref
 ) {
   return (

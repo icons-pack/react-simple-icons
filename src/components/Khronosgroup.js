@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Khronosgroup = forwardRef(function Khronosgroup(
-  { color = 'currentColor', size = 24, title = 'Khronos Group', ...others },
+  { color = 'currentColor', size = 24, title = 'khronosgroup', ...others },
   ref
 ) {
   return (

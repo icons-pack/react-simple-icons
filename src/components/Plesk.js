@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Plesk = forwardRef(function Plesk({ color = 'currentColor', size = 24, title = 'Plesk', ...others }, ref) {
+const Plesk = forwardRef(function Plesk({ color = 'currentColor', size = 24, title = 'plesk', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Fastapi = forwardRef(function Fastapi({ color = 'currentColor', size = 24, title = 'FastAPI', ...others }, ref) {
+const Fastapi = forwardRef(function Fastapi({ color = 'currentColor', size = 24, title = 'fastapi', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

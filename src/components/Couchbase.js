@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Couchbase = forwardRef(function Couchbase(
-  { color = 'currentColor', size = 24, title = 'Couchbase', ...others },
+  { color = 'currentColor', size = 24, title = 'couchbase', ...others },
   ref
 ) {
   return (

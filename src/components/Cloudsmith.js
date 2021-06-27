@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Cloudsmith = forwardRef(function Cloudsmith(
-  { color = 'currentColor', size = 24, title = 'Cloudsmith', ...others },
+  { color = 'currentColor', size = 24, title = 'cloudsmith', ...others },
   ref
 ) {
   return (

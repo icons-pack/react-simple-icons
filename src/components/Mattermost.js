@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Mattermost = forwardRef(function Mattermost(
-  { color = 'currentColor', size = 24, title = 'Mattermost', ...others },
+  { color = 'currentColor', size = 24, title = 'mattermost', ...others },
   ref
 ) {
   return (

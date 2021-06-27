@@ -1,10 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const PrDotCo = forwardRef(function PrDotCo(
-  { color = 'currentColor', size = 24, title = 'pr-dot-co', ...others },
-  ref
-) {
+const Prdotco = forwardRef(function Prdotco({ color = 'currentColor', size = 24, title = 'prdotco', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -20,7 +17,7 @@ const PrDotCo = forwardRef(function PrDotCo(
   );
 });
 
-PrDotCo.propTypes = {
+Prdotco.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +32,4 @@ PrDotCo.propTypes = {
   title: PropTypes.string,
 };
 
-export default PrDotCo;
+export default Prdotco;

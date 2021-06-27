@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Abstract = forwardRef(function Abstract(
-  { color = 'currentColor', size = 24, title = 'Abstract', ...others },
+  { color = 'currentColor', size = 24, title = 'abstract', ...others },
   ref
 ) {
   return (

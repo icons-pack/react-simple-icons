@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Photobucket = forwardRef(function Photobucket(
-  { color = 'currentColor', size = 24, title = 'Photobucket', ...others },
+  { color = 'currentColor', size = 24, title = 'photobucket', ...others },
   ref
 ) {
   return (

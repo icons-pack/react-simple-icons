@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Blackberry = forwardRef(function Blackberry(
-  { color = 'currentColor', size = 24, title = 'Blackberry', ...others },
+  { color = 'currentColor', size = 24, title = 'blackberry', ...others },
   ref
 ) {
   return (

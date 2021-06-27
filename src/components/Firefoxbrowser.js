@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Firefoxbrowser = forwardRef(function Firefoxbrowser(
-  { color = 'currentColor', size = 24, title = 'Firefox Browser', ...others },
+  { color = 'currentColor', size = 24, title = 'firefoxbrowser', ...others },
   ref
 ) {
   return (

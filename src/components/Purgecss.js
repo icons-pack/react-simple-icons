@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Purgecss = forwardRef(function Purgecss(
-  { color = 'currentColor', size = 24, title = 'PurgeCSS', ...others },
+  { color = 'currentColor', size = 24, title = 'purgecss', ...others },
   ref
 ) {
   return (

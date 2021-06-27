@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Carto = forwardRef(function Carto({ color = 'currentColor', size = 24, title = 'Carto', ...others }, ref) {
+const Carto = forwardRef(function Carto({ color = 'currentColor', size = 24, title = 'carto', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Github = forwardRef(function Github({ color = 'currentColor', size = 24, title = 'GitHub', ...others }, ref) {
+const Github = forwardRef(function Github({ color = 'currentColor', size = 24, title = 'github', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

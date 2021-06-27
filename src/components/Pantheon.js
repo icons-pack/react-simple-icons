@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Pantheon = forwardRef(function Pantheon(
-  { color = 'currentColor', size = 24, title = 'Pantheon', ...others },
+  { color = 'currentColor', size = 24, title = 'pantheon', ...others },
   ref
 ) {
   return (

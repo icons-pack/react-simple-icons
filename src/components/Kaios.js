@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Kaios = forwardRef(function Kaios({ color = 'currentColor', size = 24, title = 'KaiOS', ...others }, ref) {
+const Kaios = forwardRef(function Kaios({ color = 'currentColor', size = 24, title = 'kaios', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

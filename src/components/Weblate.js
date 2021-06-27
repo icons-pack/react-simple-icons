@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Weblate = forwardRef(function Weblate({ color = 'currentColor', size = 24, title = 'Weblate', ...others }, ref) {
+const Weblate = forwardRef(function Weblate({ color = 'currentColor', size = 24, title = 'weblate', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

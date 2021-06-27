@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Apachenetbeanside = forwardRef(function Apachenetbeanside(
-  { color = 'currentColor', size = 24, title = 'Apache NetBeans IDE', ...others },
+  { color = 'currentColor', size = 24, title = 'apachenetbeanside', ...others },
   ref
 ) {
   return (

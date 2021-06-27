@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Microsoftoffice = forwardRef(function Microsoftoffice(
-  { color = 'currentColor', size = 24, title = 'Microsoft Office', ...others },
+  { color = 'currentColor', size = 24, title = 'microsoftoffice', ...others },
   ref
 ) {
   return (

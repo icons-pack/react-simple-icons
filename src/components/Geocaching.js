@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Geocaching = forwardRef(function Geocaching(
-  { color = 'currentColor', size = 24, title = 'Geocaching', ...others },
+  { color = 'currentColor', size = 24, title = 'geocaching', ...others },
   ref
 ) {
   return (

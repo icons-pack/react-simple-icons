@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Piwigo = forwardRef(function Piwigo({ color = 'currentColor', size = 24, title = 'Piwigo', ...others }, ref) {
+const Piwigo = forwardRef(function Piwigo({ color = 'currentColor', size = 24, title = 'piwigo', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

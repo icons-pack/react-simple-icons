@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Issuu = forwardRef(function Issuu({ color = 'currentColor', size = 24, title = 'Issuu', ...others }, ref) {
+const Issuu = forwardRef(function Issuu({ color = 'currentColor', size = 24, title = 'issuu', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

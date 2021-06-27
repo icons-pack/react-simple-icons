@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Fastly = forwardRef(function Fastly({ color = 'currentColor', size = 24, title = 'Fastly', ...others }, ref) {
+const Fastly = forwardRef(function Fastly({ color = 'currentColor', size = 24, title = 'fastly', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

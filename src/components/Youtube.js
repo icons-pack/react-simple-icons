@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Youtube = forwardRef(function Youtube({ color = 'currentColor', size = 24, title = 'YouTube', ...others }, ref) {
+const Youtube = forwardRef(function Youtube({ color = 'currentColor', size = 24, title = 'youtube', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

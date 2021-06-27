@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Microsoftvisio = forwardRef(function Microsoftvisio(
-  { color = 'currentColor', size = 24, title = 'Microsoft Visio', ...others },
+  { color = 'currentColor', size = 24, title = 'microsoftvisio', ...others },
   ref
 ) {
   return (

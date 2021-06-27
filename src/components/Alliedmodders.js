@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Alliedmodders = forwardRef(function Alliedmodders(
-  { color = 'currentColor', size = 24, title = 'AlliedModders', ...others },
+  { color = 'currentColor', size = 24, title = 'alliedmodders', ...others },
   ref
 ) {
   return (

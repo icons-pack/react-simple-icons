@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Wikimediacommons = forwardRef(function Wikimediacommons(
-  { color = 'currentColor', size = 24, title = 'Wikimedia Commons', ...others },
+  { color = 'currentColor', size = 24, title = 'wikimediacommons', ...others },
   ref
 ) {
   return (

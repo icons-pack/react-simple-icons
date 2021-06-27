@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Junit5 = forwardRef(function Junit5({ color = 'currentColor', size = 24, title = 'JUnit5', ...others }, ref) {
+const Junit5 = forwardRef(function Junit5({ color = 'currentColor', size = 24, title = 'junit5', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

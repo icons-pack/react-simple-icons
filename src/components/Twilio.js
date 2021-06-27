@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Twilio = forwardRef(function Twilio({ color = 'currentColor', size = 24, title = 'Twilio', ...others }, ref) {
+const Twilio = forwardRef(function Twilio({ color = 'currentColor', size = 24, title = 'twilio', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

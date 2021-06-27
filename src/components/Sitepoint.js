@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Sitepoint = forwardRef(function Sitepoint(
-  { color = 'currentColor', size = 24, title = 'SitePoint', ...others },
+  { color = 'currentColor', size = 24, title = 'sitepoint', ...others },
   ref
 ) {
   return (

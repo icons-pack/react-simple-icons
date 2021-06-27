@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Pleroma = forwardRef(function Pleroma({ color = 'currentColor', size = 24, title = 'Pleroma', ...others }, ref) {
+const Pleroma = forwardRef(function Pleroma({ color = 'currentColor', size = 24, title = 'pleroma', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

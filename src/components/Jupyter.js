@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Jupyter = forwardRef(function Jupyter({ color = 'currentColor', size = 24, title = 'Jupyter', ...others }, ref) {
+const Jupyter = forwardRef(function Jupyter({ color = 'currentColor', size = 24, title = 'jupyter', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Scrutinizerci = forwardRef(function Scrutinizerci(
-  { color = 'currentColor', size = 24, title = 'Scrutinizer CI', ...others },
+  { color = 'currentColor', size = 24, title = 'scrutinizerci', ...others },
   ref
 ) {
   return (

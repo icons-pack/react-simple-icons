@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Stitcher = forwardRef(function Stitcher(
-  { color = 'currentColor', size = 24, title = 'Stitcher', ...others },
+  { color = 'currentColor', size = 24, title = 'stitcher', ...others },
   ref
 ) {
   return (

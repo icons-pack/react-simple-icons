@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const GogDotCom = forwardRef(function GogDotCom(
-  { color = 'currentColor', size = 24, title = 'gog-dot-com', ...others },
+const Gogdotcom = forwardRef(function Gogdotcom(
+  { color = 'currentColor', size = 24, title = 'gogdotcom', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const GogDotCom = forwardRef(function GogDotCom(
   );
 });
 
-GogDotCom.propTypes = {
+Gogdotcom.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ GogDotCom.propTypes = {
   title: PropTypes.string,
 };
 
-export default GogDotCom;
+export default Gogdotcom;

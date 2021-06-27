@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Tele5 = forwardRef(function Tele5({ color = 'currentColor', size = 24, title = 'TELE5', ...others }, ref) {
+const Tele5 = forwardRef(function Tele5({ color = 'currentColor', size = 24, title = 'tele5', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

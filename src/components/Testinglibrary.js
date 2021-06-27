@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Testinglibrary = forwardRef(function Testinglibrary(
-  { color = 'currentColor', size = 24, title = 'Testing Library', ...others },
+  { color = 'currentColor', size = 24, title = 'testinglibrary', ...others },
   ref
 ) {
   return (

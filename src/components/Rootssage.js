@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Rootssage = forwardRef(function Rootssage(
-  { color = 'currentColor', size = 24, title = 'Roots Sage', ...others },
+  { color = 'currentColor', size = 24, title = 'rootssage', ...others },
   ref
 ) {
   return (

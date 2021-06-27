@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Linkedin = forwardRef(function Linkedin(
-  { color = 'currentColor', size = 24, title = 'LinkedIn', ...others },
+  { color = 'currentColor', size = 24, title = 'linkedin', ...others },
   ref
 ) {
   return (

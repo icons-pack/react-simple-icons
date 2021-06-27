@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Fortinet = forwardRef(function Fortinet(
-  { color = 'currentColor', size = 24, title = 'Fortinet', ...others },
+  { color = 'currentColor', size = 24, title = 'fortinet', ...others },
   ref
 ) {
   return (

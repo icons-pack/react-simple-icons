@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Adblock = forwardRef(function Adblock({ color = 'currentColor', size = 24, title = 'AdBlock', ...others }, ref) {
+const Adblock = forwardRef(function Adblock({ color = 'currentColor', size = 24, title = 'adblock', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

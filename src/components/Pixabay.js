@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Pixabay = forwardRef(function Pixabay({ color = 'currentColor', size = 24, title = 'Pixabay', ...others }, ref) {
+const Pixabay = forwardRef(function Pixabay({ color = 'currentColor', size = 24, title = 'pixabay', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

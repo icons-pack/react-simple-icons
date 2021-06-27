@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Postcss = forwardRef(function Postcss({ color = 'currentColor', size = 24, title = 'PostCSS', ...others }, ref) {
+const Postcss = forwardRef(function Postcss({ color = 'currentColor', size = 24, title = 'postcss', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

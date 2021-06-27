@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Jekyll = forwardRef(function Jekyll({ color = 'currentColor', size = 24, title = 'Jekyll', ...others }, ref) {
+const Jekyll = forwardRef(function Jekyll({ color = 'currentColor', size = 24, title = 'jekyll', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

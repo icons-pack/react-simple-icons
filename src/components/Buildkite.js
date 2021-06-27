@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Buildkite = forwardRef(function Buildkite(
-  { color = 'currentColor', size = 24, title = 'Buildkite', ...others },
+  { color = 'currentColor', size = 24, title = 'buildkite', ...others },
   ref
 ) {
   return (

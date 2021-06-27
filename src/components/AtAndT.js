@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const AtAndT = forwardRef(function AtAndT({ color = 'currentColor', size = 24, title = 'at-and-t', ...others }, ref) {
+const Atandt = forwardRef(function Atandt({ color = 'currentColor', size = 24, title = 'atandt', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -17,7 +17,7 @@ const AtAndT = forwardRef(function AtAndT({ color = 'currentColor', size = 24, t
   );
 });
 
-AtAndT.propTypes = {
+Atandt.propTypes = {
   /**
    * Hex color or color name
    */
@@ -32,4 +32,4 @@ AtAndT.propTypes = {
   title: PropTypes.string,
 };
 
-export default AtAndT;
+export default Atandt;

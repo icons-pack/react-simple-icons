@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Momenteo = forwardRef(function Momenteo(
-  { color = 'currentColor', size = 24, title = 'Momenteo', ...others },
+  { color = 'currentColor', size = 24, title = 'momenteo', ...others },
   ref
 ) {
   return (

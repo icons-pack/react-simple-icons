@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Crunchyroll = forwardRef(function Crunchyroll(
-  { color = 'currentColor', size = 24, title = 'Crunchyroll', ...others },
+  { color = 'currentColor', size = 24, title = 'crunchyroll', ...others },
   ref
 ) {
   return (

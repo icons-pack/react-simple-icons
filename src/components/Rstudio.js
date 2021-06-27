@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Rstudio = forwardRef(function Rstudio({ color = 'currentColor', size = 24, title = 'RStudio', ...others }, ref) {
+const Rstudio = forwardRef(function Rstudio({ color = 'currentColor', size = 24, title = 'rstudio', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

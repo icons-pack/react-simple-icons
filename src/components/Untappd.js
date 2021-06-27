@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Untappd = forwardRef(function Untappd({ color = 'currentColor', size = 24, title = 'Untappd', ...others }, ref) {
+const Untappd = forwardRef(function Untappd({ color = 'currentColor', size = 24, title = 'untappd', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

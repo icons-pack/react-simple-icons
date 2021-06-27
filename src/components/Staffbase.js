@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Staffbase = forwardRef(function Staffbase(
-  { color = 'currentColor', size = 24, title = 'Staffbase', ...others },
+  { color = 'currentColor', size = 24, title = 'staffbase', ...others },
   ref
 ) {
   return (

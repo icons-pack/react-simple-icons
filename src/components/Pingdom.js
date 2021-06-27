@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Pingdom = forwardRef(function Pingdom({ color = 'currentColor', size = 24, title = 'Pingdom', ...others }, ref) {
+const Pingdom = forwardRef(function Pingdom({ color = 'currentColor', size = 24, title = 'pingdom', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Lastpass = forwardRef(function Lastpass(
-  { color = 'currentColor', size = 24, title = 'LastPass', ...others },
+  { color = 'currentColor', size = 24, title = 'lastpass', ...others },
   ref
 ) {
   return (

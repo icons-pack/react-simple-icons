@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Xdadevelopers = forwardRef(function Xdadevelopers(
-  { color = 'currentColor', size = 24, title = 'XDA Developers', ...others },
+  { color = 'currentColor', size = 24, title = 'xdadevelopers', ...others },
   ref
 ) {
   return (

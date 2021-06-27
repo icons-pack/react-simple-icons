@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Confluence = forwardRef(function Confluence(
-  { color = 'currentColor', size = 24, title = 'Confluence', ...others },
+  { color = 'currentColor', size = 24, title = 'confluence', ...others },
   ref
 ) {
   return (

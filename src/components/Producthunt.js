@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Producthunt = forwardRef(function Producthunt(
-  { color = 'currentColor', size = 24, title = 'Product Hunt', ...others },
+  { color = 'currentColor', size = 24, title = 'producthunt', ...others },
   ref
 ) {
   return (

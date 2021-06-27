@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Jfrog = forwardRef(function Jfrog({ color = 'currentColor', size = 24, title = 'JFrog', ...others }, ref) {
+const Jfrog = forwardRef(function Jfrog({ color = 'currentColor', size = 24, title = 'jfrog', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

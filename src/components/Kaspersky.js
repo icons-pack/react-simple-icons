@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Kaspersky = forwardRef(function Kaspersky(
-  { color = 'currentColor', size = 24, title = 'Kaspersky', ...others },
+  { color = 'currentColor', size = 24, title = 'kaspersky', ...others },
   ref
 ) {
   return (

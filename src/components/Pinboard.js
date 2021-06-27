@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Pinboard = forwardRef(function Pinboard(
-  { color = 'currentColor', size = 24, title = 'Pinboard', ...others },
+  { color = 'currentColor', size = 24, title = 'pinboard', ...others },
   ref
 ) {
   return (

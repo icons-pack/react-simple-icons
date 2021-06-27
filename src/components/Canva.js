@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Canva = forwardRef(function Canva({ color = 'currentColor', size = 24, title = 'Canva', ...others }, ref) {
+const Canva = forwardRef(function Canva({ color = 'currentColor', size = 24, title = 'canva', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

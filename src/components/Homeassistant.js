@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Homeassistant = forwardRef(function Homeassistant(
-  { color = 'currentColor', size = 24, title = 'Home Assistant', ...others },
+  { color = 'currentColor', size = 24, title = 'homeassistant', ...others },
   ref
 ) {
   return (

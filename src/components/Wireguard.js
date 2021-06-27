@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Wireguard = forwardRef(function Wireguard(
-  { color = 'currentColor', size = 24, title = 'WireGuard', ...others },
+  { color = 'currentColor', size = 24, title = 'wireguard', ...others },
   ref
 ) {
   return (

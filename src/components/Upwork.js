@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Upwork = forwardRef(function Upwork({ color = 'currentColor', size = 24, title = 'Upwork', ...others }, ref) {
+const Upwork = forwardRef(function Upwork({ color = 'currentColor', size = 24, title = 'upwork', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

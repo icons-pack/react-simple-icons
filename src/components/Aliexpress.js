@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Aliexpress = forwardRef(function Aliexpress(
-  { color = 'currentColor', size = 24, title = 'AliExpress', ...others },
+  { color = 'currentColor', size = 24, title = 'aliexpress', ...others },
   ref
 ) {
   return (

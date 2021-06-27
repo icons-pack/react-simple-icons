@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Treehouse = forwardRef(function Treehouse(
-  { color = 'currentColor', size = 24, title = 'Treehouse', ...others },
+  { color = 'currentColor', size = 24, title = 'treehouse', ...others },
   ref
 ) {
   return (

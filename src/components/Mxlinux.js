@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Mxlinux = forwardRef(function Mxlinux({ color = 'currentColor', size = 24, title = 'MX Linux', ...others }, ref) {
+const Mxlinux = forwardRef(function Mxlinux({ color = 'currentColor', size = 24, title = 'mxlinux', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -1,7 +1,16 @@
-# Change Log
+# Changelog
 
-All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [4.5.1](https://github.com/icons-pack/react-simple-icons/compare/v4.5.0...v4.5.1) (2021-06-27)
+
+## [4.5.0](https://github.com/icons-pack/react-simple-icons/compare/v4.3.0...v4.5.0) (2021-06-27)
+
+
+### Features
+
+* **simple-icons:** updated package simple-icons5.4.0 ([b92a967](https://github.com/icons-pack/react-simple-icons/commit/b92a967feeabed2873c73d7af774cded00fd4346))
+* update simple-icons ([d160e7a](https://github.com/icons-pack/react-simple-icons/commit/d160e7a407712903d3dab70c31ce72b7da0d1af4))
 
 ## [1.0.2](https://github.com/wootsbot/icons-pack/compare/@icons-pack/simple-icons@1.0.1...@icons-pack/simple-icons@1.0.2) (2019-08-04)
 

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Adblockplus = forwardRef(function Adblockplus(
-  { color = 'currentColor', size = 24, title = 'Adblock Plus', ...others },
+  { color = 'currentColor', size = 24, title = 'adblockplus', ...others },
   ref
 ) {
   return (

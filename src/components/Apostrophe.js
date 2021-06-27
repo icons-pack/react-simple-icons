@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Apostrophe = forwardRef(function Apostrophe(
-  { color = 'currentColor', size = 24, title = 'Apostrophe', ...others },
+  { color = 'currentColor', size = 24, title = 'apostrophe', ...others },
   ref
 ) {
   return (

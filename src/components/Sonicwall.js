@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Sonicwall = forwardRef(function Sonicwall(
-  { color = 'currentColor', size = 24, title = 'SonicWall', ...others },
+  { color = 'currentColor', size = 24, title = 'sonicwall', ...others },
   ref
 ) {
   return (

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Stylus = forwardRef(function Stylus({ color = 'currentColor', size = 24, title = 'Stylus', ...others }, ref) {
+const Stylus = forwardRef(function Stylus({ color = 'currentColor', size = 24, title = 'stylus', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

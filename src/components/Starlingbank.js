@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Starlingbank = forwardRef(function Starlingbank(
-  { color = 'currentColor', size = 24, title = 'Starling Bank', ...others },
+  { color = 'currentColor', size = 24, title = 'starlingbank', ...others },
   ref
 ) {
   return (

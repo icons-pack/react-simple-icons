@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const NuxtDotJs = forwardRef(function NuxtDotJs(
-  { color = 'currentColor', size = 24, title = 'nuxt-dot-js', ...others },
+const Nuxtdotjs = forwardRef(function Nuxtdotjs(
+  { color = 'currentColor', size = 24, title = 'nuxtdotjs', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const NuxtDotJs = forwardRef(function NuxtDotJs(
   );
 });
 
-NuxtDotJs.propTypes = {
+Nuxtdotjs.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ NuxtDotJs.propTypes = {
   title: PropTypes.string,
 };
 
-export default NuxtDotJs;
+export default Nuxtdotjs;

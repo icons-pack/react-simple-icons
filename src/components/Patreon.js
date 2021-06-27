@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Patreon = forwardRef(function Patreon({ color = 'currentColor', size = 24, title = 'Patreon', ...others }, ref) {
+const Patreon = forwardRef(function Patreon({ color = 'currentColor', size = 24, title = 'patreon', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

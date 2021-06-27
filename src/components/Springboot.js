@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Springboot = forwardRef(function Springboot(
-  { color = 'currentColor', size = 24, title = 'Spring Boot', ...others },
+  { color = 'currentColor', size = 24, title = 'springboot', ...others },
   ref
 ) {
   return (

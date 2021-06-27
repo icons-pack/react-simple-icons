@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Statuspage = forwardRef(function Statuspage(
-  { color = 'currentColor', size = 24, title = 'Statuspage', ...others },
+  { color = 'currentColor', size = 24, title = 'statuspage', ...others },
   ref
 ) {
   return (

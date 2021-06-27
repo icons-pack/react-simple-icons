@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const AFrame = forwardRef(function AFrame({ color = 'currentColor', size = 24, title = 'a-frame', ...others }, ref) {
+const Aframe = forwardRef(function Aframe({ color = 'currentColor', size = 24, title = 'aframe', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -17,7 +17,7 @@ const AFrame = forwardRef(function AFrame({ color = 'currentColor', size = 24, t
   );
 });
 
-AFrame.propTypes = {
+Aframe.propTypes = {
   /**
    * Hex color or color name
    */
@@ -32,4 +32,4 @@ AFrame.propTypes = {
   title: PropTypes.string,
 };
 
-export default AFrame;
+export default Aframe;

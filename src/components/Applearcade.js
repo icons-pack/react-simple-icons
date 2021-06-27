@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Applearcade = forwardRef(function Applearcade(
-  { color = 'currentColor', size = 24, title = 'Apple Arcade', ...others },
+  { color = 'currentColor', size = 24, title = 'applearcade', ...others },
   ref
 ) {
   return (

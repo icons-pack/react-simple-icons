@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Mendeley = forwardRef(function Mendeley(
-  { color = 'currentColor', size = 24, title = 'Mendeley', ...others },
+  { color = 'currentColor', size = 24, title = 'mendeley', ...others },
   ref
 ) {
   return (

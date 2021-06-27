@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Apachecloudstack = forwardRef(function Apachecloudstack(
-  { color = 'currentColor', size = 24, title = 'Apache CloudStack', ...others },
+  { color = 'currentColor', size = 24, title = 'apachecloudstack', ...others },
   ref
 ) {
   return (

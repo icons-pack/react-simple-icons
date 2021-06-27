@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Spring = forwardRef(function Spring({ color = 'currentColor', size = 24, title = 'Spring', ...others }, ref) {
+const Spring = forwardRef(function Spring({ color = 'currentColor', size = 24, title = 'spring', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

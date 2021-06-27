@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Facebookgaming = forwardRef(function Facebookgaming(
-  { color = 'currentColor', size = 24, title = 'Facebook Gaming', ...others },
+  { color = 'currentColor', size = 24, title = 'facebookgaming', ...others },
   ref
 ) {
   return (

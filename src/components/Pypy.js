@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Pypy = forwardRef(function Pypy({ color = 'currentColor', size = 24, title = 'PyPy', ...others }, ref) {
+const Pypy = forwardRef(function Pypy({ color = 'currentColor', size = 24, title = 'pypy', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const AlpineDotJs = forwardRef(function AlpineDotJs(
-  { color = 'currentColor', size = 24, title = 'Alpine.js', ...others },
+const Alpinedotjs = forwardRef(function Alpinedotjs(
+  { color = 'currentColor', size = 24, title = 'alpinedotjs', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const AlpineDotJs = forwardRef(function AlpineDotJs(
   );
 });
 
-AlpineDotJs.propTypes = {
+Alpinedotjs.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ AlpineDotJs.propTypes = {
   title: PropTypes.string,
 };
 
-export default AlpineDotJs;
+export default Alpinedotjs;

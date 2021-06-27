@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const AntenaThree = forwardRef(function AntenaThree(
-  { color = 'currentColor', size = 24, title = 'Antena 3', ...others },
+  { color = 'currentColor', size = 24, title = 'antena3', ...others },
   ref
 ) {
   return (

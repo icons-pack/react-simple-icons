@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Pfsense = forwardRef(function Pfsense({ color = 'currentColor', size = 24, title = 'pfSense', ...others }, ref) {
+const Pfsense = forwardRef(function Pfsense({ color = 'currentColor', size = 24, title = 'pfsense', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

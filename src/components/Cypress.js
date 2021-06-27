@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Cypress = forwardRef(function Cypress({ color = 'currentColor', size = 24, title = 'Cypress', ...others }, ref) {
+const Cypress = forwardRef(function Cypress({ color = 'currentColor', size = 24, title = 'cypress', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

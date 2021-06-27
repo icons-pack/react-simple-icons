@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Prettier = forwardRef(function Prettier(
-  { color = 'currentColor', size = 24, title = 'Prettier', ...others },
+  { color = 'currentColor', size = 24, title = 'prettier', ...others },
   ref
 ) {
   return (

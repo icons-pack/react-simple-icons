@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Nubank = forwardRef(function Nubank({ color = 'currentColor', size = 24, title = 'Nubank', ...others }, ref) {
+const Nubank = forwardRef(function Nubank({ color = 'currentColor', size = 24, title = 'nubank', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

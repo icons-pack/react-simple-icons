@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Glassdoor = forwardRef(function Glassdoor(
-  { color = 'currentColor', size = 24, title = 'Glassdoor', ...others },
+  { color = 'currentColor', size = 24, title = 'glassdoor', ...others },
   ref
 ) {
   return (

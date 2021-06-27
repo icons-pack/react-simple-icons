@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Chartmogul = forwardRef(function Chartmogul(
-  { color = 'currentColor', size = 24, title = 'ChartMogul', ...others },
+  { color = 'currentColor', size = 24, title = 'chartmogul', ...others },
   ref
 ) {
   return (

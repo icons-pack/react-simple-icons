@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Opennebula = forwardRef(function Opennebula(
-  { color = 'currentColor', size = 24, title = 'Open Nebula', ...others },
+  { color = 'currentColor', size = 24, title = 'opennebula', ...others },
   ref
 ) {
   return (

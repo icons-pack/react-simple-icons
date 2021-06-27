@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Fastlane = forwardRef(function Fastlane(
-  { color = 'currentColor', size = 24, title = 'Fastlane', ...others },
+  { color = 'currentColor', size = 24, title = 'fastlane', ...others },
   ref
 ) {
   return (

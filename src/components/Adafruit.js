@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Adafruit = forwardRef(function Adafruit(
-  { color = 'currentColor', size = 24, title = 'Adafruit', ...others },
+  { color = 'currentColor', size = 24, title = 'adafruit', ...others },
   ref
 ) {
   return (

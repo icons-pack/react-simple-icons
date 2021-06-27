@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Mongodb = forwardRef(function Mongodb({ color = 'currentColor', size = 24, title = 'MongoDB', ...others }, ref) {
+const Mongodb = forwardRef(function Mongodb({ color = 'currentColor', size = 24, title = 'mongodb', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

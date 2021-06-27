@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const WebcomponentsDotOrg = forwardRef(function WebcomponentsDotOrg(
-  { color = 'currentColor', size = 24, title = 'webcomponents-dot-org', ...others },
+const Webcomponentsdotorg = forwardRef(function Webcomponentsdotorg(
+  { color = 'currentColor', size = 24, title = 'webcomponentsdotorg', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const WebcomponentsDotOrg = forwardRef(function WebcomponentsDotOrg(
   );
 });
 
-WebcomponentsDotOrg.propTypes = {
+Webcomponentsdotorg.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ WebcomponentsDotOrg.propTypes = {
   title: PropTypes.string,
 };
 
-export default WebcomponentsDotOrg;
+export default Webcomponentsdotorg;

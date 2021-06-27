@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Scrollreveal = forwardRef(function Scrollreveal(
-  { color = 'currentColor', size = 24, title = 'ScrollReveal', ...others },
+  { color = 'currentColor', size = 24, title = 'scrollreveal', ...others },
   ref
 ) {
   return (

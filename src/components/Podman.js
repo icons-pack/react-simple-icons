@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Podman = forwardRef(function Podman({ color = 'currentColor', size = 24, title = 'Podman', ...others }, ref) {
+const Podman = forwardRef(function Podman({ color = 'currentColor', size = 24, title = 'podman', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

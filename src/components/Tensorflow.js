@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Tensorflow = forwardRef(function Tensorflow(
-  { color = 'currentColor', size = 24, title = 'TensorFlow', ...others },
+  { color = 'currentColor', size = 24, title = 'tensorflow', ...others },
   ref
 ) {
   return (

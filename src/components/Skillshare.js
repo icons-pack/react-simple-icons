@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Skillshare = forwardRef(function Skillshare(
-  { color = 'currentColor', size = 24, title = 'Skillshare', ...others },
+  { color = 'currentColor', size = 24, title = 'skillshare', ...others },
   ref
 ) {
   return (

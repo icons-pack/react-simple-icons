@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Floatplane = forwardRef(function Floatplane(
-  { color = 'currentColor', size = 24, title = 'Floatplane', ...others },
+  { color = 'currentColor', size = 24, title = 'floatplane', ...others },
   ref
 ) {
   return (

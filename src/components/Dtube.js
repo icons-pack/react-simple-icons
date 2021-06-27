@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Dtube = forwardRef(function Dtube({ color = 'currentColor', size = 24, title = 'DTube', ...others }, ref) {
+const Dtube = forwardRef(function Dtube({ color = 'currentColor', size = 24, title = 'dtube', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

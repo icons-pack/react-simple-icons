@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Kofax = forwardRef(function Kofax({ color = 'currentColor', size = 24, title = 'Kofax', ...others }, ref) {
+const Kofax = forwardRef(function Kofax({ color = 'currentColor', size = 24, title = 'kofax', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

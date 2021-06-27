@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Zerodha = forwardRef(function Zerodha({ color = 'currentColor', size = 24, title = 'Zerodha', ...others }, ref) {
+const Zerodha = forwardRef(function Zerodha({ color = 'currentColor', size = 24, title = 'zerodha', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

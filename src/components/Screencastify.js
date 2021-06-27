@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Screencastify = forwardRef(function Screencastify(
-  { color = 'currentColor', size = 24, title = 'Screencastify', ...others },
+  { color = 'currentColor', size = 24, title = 'screencastify', ...others },
   ref
 ) {
   return (

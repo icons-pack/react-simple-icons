@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Nutanix = forwardRef(function Nutanix({ color = 'currentColor', size = 24, title = 'Nutanix', ...others }, ref) {
+const Nutanix = forwardRef(function Nutanix({ color = 'currentColor', size = 24, title = 'nutanix', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

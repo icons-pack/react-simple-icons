@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Roundcube = forwardRef(function Roundcube(
-  { color = 'currentColor', size = 24, title = 'Roundcube', ...others },
+  { color = 'currentColor', size = 24, title = 'roundcube', ...others },
   ref
 ) {
   return (

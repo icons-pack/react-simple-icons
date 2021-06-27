@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Spotlight = forwardRef(function Spotlight(
-  { color = 'currentColor', size = 24, title = 'Spotlight', ...others },
+  { color = 'currentColor', size = 24, title = 'spotlight', ...others },
   ref
 ) {
   return (

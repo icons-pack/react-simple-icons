@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Angularuniversal = forwardRef(function Angularuniversal(
-  { color = 'currentColor', size = 24, title = 'Angular Universal', ...others },
+  { color = 'currentColor', size = 24, title = 'angularuniversal', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Epicgames = forwardRef(function Epicgames(
-  { color = 'currentColor', size = 24, title = 'Epic Games', ...others },
+  { color = 'currentColor', size = 24, title = 'epicgames', ...others },
   ref
 ) {
   return (

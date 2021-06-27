@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Adobeaftereffects = forwardRef(function Adobeaftereffects(
-  { color = 'currentColor', size = 24, title = 'Adobe After Effects', ...others },
+  { color = 'currentColor', size = 24, title = 'adobeaftereffects', ...others },
   ref
 ) {
   return (

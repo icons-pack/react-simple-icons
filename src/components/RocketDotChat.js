@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const RocketDotChat = forwardRef(function RocketDotChat(
-  { color = 'currentColor', size = 24, title = 'rocket-dot-chat', ...others },
+const Rocketdotchat = forwardRef(function Rocketdotchat(
+  { color = 'currentColor', size = 24, title = 'rocketdotchat', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const RocketDotChat = forwardRef(function RocketDotChat(
   );
 });
 
-RocketDotChat.propTypes = {
+Rocketdotchat.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ RocketDotChat.propTypes = {
   title: PropTypes.string,
 };
 
-export default RocketDotChat;
+export default Rocketdotchat;

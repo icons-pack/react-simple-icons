@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Humblebundle = forwardRef(function Humblebundle(
-  { color = 'currentColor', size = 24, title = 'Humble Bundle', ...others },
+  { color = 'currentColor', size = 24, title = 'humblebundle', ...others },
   ref
 ) {
   return (

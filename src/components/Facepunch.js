@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Facepunch = forwardRef(function Facepunch(
-  { color = 'currentColor', size = 24, title = 'Facepunch', ...others },
+  { color = 'currentColor', size = 24, title = 'facepunch', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Googlemaps = forwardRef(function Googlemaps(
-  { color = 'currentColor', size = 24, title = 'Google Maps', ...others },
+  { color = 'currentColor', size = 24, title = 'googlemaps', ...others },
   ref
 ) {
   return (

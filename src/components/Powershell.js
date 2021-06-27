@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Powershell = forwardRef(function Powershell(
-  { color = 'currentColor', size = 24, title = 'PowerShell', ...others },
+  { color = 'currentColor', size = 24, title = 'powershell', ...others },
   ref
 ) {
   return (

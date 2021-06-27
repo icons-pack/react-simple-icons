@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Fastify = forwardRef(function Fastify({ color = 'currentColor', size = 24, title = 'Fastify', ...others }, ref) {
+const Fastify = forwardRef(function Fastify({ color = 'currentColor', size = 24, title = 'fastify', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

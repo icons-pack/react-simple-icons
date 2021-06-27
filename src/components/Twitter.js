@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Twitter = forwardRef(function Twitter({ color = 'currentColor', size = 24, title = 'Twitter', ...others }, ref) {
+const Twitter = forwardRef(function Twitter({ color = 'currentColor', size = 24, title = 'twitter', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

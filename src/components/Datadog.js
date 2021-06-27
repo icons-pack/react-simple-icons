@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Datadog = forwardRef(function Datadog({ color = 'currentColor', size = 24, title = 'Datadog', ...others }, ref) {
+const Datadog = forwardRef(function Datadog({ color = 'currentColor', size = 24, title = 'datadog', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

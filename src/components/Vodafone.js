@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Vodafone = forwardRef(function Vodafone(
-  { color = 'currentColor', size = 24, title = 'Vodafone', ...others },
+  { color = 'currentColor', size = 24, title = 'vodafone', ...others },
   ref
 ) {
   return (

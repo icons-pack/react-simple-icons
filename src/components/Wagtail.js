@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Wagtail = forwardRef(function Wagtail({ color = 'currentColor', size = 24, title = 'Wagtail', ...others }, ref) {
+const Wagtail = forwardRef(function Wagtail({ color = 'currentColor', size = 24, title = 'wagtail', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

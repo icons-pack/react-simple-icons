@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Apacheant = forwardRef(function Apacheant(
-  { color = 'currentColor', size = 24, title = 'Apache Ant', ...others },
+  { color = 'currentColor', size = 24, title = 'apacheant', ...others },
   ref
 ) {
   return (

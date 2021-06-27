@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Iconjar = forwardRef(function Iconjar({ color = 'currentColor', size = 24, title = 'IconJar', ...others }, ref) {
+const Iconjar = forwardRef(function Iconjar({ color = 'currentColor', size = 24, title = 'iconjar', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

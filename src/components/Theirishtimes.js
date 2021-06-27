@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Theirishtimes = forwardRef(function Theirishtimes(
-  { color = 'currentColor', size = 24, title = 'The Irish Times', ...others },
+  { color = 'currentColor', size = 24, title = 'theirishtimes', ...others },
   ref
 ) {
   return (

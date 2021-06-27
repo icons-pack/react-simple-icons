@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Wpengine = forwardRef(function Wpengine(
-  { color = 'currentColor', size = 24, title = 'WP Engine', ...others },
+  { color = 'currentColor', size = 24, title = 'wpengine', ...others },
   ref
 ) {
   return (

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Hitachi = forwardRef(function Hitachi({ color = 'currentColor', size = 24, title = 'Hitachi', ...others }, ref) {
+const Hitachi = forwardRef(function Hitachi({ color = 'currentColor', size = 24, title = 'hitachi', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

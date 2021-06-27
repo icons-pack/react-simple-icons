@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const RevealDotJs = forwardRef(function RevealDotJs(
-  { color = 'currentColor', size = 24, title = 'reveal-dot-js', ...others },
+const Revealdotjs = forwardRef(function Revealdotjs(
+  { color = 'currentColor', size = 24, title = 'revealdotjs', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const RevealDotJs = forwardRef(function RevealDotJs(
   );
 });
 
-RevealDotJs.propTypes = {
+Revealdotjs.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ RevealDotJs.propTypes = {
   title: PropTypes.string,
 };
 
-export default RevealDotJs;
+export default Revealdotjs;

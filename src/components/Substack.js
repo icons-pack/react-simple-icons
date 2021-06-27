@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Substack = forwardRef(function Substack(
-  { color = 'currentColor', size = 24, title = 'Substack', ...others },
+  { color = 'currentColor', size = 24, title = 'substack', ...others },
   ref
 ) {
   return (

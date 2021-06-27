@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Qualcomm = forwardRef(function Qualcomm(
-  { color = 'currentColor', size = 24, title = 'Qualcomm', ...others },
+  { color = 'currentColor', size = 24, title = 'qualcomm', ...others },
   ref
 ) {
   return (

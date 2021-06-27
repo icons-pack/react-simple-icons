@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const RollupDotJs = forwardRef(function RollupDotJs(
-  { color = 'currentColor', size = 24, title = 'rollup-dot-js', ...others },
+const Rollupdotjs = forwardRef(function Rollupdotjs(
+  { color = 'currentColor', size = 24, title = 'rollupdotjs', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const RollupDotJs = forwardRef(function RollupDotJs(
   );
 });
 
-RollupDotJs.propTypes = {
+Rollupdotjs.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ RollupDotJs.propTypes = {
   title: PropTypes.string,
 };
 
-export default RollupDotJs;
+export default Rollupdotjs;

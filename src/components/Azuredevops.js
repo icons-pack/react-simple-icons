@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Azuredevops = forwardRef(function Azuredevops(
-  { color = 'currentColor', size = 24, title = 'Azure DevOps', ...others },
+  { color = 'currentColor', size = 24, title = 'azuredevops', ...others },
   ref
 ) {
   return (

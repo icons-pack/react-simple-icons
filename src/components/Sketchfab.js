@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Sketchfab = forwardRef(function Sketchfab(
-  { color = 'currentColor', size = 24, title = 'Sketchfab', ...others },
+  { color = 'currentColor', size = 24, title = 'sketchfab', ...others },
   ref
 ) {
   return (

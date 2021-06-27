@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Openaccess = forwardRef(function Openaccess(
-  { color = 'currentColor', size = 24, title = 'Open Access', ...others },
+  { color = 'currentColor', size = 24, title = 'openaccess', ...others },
   ref
 ) {
   return (

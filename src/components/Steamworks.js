@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Steamworks = forwardRef(function Steamworks(
-  { color = 'currentColor', size = 24, title = 'Steamworks', ...others },
+  { color = 'currentColor', size = 24, title = 'steamworks', ...others },
   ref
 ) {
   return (

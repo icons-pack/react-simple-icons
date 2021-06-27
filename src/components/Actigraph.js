@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Actigraph = forwardRef(function Actigraph(
-  { color = 'currentColor', size = 24, title = 'ActiGraph', ...others },
+  { color = 'currentColor', size = 24, title = 'actigraph', ...others },
   ref
 ) {
   return (

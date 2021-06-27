@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Myob = forwardRef(function Myob({ color = 'currentColor', size = 24, title = 'MYOB', ...others }, ref) {
+const Myob = forwardRef(function Myob({ color = 'currentColor', size = 24, title = 'myob', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

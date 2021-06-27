@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Strongswan = forwardRef(function Strongswan(
-  { color = 'currentColor', size = 24, title = 'strongSwan', ...others },
+  { color = 'currentColor', size = 24, title = 'strongswan', ...others },
   ref
 ) {
   return (

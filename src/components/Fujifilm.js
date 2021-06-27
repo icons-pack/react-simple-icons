@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Fujifilm = forwardRef(function Fujifilm(
-  { color = 'currentColor', size = 24, title = 'Fujifilm', ...others },
+  { color = 'currentColor', size = 24, title = 'fujifilm', ...others },
   ref
 ) {
   return (

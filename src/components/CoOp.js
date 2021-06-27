@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const CoOp = forwardRef(function CoOp({ color = 'currentColor', size = 24, title = 'co-op', ...others }, ref) {
+const Coop = forwardRef(function Coop({ color = 'currentColor', size = 24, title = 'coop', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -17,7 +17,7 @@ const CoOp = forwardRef(function CoOp({ color = 'currentColor', size = 24, title
   );
 });
 
-CoOp.propTypes = {
+Coop.propTypes = {
   /**
    * Hex color or color name
    */
@@ -32,4 +32,4 @@ CoOp.propTypes = {
   title: PropTypes.string,
 };
 
-export default CoOp;
+export default Coop;

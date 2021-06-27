@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Spacemacs = forwardRef(function Spacemacs(
-  { color = 'currentColor', size = 24, title = 'Spacemacs', ...others },
+  { color = 'currentColor', size = 24, title = 'spacemacs', ...others },
   ref
 ) {
   return (

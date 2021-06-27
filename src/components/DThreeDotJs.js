@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const DThreeDotJs = forwardRef(function DThreeDotJs(
-  { color = 'currentColor', size = 24, title = 'd3-dot-js', ...others },
+const DThreeDotjs = forwardRef(function DThreeDotjs(
+  { color = 'currentColor', size = 24, title = 'd3dotjs', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const DThreeDotJs = forwardRef(function DThreeDotJs(
   );
 });
 
-DThreeDotJs.propTypes = {
+DThreeDotjs.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ DThreeDotJs.propTypes = {
   title: PropTypes.string,
 };
 
-export default DThreeDotJs;
+export default DThreeDotjs;

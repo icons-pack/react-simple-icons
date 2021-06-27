@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Amul = forwardRef(function Amul({ color = 'currentColor', size = 24, title = 'Amul', ...others }, ref) {
+const Amul = forwardRef(function Amul({ color = 'currentColor', size = 24, title = 'amul', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

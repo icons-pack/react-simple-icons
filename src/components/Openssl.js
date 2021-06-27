@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Openssl = forwardRef(function Openssl({ color = 'currentColor', size = 24, title = 'OpenSSL', ...others }, ref) {
+const Openssl = forwardRef(function Openssl({ color = 'currentColor', size = 24, title = 'openssl', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Eclipsemosquitto = forwardRef(function Eclipsemosquitto(
-  { color = 'currentColor', size = 24, title = 'Eclipse Mosquitto', ...others },
+  { color = 'currentColor', size = 24, title = 'eclipsemosquitto', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Googlesheets = forwardRef(function Googlesheets(
-  { color = 'currentColor', size = 24, title = 'Google Sheets', ...others },
+  { color = 'currentColor', size = 24, title = 'googlesheets', ...others },
   ref
 ) {
   return (

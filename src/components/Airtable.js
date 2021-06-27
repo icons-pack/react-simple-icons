@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Airtable = forwardRef(function Airtable(
-  { color = 'currentColor', size = 24, title = 'Airtable', ...others },
+  { color = 'currentColor', size = 24, title = 'airtable', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Simpleicons = forwardRef(function Simpleicons(
-  { color = 'currentColor', size = 24, title = 'Simple Icons', ...others },
+  { color = 'currentColor', size = 24, title = 'simpleicons', ...others },
   ref
 ) {
   return (

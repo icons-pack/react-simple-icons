@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Cesium = forwardRef(function Cesium({ color = 'currentColor', size = 24, title = 'Cesium', ...others }, ref) {
+const Cesium = forwardRef(function Cesium({ color = 'currentColor', size = 24, title = 'cesium', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

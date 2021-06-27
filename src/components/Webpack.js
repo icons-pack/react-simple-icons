@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Webpack = forwardRef(function Webpack({ color = 'currentColor', size = 24, title = 'Webpack', ...others }, ref) {
+const Webpack = forwardRef(function Webpack({ color = 'currentColor', size = 24, title = 'webpack', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

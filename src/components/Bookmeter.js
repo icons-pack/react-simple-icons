@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Bookmeter = forwardRef(function Bookmeter(
-  { color = 'currentColor', size = 24, title = 'Bookmeter', ...others },
+  { color = 'currentColor', size = 24, title = 'bookmeter', ...others },
   ref
 ) {
   return (

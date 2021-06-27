@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Datto = forwardRef(function Datto({ color = 'currentColor', size = 24, title = 'Datto', ...others }, ref) {
+const Datto = forwardRef(function Datto({ color = 'currentColor', size = 24, title = 'datto', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

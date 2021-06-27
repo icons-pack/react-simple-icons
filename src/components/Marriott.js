@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Marriott = forwardRef(function Marriott(
-  { color = 'currentColor', size = 24, title = 'Marriott', ...others },
+  { color = 'currentColor', size = 24, title = 'marriott', ...others },
   ref
 ) {
   return (

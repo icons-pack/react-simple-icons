@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Winmate = forwardRef(function Winmate({ color = 'currentColor', size = 24, title = 'Winmate', ...others }, ref) {
+const Winmate = forwardRef(function Winmate({ color = 'currentColor', size = 24, title = 'winmate', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

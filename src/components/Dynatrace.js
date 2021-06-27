@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Dynatrace = forwardRef(function Dynatrace(
-  { color = 'currentColor', size = 24, title = 'Dynatrace', ...others },
+  { color = 'currentColor', size = 24, title = 'dynatrace', ...others },
   ref
 ) {
   return (

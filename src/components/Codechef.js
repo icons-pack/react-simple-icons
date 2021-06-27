@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Codechef = forwardRef(function Codechef(
-  { color = 'currentColor', size = 24, title = 'CodeChef', ...others },
+  { color = 'currentColor', size = 24, title = 'codechef', ...others },
   ref
 ) {
   return (

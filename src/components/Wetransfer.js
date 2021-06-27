@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Wetransfer = forwardRef(function Wetransfer(
-  { color = 'currentColor', size = 24, title = 'WeTransfer', ...others },
+  { color = 'currentColor', size = 24, title = 'wetransfer', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const CinemaFourD = forwardRef(function CinemaFourD(
-  { color = 'currentColor', size = 24, title = 'Cinema 4D', ...others },
+  { color = 'currentColor', size = 24, title = 'cinema4d', ...others },
   ref
 ) {
   return (

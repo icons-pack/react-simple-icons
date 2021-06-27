@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Jsfiddle = forwardRef(function Jsfiddle(
-  { color = 'currentColor', size = 24, title = 'JSFiddle', ...others },
+  { color = 'currentColor', size = 24, title = 'jsfiddle', ...others },
   ref
 ) {
   return (

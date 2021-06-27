@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Imdb = forwardRef(function Imdb({ color = 'currentColor', size = 24, title = 'IMDb', ...others }, ref) {
+const Imdb = forwardRef(function Imdb({ color = 'currentColor', size = 24, title = 'imdb', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

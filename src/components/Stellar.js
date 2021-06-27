@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Stellar = forwardRef(function Stellar({ color = 'currentColor', size = 24, title = 'Stellar', ...others }, ref) {
+const Stellar = forwardRef(function Stellar({ color = 'currentColor', size = 24, title = 'stellar', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

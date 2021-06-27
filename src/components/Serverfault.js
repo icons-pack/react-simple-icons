@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Serverfault = forwardRef(function Serverfault(
-  { color = 'currentColor', size = 24, title = 'Server Fault', ...others },
+  { color = 'currentColor', size = 24, title = 'serverfault', ...others },
   ref
 ) {
   return (

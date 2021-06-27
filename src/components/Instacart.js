@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Instacart = forwardRef(function Instacart(
-  { color = 'currentColor', size = 24, title = 'Instacart', ...others },
+  { color = 'currentColor', size = 24, title = 'instacart', ...others },
   ref
 ) {
   return (

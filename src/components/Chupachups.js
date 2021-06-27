@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Chupachups = forwardRef(function Chupachups(
-  { color = 'currentColor', size = 24, title = 'Chupa Chups', ...others },
+  { color = 'currentColor', size = 24, title = 'chupachups', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Pioneerdj = forwardRef(function Pioneerdj(
-  { color = 'currentColor', size = 24, title = 'Pioneer DJ', ...others },
+  { color = 'currentColor', size = 24, title = 'pioneerdj', ...others },
   ref
 ) {
   return (

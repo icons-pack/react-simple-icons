@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Powerbi = forwardRef(function Powerbi({ color = 'currentColor', size = 24, title = 'Power BI', ...others }, ref) {
+const Powerbi = forwardRef(function Powerbi({ color = 'currentColor', size = 24, title = 'powerbi', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

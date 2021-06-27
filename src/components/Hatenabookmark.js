@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Hatenabookmark = forwardRef(function Hatenabookmark(
-  { color = 'currentColor', size = 24, title = 'Hatena Bookmark', ...others },
+  { color = 'currentColor', size = 24, title = 'hatenabookmark', ...others },
   ref
 ) {
   return (

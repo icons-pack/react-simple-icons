@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Googlenearby = forwardRef(function Googlenearby(
-  { color = 'currentColor', size = 24, title = 'Google Nearby', ...others },
+  { color = 'currentColor', size = 24, title = 'googlenearby', ...others },
   ref
 ) {
   return (

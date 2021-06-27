@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Pagerduty = forwardRef(function Pagerduty(
-  { color = 'currentColor', size = 24, title = 'PagerDuty', ...others },
+  { color = 'currentColor', size = 24, title = 'pagerduty', ...others },
   ref
 ) {
   return (

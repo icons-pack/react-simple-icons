@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Namecheap = forwardRef(function Namecheap(
-  { color = 'currentColor', size = 24, title = 'Namecheap', ...others },
+  { color = 'currentColor', size = 24, title = 'namecheap', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Reactrouter = forwardRef(function Reactrouter(
-  { color = 'currentColor', size = 24, title = 'React Router', ...others },
+  { color = 'currentColor', size = 24, title = 'reactrouter', ...others },
   ref
 ) {
   return (

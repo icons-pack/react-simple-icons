@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Xfce = forwardRef(function Xfce({ color = 'currentColor', size = 24, title = 'XFCE', ...others }, ref) {
+const Xfce = forwardRef(function Xfce({ color = 'currentColor', size = 24, title = 'xfce', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

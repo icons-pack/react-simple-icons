@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Kongregate = forwardRef(function Kongregate(
-  { color = 'currentColor', size = 24, title = 'Kongregate', ...others },
+  { color = 'currentColor', size = 24, title = 'kongregate', ...others },
   ref
 ) {
   return (

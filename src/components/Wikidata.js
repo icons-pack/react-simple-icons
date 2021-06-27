@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Wikidata = forwardRef(function Wikidata(
-  { color = 'currentColor', size = 24, title = 'Wikidata', ...others },
+  { color = 'currentColor', size = 24, title = 'wikidata', ...others },
   ref
 ) {
   return (

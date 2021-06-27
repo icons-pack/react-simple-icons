@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Deno = forwardRef(function Deno({ color = 'currentColor', size = 24, title = 'Deno', ...others }, ref) {
+const Deno = forwardRef(function Deno({ color = 'currentColor', size = 24, title = 'deno', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

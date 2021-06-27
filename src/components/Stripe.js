@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Stripe = forwardRef(function Stripe({ color = 'currentColor', size = 24, title = 'Stripe', ...others }, ref) {
+const Stripe = forwardRef(function Stripe({ color = 'currentColor', size = 24, title = 'stripe', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

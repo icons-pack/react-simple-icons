@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Phabricator = forwardRef(function Phabricator(
-  { color = 'currentColor', size = 24, title = 'Phabricator', ...others },
+  { color = 'currentColor', size = 24, title = 'phabricator', ...others },
   ref
 ) {
   return (

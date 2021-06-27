@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Stackbit = forwardRef(function Stackbit(
-  { color = 'currentColor', size = 24, title = 'Stackbit', ...others },
+  { color = 'currentColor', size = 24, title = 'stackbit', ...others },
   ref
 ) {
   return (

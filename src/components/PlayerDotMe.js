@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const PlayerDotMe = forwardRef(function PlayerDotMe(
-  { color = 'currentColor', size = 24, title = 'player-dot-me', ...others },
+const Playerdotme = forwardRef(function Playerdotme(
+  { color = 'currentColor', size = 24, title = 'playerdotme', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const PlayerDotMe = forwardRef(function PlayerDotMe(
   );
 });
 
-PlayerDotMe.propTypes = {
+Playerdotme.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ PlayerDotMe.propTypes = {
   title: PropTypes.string,
 };
 
-export default PlayerDotMe;
+export default Playerdotme;

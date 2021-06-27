@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Salesforce = forwardRef(function Salesforce(
-  { color = 'currentColor', size = 24, title = 'Salesforce', ...others },
+  { color = 'currentColor', size = 24, title = 'salesforce', ...others },
   ref
 ) {
   return (

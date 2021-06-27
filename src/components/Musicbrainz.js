@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Musicbrainz = forwardRef(function Musicbrainz(
-  { color = 'currentColor', size = 24, title = 'MusicBrainz', ...others },
+  { color = 'currentColor', size = 24, title = 'musicbrainz', ...others },
   ref
 ) {
   return (

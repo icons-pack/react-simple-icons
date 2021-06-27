@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Lighthouse = forwardRef(function Lighthouse(
-  { color = 'currentColor', size = 24, title = 'Lighthouse', ...others },
+  { color = 'currentColor', size = 24, title = 'lighthouse', ...others },
   ref
 ) {
   return (

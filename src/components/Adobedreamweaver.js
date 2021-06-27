@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Adobedreamweaver = forwardRef(function Adobedreamweaver(
-  { color = 'currentColor', size = 24, title = 'Adobe Dreamweaver', ...others },
+  { color = 'currentColor', size = 24, title = 'adobedreamweaver', ...others },
   ref
 ) {
   return (

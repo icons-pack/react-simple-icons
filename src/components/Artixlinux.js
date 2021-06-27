@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Artixlinux = forwardRef(function Artixlinux(
-  { color = 'currentColor', size = 24, title = 'Artix Linux', ...others },
+  { color = 'currentColor', size = 24, title = 'artixlinux', ...others },
   ref
 ) {
   return (

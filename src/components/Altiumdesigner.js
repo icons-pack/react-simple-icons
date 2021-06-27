@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Altiumdesigner = forwardRef(function Altiumdesigner(
-  { color = 'currentColor', size = 24, title = 'Altium Designer', ...others },
+  { color = 'currentColor', size = 24, title = 'altiumdesigner', ...others },
   ref
 ) {
   return (

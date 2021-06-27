@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Lyft = forwardRef(function Lyft({ color = 'currentColor', size = 24, title = 'Lyft', ...others }, ref) {
+const Lyft = forwardRef(function Lyft({ color = 'currentColor', size = 24, title = 'lyft', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Stencyl = forwardRef(function Stencyl({ color = 'currentColor', size = 24, title = 'Stencyl', ...others }, ref) {
+const Stencyl = forwardRef(function Stencyl({ color = 'currentColor', size = 24, title = 'stencyl', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

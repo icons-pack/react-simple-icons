@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Perforce = forwardRef(function Perforce(
-  { color = 'currentColor', size = 24, title = 'Perforce', ...others },
+  { color = 'currentColor', size = 24, title = 'perforce', ...others },
   ref
 ) {
   return (

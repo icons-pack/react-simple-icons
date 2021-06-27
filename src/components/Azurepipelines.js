@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Azurepipelines = forwardRef(function Azurepipelines(
-  { color = 'currentColor', size = 24, title = 'Azure Pipelines', ...others },
+  { color = 'currentColor', size = 24, title = 'azurepipelines', ...others },
   ref
 ) {
   return (

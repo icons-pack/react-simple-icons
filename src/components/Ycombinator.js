@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Ycombinator = forwardRef(function Ycombinator(
-  { color = 'currentColor', size = 24, title = 'Y Combinator', ...others },
+  { color = 'currentColor', size = 24, title = 'ycombinator', ...others },
   ref
 ) {
   return (

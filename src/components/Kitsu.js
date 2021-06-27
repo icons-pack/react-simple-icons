@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Kitsu = forwardRef(function Kitsu({ color = 'currentColor', size = 24, title = 'Kitsu', ...others }, ref) {
+const Kitsu = forwardRef(function Kitsu({ color = 'currentColor', size = 24, title = 'kitsu', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

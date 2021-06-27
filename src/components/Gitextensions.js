@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Gitextensions = forwardRef(function Gitextensions(
-  { color = 'currentColor', size = 24, title = 'Git Extensions', ...others },
+  { color = 'currentColor', size = 24, title = 'gitextensions', ...others },
   ref
 ) {
   return (

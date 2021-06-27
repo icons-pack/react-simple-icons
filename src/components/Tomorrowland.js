@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Tomorrowland = forwardRef(function Tomorrowland(
-  { color = 'currentColor', size = 24, title = 'Tomorrowland', ...others },
+  { color = 'currentColor', size = 24, title = 'tomorrowland', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Apachespark = forwardRef(function Apachespark(
-  { color = 'currentColor', size = 24, title = 'Apache Spark', ...others },
+  { color = 'currentColor', size = 24, title = 'apachespark', ...others },
   ref
 ) {
   return (

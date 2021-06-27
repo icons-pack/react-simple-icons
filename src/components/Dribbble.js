@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Dribbble = forwardRef(function Dribbble(
-  { color = 'currentColor', size = 24, title = 'Dribbble', ...others },
+  { color = 'currentColor', size = 24, title = 'dribbble', ...others },
   ref
 ) {
   return (

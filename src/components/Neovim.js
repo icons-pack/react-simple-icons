@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Neovim = forwardRef(function Neovim({ color = 'currentColor', size = 24, title = 'Neovim', ...others }, ref) {
+const Neovim = forwardRef(function Neovim({ color = 'currentColor', size = 24, title = 'neovim', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

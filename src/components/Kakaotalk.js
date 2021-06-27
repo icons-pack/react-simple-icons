@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Kakaotalk = forwardRef(function Kakaotalk(
-  { color = 'currentColor', size = 24, title = 'KakaoTalk', ...others },
+  { color = 'currentColor', size = 24, title = 'kakaotalk', ...others },
   ref
 ) {
   return (

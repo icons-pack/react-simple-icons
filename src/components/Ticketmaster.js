@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Ticketmaster = forwardRef(function Ticketmaster(
-  { color = 'currentColor', size = 24, title = 'Ticketmaster', ...others },
+  { color = 'currentColor', size = 24, title = 'ticketmaster', ...others },
   ref
 ) {
   return (

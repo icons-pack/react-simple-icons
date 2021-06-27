@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Git = forwardRef(function Git({ color = 'currentColor', size = 24, title = 'Git', ...others }, ref) {
+const Git = forwardRef(function Git({ color = 'currentColor', size = 24, title = 'git', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

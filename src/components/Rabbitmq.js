@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Rabbitmq = forwardRef(function Rabbitmq(
-  { color = 'currentColor', size = 24, title = 'RabbitMQ', ...others },
+  { color = 'currentColor', size = 24, title = 'rabbitmq', ...others },
   ref
 ) {
   return (

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Enpass = forwardRef(function Enpass({ color = 'currentColor', size = 24, title = 'Enpass', ...others }, ref) {
+const Enpass = forwardRef(function Enpass({ color = 'currentColor', size = 24, title = 'enpass', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Liberapay = forwardRef(function Liberapay(
-  { color = 'currentColor', size = 24, title = 'Liberapay', ...others },
+  { color = 'currentColor', size = 24, title = 'liberapay', ...others },
   ref
 ) {
   return (

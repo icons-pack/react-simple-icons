@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Slideshare = forwardRef(function Slideshare(
-  { color = 'currentColor', size = 24, title = 'SlideShare', ...others },
+  { color = 'currentColor', size = 24, title = 'slideshare', ...others },
   ref
 ) {
   return (

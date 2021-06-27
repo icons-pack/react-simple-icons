@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Vbulletin = forwardRef(function Vbulletin(
-  { color = 'currentColor', size = 24, title = 'vBulletin', ...others },
+  { color = 'currentColor', size = 24, title = 'vbulletin', ...others },
   ref
 ) {
   return (

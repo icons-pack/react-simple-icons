@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Ufc = forwardRef(function Ufc({ color = 'currentColor', size = 24, title = 'UFC', ...others }, ref) {
+const Ufc = forwardRef(function Ufc({ color = 'currentColor', size = 24, title = 'ufc', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

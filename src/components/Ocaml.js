@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Ocaml = forwardRef(function Ocaml({ color = 'currentColor', size = 24, title = 'OCaml', ...others }, ref) {
+const Ocaml = forwardRef(function Ocaml({ color = 'currentColor', size = 24, title = 'ocaml', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

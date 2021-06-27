@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Startrek = forwardRef(function Startrek(
-  { color = 'currentColor', size = 24, title = 'Star Trek', ...others },
+  { color = 'currentColor', size = 24, title = 'startrek', ...others },
   ref
 ) {
   return (

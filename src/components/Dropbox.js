@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Dropbox = forwardRef(function Dropbox({ color = 'currentColor', size = 24, title = 'Dropbox', ...others }, ref) {
+const Dropbox = forwardRef(function Dropbox({ color = 'currentColor', size = 24, title = 'dropbox', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

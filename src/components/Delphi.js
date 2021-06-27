@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Delphi = forwardRef(function Delphi({ color = 'currentColor', size = 24, title = 'Delphi', ...others }, ref) {
+const Delphi = forwardRef(function Delphi({ color = 'currentColor', size = 24, title = 'delphi', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const PreCommit = forwardRef(function PreCommit(
-  { color = 'currentColor', size = 24, title = 'pre-commit', ...others },
+const Precommit = forwardRef(function Precommit(
+  { color = 'currentColor', size = 24, title = 'precommit', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const PreCommit = forwardRef(function PreCommit(
   );
 });
 
-PreCommit.propTypes = {
+Precommit.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ PreCommit.propTypes = {
   title: PropTypes.string,
 };
 
-export default PreCommit;
+export default Precommit;

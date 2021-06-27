@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Umbraco = forwardRef(function Umbraco({ color = 'currentColor', size = 24, title = 'Umbraco', ...others }, ref) {
+const Umbraco = forwardRef(function Umbraco({ color = 'currentColor', size = 24, title = 'umbraco', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Fontawesome = forwardRef(function Fontawesome(
-  { color = 'currentColor', size = 24, title = 'Font Awesome', ...others },
+  { color = 'currentColor', size = 24, title = 'fontawesome', ...others },
   ref
 ) {
   return (

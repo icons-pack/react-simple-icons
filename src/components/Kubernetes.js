@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Kubernetes = forwardRef(function Kubernetes(
-  { color = 'currentColor', size = 24, title = 'Kubernetes', ...others },
+  { color = 'currentColor', size = 24, title = 'kubernetes', ...others },
   ref
 ) {
   return (

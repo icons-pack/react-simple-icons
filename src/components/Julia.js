@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Julia = forwardRef(function Julia({ color = 'currentColor', size = 24, title = 'Julia', ...others }, ref) {
+const Julia = forwardRef(function Julia({ color = 'currentColor', size = 24, title = 'julia', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

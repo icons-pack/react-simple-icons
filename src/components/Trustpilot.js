@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Trustpilot = forwardRef(function Trustpilot(
-  { color = 'currentColor', size = 24, title = 'Trustpilot', ...others },
+  { color = 'currentColor', size = 24, title = 'trustpilot', ...others },
   ref
 ) {
   return (

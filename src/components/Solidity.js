@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Solidity = forwardRef(function Solidity(
-  { color = 'currentColor', size = 24, title = 'Solidity', ...others },
+  { color = 'currentColor', size = 24, title = 'solidity', ...others },
   ref
 ) {
   return (

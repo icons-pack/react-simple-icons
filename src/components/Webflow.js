@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Webflow = forwardRef(function Webflow({ color = 'currentColor', size = 24, title = 'Webflow', ...others }, ref) {
+const Webflow = forwardRef(function Webflow({ color = 'currentColor', size = 24, title = 'webflow', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

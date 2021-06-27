@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Purescript = forwardRef(function Purescript(
-  { color = 'currentColor', size = 24, title = 'PureScript', ...others },
+  { color = 'currentColor', size = 24, title = 'purescript', ...others },
   ref
 ) {
   return (

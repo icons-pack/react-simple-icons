@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Gnusocial = forwardRef(function Gnusocial(
-  { color = 'currentColor', size = 24, title = 'GNU social', ...others },
+  { color = 'currentColor', size = 24, title = 'gnusocial', ...others },
   ref
 ) {
   return (

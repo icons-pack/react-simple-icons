@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const NTwentySix = forwardRef(function NTwentySix(
-  { color = 'currentColor', size = 24, title = 'N26', ...others },
+  { color = 'currentColor', size = 24, title = 'n26', ...others },
   ref
 ) {
   return (

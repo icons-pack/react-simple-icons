@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Sonarcloud = forwardRef(function Sonarcloud(
-  { color = 'currentColor', size = 24, title = 'SonarCloud', ...others },
+  { color = 'currentColor', size = 24, title = 'sonarcloud', ...others },
   ref
 ) {
   return (

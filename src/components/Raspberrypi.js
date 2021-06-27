@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Raspberrypi = forwardRef(function Raspberrypi(
-  { color = 'currentColor', size = 24, title = 'Raspberry Pi', ...others },
+  { color = 'currentColor', size = 24, title = 'raspberrypi', ...others },
   ref
 ) {
   return (

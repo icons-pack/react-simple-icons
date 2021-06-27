@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Messenger = forwardRef(function Messenger(
-  { color = 'currentColor', size = 24, title = 'Messenger', ...others },
+  { color = 'currentColor', size = 24, title = 'messenger', ...others },
   ref
 ) {
   return (

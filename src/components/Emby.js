@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Emby = forwardRef(function Emby({ color = 'currentColor', size = 24, title = 'Emby', ...others }, ref) {
+const Emby = forwardRef(function Emby({ color = 'currentColor', size = 24, title = 'emby', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

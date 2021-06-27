@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Alltrails = forwardRef(function Alltrails(
-  { color = 'currentColor', size = 24, title = 'AllTrails', ...others },
+  { color = 'currentColor', size = 24, title = 'alltrails', ...others },
   ref
 ) {
   return (

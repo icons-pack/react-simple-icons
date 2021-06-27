@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Dlna = forwardRef(function Dlna({ color = 'currentColor', size = 24, title = 'DLNA', ...others }, ref) {
+const Dlna = forwardRef(function Dlna({ color = 'currentColor', size = 24, title = 'dlna', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

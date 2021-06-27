@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Invoiceninja = forwardRef(function Invoiceninja(
-  { color = 'currentColor', size = 24, title = 'Invoice Ninja', ...others },
+  { color = 'currentColor', size = 24, title = 'invoiceninja', ...others },
   ref
 ) {
   return (

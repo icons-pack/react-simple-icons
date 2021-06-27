@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Hashnode = forwardRef(function Hashnode(
-  { color = 'currentColor', size = 24, title = 'Hashnode', ...others },
+  { color = 'currentColor', size = 24, title = 'hashnode', ...others },
   ref
 ) {
   return (

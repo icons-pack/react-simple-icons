@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Amazonalexa = forwardRef(function Amazonalexa(
-  { color = 'currentColor', size = 24, title = 'Amazon Alexa', ...others },
+  { color = 'currentColor', size = 24, title = 'amazonalexa', ...others },
   ref
 ) {
   return (

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Graphql = forwardRef(function Graphql({ color = 'currentColor', size = 24, title = 'GraphQL', ...others }, ref) {
+const Graphql = forwardRef(function Graphql({ color = 'currentColor', size = 24, title = 'graphql', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

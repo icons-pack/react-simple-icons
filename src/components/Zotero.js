@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Zotero = forwardRef(function Zotero({ color = 'currentColor', size = 24, title = 'Zotero', ...others }, ref) {
+const Zotero = forwardRef(function Zotero({ color = 'currentColor', size = 24, title = 'zotero', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Skypeforbusiness = forwardRef(function Skypeforbusiness(
-  { color = 'currentColor', size = 24, title = 'Skype for Business', ...others },
+  { color = 'currentColor', size = 24, title = 'skypeforbusiness', ...others },
   ref
 ) {
   return (

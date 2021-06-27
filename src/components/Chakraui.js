@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Chakraui = forwardRef(function Chakraui(
-  { color = 'currentColor', size = 24, title = 'Chakra UI', ...others },
+  { color = 'currentColor', size = 24, title = 'chakraui', ...others },
   ref
 ) {
   return (

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Glitch = forwardRef(function Glitch({ color = 'currentColor', size = 24, title = 'Glitch', ...others }, ref) {
+const Glitch = forwardRef(function Glitch({ color = 'currentColor', size = 24, title = 'glitch', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

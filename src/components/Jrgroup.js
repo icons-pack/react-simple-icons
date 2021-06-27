@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Jrgroup = forwardRef(function Jrgroup({ color = 'currentColor', size = 24, title = 'JR Group', ...others }, ref) {
+const Jrgroup = forwardRef(function Jrgroup({ color = 'currentColor', size = 24, title = 'jrgroup', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

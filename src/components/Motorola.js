@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Motorola = forwardRef(function Motorola(
-  { color = 'currentColor', size = 24, title = 'Motorola', ...others },
+  { color = 'currentColor', size = 24, title = 'motorola', ...others },
   ref
 ) {
   return (

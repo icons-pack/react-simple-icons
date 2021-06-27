@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Styleshare = forwardRef(function Styleshare(
-  { color = 'currentColor', size = 24, title = 'StyleShare', ...others },
+  { color = 'currentColor', size = 24, title = 'styleshare', ...others },
   ref
 ) {
   return (

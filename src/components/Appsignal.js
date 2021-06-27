@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Appsignal = forwardRef(function Appsignal(
-  { color = 'currentColor', size = 24, title = 'AppSignal', ...others },
+  { color = 'currentColor', size = 24, title = 'appsignal', ...others },
   ref
 ) {
   return (

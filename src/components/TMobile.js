@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const TMobile = forwardRef(function TMobile({ color = 'currentColor', size = 24, title = 't-mobile', ...others }, ref) {
+const Tmobile = forwardRef(function Tmobile({ color = 'currentColor', size = 24, title = 'tmobile', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -17,7 +17,7 @@ const TMobile = forwardRef(function TMobile({ color = 'currentColor', size = 24,
   );
 });
 
-TMobile.propTypes = {
+Tmobile.propTypes = {
   /**
    * Hex color or color name
    */
@@ -32,4 +32,4 @@ TMobile.propTypes = {
   title: PropTypes.string,
 };
 
-export default TMobile;
+export default Tmobile;

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Fifa = forwardRef(function Fifa({ color = 'currentColor', size = 24, title = 'FIFA', ...others }, ref) {
+const Fifa = forwardRef(function Fifa({ color = 'currentColor', size = 24, title = 'fifa', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

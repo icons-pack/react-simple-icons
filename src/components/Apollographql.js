@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Apollographql = forwardRef(function Apollographql(
-  { color = 'currentColor', size = 24, title = 'Apollo GraphQL', ...others },
+  { color = 'currentColor', size = 24, title = 'apollographql', ...others },
   ref
 ) {
   return (

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Envato = forwardRef(function Envato({ color = 'currentColor', size = 24, title = 'Envato', ...others }, ref) {
+const Envato = forwardRef(function Envato({ color = 'currentColor', size = 24, title = 'envato', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

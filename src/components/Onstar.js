@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Onstar = forwardRef(function Onstar({ color = 'currentColor', size = 24, title = 'OnStar', ...others }, ref) {
+const Onstar = forwardRef(function Onstar({ color = 'currentColor', size = 24, title = 'onstar', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

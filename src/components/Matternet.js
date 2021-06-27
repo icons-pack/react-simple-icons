@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Matternet = forwardRef(function Matternet(
-  { color = 'currentColor', size = 24, title = 'Matternet', ...others },
+  { color = 'currentColor', size = 24, title = 'matternet', ...others },
   ref
 ) {
   return (

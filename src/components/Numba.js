@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Numba = forwardRef(function Numba({ color = 'currentColor', size = 24, title = 'Numba', ...others }, ref) {
+const Numba = forwardRef(function Numba({ color = 'currentColor', size = 24, title = 'numba', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

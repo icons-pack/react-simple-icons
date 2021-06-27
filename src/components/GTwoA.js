@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const GTwoA = forwardRef(function GTwoA({ color = 'currentColor', size = 24, title = 'G2A', ...others }, ref) {
+const GTwoA = forwardRef(function GTwoA({ color = 'currentColor', size = 24, title = 'g2a', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

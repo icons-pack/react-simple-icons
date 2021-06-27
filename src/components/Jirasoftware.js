@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Jirasoftware = forwardRef(function Jirasoftware(
-  { color = 'currentColor', size = 24, title = 'Jira Software', ...others },
+  { color = 'currentColor', size = 24, title = 'jirasoftware', ...others },
   ref
 ) {
   return (

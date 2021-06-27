@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Json = forwardRef(function Json({ color = 'currentColor', size = 24, title = 'JSON', ...others }, ref) {
+const Json = forwardRef(function Json({ color = 'currentColor', size = 24, title = 'json', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

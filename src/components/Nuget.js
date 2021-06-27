@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Nuget = forwardRef(function Nuget({ color = 'currentColor', size = 24, title = 'NuGet', ...others }, ref) {
+const Nuget = forwardRef(function Nuget({ color = 'currentColor', size = 24, title = 'nuget', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

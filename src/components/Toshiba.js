@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Toshiba = forwardRef(function Toshiba({ color = 'currentColor', size = 24, title = 'Toshiba', ...others }, ref) {
+const Toshiba = forwardRef(function Toshiba({ color = 'currentColor', size = 24, title = 'toshiba', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

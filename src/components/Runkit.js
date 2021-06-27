@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Runkit = forwardRef(function Runkit({ color = 'currentColor', size = 24, title = 'RunKit', ...others }, ref) {
+const Runkit = forwardRef(function Runkit({ color = 'currentColor', size = 24, title = 'runkit', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const MicroBit = forwardRef(function MicroBit(
-  { color = 'currentColor', size = 24, title = 'micro:bit', ...others },
+const Microbit = forwardRef(function Microbit(
+  { color = 'currentColor', size = 24, title = 'microbit', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const MicroBit = forwardRef(function MicroBit(
   );
 });
 
-MicroBit.propTypes = {
+Microbit.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ MicroBit.propTypes = {
   title: PropTypes.string,
 };
 
-export default MicroBit;
+export default Microbit;

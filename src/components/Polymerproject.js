@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Polymerproject = forwardRef(function Polymerproject(
-  { color = 'currentColor', size = 24, title = 'Polymer Project', ...others },
+  { color = 'currentColor', size = 24, title = 'polymerproject', ...others },
   ref
 ) {
   return (

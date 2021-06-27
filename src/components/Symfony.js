@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Symfony = forwardRef(function Symfony({ color = 'currentColor', size = 24, title = 'Symfony', ...others }, ref) {
+const Symfony = forwardRef(function Symfony({ color = 'currentColor', size = 24, title = 'symfony', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Trello = forwardRef(function Trello({ color = 'currentColor', size = 24, title = 'Trello', ...others }, ref) {
+const Trello = forwardRef(function Trello({ color = 'currentColor', size = 24, title = 'trello', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

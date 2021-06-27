@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Truenas = forwardRef(function Truenas({ color = 'currentColor', size = 24, title = 'TrueNAS', ...others }, ref) {
+const Truenas = forwardRef(function Truenas({ color = 'currentColor', size = 24, title = 'truenas', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

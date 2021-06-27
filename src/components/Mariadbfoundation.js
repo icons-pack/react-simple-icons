@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Mariadbfoundation = forwardRef(function Mariadbfoundation(
-  { color = 'currentColor', size = 24, title = 'MariaDB Foundation', ...others },
+  { color = 'currentColor', size = 24, title = 'mariadbfoundation', ...others },
   ref
 ) {
   return (

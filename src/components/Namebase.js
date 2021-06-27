@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Namebase = forwardRef(function Namebase(
-  { color = 'currentColor', size = 24, title = 'Namebase', ...others },
+  { color = 'currentColor', size = 24, title = 'namebase', ...others },
   ref
 ) {
   return (

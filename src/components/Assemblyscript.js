@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Assemblyscript = forwardRef(function Assemblyscript(
-  { color = 'currentColor', size = 24, title = 'AssemblyScript', ...others },
+  { color = 'currentColor', size = 24, title = 'assemblyscript', ...others },
   ref
 ) {
   return (

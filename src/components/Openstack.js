@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Openstack = forwardRef(function Openstack(
-  { color = 'currentColor', size = 24, title = 'OpenStack', ...others },
+  { color = 'currentColor', size = 24, title = 'openstack', ...others },
   ref
 ) {
   return (

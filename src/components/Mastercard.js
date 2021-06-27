@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Mastercard = forwardRef(function Mastercard(
-  { color = 'currentColor', size = 24, title = 'MasterCard', ...others },
+  { color = 'currentColor', size = 24, title = 'mastercard', ...others },
   ref
 ) {
   return (

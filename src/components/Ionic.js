@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Ionic = forwardRef(function Ionic({ color = 'currentColor', size = 24, title = 'Ionic', ...others }, ref) {
+const Ionic = forwardRef(function Ionic({ color = 'currentColor', size = 24, title = 'ionic', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

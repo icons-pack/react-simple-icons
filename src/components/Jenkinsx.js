@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Jenkinsx = forwardRef(function Jenkinsx(
-  { color = 'currentColor', size = 24, title = 'Jenkins X', ...others },
+  { color = 'currentColor', size = 24, title = 'jenkinsx', ...others },
   ref
 ) {
   return (

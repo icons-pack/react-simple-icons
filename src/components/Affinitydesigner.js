@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Affinitydesigner = forwardRef(function Affinitydesigner(
-  { color = 'currentColor', size = 24, title = 'Affinity Designer', ...others },
+  { color = 'currentColor', size = 24, title = 'affinitydesigner', ...others },
   ref
 ) {
   return (

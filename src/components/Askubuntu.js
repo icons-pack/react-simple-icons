@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Askubuntu = forwardRef(function Askubuntu(
-  { color = 'currentColor', size = 24, title = 'Ask Ubuntu', ...others },
+  { color = 'currentColor', size = 24, title = 'askubuntu', ...others },
   ref
 ) {
   return (

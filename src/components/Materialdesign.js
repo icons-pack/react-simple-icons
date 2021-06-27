@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Materialdesign = forwardRef(function Materialdesign(
-  { color = 'currentColor', size = 24, title = 'Material Design', ...others },
+  { color = 'currentColor', size = 24, title = 'materialdesign', ...others },
   ref
 ) {
   return (

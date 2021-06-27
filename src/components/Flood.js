@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Flood = forwardRef(function Flood({ color = 'currentColor', size = 24, title = 'Flood', ...others }, ref) {
+const Flood = forwardRef(function Flood({ color = 'currentColor', size = 24, title = 'flood', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

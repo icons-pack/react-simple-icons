@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Gnuprivacyguard = forwardRef(function Gnuprivacyguard(
-  { color = 'currentColor', size = 24, title = 'GNU Privacy Guard', ...others },
+  { color = 'currentColor', size = 24, title = 'gnuprivacyguard', ...others },
   ref
 ) {
   return (

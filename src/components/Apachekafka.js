@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Apachekafka = forwardRef(function Apachekafka(
-  { color = 'currentColor', size = 24, title = 'Apache Kafka', ...others },
+  { color = 'currentColor', size = 24, title = 'apachekafka', ...others },
   ref
 ) {
   return (

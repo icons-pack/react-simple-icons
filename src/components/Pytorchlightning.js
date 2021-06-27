@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Pytorchlightning = forwardRef(function Pytorchlightning(
-  { color = 'currentColor', size = 24, title = 'PyTorch Lightning', ...others },
+  { color = 'currentColor', size = 24, title = 'pytorchlightning', ...others },
   ref
 ) {
   return (

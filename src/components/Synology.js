@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Synology = forwardRef(function Synology(
-  { color = 'currentColor', size = 24, title = 'Synology', ...others },
+  { color = 'currentColor', size = 24, title = 'synology', ...others },
   ref
 ) {
   return (

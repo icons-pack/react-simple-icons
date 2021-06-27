@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Wordpress = forwardRef(function Wordpress(
-  { color = 'currentColor', size = 24, title = 'WordPress', ...others },
+  { color = 'currentColor', size = 24, title = 'wordpress', ...others },
   ref
 ) {
   return (

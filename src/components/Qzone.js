@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Qzone = forwardRef(function Qzone({ color = 'currentColor', size = 24, title = 'Qzone', ...others }, ref) {
+const Qzone = forwardRef(function Qzone({ color = 'currentColor', size = 24, title = 'qzone', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

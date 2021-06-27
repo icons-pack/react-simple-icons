@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Wolfram = forwardRef(function Wolfram({ color = 'currentColor', size = 24, title = 'Wolfram', ...others }, ref) {
+const Wolfram = forwardRef(function Wolfram({ color = 'currentColor', size = 24, title = 'wolfram', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const DynamicsThreeHundredSixtyFive = forwardRef(function DynamicsThreeHundredSixtyFive(
-  { color = 'currentColor', size = 24, title = 'Dynamics 365', ...others },
+  { color = 'currentColor', size = 24, title = 'dynamics365', ...others },
   ref
 ) {
   return (

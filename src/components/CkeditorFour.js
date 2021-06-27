@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const CkeditorFour = forwardRef(function CkeditorFour(
-  { color = 'currentColor', size = 24, title = 'CKEditor 4', ...others },
+  { color = 'currentColor', size = 24, title = 'ckeditor4', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Accusoft = forwardRef(function Accusoft(
-  { color = 'currentColor', size = 24, title = 'Accusoft', ...others },
+  { color = 'currentColor', size = 24, title = 'accusoft', ...others },
   ref
 ) {
   return (

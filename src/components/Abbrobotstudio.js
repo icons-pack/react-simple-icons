@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Abbrobotstudio = forwardRef(function Abbrobotstudio(
-  { color = 'currentColor', size = 24, title = 'ABB RobotStudio', ...others },
+  { color = 'currentColor', size = 24, title = 'abbrobotstudio', ...others },
   ref
 ) {
   return (

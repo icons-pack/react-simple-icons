@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Openbadges = forwardRef(function Openbadges(
-  { color = 'currentColor', size = 24, title = 'Open Badges', ...others },
+  { color = 'currentColor', size = 24, title = 'openbadges', ...others },
   ref
 ) {
   return (

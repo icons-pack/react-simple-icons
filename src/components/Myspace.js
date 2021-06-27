@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Myspace = forwardRef(function Myspace({ color = 'currentColor', size = 24, title = 'Myspace', ...others }, ref) {
+const Myspace = forwardRef(function Myspace({ color = 'currentColor', size = 24, title = 'myspace', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Freecodecamp = forwardRef(function Freecodecamp(
-  { color = 'currentColor', size = 24, title = 'freeCodeCamp', ...others },
+  { color = 'currentColor', size = 24, title = 'freecodecamp', ...others },
   ref
 ) {
   return (

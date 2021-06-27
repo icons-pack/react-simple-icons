@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Bbciplayer = forwardRef(function Bbciplayer(
-  { color = 'currentColor', size = 24, title = 'BBC iPlayer', ...others },
+  { color = 'currentColor', size = 24, title = 'bbciplayer', ...others },
   ref
 ) {
   return (

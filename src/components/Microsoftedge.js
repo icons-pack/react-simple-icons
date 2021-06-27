@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Microsoftedge = forwardRef(function Microsoftedge(
-  { color = 'currentColor', size = 24, title = 'Microsoft Edge', ...others },
+  { color = 'currentColor', size = 24, title = 'microsoftedge', ...others },
   ref
 ) {
   return (

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Codepen = forwardRef(function Codepen({ color = 'currentColor', size = 24, title = 'CodePen', ...others }, ref) {
+const Codepen = forwardRef(function Codepen({ color = 'currentColor', size = 24, title = 'codepen', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

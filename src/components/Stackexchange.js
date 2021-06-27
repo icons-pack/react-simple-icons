@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Stackexchange = forwardRef(function Stackexchange(
-  { color = 'currentColor', size = 24, title = 'Stack Exchange', ...others },
+  { color = 'currentColor', size = 24, title = 'stackexchange', ...others },
   ref
 ) {
   return (

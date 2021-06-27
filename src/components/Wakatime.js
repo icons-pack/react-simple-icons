@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Wakatime = forwardRef(function Wakatime(
-  { color = 'currentColor', size = 24, title = 'WakaTime', ...others },
+  { color = 'currentColor', size = 24, title = 'wakatime', ...others },
   ref
 ) {
   return (

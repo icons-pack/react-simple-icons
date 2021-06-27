@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Ibmwatson = forwardRef(function Ibmwatson(
-  { color = 'currentColor', size = 24, title = 'IBM Watson', ...others },
+  { color = 'currentColor', size = 24, title = 'ibmwatson', ...others },
   ref
 ) {
   return (

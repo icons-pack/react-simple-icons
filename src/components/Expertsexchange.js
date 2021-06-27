@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Expertsexchange = forwardRef(function Expertsexchange(
-  { color = 'currentColor', size = 24, title = 'Experts Exchange', ...others },
+  { color = 'currentColor', size = 24, title = 'expertsexchange', ...others },
   ref
 ) {
   return (

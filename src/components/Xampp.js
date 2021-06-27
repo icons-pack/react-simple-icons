@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Xampp = forwardRef(function Xampp({ color = 'currentColor', size = 24, title = 'XAMPP', ...others }, ref) {
+const Xampp = forwardRef(function Xampp({ color = 'currentColor', size = 24, title = 'xampp', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

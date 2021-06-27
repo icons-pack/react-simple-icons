@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Slickpic = forwardRef(function Slickpic(
-  { color = 'currentColor', size = 24, title = 'SlickPic', ...others },
+  { color = 'currentColor', size = 24, title = 'slickpic', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Mitsubishi = forwardRef(function Mitsubishi(
-  { color = 'currentColor', size = 24, title = 'Mitsubishi', ...others },
+  { color = 'currentColor', size = 24, title = 'mitsubishi', ...others },
   ref
 ) {
   return (

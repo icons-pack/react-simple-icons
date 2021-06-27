@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Nfc = forwardRef(function Nfc({ color = 'currentColor', size = 24, title = 'NFC', ...others }, ref) {
+const Nfc = forwardRef(function Nfc({ color = 'currentColor', size = 24, title = 'nfc', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

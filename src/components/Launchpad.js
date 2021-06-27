@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Launchpad = forwardRef(function Launchpad(
-  { color = 'currentColor', size = 24, title = 'Launchpad', ...others },
+  { color = 'currentColor', size = 24, title = 'launchpad', ...others },
   ref
 ) {
   return (

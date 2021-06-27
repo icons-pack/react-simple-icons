@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Ublockorigin = forwardRef(function Ublockorigin(
-  { color = 'currentColor', size = 24, title = 'uBlock Origin', ...others },
+  { color = 'currentColor', size = 24, title = 'ublockorigin', ...others },
   ref
 ) {
   return (

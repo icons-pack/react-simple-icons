@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Themoviedatabase = forwardRef(function Themoviedatabase(
-  { color = 'currentColor', size = 24, title = 'The Movie Database', ...others },
+  { color = 'currentColor', size = 24, title = 'themoviedatabase', ...others },
   ref
 ) {
   return (

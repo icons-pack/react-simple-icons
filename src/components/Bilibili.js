@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Bilibili = forwardRef(function Bilibili(
-  { color = 'currentColor', size = 24, title = 'Bilibili', ...others },
+  { color = 'currentColor', size = 24, title = 'bilibili', ...others },
   ref
 ) {
   return (

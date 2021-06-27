@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Teamcity = forwardRef(function Teamcity(
-  { color = 'currentColor', size = 24, title = 'TeamCity', ...others },
+  { color = 'currentColor', size = 24, title = 'teamcity', ...others },
   ref
 ) {
   return (

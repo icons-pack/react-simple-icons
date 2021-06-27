@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Crehana = forwardRef(function Crehana({ color = 'currentColor', size = 24, title = 'Crehana', ...others }, ref) {
+const Crehana = forwardRef(function Crehana({ color = 'currentColor', size = 24, title = 'crehana', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

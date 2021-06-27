@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Eyeem = forwardRef(function Eyeem({ color = 'currentColor', size = 24, title = 'EyeEm', ...others }, ref) {
+const Eyeem = forwardRef(function Eyeem({ color = 'currentColor', size = 24, title = 'eyeem', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

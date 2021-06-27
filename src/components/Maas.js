@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Maas = forwardRef(function Maas({ color = 'currentColor', size = 24, title = 'MAAS', ...others }, ref) {
+const Maas = forwardRef(function Maas({ color = 'currentColor', size = 24, title = 'maas', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

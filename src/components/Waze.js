@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Waze = forwardRef(function Waze({ color = 'currentColor', size = 24, title = 'Waze', ...others }, ref) {
+const Waze = forwardRef(function Waze({ color = 'currentColor', size = 24, title = 'waze', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

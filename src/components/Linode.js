@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Linode = forwardRef(function Linode({ color = 'currentColor', size = 24, title = 'Linode', ...others }, ref) {
+const Linode = forwardRef(function Linode({ color = 'currentColor', size = 24, title = 'linode', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

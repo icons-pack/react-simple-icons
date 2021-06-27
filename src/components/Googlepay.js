@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Googlepay = forwardRef(function Googlepay(
-  { color = 'currentColor', size = 24, title = 'Google Pay', ...others },
+  { color = 'currentColor', size = 24, title = 'googlepay', ...others },
   ref
 ) {
   return (

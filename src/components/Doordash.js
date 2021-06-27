@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Doordash = forwardRef(function Doordash(
-  { color = 'currentColor', size = 24, title = 'DoorDash', ...others },
+  { color = 'currentColor', size = 24, title = 'doordash', ...others },
   ref
 ) {
   return (

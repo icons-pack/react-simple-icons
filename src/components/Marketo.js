@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Marketo = forwardRef(function Marketo({ color = 'currentColor', size = 24, title = 'Marketo', ...others }, ref) {
+const Marketo = forwardRef(function Marketo({ color = 'currentColor', size = 24, title = 'marketo', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Pusher = forwardRef(function Pusher({ color = 'currentColor', size = 24, title = 'Pusher', ...others }, ref) {
+const Pusher = forwardRef(function Pusher({ color = 'currentColor', size = 24, title = 'pusher', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Appletv = forwardRef(function Appletv({ color = 'currentColor', size = 24, title = 'Apple TV', ...others }, ref) {
+const Appletv = forwardRef(function Appletv({ color = 'currentColor', size = 24, title = 'appletv', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

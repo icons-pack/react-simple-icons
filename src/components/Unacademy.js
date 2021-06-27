@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Unacademy = forwardRef(function Unacademy(
-  { color = 'currentColor', size = 24, title = 'Unacademy', ...others },
+  { color = 'currentColor', size = 24, title = 'unacademy', ...others },
   ref
 ) {
   return (

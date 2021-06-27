@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Foxtel = forwardRef(function Foxtel({ color = 'currentColor', size = 24, title = 'Foxtel', ...others }, ref) {
+const Foxtel = forwardRef(function Foxtel({ color = 'currentColor', size = 24, title = 'foxtel', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

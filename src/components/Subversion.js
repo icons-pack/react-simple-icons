@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Subversion = forwardRef(function Subversion(
-  { color = 'currentColor', size = 24, title = 'Subversion', ...others },
+  { color = 'currentColor', size = 24, title = 'subversion', ...others },
   ref
 ) {
   return (

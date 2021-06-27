@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Untangle = forwardRef(function Untangle(
-  { color = 'currentColor', size = 24, title = 'Untangle', ...others },
+  { color = 'currentColor', size = 24, title = 'untangle', ...others },
   ref
 ) {
   return (

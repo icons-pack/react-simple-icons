@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Xilinx = forwardRef(function Xilinx({ color = 'currentColor', size = 24, title = 'Xilinx', ...others }, ref) {
+const Xilinx = forwardRef(function Xilinx({ color = 'currentColor', size = 24, title = 'xilinx', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

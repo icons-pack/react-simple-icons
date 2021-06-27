@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Adobeaudition = forwardRef(function Adobeaudition(
-  { color = 'currentColor', size = 24, title = 'Adobe Audition', ...others },
+  { color = 'currentColor', size = 24, title = 'adobeaudition', ...others },
   ref
 ) {
   return (

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Pivotaltracker = forwardRef(function Pivotaltracker(
-  { color = 'currentColor', size = 24, title = 'Pivotal Tracker', ...others },
+  { color = 'currentColor', size = 24, title = 'pivotaltracker', ...others },
   ref
 ) {
   return (

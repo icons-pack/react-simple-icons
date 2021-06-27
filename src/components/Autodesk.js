@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Autodesk = forwardRef(function Autodesk(
-  { color = 'currentColor', size = 24, title = 'Autodesk', ...others },
+  { color = 'currentColor', size = 24, title = 'autodesk', ...others },
   ref
 ) {
   return (

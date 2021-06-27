@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const ParseDotLy = forwardRef(function ParseDotLy(
-  { color = 'currentColor', size = 24, title = 'parse-dot-ly', ...others },
+const Parsedotly = forwardRef(function Parsedotly(
+  { color = 'currentColor', size = 24, title = 'parsedotly', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const ParseDotLy = forwardRef(function ParseDotLy(
   );
 });
 
-ParseDotLy.propTypes = {
+Parsedotly.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ ParseDotLy.propTypes = {
   title: PropTypes.string,
 };
 
-export default ParseDotLy;
+export default Parsedotly;

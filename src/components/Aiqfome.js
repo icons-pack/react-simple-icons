@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Aiqfome = forwardRef(function Aiqfome({ color = 'currentColor', size = 24, title = 'Aiqfome', ...others }, ref) {
+const Aiqfome = forwardRef(function Aiqfome({ color = 'currentColor', size = 24, title = 'aiqfome', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

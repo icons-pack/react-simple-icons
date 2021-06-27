@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Dataversioncontrol = forwardRef(function Dataversioncontrol(
-  { color = 'currentColor', size = 24, title = 'Data Version Control', ...others },
+  { color = 'currentColor', size = 24, title = 'dataversioncontrol', ...others },
   ref
 ) {
   return (

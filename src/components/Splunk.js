@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Splunk = forwardRef(function Splunk({ color = 'currentColor', size = 24, title = 'Splunk', ...others }, ref) {
+const Splunk = forwardRef(function Splunk({ color = 'currentColor', size = 24, title = 'splunk', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

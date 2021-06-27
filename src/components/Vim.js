@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Vim = forwardRef(function Vim({ color = 'currentColor', size = 24, title = 'Vim', ...others }, ref) {
+const Vim = forwardRef(function Vim({ color = 'currentColor', size = 24, title = 'vim', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

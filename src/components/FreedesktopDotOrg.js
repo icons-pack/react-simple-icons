@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const FreedesktopDotOrg = forwardRef(function FreedesktopDotOrg(
-  { color = 'currentColor', size = 24, title = 'freedesktop-dot-org', ...others },
+const Freedesktopdotorg = forwardRef(function Freedesktopdotorg(
+  { color = 'currentColor', size = 24, title = 'freedesktopdotorg', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const FreedesktopDotOrg = forwardRef(function FreedesktopDotOrg(
   );
 });
 
-FreedesktopDotOrg.propTypes = {
+Freedesktopdotorg.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ FreedesktopDotOrg.propTypes = {
   title: PropTypes.string,
 };
 
-export default FreedesktopDotOrg;
+export default Freedesktopdotorg;

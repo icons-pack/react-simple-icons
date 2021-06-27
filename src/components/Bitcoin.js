@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Bitcoin = forwardRef(function Bitcoin({ color = 'currentColor', size = 24, title = 'Bitcoin', ...others }, ref) {
+const Bitcoin = forwardRef(function Bitcoin({ color = 'currentColor', size = 24, title = 'bitcoin', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

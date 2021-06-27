@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Unraid = forwardRef(function Unraid({ color = 'currentColor', size = 24, title = 'Unraid', ...others }, ref) {
+const Unraid = forwardRef(function Unraid({ color = 'currentColor', size = 24, title = 'unraid', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Craftcms = forwardRef(function Craftcms(
-  { color = 'currentColor', size = 24, title = 'Craft CMS', ...others },
+  { color = 'currentColor', size = 24, title = 'craftcms', ...others },
   ref
 ) {
   return (

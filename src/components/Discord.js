@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Discord = forwardRef(function Discord({ color = 'currentColor', size = 24, title = 'Discord', ...others }, ref) {
+const Discord = forwardRef(function Discord({ color = 'currentColor', size = 24, title = 'discord', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

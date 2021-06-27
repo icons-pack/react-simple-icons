@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Googletranslate = forwardRef(function Googletranslate(
-  { color = 'currentColor', size = 24, title = 'Google Translate', ...others },
+  { color = 'currentColor', size = 24, title = 'googletranslate', ...others },
   ref
 ) {
   return (

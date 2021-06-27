@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Swarm = forwardRef(function Swarm({ color = 'currentColor', size = 24, title = 'Swarm', ...others }, ref) {
+const Swarm = forwardRef(function Swarm({ color = 'currentColor', size = 24, title = 'swarm', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

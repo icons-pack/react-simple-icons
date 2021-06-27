@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const ChartDotJs = forwardRef(function ChartDotJs(
-  { color = 'currentColor', size = 24, title = 'chart-dot-js', ...others },
+const Chartdotjs = forwardRef(function Chartdotjs(
+  { color = 'currentColor', size = 24, title = 'chartdotjs', ...others },
   ref
 ) {
   return (
@@ -20,7 +20,7 @@ const ChartDotJs = forwardRef(function ChartDotJs(
   );
 });
 
-ChartDotJs.propTypes = {
+Chartdotjs.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +35,4 @@ ChartDotJs.propTypes = {
   title: PropTypes.string,
 };
 
-export default ChartDotJs;
+export default Chartdotjs;

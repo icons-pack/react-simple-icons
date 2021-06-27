@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Sentry = forwardRef(function Sentry({ color = 'currentColor', size = 24, title = 'Sentry', ...others }, ref) {
+const Sentry = forwardRef(function Sentry({ color = 'currentColor', size = 24, title = 'sentry', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

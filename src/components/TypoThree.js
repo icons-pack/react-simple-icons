@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const TypoThree = forwardRef(function TypoThree(
-  { color = 'currentColor', size = 24, title = 'TYPO3', ...others },
+  { color = 'currentColor', size = 24, title = 'typo3', ...others },
   ref
 ) {
   return (

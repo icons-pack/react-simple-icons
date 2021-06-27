@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Wappalyzer = forwardRef(function Wappalyzer(
-  { color = 'currentColor', size = 24, title = 'Wappalyzer', ...others },
+  { color = 'currentColor', size = 24, title = 'wappalyzer', ...others },
   ref
 ) {
   return (

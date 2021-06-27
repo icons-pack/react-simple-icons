@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Creativecommons = forwardRef(function Creativecommons(
-  { color = 'currentColor', size = 24, title = 'Creative Commons', ...others },
+  { color = 'currentColor', size = 24, title = 'creativecommons', ...others },
   ref
 ) {
   return (

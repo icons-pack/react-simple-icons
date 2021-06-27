@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Pug = forwardRef(function Pug({ color = 'currentColor', size = 24, title = 'Pug', ...others }, ref) {
+const Pug = forwardRef(function Pug({ color = 'currentColor', size = 24, title = 'pug', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

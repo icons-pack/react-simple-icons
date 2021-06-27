@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Cloudcannon = forwardRef(function Cloudcannon(
-  { color = 'currentColor', size = 24, title = 'CloudCannon', ...others },
+  { color = 'currentColor', size = 24, title = 'cloudcannon', ...others },
   ref
 ) {
   return (

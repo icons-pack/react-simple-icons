@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Sparkar = forwardRef(function Sparkar({ color = 'currentColor', size = 24, title = 'Spark AR', ...others }, ref) {
+const Sparkar = forwardRef(function Sparkar({ color = 'currentColor', size = 24, title = 'sparkar', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

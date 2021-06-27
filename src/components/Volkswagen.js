@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Volkswagen = forwardRef(function Volkswagen(
-  { color = 'currentColor', size = 24, title = 'Volkswagen', ...others },
+  { color = 'currentColor', size = 24, title = 'volkswagen', ...others },
   ref
 ) {
   return (

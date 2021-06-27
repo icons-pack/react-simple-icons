@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
 const Quantconnect = forwardRef(function Quantconnect(
-  { color = 'currentColor', size = 24, title = 'QuantConnect', ...others },
+  { color = 'currentColor', size = 24, title = 'quantconnect', ...others },
   ref
 ) {
   return (
