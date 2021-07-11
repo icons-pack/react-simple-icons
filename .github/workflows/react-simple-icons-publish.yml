@@ -4,6 +4,9 @@
 name: Release ReactSimpleIcons
 
 on:
+  push:
+    branches:
+      - main
   release:
     types: [created]
 
