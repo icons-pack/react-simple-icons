@@ -10,7 +10,7 @@ notifications:
     - jorgelca1205@gmail.com
 
 node_js:
-  - '10'
+  - '12'
 
 install:
   - yarn
