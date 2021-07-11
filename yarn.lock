@@ -7174,10 +7174,10 @@ signale@^1.2.1, signale@^1.4.0:
     figures "^2.0.0"
     pkg-conf "^2.1.0"
 
-simple-icons@^5.4.0:
-  version "5.4.0"
-  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-5.4.0.tgz#3876aff459767911114bbf69c7374955d4f401f9"
-  integrity sha512-pLsF9obibc9nbLdImaoZA7g7iHCO3JO9FaUSDgJEQnRxyOf4a1QnwwaQ8N+f0Mbk1hG4oZJJDY3Tmr10nCYFhg==
+simple-icons@^5.6.0:
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-5.6.0.tgz#8b04a588fbac3ad11e12dba4f2e4ff60ddc27846"
+  integrity sha512-MAcWUwedo41+oYqg4VM3kLaYHaQnoLoH921C0v9/P9EGTM8PhvAaVqsR6w5YOOLa7PPJejiZRr48UJCelIl9lw==
 
 slash@^2.0.0:
   version "2.0.0"
