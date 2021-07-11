@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.6.0](https://github.com/icons-pack/react-simple-icons/compare/v4.4.0...v4.6.0) (2021-07-11)
+
+
+### Features
+
+* **simple-icons:** updated package simple-icons@5.6.0 ([d9e0a93](https://github.com/icons-pack/react-simple-icons/commit/d9e0a93deecf1b7e0818c446dca6bce5deead4a9))
+* **simple-icons:** updated package simple-icons5.4.0 ([b92a967](https://github.com/icons-pack/react-simple-icons/commit/b92a967feeabed2873c73d7af774cded00fd4346))
+
+
+### Bug Fixes
+
+* **config:** fixed config .travis ([b4cbda4](https://github.com/icons-pack/react-simple-icons/commit/b4cbda4eb1c4a4d787bbdc5704a9ba500829828d))
+
 ### [4.5.1](https://github.com/icons-pack/react-simple-icons/compare/v4.5.0...v4.5.1) (2021-06-27)
 
 ## [4.5.0](https://github.com/icons-pack/react-simple-icons/compare/v4.3.0...v4.5.0) (2021-06-27)
