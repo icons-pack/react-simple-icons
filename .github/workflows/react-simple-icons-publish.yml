@@ -30,6 +30,7 @@ jobs:
           node-version: 14
           registry-url: https://registry.npmjs.org/
       - run: yarn install
+      - run: yarn generate:components
       - run: yarn build
       - run: npm publish --access public
         env:
