@@ -2,6 +2,7 @@
 import { FC, SVGAttributes } from 'react';
 
 interface Props extends SVGAttributes<SVGElement> {
+  ref?: SVGElement;
   color?: string;
   size?: string | number;
 }
