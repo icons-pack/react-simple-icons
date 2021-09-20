@@ -38,9 +38,7 @@
     "build:bundle": "yarn clean:build && rollup --config rollup.config.js",
     "build:lib": "yarn clean:lib && NODE_ENV=production babel src/ --out-dir ./lib --copy-files",
     "clean:build": "rimraf -rf build",
-    "clean:components": "rimraf -rf ./src/**",
     "clean:lib": "rimraf -rf lib",
-    "generate:components": "yarn clean:components && node scripts/generate-components",
     "lint": "yarn lint:eslint",
     "lint:eslint": "eslint --fix .",
     "prettier": "prettier --config .prettierrc \"./**/*.+(js|json)\" --write"
@@ -83,10 +81,8 @@
     "rollup": "^2.7.6",
     "rollup-plugin-babel": "^4.4.0",
     "semantic-release": "^17.4.4",
-    "signale": "^1.4.0",
     "simple-icons": "^5.6.0",
-    "standard-version": "^9.3.0",
-    "uppercamelcase": "^3.0.0"
+    "standard-version": "^9.3.0"
   },
   "peerDependencies": {
     "react": "^16.13 || ^17"
