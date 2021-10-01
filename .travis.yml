@@ -16,5 +16,4 @@ install:
   - yarn
 
 script:
-  - yarn generate:components
   - yarn build
