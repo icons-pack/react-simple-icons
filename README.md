@@ -31,7 +31,7 @@ Install the package in your project directory with:
 yarn add @icons-pack/react-simple-icons
 
 // with npm
-npm add @icons-pack/react-simple-icons
+npm install @icons-pack/react-simple-icons
 ```
 
 > TypeScript Support
