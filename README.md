@@ -41,11 +41,10 @@ npm install @icons-pack/react-simple-icons
 You can use [simpleicons.org](https://simpleicons.org) to find a specific icon. Then, you can import the icon from `simple-icons` and use it with the `Icon` component:
 
 ```jsx
-import siReact from 'simple-icons/icons/react';
-import Icon from '@icons-pack/react-simple-icons';
+import { ReactJs } from '@icons-pack/react-simple-icons';
 
 function BasicExample() {
-  return <Icon icon={siReact} color="#61DAFB" size={24} />;
+  return <ReactJs color="#61DAFB" size={24} />;
 }
 ```
 
@@ -60,24 +59,22 @@ function BasicExample() {
 > The `<title>` element provides an accessible, short-text description of any SVG container element or graphics element.
 
 ```jsx
-import siReact from 'simple-icons/icons/react';
-import Icon from '@icons-pack/react-simple-icons';
+import { ReactJs } from '@icons-pack/react-simple-icons';
 
 // title default "React"
 function ChangeTitle() {
-  return <Icon icon={siReact} title="My title" color="#61DAFB" size={24} />;
+  return <ReactJs title="My title" color="#61DAFB" size={24} />;
 }
 ```
 
 ## Custom styles
 
 ```jsx
-import siReact from 'simple-icons/icons/react';
-import Icon from '@icons-pack/react-simple-icons';
+import { ReactJs } from '@icons-pack/react-simple-icons';
 
 // title default "React"
 function CustomStyles() {
-  return <Icon icon={siReact} className="myStyle" />;
+  return <ReactJs className="myStyle" />;
 }
 ```
 
