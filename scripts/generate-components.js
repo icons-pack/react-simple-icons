@@ -2,7 +2,7 @@ const path = require('path');
 const fs = require('fs');
 const upperCamelCase = require('uppercamelcase');
 
-const SimpleIcons = require('simple-icons/index.js');
+const SimpleIcons = require('simple-icons');
 
 const { titleToFilename, outputFileFormat, signale } = require('./utils');
 
