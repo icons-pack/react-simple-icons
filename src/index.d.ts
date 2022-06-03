@@ -4,6 +4,7 @@ import { FC, SVGAttributes } from 'react';
 interface Props extends SVGAttributes<SVGElement> {
   color?: string;
   size?: string | number;
+  title?: string;
 }
 
 type Icon = FC<Props>;
