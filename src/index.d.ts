@@ -1,4 +1,3 @@
-
 import { FC, SVGAttributes } from 'react';
 
 interface Props extends SVGAttributes<SVGElement> {
@@ -7,7 +6,7 @@ interface Props extends SVGAttributes<SVGElement> {
   title?: string;
 }
 
-type Icon = FC<Props>;
+export type Icon = FC<Props>;
 
 export const FortyTwo: Icon;
 export const E: Icon;
