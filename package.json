@@ -32,7 +32,6 @@
     "build"
   ],
   "scripts": {
-    "release": "standard-version",
     "build": "yarn build:lib && yarn build:bundle",
     "build:bundle": "yarn clean:build && rollup --config rollup.config.js",
     "build:lib": "yarn clean:lib && NODE_ENV=production babel src/ --out-dir ./lib --copy-files",
@@ -42,7 +41,10 @@
     "generate:components": "yarn clean:components && node scripts/generate-components",
     "lint": "yarn lint:eslint",
     "lint:eslint": "eslint --fix .",
-    "prettier": "prettier --config .prettierrc \"./**/*.+(js|json)\" --write"
+    "prettier": "prettier --config .prettierrc \"./**/*.+(js|json)\" --write",
+    "changeset": "changeset",
+    "version": "changeset version",
+    "release": "changeset publish"
   },
   "lint-staged": {
     "*.js": [
@@ -53,6 +55,7 @@
     ]
   },
   "dependencies": {
+    "@changesets/changelog-github": "^0.4.4",
     "prop-types": "^15.7.2"
   },
   "devDependencies": {
@@ -63,6 +66,7 @@
     "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
+    "@changesets/cli": "^2.22.0",
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
     "babel-eslint": "^10.0.2",
@@ -81,10 +85,8 @@
     "rimraf": "^3.0.0",
     "rollup": "^2.7.6",
     "rollup-plugin-babel": "^4.4.0",
-    "semantic-release": "^17.4.4",
     "signale": "^1.4.0",
-    "simple-icons": "^6.21.0",
-    "standard-version": "^9.3.0",
+    "simple-icons": "^7.0.0",
     "uppercamelcase": "^3.0.0"
   },
   "peerDependencies": {

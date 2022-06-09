@@ -34,7 +34,12 @@ jobs:
       - name: 💣 build
         run: yarn build
 
-      - name: Publish package
-        run: npm publish --access public
+      - name: Create Release Pull Request or Publish to GitHub Packages 📦
+        uses: changesets/action@v1
+        with:
+          publish: pnpm release
+          commit: 'ci(Release): version icons-pack/react-simple-icons'
+          title: 'ci(Release): version icons-pack/react-simple-icons'
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}

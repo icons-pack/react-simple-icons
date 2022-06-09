@@ -1,10 +1,7 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
-const Transferwise = forwardRef(function Transferwise(
-  { color = 'currentColor', size = 24, title = 'transferwise', ...others },
-  ref
-) {
+const Mlflow = forwardRef(function Mlflow({ color = 'currentColor', size = 24, title = 'mlflow', ...others }, ref) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -15,12 +12,12 @@ const Transferwise = forwardRef(function Transferwise(
       ref={ref}
       {...others}>
       <title>{title}</title>
-      <path d="M9.871 24h3.11L23.127 0H3.694l3.748 6.291-6.571 6.283h11.361l1.068-2.517H7.03l3.792-3.783L8.61 2.516h10.337z" />
+      <path d="M11.883.002a12.044 12.044 0 0 0-9.326 19.463l3.668-2.694A7.573 7.573 0 0 1 12.043 4.45v2.867l6.908-5.14A12.012 12.012 0 0 0 11.883.002zm9.562 4.533L17.777 7.23a7.573 7.573 0 0 1-5.818 12.322v-2.867l-6.908 5.14a12.046 12.046 0 0 0 16.394-17.29z" />
     </svg>
   );
 });
 
-Transferwise.propTypes = {
+Mlflow.propTypes = {
   /**
    * Hex color or color name
    */
@@ -35,4 +32,4 @@ Transferwise.propTypes = {
   title: PropTypes.string,
 };
 
-export default Transferwise;
+export default Mlflow;
