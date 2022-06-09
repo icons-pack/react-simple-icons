@@ -1,0 +1,38 @@
+import React, { forwardRef } from 'react';
+import PropTypes from 'prop-types';
+
+const Weightsandbiases = forwardRef(function Weightsandbiases(
+  { color = 'currentColor', size = 24, title = 'weightsandbiases', ...others },
+  ref
+) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width={size}
+      height={size}
+      fill={color}
+      viewBox="0 0 24 24"
+      ref={ref}
+      {...others}>
+      <title>{title}</title>
+      <path d="M2.48 0a1.55 1.55 0 1 0 0 3.1 1.55 1.55 0 0 0 0-3.1zm19.04 0a1.55 1.55 0 1 0 0 3.101 1.55 1.55 0 0 0 0-3.101zM12 2.295a1.55 1.55 0 1 0 0 3.1 1.55 1.55 0 0 0 0-3.1zM2.48 5.272a2.48 2.48 0 1 0 0 4.96 2.48 2.48 0 0 0 0-4.96zm19.04 0a2.48 2.48 0 1 0 0 4.96 2.48 2.48 0 0 0 0-4.96zM12 8.496a1.55 1.55 0 1 0 0 3.1 1.55 1.55 0 0 0 0-3.1zm-9.52 3.907a1.55 1.55 0 1 0 0 3.1 1.55 1.55 0 0 0 0-3.1zm19.04 0a1.55 1.55 0 1 0 0 3.102 1.55 1.55 0 0 0 0-3.102zM12 13.767a2.48 2.48 0 1 0 0 4.962 2.48 2.48 0 0 0 0-4.962zm-9.52 3.907a2.48 2.48 0 1 0 .001 4.962 2.48 2.48 0 0 0 0-4.962zm19.04.93a1.55 1.55 0 1 0 0 3.102 1.55 1.55 0 0 0 0-3.101zM12 20.9a1.55 1.55 0 1 0 0 3.1 1.55 1.55 0 0 0 0-3.1Z" />
+    </svg>
+  );
+});
+
+Weightsandbiases.propTypes = {
+  /**
+   * Hex color or color name
+   */
+  color: PropTypes.string,
+  /**
+   * The size of the Icon.
+   */
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  /**
+   * The title provides an accessible short text description to the SVG
+   */
+  title: PropTypes.string,
+};
+
+export default Weightsandbiases;
