@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.7.2
+
+### Patch Changes
+
+- [`70eae3e`](https://github.com/icons-pack/react-simple-icons/commit/70eae3e64b1cbbbdb3132ecc49c142056191cb10) Thanks [@wootsbot](https://github.com/wootsbot)! - Move commit
+
 ## 4.7.1
 
 ### Patch Changes
