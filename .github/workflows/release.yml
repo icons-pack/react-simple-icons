@@ -37,7 +37,7 @@ jobs:
       - name: Create Release Pull Request or Publish to GitHub Packages 📦
         uses: changesets/action@v1
         with:
-          publish: pnpm release
+          publish: yarn release
           commit: 'ci(Release): version icons-pack/react-simple-icons'
           title: 'ci(Release): version icons-pack/react-simple-icons'
         env:
