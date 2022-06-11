@@ -11,8 +11,7 @@ const rootDir = path.join(__dirname, '..');
 const dir = path.join(rootDir, 'src/');
 const outputComponent = 'src/components';
 
-const pathIndexExport = path.join(rootDir, 'src', 'index.js');
-const pathIndexExportTypeScript = path.join(rootDir, 'src', 'index.d.ts');
+const pathIndexExport = path.join(rootDir, 'src', 'index.ts');
 
 const ICONS = Object.keys(SimpleIcons);
 
@@ -24,20 +23,7 @@ if (!fs.existsSync(outputComponent)) {
   fs.mkdirSync(outputComponent);
 }
 
-const initialTypeDefinitions = `
-import { FC, SVGAttributes } from 'react';
-
-interface Props extends SVGAttributes<SVGElement> {
-  color?: string;
-  size?: string | number;
-}
-
-type Icon = FC<Props>;
-
-`;
-
 fs.writeFileSync(pathIndexExport, '', formatFile);
-fs.writeFileSync(pathIndexExportTypeScript, initialTypeDefinitions, formatFile);
 
 const attrsToString = attrs => {
   return Object.keys(attrs)
@@ -57,7 +43,7 @@ ICONS.forEach(icon => {
   const baseName = String(icon);
   const componentName = (baseName === 'React' || baseName === 'react') ? 'ReactJs' : upperCamelCase(titleToFilename(baseName));
 
-  const locationOutputComponent = path.join(rootDir, `${outputComponent}/`, `${componentName}.js`);
+  const locationOutputComponent = path.join(rootDir, `${outputComponent}/`, `${componentName}.tsx`);
 
   const defaultAttrs = {
     xmlns: 'http://www.w3.org/2000/svg',
@@ -70,10 +56,24 @@ ICONS.forEach(icon => {
   };
 
   const element = `
-    import React, {forwardRef} from 'react';
-    import PropTypes from 'prop-types';
+    import * as React from 'react';
 
-    const ${componentName} = forwardRef(function ${componentName}({color = 'currentColor', size = 24, title = "${baseName}", ...others}, ref) {
+    export type ${componentName}Props = {
+      /**
+       * Hex color or color name
+       */
+      title?: string;
+      /**
+       * The size of the Icon.
+       */
+      color?: string;
+      /**
+       * The title provides an accessible short text description to the SVG
+       */
+      size?: string | number;
+    };
+
+    const ${componentName} = React.forwardRef<SVGSVGElement, ${componentName}Props>(function ${componentName}({color = 'currentColor', size = 24, title = "${baseName}", ...others}, ref) {
 
       return (
         <svg ${attrsToString(defaultAttrs)}>
@@ -83,41 +83,22 @@ ICONS.forEach(icon => {
       );
     });
 
-    ${componentName}.propTypes = {
-      /**
-      * Hex color or color name
-      */
-      color: PropTypes.string,
-      /**
-      * The size of the Icon.
-      */
-      size: PropTypes.oneOfType([
-        PropTypes.string,
-        PropTypes.number
-      ]),
-      /**
-       * The title provides an accessible short text description to the SVG
-       */
-      title: PropTypes.string,
-    }
-
     export default ${componentName}
   `;
 
-  const component = outputFileFormat(element);
+   const component = element;
+  //const component = outputFileFormat(element);
 
   fs.writeFileSync(locationOutputComponent, component, formatFile);
 
   signale.success(`${componentName}`);
 
-  const exportComponent = outputFileFormat(
-    `export { default as ${componentName} } from './components/${componentName}';\r\n`
-  );
-  const exportComponentTypeScript = `export const ${componentName}: Icon;\n`;
+  const exportComponent =  `export { default as ${componentName} } from './components/${componentName}';\r\n`
+  // const exportComponent = outputFileFormat(
+  //   `export { default as ${componentName} } from './components/${componentName}';\r\n`
+  // );
 
   fs.appendFileSync(pathIndexExport, exportComponent, formatFile);
-
-  fs.appendFileSync(pathIndexExportTypeScript, exportComponentTypeScript, formatFile);
 });
 
 signale.complete({ prefix: '[Components]', message: 'Ready components', suffix: '(@wootsbot)' });

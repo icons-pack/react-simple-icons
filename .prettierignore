@@ -8,3 +8,5 @@ scripts
 # Cruft
 .DS_Store
 npm-debug.log
+rollup.config.js
+rollup.esm.config.js

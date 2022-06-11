@@ -74,16 +74,17 @@ module.exports = {
     format({
       text: element,
       eslintConfig: {
-        extends: ['plugin:prettier/recommended', 'eslint:recommended', 'plugin:react/recommended'],
+        extends: ['plugin:prettier/recommended', '@typescript-eslint/eslint-plugin'],
       },
       prettierOptions: {
-        arrowParens: 'avoid',
-        singleQuote: true,
-        jsxBracketSameLine: true,
-        trailingComma: 'es5',
+        bracketSpacing: true,
+        jsxSingleQuote: true,
         printWidth: 120,
+        proseWrap: "always",
         semi: true,
-        endOfLine: 'lf',
+        singleQuote: true,
+        tabWidth: 2,
+        trailingComma: "all"
       },
     }),
 };

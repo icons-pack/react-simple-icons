@@ -1,16 +1,42 @@
-import babel from 'rollup-plugin-babel';
+import { createRollupConfig } from './scripts/createRollupConfig';
 
-export default {
-  input: 'src/index.js',
-  output: {
-    name: 'reactSimpleIcons',
-    file: 'build/index.js',
+import pkg from './package.json';
+
+const name = 'index';
+const scopeName = 'ReactSimpleIcons';
+
+const options = [
+  {
+    scopeName,
+    name,
     format: 'cjs',
+    input: pkg.source,
+    external: [],
+    output: {
+      globals: { react: 'React' },
+    },
   },
-  external: ['react', 'prop-types'],
-  plugins: [
-    babel({
-      exclude: 'node_modules/**',
-    }),
-  ],
-};
+  {
+    name,
+    format: 'esm',
+    input: pkg.source,
+    external: [],
+    output: {
+      globals: { react: 'React' },
+    },
+  },
+  {
+    scopeName,
+    name,
+    format: 'umd',
+    input: pkg.source,
+    external: [],
+    output: {
+      globals: {
+        react: 'React',
+      },
+    },
+  },
+];
+
+export default options.map(option => createRollupConfig(option));

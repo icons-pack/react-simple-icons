@@ -1,48 +1,42 @@
 {
-  "parser": "babel-eslint",
-  "extends": ["plugin:prettier/recommended", "eslint:recommended", "plugin:react/recommended"],
-  "settings": {
-    "react": {
-      "pragma": "React",
-      "version": "*"
-    }
-  },
-  "env": {
-    "browser": true,
-    "node": true,
-    "es6": true
-  },
-  "plugins": ["prettier", "react"],
+  "root": true,
+  "plugins": ["@typescript-eslint/eslint-plugin"],
   "parserOptions": {
-    "ecmaVersion": 6,
+    "ecmaVersion": 2020,
     "sourceType": "module",
     "ecmaFeatures": {
       "jsx": true
     }
   },
   "rules": {
+    "curly": "error",
+    "no-unexpected-multiline": "error",
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "@typescript-eslint/no-empty-function": "off",
+    "@typescript-eslint/ban-ts-comment": "warn",
+    "@typescript-eslint/ban-types": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-object-literal-type-assertion": "off",
+    "no-console": ["error"],
     "prettier/prettier": [
       "error",
       {
-        "singleQuote": true,
-        "trailingComma": "es5",
-        "jsxBracketSameLine": true,
+        "bracketSpacing": true,
+        "jsxSingleQuote": true,
+        "printWidth": 120,
+        "proseWrap": "always",
         "semi": true,
-        "parser": "flow",
-        "endOfLine": "lf",
-        "printWidth": 120
+        "singleQuote": true,
+        "tabWidth": 2,
+        "trailingComma": "all"
       }
-    ],
-    "no-unused-vars": [
-      2,
-      {
-        "vars": "all",
-        "args": "after-used"
-      }
-    ],
-    "no-console": 1,
-    "no-unexpected-multiline": "error",
-    "react/destructuring-assignment": ["error", "always"],
-    "react/jsx-first-prop-new-line": [2, "multiline"]
+    ]
+  },
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "detect"
+    }
   }
 }
