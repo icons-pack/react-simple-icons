@@ -1,5 +1,12 @@
 # Changelog
 
+## 5.1.0
+
+### Minor Changes
+
+- [`c9f4a0d`](https://github.com/icons-pack/react-simple-icons/commit/c9f4a0d4e8da8feb3c4b69880c5bda89df76bb8b) Thanks
+  [@wootsbot](https://github.com/wootsbot)! - Update packages simple-icons
+
 ## 5.0.0
 
 ### Major Changes
