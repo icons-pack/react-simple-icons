@@ -36,7 +36,6 @@
     "dist"
   ],
   "scripts": {
-    "postinstall": "husky install",
     "clean": "rimraf dist",
     "build": "yarn clean && yarn build:modern",
     "build:modern": "rollup -c ./rollup.config.js",
