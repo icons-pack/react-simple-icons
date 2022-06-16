@@ -3,7 +3,8 @@
 
 # react-simple-icons
 
-This package provides the [Simple Icons 7.0.0](https://github.com/simple-icons/simple-icons/releases/tag/7.0.0) packaged as a set of [React](https://facebook.github.io/react/) components.
+This package provides the [Simple Icons 7.1.0](https://github.com/simple-icons/simple-icons/releases/tag/7.1.0) packaged
+as a set of [React](https://facebook.github.io/react/) components.
 
   <a href="https://www.npmjs.com/package/@icons-pack/react-simple-icons" target="_blank">
     <img src="https://img.shields.io/npm/v/@icons-pack/react-simple-icons?color=CB061D&style=flat-square" alt="www.npmjs.com!" />
@@ -32,17 +33,22 @@ yarn add @icons-pack/react-simple-icons
 
 // with npm
 npm add @icons-pack/react-simple-icons
+
+// with pnpm
+pnpm add @icons-pack/react-simple-icons
 ```
 
 > TypeScript Support
 
 ## Usage
 
-You can use [simpleicons.org](https://simpleicons.org) to find a specific icon.
-When importing an icon, keep in mind that the names of the icons are [upperCamelCase](https://github.com/samverschueren/uppercamelcase) , for instance:
+You can use [simpleicons.org](https://simpleicons.org) to find a specific icon. When importing an icon, keep in mind
+that the names of the icons are [upperCamelCase](https://github.com/samverschueren/uppercamelcase) , for instance:
 
-- [`Material Design`](https://simpleicons.org/?q=material) is exposed as `{ Materialdesign } from @icons-pack/react-simple-icons`
-- [`azure devOps`](https://simpleicons.org/?q=azure%20devOps) is exposed as `{ Azuredevops } from @icons-pack/react-simple-icons`
+- [`Material Design`](https://simpleicons.org/?q=material) is exposed as
+  `{ Materialdesign } from @icons-pack/react-simple-icons`
+- [`azure devOps`](https://simpleicons.org/?q=azure%20devOps) is exposed as
+  `{ Azuredevops } from @icons-pack/react-simple-icons`
 
 These are some exceptions to this rule:
 
@@ -51,9 +57,11 @@ These are some exceptions to this rule:
 - [`.Net`](https://simpleicons.org/?q=.net) is exposed as `{ DotNet } from @icons-pack/react-simple-icons`
 - [`D3.js`](https://simpleicons.org/?q=d3) is exposed as `{ D3DotJs } from @icons-pack/react-simple-icons`
 - [`dev.to`](https://simpleicons.org/?q=dev.to) is exposed as `{ DevDotTo } from @icons-pack/react-simple-icons`
-- [`webcomponents.org`](https://simpleicons.org/?q=webcomponents.org) is exposed as `{ WebcomponentsDotOrg } from @icons-pack/react-simple-icons`
+- [`webcomponents.org`](https://simpleicons.org/?q=webcomponents.org) is exposed as
+  `{ WebcomponentsDotOrg } from @icons-pack/react-simple-icons`
 - [`X.Org`](https://simpleicons.org/?q=x.Org) is exposed as `{ XDotOrg } from @icons-pack/react-simple-icons`
-- [`FerrarinDotVDot`](https://simpleicons.org/?q=Ferrari%20N.V) is exposed as `{ FerrarinDotVDot } from @icons-pack/react-simple-icons`
+- [`FerrarinDotVDot`](https://simpleicons.org/?q=Ferrari%20N.V) is exposed as
+  `{ FerrarinDotVDot } from @icons-pack/react-simple-icons`
 
 ## Demo
 
@@ -65,7 +73,7 @@ These are some exceptions to this rule:
 import { ReactJs } from '@icons-pack/react-simple-icons';
 
 function BasicExample() {
-  return <ReactJs color="#61DAFB" size={24} />;
+  return <ReactJs color='#61DAFB' size={24} />;
 }
 ```
 
@@ -80,7 +88,7 @@ import { ReactJs } from '@icons-pack/react-simple-icons';
 
 // title default "React"
 function ChangeTitle() {
-  return <ReactJs title="My title" color="#61DAFB" size={24} />;
+  return <ReactJs title='My title' color='#61DAFB' size={24} />;
 }
 ```
 
@@ -91,7 +99,7 @@ import { ReactJs } from '@icons-pack/react-simple-icons';
 
 // title default "React"
 function CustomStyles() {
-  return <ReactJs className="myStyle" />;
+  return <ReactJs className='myStyle' />;
 }
 ```
 

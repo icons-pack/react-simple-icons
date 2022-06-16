@@ -17,17 +17,16 @@ jobs:
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
-          cache: 'yarn'
 
-      - name: 🧶 Setup yarn
-        run: corepack enable
+      - name: 🔥 install pnpm
+        run: npm i pnpm@7.2.1 -g --force
 
       - name: 📦 Install Dependencies
         run: |
-          yarn install --immutable
+          pnpm i
 
       - name: 🔥 generate:components
-        run: yarn generate:components
+        run: pnpm generate:components
 
       - name: 💣 build
-        run: yarn build
+        run: pnpm build

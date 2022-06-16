@@ -36,6 +36,7 @@
     "dist"
   ],
   "scripts": {
+    "postinstall": "husky install",
     "clean": "rimraf dist",
     "build": "yarn clean && yarn build:modern",
     "build:modern": "rollup -c ./rollup.config.js",
@@ -59,12 +60,10 @@
       "prettier --write"
     ]
   },
-  "dependencies": {
-    "@changesets/changelog-github": "^0.4.4"
-  },
   "devDependencies": {
     "@babel/core": "^7.18.2",
     "@babel/preset-typescript": "^7.17.12",
+    "@changesets/changelog-github": "^0.4.5",
     "@changesets/cli": "^2.22.0",
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
@@ -86,6 +85,7 @@
     "lint-staged": "^11.0.0",
     "prettier": "^1.18.2",
     "prettier-eslint": "^9.0.0",
+    "react": "^18.2.0",
     "rimraf": "^3.0.2",
     "rollup": "2.75.3",
     "rollup-plugin-babel": "^4.4.0",
@@ -94,7 +94,7 @@
     "rollup-plugin-terser": "7.0.2",
     "rollup-plugin-typescript2": "0.31.2",
     "signale": "^1.4.0",
-    "simple-icons": "^7.0.0",
+    "simple-icons": "^7.1.0",
     "typescript": "^4.7.3",
     "uppercamelcase": "^3.0.0"
   },
@@ -103,6 +103,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "packageManager": "yarn@3.2.0"
+  }
 }
