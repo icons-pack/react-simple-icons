@@ -6,7 +6,7 @@ name: Check pull request
 on:
   pull_request:
     branches:
-      - 'main'
+      - main
 
 jobs:
   check_pull_request:
