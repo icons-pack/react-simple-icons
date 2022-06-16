@@ -1,5 +1,12 @@
 # Changelog
 
+## 5.1.1
+
+### Patch Changes
+
+- [`9122c9c`](https://github.com/icons-pack/react-simple-icons/commit/9122c9c4e8fbc45db5db51019756a094a8d8eb33) Thanks
+  [@wootsbot](https://github.com/wootsbot)! - Version 5.1 Husky error
+
 ## 5.1.0
 
 ### Minor Changes
