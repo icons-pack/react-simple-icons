@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ChaseProps = {
+export type ChaseProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

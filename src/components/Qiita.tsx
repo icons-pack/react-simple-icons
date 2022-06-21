@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type QiitaProps = {
+export type QiitaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ReplitProps = {
+export type ReplitProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

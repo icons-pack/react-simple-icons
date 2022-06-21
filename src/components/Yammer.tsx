@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type YammerProps = {
+export type YammerProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

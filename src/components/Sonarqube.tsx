@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SonarqubeProps = {
+export type SonarqubeProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

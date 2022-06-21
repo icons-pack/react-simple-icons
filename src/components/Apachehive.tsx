@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ApachehiveProps = {
+export type ApachehiveProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

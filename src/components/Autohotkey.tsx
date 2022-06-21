@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AutohotkeyProps = {
+export type AutohotkeyProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

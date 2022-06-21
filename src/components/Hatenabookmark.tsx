@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type HatenabookmarkProps = {
+export type HatenabookmarkProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

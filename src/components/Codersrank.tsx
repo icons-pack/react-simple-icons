@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CodersrankProps = {
+export type CodersrankProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

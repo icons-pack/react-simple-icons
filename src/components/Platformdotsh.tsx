@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PlatformdotshProps = {
+export type PlatformdotshProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

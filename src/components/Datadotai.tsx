@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type DatadotaiProps = {
+export type DatadotaiProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

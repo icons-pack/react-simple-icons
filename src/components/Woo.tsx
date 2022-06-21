@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type WooProps = {
+export type WooProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

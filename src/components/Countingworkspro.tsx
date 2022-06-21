@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CountingworksproProps = {
+export type CountingworksproProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ZigbeeProps = {
+export type ZigbeeProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

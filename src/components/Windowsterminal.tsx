@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type WindowsterminalProps = {
+export type WindowsterminalProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

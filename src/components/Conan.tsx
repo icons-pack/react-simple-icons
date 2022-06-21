@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ConanProps = {
+export type ConanProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

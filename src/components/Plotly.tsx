@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PlotlyProps = {
+export type PlotlyProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

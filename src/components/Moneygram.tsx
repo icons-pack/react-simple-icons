@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MoneygramProps = {
+export type MoneygramProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

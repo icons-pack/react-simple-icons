@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TrinoProps = {
+export type TrinoProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

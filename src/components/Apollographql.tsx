@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ApollographqlProps = {
+export type ApollographqlProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

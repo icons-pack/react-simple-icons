@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TescoProps = {
+export type TescoProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

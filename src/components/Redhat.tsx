@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type RedhatProps = {
+export type RedhatProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

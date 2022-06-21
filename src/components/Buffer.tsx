@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BufferProps = {
+export type BufferProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

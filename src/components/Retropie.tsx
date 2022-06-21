@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type RetropieProps = {
+export type RetropieProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ZapierProps = {
+export type ZapierProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

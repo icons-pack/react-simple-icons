@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CeleryProps = {
+export type CeleryProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

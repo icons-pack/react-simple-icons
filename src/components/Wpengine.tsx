@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type WpengineProps = {
+export type WpengineProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

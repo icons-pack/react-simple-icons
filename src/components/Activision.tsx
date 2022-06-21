@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ActivisionProps = {
+export type ActivisionProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

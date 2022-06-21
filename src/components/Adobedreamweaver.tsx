@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AdobedreamweaverProps = {
+export type AdobedreamweaverProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

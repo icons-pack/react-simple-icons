@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ReduxsagaProps = {
+export type ReduxsagaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

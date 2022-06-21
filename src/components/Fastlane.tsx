@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FastlaneProps = {
+export type FastlaneProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

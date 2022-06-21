@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AdobelightroomclassicProps = {
+export type AdobelightroomclassicProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

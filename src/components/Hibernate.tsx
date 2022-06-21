@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type HibernateProps = {
+export type HibernateProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

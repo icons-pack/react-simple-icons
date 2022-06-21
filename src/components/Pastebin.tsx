@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PastebinProps = {
+export type PastebinProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AutoprefixerProps = {
+export type AutoprefixerProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

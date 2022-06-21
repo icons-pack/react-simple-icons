@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CheckioProps = {
+export type CheckioProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CoopProps = {
+export type CoopProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

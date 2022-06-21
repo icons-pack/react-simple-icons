@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PhotopeaProps = {
+export type PhotopeaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PodcastaddictProps = {
+export type PodcastaddictProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

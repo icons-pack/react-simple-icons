@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FordProps = {
+export type FordProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

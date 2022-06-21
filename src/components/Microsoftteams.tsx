@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MicrosoftteamsProps = {
+export type MicrosoftteamsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

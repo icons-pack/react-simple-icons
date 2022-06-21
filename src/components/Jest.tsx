@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type JestProps = {
+export type JestProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

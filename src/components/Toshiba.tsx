@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ToshibaProps = {
+export type ToshibaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

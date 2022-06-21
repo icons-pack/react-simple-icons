@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MinecraftProps = {
+export type MinecraftProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

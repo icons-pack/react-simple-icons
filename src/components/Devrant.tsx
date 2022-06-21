@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type DevrantProps = {
+export type DevrantProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

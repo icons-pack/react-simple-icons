@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GeniusProps = {
+export type GeniusProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

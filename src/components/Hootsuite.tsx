@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type HootsuiteProps = {
+export type HootsuiteProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

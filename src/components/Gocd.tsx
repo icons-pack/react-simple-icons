@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GocdProps = {
+export type GocdProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type VelogProps = {
+export type VelogProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

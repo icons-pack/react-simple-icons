@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type NintendoThreeDsProps = {
+export type NintendoThreeDsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

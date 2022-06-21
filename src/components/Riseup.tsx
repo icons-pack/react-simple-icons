@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type RiseupProps = {
+export type RiseupProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type UptoboxProps = {
+export type UptoboxProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type HashnodeProps = {
+export type HashnodeProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

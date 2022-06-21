@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type IataProps = {
+export type IataProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

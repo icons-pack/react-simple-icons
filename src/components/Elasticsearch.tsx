@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ElasticsearchProps = {
+export type ElasticsearchProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

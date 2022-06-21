@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TutanotaProps = {
+export type TutanotaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

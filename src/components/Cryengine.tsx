@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CryengineProps = {
+export type CryengineProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

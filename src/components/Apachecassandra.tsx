@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ApachecassandraProps = {
+export type ApachecassandraProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

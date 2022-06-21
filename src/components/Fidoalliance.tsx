@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FidoallianceProps = {
+export type FidoallianceProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

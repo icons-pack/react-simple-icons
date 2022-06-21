@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type KuaishouProps = {
+export type KuaishouProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

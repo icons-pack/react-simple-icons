@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type EnvatoProps = {
+export type EnvatoProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

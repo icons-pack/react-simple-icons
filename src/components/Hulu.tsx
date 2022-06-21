@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type HuluProps = {
+export type HuluProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

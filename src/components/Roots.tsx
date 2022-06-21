@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type RootsProps = {
+export type RootsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

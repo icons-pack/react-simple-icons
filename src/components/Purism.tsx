@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PurismProps = {
+export type PurismProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

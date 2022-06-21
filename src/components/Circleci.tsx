@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CircleciProps = {
+export type CircleciProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

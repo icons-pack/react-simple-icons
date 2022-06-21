@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type RemixProps = {
+export type RemixProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

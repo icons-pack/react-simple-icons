@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ScrutinizerciProps = {
+export type ScrutinizerciProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GnuicecatProps = {
+export type GnuicecatProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type NorcoProps = {
+export type NorcoProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

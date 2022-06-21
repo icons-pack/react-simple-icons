@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type HypothesisProps = {
+export type HypothesisProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

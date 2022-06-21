@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type DynamicsThreeHundredSixtyFiveProps = {
+export type DynamicsThreeHundredSixtyFiveProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

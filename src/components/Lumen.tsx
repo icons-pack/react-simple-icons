@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type LumenProps = {
+export type LumenProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

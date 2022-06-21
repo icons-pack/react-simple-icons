@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type RustProps = {
+export type RustProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

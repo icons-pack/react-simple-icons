@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type LydiaProps = {
+export type LydiaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

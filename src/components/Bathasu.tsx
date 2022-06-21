@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BathasuProps = {
+export type BathasuProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

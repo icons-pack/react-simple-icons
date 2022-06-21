@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TokyometroProps = {
+export type TokyometroProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

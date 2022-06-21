@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MatomoProps = {
+export type MatomoProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

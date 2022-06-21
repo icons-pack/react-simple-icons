@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type JellyfinProps = {
+export type JellyfinProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

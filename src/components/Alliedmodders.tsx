@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AlliedmoddersProps = {
+export type AlliedmoddersProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

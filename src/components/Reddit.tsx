@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type RedditProps = {
+export type RedditProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

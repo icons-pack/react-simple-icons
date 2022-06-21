@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type KashflowProps = {
+export type KashflowProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

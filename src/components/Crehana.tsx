@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CrehanaProps = {
+export type CrehanaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

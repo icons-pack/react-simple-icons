@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type OpenstreetmapProps = {
+export type OpenstreetmapProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

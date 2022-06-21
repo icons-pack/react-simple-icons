@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type EdotleclercProps = {
+export type EdotleclercProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

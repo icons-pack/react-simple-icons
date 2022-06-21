@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TreyarchProps = {
+export type TreyarchProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

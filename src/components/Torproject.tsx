@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TorprojectProps = {
+export type TorprojectProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

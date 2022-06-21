@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GravProps = {
+export type GravProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

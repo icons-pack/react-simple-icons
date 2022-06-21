@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type OctopusdeployProps = {
+export type OctopusdeployProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

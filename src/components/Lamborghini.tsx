@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type LamborghiniProps = {
+export type LamborghiniProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

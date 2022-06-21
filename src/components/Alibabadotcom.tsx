@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AlibabadotcomProps = {
+export type AlibabadotcomProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

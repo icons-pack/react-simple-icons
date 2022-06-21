@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SafariProps = {
+export type SafariProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

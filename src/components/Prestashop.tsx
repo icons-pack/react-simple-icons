@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PrestashopProps = {
+export type PrestashopProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

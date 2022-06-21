@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type JitsiProps = {
+export type JitsiProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

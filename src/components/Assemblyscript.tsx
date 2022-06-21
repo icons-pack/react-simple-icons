@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AssemblyscriptProps = {
+export type AssemblyscriptProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

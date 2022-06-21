@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type IntigritiProps = {
+export type IntigritiProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

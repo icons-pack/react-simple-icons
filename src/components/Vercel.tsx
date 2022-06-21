@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type VercelProps = {
+export type VercelProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

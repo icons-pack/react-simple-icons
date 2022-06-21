@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type XamarinProps = {
+export type XamarinProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

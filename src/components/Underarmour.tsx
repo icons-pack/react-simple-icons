@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type UnderarmourProps = {
+export type UnderarmourProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

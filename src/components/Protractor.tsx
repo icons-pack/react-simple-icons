@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ProtractorProps = {
+export type ProtractorProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FuraffinityProps = {
+export type FuraffinityProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

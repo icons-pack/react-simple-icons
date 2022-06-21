@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FiteProps = {
+export type FiteProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

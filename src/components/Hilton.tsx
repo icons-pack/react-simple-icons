@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type HiltonProps = {
+export type HiltonProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

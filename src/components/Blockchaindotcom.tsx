@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BlockchaindotcomProps = {
+export type BlockchaindotcomProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

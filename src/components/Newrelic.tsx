@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type NewrelicProps = {
+export type NewrelicProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

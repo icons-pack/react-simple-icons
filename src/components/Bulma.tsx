@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BulmaProps = {
+export type BulmaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

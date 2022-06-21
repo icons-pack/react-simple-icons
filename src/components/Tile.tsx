@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TileProps = {
+export type TileProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

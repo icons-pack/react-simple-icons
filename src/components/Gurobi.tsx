@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GurobiProps = {
+export type GurobiProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GiphyProps = {
+export type GiphyProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

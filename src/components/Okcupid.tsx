@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type OkcupidProps = {
+export type OkcupidProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

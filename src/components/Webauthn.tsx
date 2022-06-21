@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type WebauthnProps = {
+export type WebauthnProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

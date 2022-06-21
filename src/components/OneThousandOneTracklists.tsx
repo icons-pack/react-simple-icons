@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type OneThousandOneTracklistsProps = {
+export type OneThousandOneTracklistsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

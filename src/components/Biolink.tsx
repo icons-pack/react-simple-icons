@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BiolinkProps = {
+export type BiolinkProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

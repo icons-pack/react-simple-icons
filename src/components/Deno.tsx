@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type DenoProps = {
+export type DenoProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AquaProps = {
+export type AquaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

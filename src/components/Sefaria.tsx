@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SefariaProps = {
+export type SefariaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TraefikmeshProps = {
+export type TraefikmeshProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

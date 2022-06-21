@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PostgresqlProps = {
+export type PostgresqlProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

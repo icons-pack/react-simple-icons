@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type DynatraceProps = {
+export type DynatraceProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

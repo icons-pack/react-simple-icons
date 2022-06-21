@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TemporalProps = {
+export type TemporalProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

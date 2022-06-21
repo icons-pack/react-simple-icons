@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TruliaProps = {
+export type TruliaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

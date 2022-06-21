@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type RedmineProps = {
+export type RedmineProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

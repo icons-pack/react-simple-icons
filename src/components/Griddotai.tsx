@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GriddotaiProps = {
+export type GriddotaiProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

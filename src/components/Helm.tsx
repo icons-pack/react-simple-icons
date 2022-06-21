@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type HelmProps = {
+export type HelmProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

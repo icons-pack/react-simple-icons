@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MarkoProps = {
+export type MarkoProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

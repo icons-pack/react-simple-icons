@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GlitchProps = {
+export type GlitchProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

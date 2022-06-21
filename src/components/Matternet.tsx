@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MatternetProps = {
+export type MatternetProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

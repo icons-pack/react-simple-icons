@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CartoProps = {
+export type CartoProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

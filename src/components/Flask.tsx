@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FlaskProps = {
+export type FlaskProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

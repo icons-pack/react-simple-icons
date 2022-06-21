@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PlayerfmProps = {
+export type PlayerfmProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

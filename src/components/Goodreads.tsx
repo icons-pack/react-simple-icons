@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GoodreadsProps = {
+export type GoodreadsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

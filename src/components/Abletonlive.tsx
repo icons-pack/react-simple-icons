@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AbletonliveProps = {
+export type AbletonliveProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

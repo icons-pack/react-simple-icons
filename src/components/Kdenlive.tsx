@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type KdenliveProps = {
+export type KdenliveProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

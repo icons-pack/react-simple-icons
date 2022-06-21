@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FoxtelProps = {
+export type FoxtelProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

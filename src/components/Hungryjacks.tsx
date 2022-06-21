@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type HungryjacksProps = {
+export type HungryjacksProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

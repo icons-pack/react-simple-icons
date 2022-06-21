@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ZerodhaProps = {
+export type ZerodhaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

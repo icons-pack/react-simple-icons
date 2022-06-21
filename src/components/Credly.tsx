@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CredlyProps = {
+export type CredlyProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

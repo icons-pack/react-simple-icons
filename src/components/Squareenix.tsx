@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SquareenixProps = {
+export type SquareenixProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

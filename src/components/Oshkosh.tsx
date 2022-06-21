@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type OshkoshProps = {
+export type OshkoshProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

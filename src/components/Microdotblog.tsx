@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MicrodotblogProps = {
+export type MicrodotblogProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

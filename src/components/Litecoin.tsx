@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type LitecoinProps = {
+export type LitecoinProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

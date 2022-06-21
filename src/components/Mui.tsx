@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MuiProps = {
+export type MuiProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AlfaromeoProps = {
+export type AlfaromeoProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

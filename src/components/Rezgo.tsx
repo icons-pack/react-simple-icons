@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type RezgoProps = {
+export type RezgoProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

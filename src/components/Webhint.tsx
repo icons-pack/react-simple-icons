@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type WebhintProps = {
+export type WebhintProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

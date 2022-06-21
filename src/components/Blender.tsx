@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BlenderProps = {
+export type BlenderProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

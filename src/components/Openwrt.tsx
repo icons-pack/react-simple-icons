@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type OpenwrtProps = {
+export type OpenwrtProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

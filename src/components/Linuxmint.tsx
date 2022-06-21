@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type LinuxmintProps = {
+export type LinuxmintProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

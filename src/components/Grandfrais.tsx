@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GrandfraisProps = {
+export type GrandfraisProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

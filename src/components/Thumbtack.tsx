@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ThumbtackProps = {
+export type ThumbtackProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

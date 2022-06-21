@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AffinityProps = {
+export type AffinityProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

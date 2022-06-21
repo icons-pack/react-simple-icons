@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type EtsyProps = {
+export type EtsyProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

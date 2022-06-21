@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MulesoftProps = {
+export type MulesoftProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

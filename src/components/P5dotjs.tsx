@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type P5dotjsProps = {
+export type P5dotjsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

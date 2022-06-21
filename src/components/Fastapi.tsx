@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FastapiProps = {
+export type FastapiProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

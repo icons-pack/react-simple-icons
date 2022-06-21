@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SumologicProps = {
+export type SumologicProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type OnePasswordProps = {
+export type OnePasswordProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

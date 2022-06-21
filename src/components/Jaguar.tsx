@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type JaguarProps = {
+export type JaguarProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

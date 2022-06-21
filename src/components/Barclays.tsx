@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BarclaysProps = {
+export type BarclaysProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

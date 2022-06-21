@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SymphonyProps = {
+export type SymphonyProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

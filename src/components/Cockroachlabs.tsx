@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CockroachlabsProps = {
+export type CockroachlabsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

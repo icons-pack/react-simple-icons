@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FirefoxbrowserProps = {
+export type FirefoxbrowserProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

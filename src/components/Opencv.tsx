@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type OpencvProps = {
+export type OpencvProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

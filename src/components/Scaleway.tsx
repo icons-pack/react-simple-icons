@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ScalewayProps = {
+export type ScalewayProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

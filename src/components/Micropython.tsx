@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MicropythonProps = {
+export type MicropythonProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

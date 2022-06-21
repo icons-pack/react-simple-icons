@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FraunhofergesellschaftProps = {
+export type FraunhofergesellschaftProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

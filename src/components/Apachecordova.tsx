@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ApachecordovaProps = {
+export type ApachecordovaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

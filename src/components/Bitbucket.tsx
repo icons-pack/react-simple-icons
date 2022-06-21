@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BitbucketProps = {
+export type BitbucketProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

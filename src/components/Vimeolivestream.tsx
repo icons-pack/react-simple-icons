@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type VimeolivestreamProps = {
+export type VimeolivestreamProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

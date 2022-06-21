@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type DatabricksProps = {
+export type DatabricksProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

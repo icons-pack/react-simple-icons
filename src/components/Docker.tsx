@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type DockerProps = {
+export type DockerProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

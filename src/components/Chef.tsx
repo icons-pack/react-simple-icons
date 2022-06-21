@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ChefProps = {
+export type ChefProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

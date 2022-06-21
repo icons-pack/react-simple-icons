@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type WattpadProps = {
+export type WattpadProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

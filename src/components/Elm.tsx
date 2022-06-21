@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ElmProps = {
+export type ElmProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

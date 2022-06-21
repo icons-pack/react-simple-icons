@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type VexxhostProps = {
+export type VexxhostProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

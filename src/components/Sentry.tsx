@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SentryProps = {
+export type SentryProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

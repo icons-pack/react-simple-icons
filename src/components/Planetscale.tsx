@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PlanetscaleProps = {
+export type PlanetscaleProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CitrixProps = {
+export type CitrixProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

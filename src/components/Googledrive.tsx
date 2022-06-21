@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GoogledriveProps = {
+export type GoogledriveProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MailchimpProps = {
+export type MailchimpProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

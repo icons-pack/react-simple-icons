@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ZeromqProps = {
+export type ZeromqProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

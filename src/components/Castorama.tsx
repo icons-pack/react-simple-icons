@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CastoramaProps = {
+export type CastoramaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

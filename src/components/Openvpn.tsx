@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type OpenvpnProps = {
+export type OpenvpnProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

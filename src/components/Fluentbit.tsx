@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FluentbitProps = {
+export type FluentbitProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

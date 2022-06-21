@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MerckProps = {
+export type MerckProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

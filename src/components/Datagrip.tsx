@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type DatagripProps = {
+export type DatagripProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

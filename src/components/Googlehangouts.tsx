@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GooglehangoutsProps = {
+export type GooglehangoutsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

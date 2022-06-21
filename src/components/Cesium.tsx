@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CesiumProps = {
+export type CesiumProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

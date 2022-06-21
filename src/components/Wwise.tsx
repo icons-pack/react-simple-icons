@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type WwiseProps = {
+export type WwiseProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

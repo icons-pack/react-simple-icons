@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FujitsuProps = {
+export type FujitsuProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

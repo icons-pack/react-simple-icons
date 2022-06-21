@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ViadeoProps = {
+export type ViadeoProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

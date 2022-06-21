@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FreedesktopdotorgProps = {
+export type FreedesktopdotorgProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

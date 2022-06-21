@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TataProps = {
+export type TataProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

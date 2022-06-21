@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FranprixProps = {
+export type FranprixProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

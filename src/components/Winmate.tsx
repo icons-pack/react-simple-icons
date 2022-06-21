@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type WinmateProps = {
+export type WinmateProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

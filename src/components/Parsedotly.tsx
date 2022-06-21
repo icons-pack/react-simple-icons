@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ParsedotlyProps = {
+export type ParsedotlyProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

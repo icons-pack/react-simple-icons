@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SmartthingsProps = {
+export type SmartthingsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

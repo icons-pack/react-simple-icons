@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SnapcraftProps = {
+export type SnapcraftProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

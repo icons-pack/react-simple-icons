@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SimklProps = {
+export type SimklProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

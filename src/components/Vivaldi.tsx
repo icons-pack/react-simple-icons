@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type VivaldiProps = {
+export type VivaldiProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

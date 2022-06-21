@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SteemitProps = {
+export type SteemitProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

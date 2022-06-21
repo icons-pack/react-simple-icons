@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FastlyProps = {
+export type FastlyProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

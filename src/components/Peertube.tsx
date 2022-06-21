@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PeertubeProps = {
+export type PeertubeProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

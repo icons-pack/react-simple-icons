@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BurgerkingProps = {
+export type BurgerkingProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GoogleoptimizeProps = {
+export type GoogleoptimizeProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

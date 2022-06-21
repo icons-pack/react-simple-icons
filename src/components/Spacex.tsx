@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SpacexProps = {
+export type SpacexProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

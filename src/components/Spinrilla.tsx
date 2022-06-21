@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SpinrillaProps = {
+export type SpinrillaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

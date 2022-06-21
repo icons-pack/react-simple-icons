@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BitdefenderProps = {
+export type BitdefenderProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

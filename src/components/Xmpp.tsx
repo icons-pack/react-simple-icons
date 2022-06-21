@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type XmppProps = {
+export type XmppProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

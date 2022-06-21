@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type EightsleepProps = {
+export type EightsleepProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

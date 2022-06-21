@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PiwigoProps = {
+export type PiwigoProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MobxProps = {
+export type MobxProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type LinkedinProps = {
+export type LinkedinProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

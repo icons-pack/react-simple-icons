@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type NativescriptProps = {
+export type NativescriptProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

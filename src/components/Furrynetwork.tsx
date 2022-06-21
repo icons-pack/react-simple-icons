@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FurrynetworkProps = {
+export type FurrynetworkProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

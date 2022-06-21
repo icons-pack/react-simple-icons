@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PleskProps = {
+export type PleskProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

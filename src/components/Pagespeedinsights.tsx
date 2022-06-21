@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PagespeedinsightsProps = {
+export type PagespeedinsightsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

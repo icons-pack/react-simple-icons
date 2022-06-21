@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GooglefontsProps = {
+export type GooglefontsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

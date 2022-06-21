@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type EmbyProps = {
+export type EmbyProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

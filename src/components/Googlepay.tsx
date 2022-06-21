@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GooglepayProps = {
+export type GooglepayProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

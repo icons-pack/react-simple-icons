@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AldinordProps = {
+export type AldinordProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

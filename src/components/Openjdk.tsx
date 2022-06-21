@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type OpenjdkProps = {
+export type OpenjdkProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

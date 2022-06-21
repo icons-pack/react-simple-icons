@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type WebtoonProps = {
+export type WebtoonProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type OvercastProps = {
+export type OvercastProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

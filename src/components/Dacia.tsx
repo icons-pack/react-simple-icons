@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type DaciaProps = {
+export type DaciaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

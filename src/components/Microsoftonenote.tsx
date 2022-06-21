@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MicrosoftonenoteProps = {
+export type MicrosoftonenoteProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CocosProps = {
+export type CocosProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

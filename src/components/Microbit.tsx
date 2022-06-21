@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MicrobitProps = {
+export type MicrobitProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

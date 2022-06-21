@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type KonvaProps = {
+export type KonvaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type StylusProps = {
+export type StylusProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type QuickbooksProps = {
+export type QuickbooksProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

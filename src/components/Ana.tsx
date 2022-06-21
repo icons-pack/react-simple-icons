@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AnaProps = {
+export type AnaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

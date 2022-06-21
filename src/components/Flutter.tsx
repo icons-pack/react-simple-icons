@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FlutterProps = {
+export type FlutterProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

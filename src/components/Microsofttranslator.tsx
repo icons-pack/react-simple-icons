@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MicrosofttranslatorProps = {
+export type MicrosofttranslatorProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

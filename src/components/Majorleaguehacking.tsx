@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MajorleaguehackingProps = {
+export type MajorleaguehackingProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

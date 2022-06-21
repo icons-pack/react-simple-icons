@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type LessProps = {
+export type LessProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CodioProps = {
+export type CodioProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

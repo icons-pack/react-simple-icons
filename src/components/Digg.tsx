@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type DiggProps = {
+export type DiggProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

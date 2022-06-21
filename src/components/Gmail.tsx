@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GmailProps = {
+export type GmailProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type KiaProps = {
+export type KiaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

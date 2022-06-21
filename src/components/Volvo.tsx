@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type VolvoProps = {
+export type VolvoProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

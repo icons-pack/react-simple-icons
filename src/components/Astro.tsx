@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AstroProps = {
+export type AstroProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

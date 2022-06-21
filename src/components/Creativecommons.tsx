@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CreativecommonsProps = {
+export type CreativecommonsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

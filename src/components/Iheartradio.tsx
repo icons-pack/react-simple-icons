@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type IheartradioProps = {
+export type IheartradioProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

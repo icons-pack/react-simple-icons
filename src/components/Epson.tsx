@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type EpsonProps = {
+export type EpsonProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

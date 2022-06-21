@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type KatanaProps = {
+export type KatanaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

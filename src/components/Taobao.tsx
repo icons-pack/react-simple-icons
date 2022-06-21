@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TaobaoProps = {
+export type TaobaoProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

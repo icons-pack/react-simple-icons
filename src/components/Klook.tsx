@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type KlookProps = {
+export type KlookProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

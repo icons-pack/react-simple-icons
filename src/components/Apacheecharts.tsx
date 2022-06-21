@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ApacheechartsProps = {
+export type ApacheechartsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

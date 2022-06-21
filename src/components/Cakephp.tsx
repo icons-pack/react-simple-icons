@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CakephpProps = {
+export type CakephpProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

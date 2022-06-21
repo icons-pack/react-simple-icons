@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ZelleProps = {
+export type ZelleProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

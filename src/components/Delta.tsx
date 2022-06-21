@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type DeltaProps = {
+export type DeltaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

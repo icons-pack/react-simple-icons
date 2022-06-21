@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SahibindenProps = {
+export type SahibindenProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

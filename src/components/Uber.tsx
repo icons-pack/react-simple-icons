@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type UberProps = {
+export type UberProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

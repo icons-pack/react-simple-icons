@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SkodaProps = {
+export type SkodaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

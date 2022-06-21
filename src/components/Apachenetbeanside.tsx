@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ApachenetbeansideProps = {
+export type ApachenetbeansideProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

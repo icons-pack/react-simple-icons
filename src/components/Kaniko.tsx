@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type KanikoProps = {
+export type KanikoProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type KeybaseProps = {
+export type KeybaseProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type KofiProps = {
+export type KofiProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

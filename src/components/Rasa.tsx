@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type RasaProps = {
+export type RasaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

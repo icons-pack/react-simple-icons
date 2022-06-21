@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type WebminProps = {
+export type WebminProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

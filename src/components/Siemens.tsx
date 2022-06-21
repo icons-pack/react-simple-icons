@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SiemensProps = {
+export type SiemensProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

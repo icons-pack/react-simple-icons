@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CorsairProps = {
+export type CorsairProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

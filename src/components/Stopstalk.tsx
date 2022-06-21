@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type StopstalkProps = {
+export type StopstalkProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

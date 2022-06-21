@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type StmicroelectronicsProps = {
+export type StmicroelectronicsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

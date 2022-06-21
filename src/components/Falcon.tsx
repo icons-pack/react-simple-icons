@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FalconProps = {
+export type FalconProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GraphqlProps = {
+export type GraphqlProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

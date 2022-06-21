@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ExoscaleProps = {
+export type ExoscaleProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

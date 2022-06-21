@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type WireguardProps = {
+export type WireguardProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

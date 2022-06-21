@@ -58,7 +58,7 @@ ICONS.forEach(icon => {
   const element = `
     import * as React from 'react';
 
-    export type ${componentName}Props = {
+    export type ${componentName}Props = React.ComponentPropsWithoutRef<'svg'> & {
       /**
        * Hex color or color name
        */

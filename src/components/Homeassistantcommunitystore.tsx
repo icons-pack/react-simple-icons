@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type HomeassistantcommunitystoreProps = {
+export type HomeassistantcommunitystoreProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

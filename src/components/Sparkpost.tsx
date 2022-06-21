@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SparkpostProps = {
+export type SparkpostProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

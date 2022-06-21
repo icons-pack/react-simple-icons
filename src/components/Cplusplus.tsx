@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CplusplusProps = {
+export type CplusplusProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

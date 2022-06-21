@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PerlProps = {
+export type PerlProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

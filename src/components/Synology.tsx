@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SynologyProps = {
+export type SynologyProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

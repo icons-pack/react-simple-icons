@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type InstructablesProps = {
+export type InstructablesProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

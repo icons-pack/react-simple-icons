@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type RingProps = {
+export type RingProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

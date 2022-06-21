@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PercyProps = {
+export type PercyProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

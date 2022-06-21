@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AnilistProps = {
+export type AnilistProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

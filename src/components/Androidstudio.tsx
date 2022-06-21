@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AndroidstudioProps = {
+export type AndroidstudioProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

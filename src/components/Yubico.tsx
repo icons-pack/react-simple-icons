@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type YubicoProps = {
+export type YubicoProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

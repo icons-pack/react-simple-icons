@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CoronaengineProps = {
+export type CoronaengineProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

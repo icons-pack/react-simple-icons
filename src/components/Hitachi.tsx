@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type HitachiProps = {
+export type HitachiProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

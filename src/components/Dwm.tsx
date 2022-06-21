@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type DwmProps = {
+export type DwmProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

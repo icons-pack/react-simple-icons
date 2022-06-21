@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type EslgamingProps = {
+export type EslgamingProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

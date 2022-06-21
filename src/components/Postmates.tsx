@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PostmatesProps = {
+export type PostmatesProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

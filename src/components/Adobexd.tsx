@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AdobexdProps = {
+export type AdobexdProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

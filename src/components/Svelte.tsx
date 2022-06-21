@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SvelteProps = {
+export type SvelteProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

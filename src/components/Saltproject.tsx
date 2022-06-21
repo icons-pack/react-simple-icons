@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SaltprojectProps = {
+export type SaltprojectProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

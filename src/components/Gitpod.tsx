@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GitpodProps = {
+export type GitpodProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

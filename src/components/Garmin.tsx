@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GarminProps = {
+export type GarminProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

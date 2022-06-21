@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type QuicktimeProps = {
+export type QuicktimeProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type IssuuProps = {
+export type IssuuProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MagentoProps = {
+export type MagentoProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

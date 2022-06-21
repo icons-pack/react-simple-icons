@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MeetupProps = {
+export type MeetupProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

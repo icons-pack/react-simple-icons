@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type Icons8Props = {
+export type Icons8Props = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

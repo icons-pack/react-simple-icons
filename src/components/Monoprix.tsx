@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MonoprixProps = {
+export type MonoprixProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

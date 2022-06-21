@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GoogleearthProps = {
+export type GoogleearthProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

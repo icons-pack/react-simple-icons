@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FdroidProps = {
+export type FdroidProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

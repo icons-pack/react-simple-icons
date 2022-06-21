@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SemverProps = {
+export type SemverProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

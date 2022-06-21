@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ZalandoProps = {
+export type ZalandoProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

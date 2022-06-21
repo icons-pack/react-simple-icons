@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type RocketdotchatProps = {
+export type RocketdotchatProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

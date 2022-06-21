@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AmpProps = {
+export type AmpProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

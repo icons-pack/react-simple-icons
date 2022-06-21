@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PlaystationFourProps = {
+export type PlaystationFourProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CashappProps = {
+export type CashappProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

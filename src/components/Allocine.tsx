@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AllocineProps = {
+export type AllocineProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

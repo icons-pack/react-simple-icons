@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BitcoincashProps = {
+export type BitcoincashProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

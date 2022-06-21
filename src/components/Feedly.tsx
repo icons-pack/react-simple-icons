@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FeedlyProps = {
+export type FeedlyProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

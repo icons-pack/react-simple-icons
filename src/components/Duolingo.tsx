@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type DuolingoProps = {
+export type DuolingoProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

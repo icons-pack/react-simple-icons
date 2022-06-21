@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type OpenseaProps = {
+export type OpenseaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

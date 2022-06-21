@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type LogstashProps = {
+export type LogstashProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

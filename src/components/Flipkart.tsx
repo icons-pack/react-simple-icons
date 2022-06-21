@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FlipkartProps = {
+export type FlipkartProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

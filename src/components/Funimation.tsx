@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FunimationProps = {
+export type FunimationProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

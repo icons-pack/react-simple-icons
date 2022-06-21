@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BaiduProps = {
+export type BaiduProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

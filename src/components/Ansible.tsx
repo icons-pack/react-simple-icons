@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AnsibleProps = {
+export type AnsibleProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

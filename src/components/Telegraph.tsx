@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TelegraphProps = {
+export type TelegraphProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

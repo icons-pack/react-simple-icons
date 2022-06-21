@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ApacherocketmqProps = {
+export type ApacherocketmqProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

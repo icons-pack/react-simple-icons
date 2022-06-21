@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ViteProps = {
+export type ViteProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type QualcommProps = {
+export type QualcommProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ApachecouchdbProps = {
+export type ApachecouchdbProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

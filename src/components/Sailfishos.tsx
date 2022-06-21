@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SailfishosProps = {
+export type SailfishosProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

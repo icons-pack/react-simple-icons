@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type LgtmProps = {
+export type LgtmProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

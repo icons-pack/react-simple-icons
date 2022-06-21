@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SparkarProps = {
+export type SparkarProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ThingiverseProps = {
+export type ThingiverseProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

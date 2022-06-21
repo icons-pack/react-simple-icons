@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type LiberapayProps = {
+export type LiberapayProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

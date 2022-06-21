@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ApacheflinkProps = {
+export type ApacheflinkProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

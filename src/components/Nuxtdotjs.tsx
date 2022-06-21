@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type NuxtdotjsProps = {
+export type NuxtdotjsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ApachesolrProps = {
+export type ApachesolrProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

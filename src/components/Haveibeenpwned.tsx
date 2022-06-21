@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type HaveibeenpwnedProps = {
+export type HaveibeenpwnedProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

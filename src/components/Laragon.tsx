@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type LaragonProps = {
+export type LaragonProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

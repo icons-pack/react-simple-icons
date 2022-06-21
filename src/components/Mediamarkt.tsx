@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MediamarktProps = {
+export type MediamarktProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

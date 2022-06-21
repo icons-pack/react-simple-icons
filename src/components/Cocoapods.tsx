@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CocoapodsProps = {
+export type CocoapodsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type DarkreaderProps = {
+export type DarkreaderProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SocietySixProps = {
+export type SocietySixProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

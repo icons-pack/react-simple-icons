@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CoraProps = {
+export type CoraProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

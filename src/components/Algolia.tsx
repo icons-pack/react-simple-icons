@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AlgoliaProps = {
+export type AlgoliaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

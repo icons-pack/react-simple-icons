@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ElasticstackProps = {
+export type ElasticstackProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

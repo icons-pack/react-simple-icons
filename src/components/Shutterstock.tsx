@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ShutterstockProps = {
+export type ShutterstockProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

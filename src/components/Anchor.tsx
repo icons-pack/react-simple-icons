@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AnchorProps = {
+export type AnchorProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

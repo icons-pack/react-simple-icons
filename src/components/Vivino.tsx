@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type VivinoProps = {
+export type VivinoProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

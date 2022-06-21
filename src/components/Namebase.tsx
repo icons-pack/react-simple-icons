@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type NamebaseProps = {
+export type NamebaseProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type RobotframeworkProps = {
+export type RobotframeworkProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

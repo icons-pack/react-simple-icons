@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FaceitProps = {
+export type FaceitProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

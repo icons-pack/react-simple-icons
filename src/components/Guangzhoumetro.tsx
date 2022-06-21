@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GuangzhoumetroProps = {
+export type GuangzhoumetroProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PcgamingwikiProps = {
+export type PcgamingwikiProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

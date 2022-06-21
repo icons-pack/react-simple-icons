@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SwiperProps = {
+export type SwiperProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

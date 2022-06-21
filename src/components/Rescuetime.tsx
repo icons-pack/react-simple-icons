@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type RescuetimeProps = {
+export type RescuetimeProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

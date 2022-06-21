@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type NeovimProps = {
+export type NeovimProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

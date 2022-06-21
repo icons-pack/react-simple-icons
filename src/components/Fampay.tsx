@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FampayProps = {
+export type FampayProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

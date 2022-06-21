@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CiliumProps = {
+export type CiliumProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

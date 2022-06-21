@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type OsuProps = {
+export type OsuProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

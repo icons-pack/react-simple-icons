@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ApachemavenProps = {
+export type ApachemavenProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

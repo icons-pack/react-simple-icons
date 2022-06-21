@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ArtifacthubProps = {
+export type ArtifacthubProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

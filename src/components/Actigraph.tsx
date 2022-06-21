@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ActigraphProps = {
+export type ActigraphProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

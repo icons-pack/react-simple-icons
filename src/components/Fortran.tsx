@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FortranProps = {
+export type FortranProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ClionProps = {
+export type ClionProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

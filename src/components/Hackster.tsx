@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type HacksterProps = {
+export type HacksterProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

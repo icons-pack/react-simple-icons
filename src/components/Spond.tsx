@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SpondProps = {
+export type SpondProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

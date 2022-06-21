@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type NetflixProps = {
+export type NetflixProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

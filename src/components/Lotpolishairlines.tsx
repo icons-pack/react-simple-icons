@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type LotpolishairlinesProps = {
+export type LotpolishairlinesProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type YarnProps = {
+export type YarnProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

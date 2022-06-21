@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AzuredevopsProps = {
+export type AzuredevopsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

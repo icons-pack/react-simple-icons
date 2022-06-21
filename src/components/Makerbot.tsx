@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MakerbotProps = {
+export type MakerbotProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

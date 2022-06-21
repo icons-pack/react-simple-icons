@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BlueprintProps = {
+export type BlueprintProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

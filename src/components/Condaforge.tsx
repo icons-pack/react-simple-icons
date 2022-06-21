@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CondaforgeProps = {
+export type CondaforgeProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

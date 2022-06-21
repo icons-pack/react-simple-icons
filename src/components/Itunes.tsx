@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ItunesProps = {
+export type ItunesProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

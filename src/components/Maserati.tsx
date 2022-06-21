@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MaseratiProps = {
+export type MaseratiProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

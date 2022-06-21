@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TplinkProps = {
+export type TplinkProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

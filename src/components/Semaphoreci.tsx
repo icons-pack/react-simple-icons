@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SemaphoreciProps = {
+export type SemaphoreciProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

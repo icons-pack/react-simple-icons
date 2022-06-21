@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ZoteroProps = {
+export type ZoteroProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

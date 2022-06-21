@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type RazerProps = {
+export type RazerProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

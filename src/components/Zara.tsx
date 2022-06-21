@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ZaraProps = {
+export type ZaraProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

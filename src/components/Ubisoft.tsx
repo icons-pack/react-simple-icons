@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type UbisoftProps = {
+export type UbisoftProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

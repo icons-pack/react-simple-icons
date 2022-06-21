@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CloudfoundryProps = {
+export type CloudfoundryProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

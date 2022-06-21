@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CockpitProps = {
+export type CockpitProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

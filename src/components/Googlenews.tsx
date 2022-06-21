@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GooglenewsProps = {
+export type GooglenewsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

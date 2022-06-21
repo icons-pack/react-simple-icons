@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type StimulusProps = {
+export type StimulusProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

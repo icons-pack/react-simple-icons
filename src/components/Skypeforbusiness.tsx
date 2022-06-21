@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SkypeforbusinessProps = {
+export type SkypeforbusinessProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

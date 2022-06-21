@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MastercomfigProps = {
+export type MastercomfigProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

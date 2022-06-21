@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BilibiliProps = {
+export type BilibiliProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

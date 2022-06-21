@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PetsathomeProps = {
+export type PetsathomeProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

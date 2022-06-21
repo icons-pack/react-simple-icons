@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type JirasoftwareProps = {
+export type JirasoftwareProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

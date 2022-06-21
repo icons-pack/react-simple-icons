@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type KubuntuProps = {
+export type KubuntuProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BoulangerProps = {
+export type BoulangerProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

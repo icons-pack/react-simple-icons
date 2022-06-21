@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AngularjsProps = {
+export type AngularjsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

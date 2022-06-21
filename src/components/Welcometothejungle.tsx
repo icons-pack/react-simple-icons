@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type WelcometothejungleProps = {
+export type WelcometothejungleProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

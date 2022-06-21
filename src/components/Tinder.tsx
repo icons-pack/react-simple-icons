@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TinderProps = {
+export type TinderProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

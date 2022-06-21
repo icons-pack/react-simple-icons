@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CookiecutterProps = {
+export type CookiecutterProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

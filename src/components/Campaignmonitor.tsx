@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CampaignmonitorProps = {
+export type CampaignmonitorProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

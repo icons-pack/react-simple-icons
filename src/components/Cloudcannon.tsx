@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CloudcannonProps = {
+export type CloudcannonProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

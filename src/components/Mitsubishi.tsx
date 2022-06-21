@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MitsubishiProps = {
+export type MitsubishiProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ApachekylinProps = {
+export type ApachekylinProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

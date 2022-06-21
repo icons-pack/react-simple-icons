@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MonkeytieProps = {
+export type MonkeytieProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

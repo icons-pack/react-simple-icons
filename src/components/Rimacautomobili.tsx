@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type RimacautomobiliProps = {
+export type RimacautomobiliProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

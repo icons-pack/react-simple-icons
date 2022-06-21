@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type LineProps = {
+export type LineProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

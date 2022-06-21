@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type NokiaProps = {
+export type NokiaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

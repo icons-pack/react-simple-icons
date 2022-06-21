@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type YoutubetvProps = {
+export type YoutubetvProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

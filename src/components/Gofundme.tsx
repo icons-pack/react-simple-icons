@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GofundmeProps = {
+export type GofundmeProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

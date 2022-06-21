@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AmulProps = {
+export type AmulProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

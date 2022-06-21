@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SnowpackProps = {
+export type SnowpackProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

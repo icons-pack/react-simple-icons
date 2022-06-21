@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type JasmineProps = {
+export type JasmineProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

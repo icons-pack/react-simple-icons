@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type RippleProps = {
+export type RippleProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

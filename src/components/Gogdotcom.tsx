@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GogdotcomProps = {
+export type GogdotcomProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

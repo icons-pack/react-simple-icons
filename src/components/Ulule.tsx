@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type UluleProps = {
+export type UluleProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

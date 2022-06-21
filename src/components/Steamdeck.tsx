@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SteamdeckProps = {
+export type SteamdeckProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

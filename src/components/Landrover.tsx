@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type LandroverProps = {
+export type LandroverProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

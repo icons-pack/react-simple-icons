@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SpreadshirtProps = {
+export type SpreadshirtProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

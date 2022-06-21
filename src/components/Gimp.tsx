@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GimpProps = {
+export type GimpProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SpreakerProps = {
+export type SpreakerProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

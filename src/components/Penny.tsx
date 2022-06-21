@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PennyProps = {
+export type PennyProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

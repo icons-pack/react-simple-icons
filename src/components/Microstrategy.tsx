@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MicrostrategyProps = {
+export type MicrostrategyProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

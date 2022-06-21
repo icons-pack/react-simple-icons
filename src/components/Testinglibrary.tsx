@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TestinglibraryProps = {
+export type TestinglibraryProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

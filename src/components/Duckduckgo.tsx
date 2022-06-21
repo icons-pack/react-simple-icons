@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type DuckduckgoProps = {
+export type DuckduckgoProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

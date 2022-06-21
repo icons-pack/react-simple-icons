@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type IntegromatProps = {
+export type IntegromatProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

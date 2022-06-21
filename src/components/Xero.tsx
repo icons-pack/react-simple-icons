@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type XeroProps = {
+export type XeroProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

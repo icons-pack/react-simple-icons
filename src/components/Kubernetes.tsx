@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type KubernetesProps = {
+export type KubernetesProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

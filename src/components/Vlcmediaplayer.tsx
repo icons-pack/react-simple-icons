@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type VlcmediaplayerProps = {
+export type VlcmediaplayerProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GutenbergProps = {
+export type GutenbergProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

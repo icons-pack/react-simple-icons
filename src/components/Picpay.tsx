@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PicpayProps = {
+export type PicpayProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

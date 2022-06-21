@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type HomifyProps = {
+export type HomifyProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

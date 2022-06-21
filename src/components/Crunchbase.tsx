@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CrunchbaseProps = {
+export type CrunchbaseProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

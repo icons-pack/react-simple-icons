@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type LastpassProps = {
+export type LastpassProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

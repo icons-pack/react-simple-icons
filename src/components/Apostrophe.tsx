@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ApostropheProps = {
+export type ApostropheProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

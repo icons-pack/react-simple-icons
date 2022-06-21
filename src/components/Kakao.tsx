@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type KakaoProps = {
+export type KakaoProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

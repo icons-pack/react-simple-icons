@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CratedbProps = {
+export type CratedbProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

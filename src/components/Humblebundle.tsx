@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type HumblebundleProps = {
+export type HumblebundleProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

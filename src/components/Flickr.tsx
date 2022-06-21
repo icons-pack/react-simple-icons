@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FlickrProps = {
+export type FlickrProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

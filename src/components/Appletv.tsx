@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AppletvProps = {
+export type AppletvProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

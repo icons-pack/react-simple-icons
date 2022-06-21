@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MeteorProps = {
+export type MeteorProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

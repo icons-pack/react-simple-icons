@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ZabkaProps = {
+export type ZabkaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

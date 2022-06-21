@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TypoThreeProps = {
+export type TypoThreeProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

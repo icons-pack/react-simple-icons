@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type OneplusProps = {
+export type OneplusProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

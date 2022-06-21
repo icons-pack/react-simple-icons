@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SandiskProps = {
+export type SandiskProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

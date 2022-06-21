@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PivotaltrackerProps = {
+export type PivotaltrackerProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */
