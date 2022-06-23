@@ -1,5 +1,12 @@
 # Changelog
 
+## 5.1.2
+
+### Patch Changes
+
+- [`dca9bb1`](https://github.com/icons-pack/react-simple-icons/commit/dca9bb168d348b591e11631a654bb95a9aba5808) Thanks
+  [@wootsbot](https://github.com/wootsbot)! - extend component types to use ComponentPropsWithoutRef<'svg'>
+
 ## 5.1.1
 
 ### Patch Changes
