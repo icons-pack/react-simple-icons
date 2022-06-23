@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type StardockProps = {
+export type StardockProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AiqfomeProps = {
+export type AiqfomeProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

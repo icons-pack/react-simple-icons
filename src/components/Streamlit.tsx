@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type StreamlitProps = {
+export type StreamlitProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

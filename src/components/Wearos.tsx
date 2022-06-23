@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type WearosProps = {
+export type WearosProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

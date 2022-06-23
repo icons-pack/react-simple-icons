@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type LastdotfmProps = {
+export type LastdotfmProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

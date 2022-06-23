@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type WikimediacommonsProps = {
+export type WikimediacommonsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

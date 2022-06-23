@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type Html5Props = {
+export type Html5Props = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

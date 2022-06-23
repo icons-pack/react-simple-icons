@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type StatuspalProps = {
+export type StatuspalProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type QemuProps = {
+export type QemuProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

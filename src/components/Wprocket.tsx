@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type WprocketProps = {
+export type WprocketProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

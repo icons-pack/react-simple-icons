@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TapasProps = {
+export type TapasProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

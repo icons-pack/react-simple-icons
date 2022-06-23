@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GeneralelectricProps = {
+export type GeneralelectricProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

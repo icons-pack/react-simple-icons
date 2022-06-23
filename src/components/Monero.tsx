@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MoneroProps = {
+export type MoneroProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

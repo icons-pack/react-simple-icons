@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type DroobleProps = {
+export type DroobleProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

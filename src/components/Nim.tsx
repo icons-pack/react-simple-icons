@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type NimProps = {
+export type NimProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ChupachupsProps = {
+export type ChupachupsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

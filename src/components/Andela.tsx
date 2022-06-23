@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AndelaProps = {
+export type AndelaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

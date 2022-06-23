@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PrometheusProps = {
+export type PrometheusProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GrammarlyProps = {
+export type GrammarlyProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

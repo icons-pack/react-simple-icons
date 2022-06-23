@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PelotonProps = {
+export type PelotonProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

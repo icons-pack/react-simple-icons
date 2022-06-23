@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CodeforcesProps = {
+export type CodeforcesProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

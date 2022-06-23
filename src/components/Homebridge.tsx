@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type HomebridgeProps = {
+export type HomebridgeProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

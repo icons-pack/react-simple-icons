@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MendeleyProps = {
+export type MendeleyProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

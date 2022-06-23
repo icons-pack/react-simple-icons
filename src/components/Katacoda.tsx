@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type KatacodaProps = {
+export type KatacodaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

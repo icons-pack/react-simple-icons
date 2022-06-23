@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ShowpadProps = {
+export type ShowpadProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

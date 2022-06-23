@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ZillowProps = {
+export type ZillowProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

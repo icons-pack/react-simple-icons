@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type HurriyetemlakProps = {
+export type HurriyetemlakProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

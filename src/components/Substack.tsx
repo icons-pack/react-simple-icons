@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SubstackProps = {
+export type SubstackProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

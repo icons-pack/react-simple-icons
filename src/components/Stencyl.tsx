@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type StencylProps = {
+export type StencylProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CognizantProps = {
+export type CognizantProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

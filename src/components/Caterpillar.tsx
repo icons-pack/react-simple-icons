@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CaterpillarProps = {
+export type CaterpillarProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

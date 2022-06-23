@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MediumProps = {
+export type MediumProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

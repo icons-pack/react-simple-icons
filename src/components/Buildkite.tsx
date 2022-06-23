@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BuildkiteProps = {
+export type BuildkiteProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

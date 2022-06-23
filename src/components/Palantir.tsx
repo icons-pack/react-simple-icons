@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PalantirProps = {
+export type PalantirProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

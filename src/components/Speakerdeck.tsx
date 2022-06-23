@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SpeakerdeckProps = {
+export type SpeakerdeckProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

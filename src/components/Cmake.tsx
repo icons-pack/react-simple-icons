@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CmakeProps = {
+export type CmakeProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

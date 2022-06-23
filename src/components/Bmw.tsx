@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BmwProps = {
+export type BmwProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

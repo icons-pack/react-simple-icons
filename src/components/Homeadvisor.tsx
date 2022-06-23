@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type HomeadvisorProps = {
+export type HomeadvisorProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

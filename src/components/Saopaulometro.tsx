@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SaopaulometroProps = {
+export type SaopaulometroProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

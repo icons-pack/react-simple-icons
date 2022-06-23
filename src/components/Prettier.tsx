@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PrettierProps = {
+export type PrettierProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

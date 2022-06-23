@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type NotionProps = {
+export type NotionProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

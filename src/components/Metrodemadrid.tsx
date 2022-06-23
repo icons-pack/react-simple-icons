@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MetrodemadridProps = {
+export type MetrodemadridProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

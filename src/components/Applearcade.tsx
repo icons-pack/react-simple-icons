@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ApplearcadeProps = {
+export type ApplearcadeProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

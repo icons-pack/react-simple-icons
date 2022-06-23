@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GotomeetingProps = {
+export type GotomeetingProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BigcommerceProps = {
+export type BigcommerceProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

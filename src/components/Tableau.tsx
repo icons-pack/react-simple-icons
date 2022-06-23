@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TableauProps = {
+export type TableauProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

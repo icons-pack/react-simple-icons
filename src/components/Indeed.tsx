@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type IndeedProps = {
+export type IndeedProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

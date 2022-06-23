@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GumroadProps = {
+export type GumroadProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

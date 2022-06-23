@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ArchlinuxProps = {
+export type ArchlinuxProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

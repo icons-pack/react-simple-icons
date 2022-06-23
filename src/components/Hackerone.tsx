@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type HackeroneProps = {
+export type HackeroneProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

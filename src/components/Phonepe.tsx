@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PhonepeProps = {
+export type PhonepeProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SourceforgeProps = {
+export type SourceforgeProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

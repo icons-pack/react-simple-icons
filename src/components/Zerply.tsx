@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ZerplyProps = {
+export type ZerplyProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

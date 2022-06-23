@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TheirishtimesProps = {
+export type TheirishtimesProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

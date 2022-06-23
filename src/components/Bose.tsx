@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BoseProps = {
+export type BoseProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

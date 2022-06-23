@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type DoubanProps = {
+export type DoubanProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

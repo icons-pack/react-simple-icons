@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MicrogeneticsProps = {
+export type MicrogeneticsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TravisciProps = {
+export type TravisciProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

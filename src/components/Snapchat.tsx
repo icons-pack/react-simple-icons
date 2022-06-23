@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SnapchatProps = {
+export type SnapchatProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

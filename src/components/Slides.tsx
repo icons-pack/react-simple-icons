@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SlidesProps = {
+export type SlidesProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

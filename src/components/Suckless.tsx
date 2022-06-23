@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SucklessProps = {
+export type SucklessProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

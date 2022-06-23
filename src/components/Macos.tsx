@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MacosProps = {
+export type MacosProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

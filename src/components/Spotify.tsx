@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SpotifyProps = {
+export type SpotifyProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

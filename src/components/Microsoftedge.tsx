@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MicrosoftedgeProps = {
+export type MicrosoftedgeProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

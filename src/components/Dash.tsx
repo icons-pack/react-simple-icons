@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type DashProps = {
+export type DashProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

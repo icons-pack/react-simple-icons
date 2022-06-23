@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type DiorProps = {
+export type DiorProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CinemaFourDProps = {
+export type CinemaFourDProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

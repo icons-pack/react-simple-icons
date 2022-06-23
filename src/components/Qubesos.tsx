@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type QubesosProps = {
+export type QubesosProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

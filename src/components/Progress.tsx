@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ProgressProps = {
+export type ProgressProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

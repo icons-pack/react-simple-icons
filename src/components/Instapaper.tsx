@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type InstapaperProps = {
+export type InstapaperProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

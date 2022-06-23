@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FloatplaneProps = {
+export type FloatplaneProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

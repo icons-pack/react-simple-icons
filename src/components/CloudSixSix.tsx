@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CloudSixSixProps = {
+export type CloudSixSixProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

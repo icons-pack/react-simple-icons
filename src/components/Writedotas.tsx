@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type WritedotasProps = {
+export type WritedotasProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

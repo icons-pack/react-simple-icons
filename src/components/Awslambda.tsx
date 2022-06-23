@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AwslambdaProps = {
+export type AwslambdaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

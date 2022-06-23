@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GentooProps = {
+export type GentooProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

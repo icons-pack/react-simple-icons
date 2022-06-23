@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FozzyProps = {
+export type FozzyProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

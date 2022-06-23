@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type WhatsappProps = {
+export type WhatsappProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

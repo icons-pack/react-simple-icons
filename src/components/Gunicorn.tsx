@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GunicornProps = {
+export type GunicornProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

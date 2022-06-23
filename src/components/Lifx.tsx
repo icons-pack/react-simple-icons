@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type LifxProps = {
+export type LifxProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

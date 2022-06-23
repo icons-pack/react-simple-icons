@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type HclProps = {
+export type HclProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

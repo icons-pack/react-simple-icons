@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SemanticuireactProps = {
+export type SemanticuireactProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

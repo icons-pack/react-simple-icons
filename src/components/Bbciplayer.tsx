@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BbciplayerProps = {
+export type BbciplayerProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

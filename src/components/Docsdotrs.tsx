@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type DocsdotrsProps = {
+export type DocsdotrsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

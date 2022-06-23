@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type IftttProps = {
+export type IftttProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

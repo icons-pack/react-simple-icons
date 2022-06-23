@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AdobefontsProps = {
+export type AdobefontsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

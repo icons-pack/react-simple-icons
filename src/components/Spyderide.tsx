@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SpyderideProps = {
+export type SpyderideProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

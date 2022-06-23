@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FandangoProps = {
+export type FandangoProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

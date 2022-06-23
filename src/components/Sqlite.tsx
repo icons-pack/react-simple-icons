@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SqliteProps = {
+export type SqliteProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

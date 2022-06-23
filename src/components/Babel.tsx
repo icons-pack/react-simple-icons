@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BabelProps = {
+export type BabelProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type WindicssProps = {
+export type WindicssProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

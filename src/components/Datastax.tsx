@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type DatastaxProps = {
+export type DatastaxProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

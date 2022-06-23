@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type NetteProps = {
+export type NetteProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

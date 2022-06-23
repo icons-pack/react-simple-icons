@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type StitcherProps = {
+export type StitcherProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

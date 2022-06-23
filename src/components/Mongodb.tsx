@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MongodbProps = {
+export type MongodbProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SogouProps = {
+export type SogouProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

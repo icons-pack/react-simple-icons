@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type KalilinuxProps = {
+export type KalilinuxProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PinterestProps = {
+export type PinterestProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

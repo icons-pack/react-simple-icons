@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GrouponProps = {
+export type GrouponProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

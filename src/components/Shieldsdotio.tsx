@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ShieldsdotioProps = {
+export type ShieldsdotioProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MusescoreProps = {
+export type MusescoreProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CodacyProps = {
+export type CodacyProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FonomaProps = {
+export type FonomaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

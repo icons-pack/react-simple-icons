@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ElectronProps = {
+export type ElectronProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

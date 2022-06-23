@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type UnsplashProps = {
+export type UnsplashProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

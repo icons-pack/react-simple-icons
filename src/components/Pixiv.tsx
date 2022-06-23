@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PixivProps = {
+export type PixivProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

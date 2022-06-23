@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FrontendmentorProps = {
+export type FrontendmentorProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

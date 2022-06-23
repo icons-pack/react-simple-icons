@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type HarborProps = {
+export type HarborProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ScipyProps = {
+export type ScipyProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

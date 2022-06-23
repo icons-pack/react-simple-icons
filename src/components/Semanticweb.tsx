@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SemanticwebProps = {
+export type SemanticwebProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

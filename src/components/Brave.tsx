@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BraveProps = {
+export type BraveProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

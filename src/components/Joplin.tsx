@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type JoplinProps = {
+export type JoplinProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

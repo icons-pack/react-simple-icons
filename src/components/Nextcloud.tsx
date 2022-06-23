@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type NextcloudProps = {
+export type NextcloudProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

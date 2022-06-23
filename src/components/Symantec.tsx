@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SymantecProps = {
+export type SymantecProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

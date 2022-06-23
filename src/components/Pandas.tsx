@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PandasProps = {
+export type PandasProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

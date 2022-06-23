@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type DigikeyelectronicsProps = {
+export type DigikeyelectronicsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type DraugiemdotlvProps = {
+export type DraugiemdotlvProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

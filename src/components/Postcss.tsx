@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PostcssProps = {
+export type PostcssProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

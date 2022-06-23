@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type OdyseeProps = {
+export type OdyseeProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FossaProps = {
+export type FossaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

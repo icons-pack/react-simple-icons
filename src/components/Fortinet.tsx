@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FortinetProps = {
+export type FortinetProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PlurkProps = {
+export type PlurkProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

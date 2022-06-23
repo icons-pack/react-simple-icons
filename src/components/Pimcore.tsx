@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PimcoreProps = {
+export type PimcoreProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AlpinelinuxProps = {
+export type AlpinelinuxProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

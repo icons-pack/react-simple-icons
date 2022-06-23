@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type StatamicProps = {
+export type StatamicProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

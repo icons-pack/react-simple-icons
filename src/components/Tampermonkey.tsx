@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TampermonkeyProps = {
+export type TampermonkeyProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

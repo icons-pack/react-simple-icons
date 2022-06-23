@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SocialbladeProps = {
+export type SocialbladeProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

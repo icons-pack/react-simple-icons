@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type JsfiddleProps = {
+export type JsfiddleProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

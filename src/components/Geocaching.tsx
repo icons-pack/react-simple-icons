@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GeocachingProps = {
+export type GeocachingProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

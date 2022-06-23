@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PocketcastsProps = {
+export type PocketcastsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

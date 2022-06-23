@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GooglecalendarProps = {
+export type GooglecalendarProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

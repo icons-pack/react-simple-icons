@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type LaunchpadProps = {
+export type LaunchpadProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

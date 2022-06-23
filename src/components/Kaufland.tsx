@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type KauflandProps = {
+export type KauflandProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type LoopProps = {
+export type LoopProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BuddyProps = {
+export type BuddyProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type Junit5Props = {
+export type Junit5Props = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BookbubProps = {
+export type BookbubProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

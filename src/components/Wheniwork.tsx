@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type WheniworkProps = {
+export type WheniworkProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

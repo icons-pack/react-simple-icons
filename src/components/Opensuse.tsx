@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type OpensuseProps = {
+export type OpensuseProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

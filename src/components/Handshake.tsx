@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type HandshakeProps = {
+export type HandshakeProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

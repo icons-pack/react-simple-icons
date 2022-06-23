@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ServerlessProps = {
+export type ServerlessProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

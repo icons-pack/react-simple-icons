@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GameandwatchProps = {
+export type GameandwatchProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

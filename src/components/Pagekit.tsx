@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PagekitProps = {
+export type PagekitProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

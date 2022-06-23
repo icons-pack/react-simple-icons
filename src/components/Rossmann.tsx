@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type RossmannProps = {
+export type RossmannProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

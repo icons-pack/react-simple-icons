@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type WarnerbrosProps = {
+export type WarnerbrosProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

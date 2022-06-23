@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type RacketProps = {
+export type RacketProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

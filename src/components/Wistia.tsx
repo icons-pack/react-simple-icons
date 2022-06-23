@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type WistiaProps = {
+export type WistiaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

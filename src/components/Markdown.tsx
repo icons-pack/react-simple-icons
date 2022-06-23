@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MarkdownProps = {
+export type MarkdownProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

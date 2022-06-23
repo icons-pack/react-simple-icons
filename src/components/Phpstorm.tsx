@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PhpstormProps = {
+export type PhpstormProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PostmanProps = {
+export type PostmanProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ShopifyProps = {
+export type ShopifyProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

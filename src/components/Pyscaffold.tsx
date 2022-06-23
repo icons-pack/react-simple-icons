@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PyscaffoldProps = {
+export type PyscaffoldProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

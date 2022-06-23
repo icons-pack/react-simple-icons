@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SpringbootProps = {
+export type SpringbootProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

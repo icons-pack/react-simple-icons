@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type UmbracoProps = {
+export type UmbracoProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type OttoProps = {
+export type OttoProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

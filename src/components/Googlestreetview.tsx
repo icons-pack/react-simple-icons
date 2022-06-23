@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GooglestreetviewProps = {
+export type GooglestreetviewProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

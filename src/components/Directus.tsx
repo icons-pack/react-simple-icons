@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type DirectusProps = {
+export type DirectusProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

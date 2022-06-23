@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GnomeProps = {
+export type GnomeProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

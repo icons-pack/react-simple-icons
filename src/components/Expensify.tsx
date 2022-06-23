@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ExpensifyProps = {
+export type ExpensifyProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

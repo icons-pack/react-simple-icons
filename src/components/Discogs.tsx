@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type DiscogsProps = {
+export type DiscogsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

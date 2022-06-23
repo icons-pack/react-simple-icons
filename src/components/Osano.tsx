@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type OsanoProps = {
+export type OsanoProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

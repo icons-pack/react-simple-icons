@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FramerProps = {
+export type FramerProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CnnProps = {
+export type CnnProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

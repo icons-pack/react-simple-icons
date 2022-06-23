@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PaddypowerProps = {
+export type PaddypowerProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

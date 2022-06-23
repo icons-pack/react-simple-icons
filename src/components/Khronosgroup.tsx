@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type KhronosgroupProps = {
+export type KhronosgroupProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

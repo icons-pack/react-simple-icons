@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MicrosoftbingProps = {
+export type MicrosoftbingProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type HeadspaceProps = {
+export type HeadspaceProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

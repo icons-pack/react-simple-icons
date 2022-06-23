@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ManjaroProps = {
+export type ManjaroProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MazdaProps = {
+export type MazdaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

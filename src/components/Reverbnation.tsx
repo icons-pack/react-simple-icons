@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ReverbnationProps = {
+export type ReverbnationProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

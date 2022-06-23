@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PrimevideoProps = {
+export type PrimevideoProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

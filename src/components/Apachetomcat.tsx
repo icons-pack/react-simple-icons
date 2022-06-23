@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ApachetomcatProps = {
+export type ApachetomcatProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

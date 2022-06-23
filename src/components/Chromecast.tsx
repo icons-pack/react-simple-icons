@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ChromecastProps = {
+export type ChromecastProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

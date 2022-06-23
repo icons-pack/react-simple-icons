@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AwesomewmProps = {
+export type AwesomewmProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CommerzbankProps = {
+export type CommerzbankProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TumblrProps = {
+export type TumblrProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

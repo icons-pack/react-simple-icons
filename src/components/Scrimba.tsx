@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ScrimbaProps = {
+export type ScrimbaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

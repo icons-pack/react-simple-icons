@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PytorchlightningProps = {
+export type PytorchlightningProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

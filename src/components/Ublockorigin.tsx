@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type UblockoriginProps = {
+export type UblockoriginProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

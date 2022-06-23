@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type RakutenProps = {
+export type RakutenProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

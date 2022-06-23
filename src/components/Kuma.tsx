@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type KumaProps = {
+export type KumaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type VeeamProps = {
+export type VeeamProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

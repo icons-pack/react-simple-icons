@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CsswizardryProps = {
+export type CsswizardryProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

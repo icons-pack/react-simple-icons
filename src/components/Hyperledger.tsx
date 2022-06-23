@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type HyperledgerProps = {
+export type HyperledgerProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

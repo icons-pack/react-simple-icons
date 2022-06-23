@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BaremetricsProps = {
+export type BaremetricsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

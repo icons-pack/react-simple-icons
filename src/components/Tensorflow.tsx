@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TensorflowProps = {
+export type TensorflowProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

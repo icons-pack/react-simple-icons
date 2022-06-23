@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type DeliciousProps = {
+export type DeliciousProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

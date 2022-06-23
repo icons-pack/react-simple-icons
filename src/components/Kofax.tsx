@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type KofaxProps = {
+export type KofaxProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

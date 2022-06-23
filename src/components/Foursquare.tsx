@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FoursquareProps = {
+export type FoursquareProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

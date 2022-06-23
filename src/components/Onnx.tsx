@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type OnnxProps = {
+export type OnnxProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type JunipernetworksProps = {
+export type JunipernetworksProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

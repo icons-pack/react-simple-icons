@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GumtreeProps = {
+export type GumtreeProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

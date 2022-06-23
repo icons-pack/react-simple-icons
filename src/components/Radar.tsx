@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type RadarProps = {
+export type RadarProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

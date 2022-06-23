@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type DiscordProps = {
+export type DiscordProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

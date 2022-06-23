@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CodemirrorProps = {
+export type CodemirrorProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

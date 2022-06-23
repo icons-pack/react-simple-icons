@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ConventionalcommitsProps = {
+export type ConventionalcommitsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

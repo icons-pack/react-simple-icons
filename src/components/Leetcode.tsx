@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type LeetcodeProps = {
+export type LeetcodeProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

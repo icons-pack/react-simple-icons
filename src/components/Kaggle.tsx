@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type KaggleProps = {
+export type KaggleProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

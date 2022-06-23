@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CanonicalProps = {
+export type CanonicalProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

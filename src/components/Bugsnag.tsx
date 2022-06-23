@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BugsnagProps = {
+export type BugsnagProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ToyotaProps = {
+export type ToyotaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type RobloxProps = {
+export type RobloxProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

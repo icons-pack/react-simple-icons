@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type EleventyProps = {
+export type EleventyProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

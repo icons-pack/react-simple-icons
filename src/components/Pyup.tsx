@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PyupProps = {
+export type PyupProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

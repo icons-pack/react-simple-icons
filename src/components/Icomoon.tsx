@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type IcomoonProps = {
+export type IcomoonProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

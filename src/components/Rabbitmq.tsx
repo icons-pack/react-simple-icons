@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type RabbitmqProps = {
+export type RabbitmqProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

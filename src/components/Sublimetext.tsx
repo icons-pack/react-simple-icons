@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SublimetextProps = {
+export type SublimetextProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

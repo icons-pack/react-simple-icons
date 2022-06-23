@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ProducthuntProps = {
+export type ProducthuntProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

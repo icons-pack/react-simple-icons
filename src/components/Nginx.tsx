@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type NginxProps = {
+export type NginxProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

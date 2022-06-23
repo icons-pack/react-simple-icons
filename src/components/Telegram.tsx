@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TelegramProps = {
+export type TelegramProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

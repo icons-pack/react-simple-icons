@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type KyoceraProps = {
+export type KyoceraProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

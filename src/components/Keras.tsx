@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type KerasProps = {
+export type KerasProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

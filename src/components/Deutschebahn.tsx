@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type DeutschebahnProps = {
+export type DeutschebahnProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

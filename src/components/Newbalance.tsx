@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type NewbalanceProps = {
+export type NewbalanceProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

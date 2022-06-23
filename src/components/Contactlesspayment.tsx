@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ContactlesspaymentProps = {
+export type ContactlesspaymentProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

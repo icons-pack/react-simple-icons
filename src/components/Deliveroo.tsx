@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type DeliverooProps = {
+export type DeliverooProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

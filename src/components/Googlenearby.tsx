@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GooglenearbyProps = {
+export type GooglenearbyProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

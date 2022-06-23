@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ZohoProps = {
+export type ZohoProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MaxProps = {
+export type MaxProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

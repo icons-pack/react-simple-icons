@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ZigProps = {
+export type ZigProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

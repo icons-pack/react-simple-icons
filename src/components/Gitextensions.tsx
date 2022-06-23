@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GitextensionsProps = {
+export type GitextensionsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

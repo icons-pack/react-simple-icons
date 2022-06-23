@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type VisaProps = {
+export type VisaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

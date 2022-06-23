@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type RevealdotjsProps = {
+export type RevealdotjsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

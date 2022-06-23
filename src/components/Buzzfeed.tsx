@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BuzzfeedProps = {
+export type BuzzfeedProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

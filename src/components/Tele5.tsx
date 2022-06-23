@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type Tele5Props = {
+export type Tele5Props = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

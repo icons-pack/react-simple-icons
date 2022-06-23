@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PackagistProps = {
+export type PackagistProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

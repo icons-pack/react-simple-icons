@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PexelsProps = {
+export type PexelsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

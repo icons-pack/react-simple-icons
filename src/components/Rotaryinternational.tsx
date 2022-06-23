@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type RotaryinternationalProps = {
+export type RotaryinternationalProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

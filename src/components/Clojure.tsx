@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ClojureProps = {
+export type ClojureProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

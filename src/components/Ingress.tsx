@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type IngressProps = {
+export type IngressProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

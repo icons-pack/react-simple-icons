@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type KonamiProps = {
+export type KonamiProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

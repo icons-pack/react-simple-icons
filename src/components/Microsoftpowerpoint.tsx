@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MicrosoftpowerpointProps = {
+export type MicrosoftpowerpointProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type JcbProps = {
+export type JcbProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

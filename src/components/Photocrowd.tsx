@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PhotocrowdProps = {
+export type PhotocrowdProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

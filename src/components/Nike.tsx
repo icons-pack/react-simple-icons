@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type NikeProps = {
+export type NikeProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

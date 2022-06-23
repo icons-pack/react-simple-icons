@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type WiiuProps = {
+export type WiiuProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

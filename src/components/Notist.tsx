@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type NotistProps = {
+export type NotistProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

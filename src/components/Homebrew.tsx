@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type HomebrewProps = {
+export type HomebrewProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

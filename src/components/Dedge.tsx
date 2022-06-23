@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type DedgeProps = {
+export type DedgeProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

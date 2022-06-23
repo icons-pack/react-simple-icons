@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type QuicklookProps = {
+export type QuicklookProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type HugoProps = {
+export type HugoProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

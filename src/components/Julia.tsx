@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type JuliaProps = {
+export type JuliaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

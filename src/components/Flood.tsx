@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FloodProps = {
+export type FloodProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

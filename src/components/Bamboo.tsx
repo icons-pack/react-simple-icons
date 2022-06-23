@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BambooProps = {
+export type BambooProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

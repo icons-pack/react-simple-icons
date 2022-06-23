@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type RottentomatoesProps = {
+export type RottentomatoesProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

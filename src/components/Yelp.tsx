@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type YelpProps = {
+export type YelpProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type RokuProps = {
+export type RokuProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

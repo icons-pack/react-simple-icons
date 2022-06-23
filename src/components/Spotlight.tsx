@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SpotlightProps = {
+export type SpotlightProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

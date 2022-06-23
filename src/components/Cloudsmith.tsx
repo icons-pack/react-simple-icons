@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CloudsmithProps = {
+export type CloudsmithProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

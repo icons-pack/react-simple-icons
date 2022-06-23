@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ShotcutProps = {
+export type ShotcutProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

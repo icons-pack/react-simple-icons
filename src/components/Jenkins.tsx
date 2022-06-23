@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type JenkinsProps = {
+export type JenkinsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

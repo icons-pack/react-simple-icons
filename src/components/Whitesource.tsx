@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type WhitesourceProps = {
+export type WhitesourceProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

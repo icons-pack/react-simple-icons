@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TeamcityProps = {
+export type TeamcityProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

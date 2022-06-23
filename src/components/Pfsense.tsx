@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PfsenseProps = {
+export type PfsenseProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

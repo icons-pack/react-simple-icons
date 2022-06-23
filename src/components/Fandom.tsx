@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FandomProps = {
+export type FandomProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

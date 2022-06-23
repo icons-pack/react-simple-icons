@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type VirtualboxProps = {
+export type VirtualboxProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

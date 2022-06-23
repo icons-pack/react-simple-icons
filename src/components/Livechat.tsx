@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type LivechatProps = {
+export type LivechatProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

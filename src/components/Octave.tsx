@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type OctaveProps = {
+export type OctaveProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type DoordashProps = {
+export type DoordashProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

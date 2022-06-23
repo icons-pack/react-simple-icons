@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AdonisjsProps = {
+export type AdonisjsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

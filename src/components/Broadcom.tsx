@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BroadcomProps = {
+export type BroadcomProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PycharmProps = {
+export type PycharmProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

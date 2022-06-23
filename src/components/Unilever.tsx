@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type UnileverProps = {
+export type UnileverProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

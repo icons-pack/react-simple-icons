@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type HtmlacademyProps = {
+export type HtmlacademyProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

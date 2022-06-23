@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type DailymotionProps = {
+export type DailymotionProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

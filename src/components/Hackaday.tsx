@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type HackadayProps = {
+export type HackadayProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

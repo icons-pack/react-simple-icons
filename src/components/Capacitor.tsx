@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CapacitorProps = {
+export type CapacitorProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

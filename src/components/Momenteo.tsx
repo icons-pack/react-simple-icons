@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MomenteoProps = {
+export type MomenteoProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

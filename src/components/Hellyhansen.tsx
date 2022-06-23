@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type HellyhansenProps = {
+export type HellyhansenProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

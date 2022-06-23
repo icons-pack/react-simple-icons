@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MicrosoftvisioProps = {
+export type MicrosoftvisioProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BreakerProps = {
+export type BreakerProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

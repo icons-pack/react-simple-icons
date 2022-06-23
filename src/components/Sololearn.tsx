@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SololearnProps = {
+export type SololearnProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ProtondbProps = {
+export type ProtondbProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

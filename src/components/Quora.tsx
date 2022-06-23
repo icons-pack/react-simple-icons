@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type QuoraProps = {
+export type QuoraProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

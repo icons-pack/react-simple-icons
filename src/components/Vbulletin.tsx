@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type VbulletinProps = {
+export type VbulletinProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

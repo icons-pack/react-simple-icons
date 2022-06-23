@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GitignoredotioProps = {
+export type GitignoredotioProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

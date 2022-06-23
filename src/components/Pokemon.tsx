@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PokemonProps = {
+export type PokemonProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

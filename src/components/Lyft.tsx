@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type LyftProps = {
+export type LyftProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

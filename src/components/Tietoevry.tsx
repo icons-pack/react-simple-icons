@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TietoevryProps = {
+export type TietoevryProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

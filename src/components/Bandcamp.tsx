@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BandcampProps = {
+export type BandcampProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

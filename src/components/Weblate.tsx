@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type WeblateProps = {
+export type WeblateProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

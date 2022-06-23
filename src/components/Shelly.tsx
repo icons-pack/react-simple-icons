@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ShellyProps = {
+export type ShellyProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

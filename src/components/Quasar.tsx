@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type QuasarProps = {
+export type QuasarProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

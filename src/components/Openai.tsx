@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type OpenaiProps = {
+export type OpenaiProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

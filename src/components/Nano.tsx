@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type NanoProps = {
+export type NanoProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GruntProps = {
+export type GruntProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

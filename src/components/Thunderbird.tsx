@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ThunderbirdProps = {
+export type ThunderbirdProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

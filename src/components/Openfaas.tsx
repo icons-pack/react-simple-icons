@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type OpenfaasProps = {
+export type OpenfaasProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

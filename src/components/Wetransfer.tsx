@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type WetransferProps = {
+export type WetransferProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

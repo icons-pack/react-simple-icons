@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TrillerProps = {
+export type TrillerProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

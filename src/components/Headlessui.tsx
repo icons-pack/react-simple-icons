@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type HeadlessuiProps = {
+export type HeadlessuiProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

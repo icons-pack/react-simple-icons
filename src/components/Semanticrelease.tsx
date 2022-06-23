@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SemanticreleaseProps = {
+export type SemanticreleaseProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

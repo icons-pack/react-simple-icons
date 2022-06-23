@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SubversionProps = {
+export type SubversionProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

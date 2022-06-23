@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type InstacartProps = {
+export type InstacartProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

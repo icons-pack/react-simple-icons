@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ArduinoProps = {
+export type ArduinoProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

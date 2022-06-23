@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type YoastProps = {
+export type YoastProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

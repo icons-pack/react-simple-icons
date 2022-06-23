@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ApachepulsarProps = {
+export type ApachepulsarProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

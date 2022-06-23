@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ArgosProps = {
+export type ArgosProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

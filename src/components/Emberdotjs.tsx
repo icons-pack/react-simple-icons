@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type EmberdotjsProps = {
+export type EmberdotjsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

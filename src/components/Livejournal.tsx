@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type LivejournalProps = {
+export type LivejournalProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

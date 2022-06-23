@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GooglecardboardProps = {
+export type GooglecardboardProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

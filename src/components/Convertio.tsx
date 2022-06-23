@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ConvertioProps = {
+export type ConvertioProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

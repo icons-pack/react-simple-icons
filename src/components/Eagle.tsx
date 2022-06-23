@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type EagleProps = {
+export type EagleProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

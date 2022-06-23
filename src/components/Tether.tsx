@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TetherProps = {
+export type TetherProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

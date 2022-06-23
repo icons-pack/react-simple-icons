@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type KahootProps = {
+export type KahootProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

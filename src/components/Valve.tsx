@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ValveProps = {
+export type ValveProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

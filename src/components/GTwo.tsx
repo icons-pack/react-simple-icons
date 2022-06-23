@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GTwoProps = {
+export type GTwoProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

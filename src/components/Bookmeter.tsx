@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BookmeterProps = {
+export type BookmeterProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PleromaProps = {
+export type PleromaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

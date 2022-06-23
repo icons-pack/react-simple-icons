@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ResearchgateProps = {
+export type ResearchgateProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

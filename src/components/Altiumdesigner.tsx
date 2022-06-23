@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AltiumdesignerProps = {
+export type AltiumdesignerProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

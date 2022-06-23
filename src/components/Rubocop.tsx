@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type RubocopProps = {
+export type RubocopProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

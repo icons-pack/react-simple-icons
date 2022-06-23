@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CypressProps = {
+export type CypressProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

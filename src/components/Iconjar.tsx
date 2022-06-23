@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type IconjarProps = {
+export type IconjarProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

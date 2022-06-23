@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type WolframlanguageProps = {
+export type WolframlanguageProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

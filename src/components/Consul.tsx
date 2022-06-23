@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ConsulProps = {
+export type ConsulProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

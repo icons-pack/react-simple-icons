@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GulpProps = {
+export type GulpProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

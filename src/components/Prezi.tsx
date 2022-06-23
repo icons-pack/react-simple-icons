@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PreziProps = {
+export type PreziProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

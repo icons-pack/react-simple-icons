@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type HouzzProps = {
+export type HouzzProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

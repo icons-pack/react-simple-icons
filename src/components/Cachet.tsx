@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CachetProps = {
+export type CachetProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

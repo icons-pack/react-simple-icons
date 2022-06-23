@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type RedbubbleProps = {
+export type RedbubbleProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

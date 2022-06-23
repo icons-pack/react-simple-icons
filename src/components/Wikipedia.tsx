@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type WikipediaProps = {
+export type WikipediaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

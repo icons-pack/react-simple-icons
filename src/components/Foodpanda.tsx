@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FoodpandaProps = {
+export type FoodpandaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

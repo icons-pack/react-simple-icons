@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type WalkmanProps = {
+export type WalkmanProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

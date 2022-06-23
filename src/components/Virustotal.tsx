@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type VirustotalProps = {
+export type VirustotalProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

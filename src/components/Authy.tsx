@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AuthyProps = {
+export type AuthyProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FirebaseProps = {
+export type FirebaseProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

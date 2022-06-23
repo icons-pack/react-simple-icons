@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AmazondynamodbProps = {
+export type AmazondynamodbProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

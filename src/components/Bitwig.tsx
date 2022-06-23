@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BitwigProps = {
+export type BitwigProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

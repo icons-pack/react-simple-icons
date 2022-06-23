@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CkeditorFourProps = {
+export type CkeditorFourProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

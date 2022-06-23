@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TuneinProps = {
+export type TuneinProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

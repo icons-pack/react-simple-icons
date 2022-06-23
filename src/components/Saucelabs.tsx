@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SaucelabsProps = {
+export type SaucelabsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

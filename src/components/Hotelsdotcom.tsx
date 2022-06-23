@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type HotelsdotcomProps = {
+export type HotelsdotcomProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

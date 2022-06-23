@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ZennProps = {
+export type ZennProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type HackerearthProps = {
+export type HackerearthProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

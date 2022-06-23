@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TopcoderProps = {
+export type TopcoderProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

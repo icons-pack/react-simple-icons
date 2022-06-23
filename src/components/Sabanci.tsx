@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SabanciProps = {
+export type SabanciProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

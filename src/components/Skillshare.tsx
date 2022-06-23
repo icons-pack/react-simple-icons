@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SkillshareProps = {
+export type SkillshareProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type WazeProps = {
+export type WazeProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

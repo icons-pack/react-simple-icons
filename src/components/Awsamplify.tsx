@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AwsamplifyProps = {
+export type AwsamplifyProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

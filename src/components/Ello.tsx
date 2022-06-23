@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ElloProps = {
+export type ElloProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

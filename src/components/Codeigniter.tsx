@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CodeigniterProps = {
+export type CodeigniterProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

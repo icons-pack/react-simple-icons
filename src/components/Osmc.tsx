@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type OsmcProps = {
+export type OsmcProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type DependabotProps = {
+export type DependabotProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

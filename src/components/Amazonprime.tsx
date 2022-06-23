@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AmazonprimeProps = {
+export type AmazonprimeProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

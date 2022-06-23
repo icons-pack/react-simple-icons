@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PypyProps = {
+export type PypyProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type KeycdnProps = {
+export type KeycdnProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

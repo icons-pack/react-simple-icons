@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FiverrProps = {
+export type FiverrProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ApachejmeterProps = {
+export type ApachejmeterProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

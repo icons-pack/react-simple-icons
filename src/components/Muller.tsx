@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MullerProps = {
+export type MullerProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

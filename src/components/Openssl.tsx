@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type OpensslProps = {
+export type OpensslProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

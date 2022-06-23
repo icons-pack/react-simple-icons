@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AcademiaProps = {
+export type AcademiaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

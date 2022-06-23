@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type InstagramProps = {
+export type InstagramProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

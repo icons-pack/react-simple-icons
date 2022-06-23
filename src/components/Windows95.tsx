@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type Windows95Props = {
+export type Windows95Props = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

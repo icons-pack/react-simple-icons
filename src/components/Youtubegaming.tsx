@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type YoutubegamingProps = {
+export type YoutubegamingProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type KitsuProps = {
+export type KitsuProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

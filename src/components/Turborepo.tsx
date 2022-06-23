@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TurborepoProps = {
+export type TurborepoProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

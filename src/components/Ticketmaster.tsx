@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TicketmasterProps = {
+export type TicketmasterProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

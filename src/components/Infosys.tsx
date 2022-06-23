@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type InfosysProps = {
+export type InfosysProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

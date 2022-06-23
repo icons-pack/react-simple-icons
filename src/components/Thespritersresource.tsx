@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ThespritersresourceProps = {
+export type ThespritersresourceProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

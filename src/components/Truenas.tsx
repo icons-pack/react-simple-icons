@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TruenasProps = {
+export type TruenasProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

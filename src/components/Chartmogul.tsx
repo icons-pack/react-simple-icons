@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ChartmogulProps = {
+export type ChartmogulProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

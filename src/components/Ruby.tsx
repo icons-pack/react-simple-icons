@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type RubyProps = {
+export type RubyProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

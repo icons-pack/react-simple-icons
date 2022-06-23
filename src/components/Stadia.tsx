@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type StadiaProps = {
+export type StadiaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

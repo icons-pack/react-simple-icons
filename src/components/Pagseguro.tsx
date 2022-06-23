@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PagseguroProps = {
+export type PagseguroProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

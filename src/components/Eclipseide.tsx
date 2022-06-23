@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type EclipseideProps = {
+export type EclipseideProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

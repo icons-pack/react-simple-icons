@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type OktaProps = {
+export type OktaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

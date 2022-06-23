@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SonicwallProps = {
+export type SonicwallProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

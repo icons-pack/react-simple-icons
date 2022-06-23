@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BoxysvgProps = {
+export type BoxysvgProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

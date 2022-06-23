@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TwitterProps = {
+export type TwitterProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

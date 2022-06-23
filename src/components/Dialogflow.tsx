@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type DialogflowProps = {
+export type DialogflowProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

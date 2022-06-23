@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type EbayProps = {
+export type EbayProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

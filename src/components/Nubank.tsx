@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type NubankProps = {
+export type NubankProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

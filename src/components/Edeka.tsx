@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type EdekaProps = {
+export type EdekaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

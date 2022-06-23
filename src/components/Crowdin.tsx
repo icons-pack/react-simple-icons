@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CrowdinProps = {
+export type CrowdinProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

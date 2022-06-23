@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ShazamProps = {
+export type ShazamProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

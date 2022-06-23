@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ChartdotjsProps = {
+export type ChartdotjsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

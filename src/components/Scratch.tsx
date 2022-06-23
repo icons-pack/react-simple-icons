@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ScratchProps = {
+export type ScratchProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

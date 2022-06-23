@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ThenorthfaceProps = {
+export type ThenorthfaceProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

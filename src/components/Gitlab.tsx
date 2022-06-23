@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GitlabProps = {
+export type GitlabProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

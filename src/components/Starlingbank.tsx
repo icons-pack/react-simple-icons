@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type StarlingbankProps = {
+export type StarlingbankProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

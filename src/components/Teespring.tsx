@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TeespringProps = {
+export type TeespringProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

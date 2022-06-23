@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type RollsroyceProps = {
+export type RollsroyceProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

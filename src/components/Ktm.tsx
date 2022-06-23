@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type KtmProps = {
+export type KtmProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

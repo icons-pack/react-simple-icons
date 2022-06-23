@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type DartProps = {
+export type DartProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

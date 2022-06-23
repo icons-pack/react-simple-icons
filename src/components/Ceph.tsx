@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CephProps = {
+export type CephProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type WixProps = {
+export type WixProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

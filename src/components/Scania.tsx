@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ScaniaProps = {
+export type ScaniaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

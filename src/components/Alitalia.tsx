@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AlitaliaProps = {
+export type AlitaliaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

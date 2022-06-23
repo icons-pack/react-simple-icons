@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CrunchyrollProps = {
+export type CrunchyrollProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

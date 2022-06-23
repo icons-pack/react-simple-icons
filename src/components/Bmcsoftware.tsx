@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BmcsoftwareProps = {
+export type BmcsoftwareProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

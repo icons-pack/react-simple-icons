@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type IcloudProps = {
+export type IcloudProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

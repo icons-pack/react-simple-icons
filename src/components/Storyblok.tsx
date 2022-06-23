@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type StoryblokProps = {
+export type StoryblokProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

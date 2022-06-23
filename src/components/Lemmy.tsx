@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type LemmyProps = {
+export type LemmyProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

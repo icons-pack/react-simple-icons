@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GradleProps = {
+export type GradleProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

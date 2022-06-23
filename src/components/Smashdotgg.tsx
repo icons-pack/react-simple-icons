@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SmashdotggProps = {
+export type SmashdotggProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

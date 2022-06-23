@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ZwaveProps = {
+export type ZwaveProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

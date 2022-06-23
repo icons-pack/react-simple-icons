@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type UnraidProps = {
+export type UnraidProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

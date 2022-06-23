@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type UntappdProps = {
+export type UntappdProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

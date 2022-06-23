@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GnuprivacyguardProps = {
+export type GnuprivacyguardProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

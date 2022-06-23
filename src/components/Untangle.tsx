@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type UntangleProps = {
+export type UntangleProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

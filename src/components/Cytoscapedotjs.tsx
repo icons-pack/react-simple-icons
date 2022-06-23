@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CytoscapedotjsProps = {
+export type CytoscapedotjsProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

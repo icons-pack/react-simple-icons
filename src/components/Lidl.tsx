@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type LidlProps = {
+export type LidlProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type LabviewProps = {
+export type LabviewProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

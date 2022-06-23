@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FoliumProps = {
+export type FoliumProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

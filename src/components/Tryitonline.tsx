@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TryitonlineProps = {
+export type TryitonlineProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

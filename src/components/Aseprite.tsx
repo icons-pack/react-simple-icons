@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AsepriteProps = {
+export type AsepriteProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

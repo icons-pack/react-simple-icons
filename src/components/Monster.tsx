@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MonsterProps = {
+export type MonsterProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

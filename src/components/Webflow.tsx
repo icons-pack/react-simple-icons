@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type WebflowProps = {
+export type WebflowProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

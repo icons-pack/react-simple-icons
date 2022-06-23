@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MetabaseProps = {
+export type MetabaseProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

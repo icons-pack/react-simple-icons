@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type WagtailProps = {
+export type WagtailProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

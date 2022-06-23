@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type CastroProps = {
+export type CastroProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

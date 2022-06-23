@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type StripeProps = {
+export type StripeProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

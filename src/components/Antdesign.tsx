@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AntdesignProps = {
+export type AntdesignProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

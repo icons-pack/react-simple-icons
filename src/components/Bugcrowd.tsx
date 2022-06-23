@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BugcrowdProps = {
+export type BugcrowdProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

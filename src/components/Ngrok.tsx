@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type NgrokProps = {
+export type NgrokProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

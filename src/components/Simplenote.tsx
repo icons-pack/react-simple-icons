@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SimplenoteProps = {
+export type SimplenoteProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

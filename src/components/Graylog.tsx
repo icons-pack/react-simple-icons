@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type GraylogProps = {
+export type GraylogProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

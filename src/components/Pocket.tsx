@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PocketProps = {
+export type PocketProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

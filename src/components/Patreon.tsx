@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PatreonProps = {
+export type PatreonProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

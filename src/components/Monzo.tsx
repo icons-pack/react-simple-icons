@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MonzoProps = {
+export type MonzoProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

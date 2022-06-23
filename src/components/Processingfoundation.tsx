@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ProcessingfoundationProps = {
+export type ProcessingfoundationProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

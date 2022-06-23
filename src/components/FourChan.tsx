@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FourChanProps = {
+export type FourChanProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

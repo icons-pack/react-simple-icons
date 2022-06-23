@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type InvoiceninjaProps = {
+export type InvoiceninjaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

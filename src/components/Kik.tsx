@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type KikProps = {
+export type KikProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

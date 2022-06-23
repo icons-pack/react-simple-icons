@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MicrosoftsqlserverProps = {
+export type MicrosoftsqlserverProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type TideProps = {
+export type TideProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

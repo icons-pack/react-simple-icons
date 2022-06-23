@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ClypProps = {
+export type ClypProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

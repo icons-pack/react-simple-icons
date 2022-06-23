@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type OpenbsdProps = {
+export type OpenbsdProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

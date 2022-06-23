@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AjvProps = {
+export type AjvProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

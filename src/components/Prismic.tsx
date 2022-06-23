@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PrismicProps = {
+export type PrismicProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type AiohttpProps = {
+export type AiohttpProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

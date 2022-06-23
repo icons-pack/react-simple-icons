@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PersonioProps = {
+export type PersonioProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

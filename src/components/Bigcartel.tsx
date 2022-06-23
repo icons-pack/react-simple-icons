@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type BigcartelProps = {
+export type BigcartelProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

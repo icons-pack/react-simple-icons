@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type PwaProps = {
+export type PwaProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

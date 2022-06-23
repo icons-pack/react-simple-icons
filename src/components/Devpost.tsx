@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type DevpostProps = {
+export type DevpostProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

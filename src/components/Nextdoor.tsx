@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type NextdoorProps = {
+export type NextdoorProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

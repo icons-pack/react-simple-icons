@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MiniProps = {
+export type MiniProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

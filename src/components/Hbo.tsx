@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type HboProps = {
+export type HboProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type ScopusProps = {
+export type ScopusProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

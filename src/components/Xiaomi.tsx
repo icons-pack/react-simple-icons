@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type XiaomiProps = {
+export type XiaomiProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

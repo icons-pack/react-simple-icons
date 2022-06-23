@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type MediafireProps = {
+export type MediafireProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

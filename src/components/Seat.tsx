@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SeatProps = {
+export type SeatProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */

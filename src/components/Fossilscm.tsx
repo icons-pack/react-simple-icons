@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type FossilscmProps = {
+export type FossilscmProps = React.ComponentPropsWithoutRef<'svg'> & {
   /**
    * Hex color or color name
    */
