@@ -1,5 +1,12 @@
 # Changelog
 
+## 5.3.0
+
+### Minor Changes
+
+- [`433f7bf`](https://github.com/icons-pack/react-simple-icons/commit/433f7bf1ffda8770d54688002ccea1026ba7b991) Thanks
+  [@wootsbot](https://github.com/wootsbot)! - tree shaking
+
 ## 5.2.0
 
 ### Minor Changes
