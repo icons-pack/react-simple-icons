@@ -1,5 +1,12 @@
 # Changelog
 
+## 5.5.0
+
+### Minor Changes
+
+- [`5224991`](https://github.com/icons-pack/react-simple-icons/commit/5224991db3a307464ee699bf5755d233fc739a6c) Thanks
+  [@wootsbot](https://github.com/wootsbot)! - Update simple-cions
+
 ## 5.4.0
 
 ### Minor Changes
