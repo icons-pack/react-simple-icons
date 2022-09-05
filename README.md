@@ -1,10 +1,10 @@
 <div align="center">
-  <img alt="react simple icons" src="https://raw.githubusercontent.com/icons-pack/react-simple-icons/canary/docs/images/svg/react-simple-icons.svg" width="150" />
+  <img alt="react simple icons" src="https://github.com/icons-pack/react-simple-icons/blob/main/docs/images/svg/react-simple-icons.svg" width="150" />
 
 # react-simple-icons
 
-This package provides the [Simple Icons 7.7.0](https://github.com/simple-icons/simple-icons/releases/tag/7.7.0) packaged
-as a set of [React](https://facebook.github.io/react/) components.
+This package provides the [Simple Icons 7.10.0](https://github.com/simple-icons/simple-icons/releases/tag/7.10.0)
+packaged as a set of [React](https://facebook.github.io/react/) components.
 
   <a href="https://www.npmjs.com/package/@icons-pack/react-simple-icons" target="_blank">
     <img src="https://img.shields.io/npm/v/@icons-pack/react-simple-icons?color=CB061D&style=flat-square" alt="www.npmjs.com!" />
