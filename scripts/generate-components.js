@@ -93,9 +93,9 @@ ICONS.forEach(icon => {
 
   signale.success(`${componentName}`);
 
-  const exportComponent =  `export { default as ${componentName} } from './components/${componentName}';\r\n`
+  const exportComponent =  `export { default as ${componentName} } from './components/${componentName}';\n`
   // const exportComponent = outputFileFormat(
-  //   `export { default as ${componentName} } from './components/${componentName}';\r\n`
+  //   `export { default as ${componentName} } from './components/${componentName}';\n`
   // );
 
   fs.appendFileSync(pathIndexExport, exportComponent, formatFile);
