@@ -82,7 +82,7 @@ ICONS.forEach(icon => {
     });
 
     export default ${componentName}
-  `;
+`;
 
    const component = element;
   //const component = outputFileFormat(element);
