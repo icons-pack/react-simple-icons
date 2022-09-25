@@ -27,4 +27,3 @@
     });
 
     export default P5dotjs
-  
