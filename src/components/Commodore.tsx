@@ -1,7 +1,7 @@
 
     import * as React from 'react';
 
-    export type DoubanProps = React.ComponentPropsWithoutRef<'svg'> & {
+    export type CommodoreProps = React.ComponentPropsWithoutRef<'svg'> & {
       /**
        * Hex color or color name
        */
@@ -16,15 +16,15 @@
       size?: string | number;
     };
 
-    const Douban = React.forwardRef<SVGSVGElement, DoubanProps>(function Douban({color = 'currentColor', size = 24, title = "douban", ...others}, ref) {
+    const Commodore = React.forwardRef<SVGSVGElement, CommodoreProps>(function Commodore({color = 'currentColor', size = 24, title = "commodore", ...others}, ref) {
 
       return (
         <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>
           <title>{title}</title>
-          <path d="M.51 3.06h22.98V.755H.51V3.06Zm20.976 2.537v9.608h-2.137l-1.669 5.76H24v2.28H0v-2.28h6.32l-1.67-5.76H2.515V5.597h18.972Zm-5.066 9.608H7.58l1.67 5.76h5.501l1.67-5.76ZM18.367 7.9H5.634v5.025h12.733V7.9Z" />
+          <path d="M11.202.798C5.016.798 0 5.814 0 12s5.016 11.202 11.202 11.202c1.094 0 2.153-.157 3.154-.45v-5.335a6.27 6.27 0 1 1 0-10.839v-5.33c-1-.293-2.057-.45-3.154-.45Zm3.375 6.343v4.304h5.27L24 7.14Zm-.037 5.377v4.304h9.423l-4.156-4.304z" />
         </svg>
       );
     });
 
-    export default Douban
+    export default Commodore
   

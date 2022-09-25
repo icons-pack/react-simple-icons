@@ -1,7 +1,7 @@
 
     import * as React from 'react';
 
-    export type DoubanProps = React.ComponentPropsWithoutRef<'svg'> & {
+    export type AlgorandProps = React.ComponentPropsWithoutRef<'svg'> & {
       /**
        * Hex color or color name
        */
@@ -16,15 +16,15 @@
       size?: string | number;
     };
 
-    const Douban = React.forwardRef<SVGSVGElement, DoubanProps>(function Douban({color = 'currentColor', size = 24, title = "douban", ...others}, ref) {
+    const Algorand = React.forwardRef<SVGSVGElement, AlgorandProps>(function Algorand({color = 'currentColor', size = 24, title = "algorand", ...others}, ref) {
 
       return (
         <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>
           <title>{title}</title>
-          <path d="M.51 3.06h22.98V.755H.51V3.06Zm20.976 2.537v9.608h-2.137l-1.669 5.76H24v2.28H0v-2.28h6.32l-1.67-5.76H2.515V5.597h18.972Zm-5.066 9.608H7.58l1.67 5.76h5.501l1.67-5.76ZM18.367 7.9H5.634v5.025h12.733V7.9Z" />
+          <path d="M13.874 0h3.673l1.61 5.963h3.789l-2.588 4.5 3.624 13.533h-3.757l-2.44-9.077-5.247 9.079H8.345l8.107-14.051-1.304-4.878L4.215 24H.018Z" />
         </svg>
       );
     });
 
-    export default Douban
+    export default Algorand
   
