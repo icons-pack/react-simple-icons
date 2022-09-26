@@ -34,7 +34,7 @@ specifiers:
   rollup-plugin-terser: 7.0.2
   rollup-plugin-typescript2: 0.31.2
   signale: ^1.4.0
-  simple-icons: 7.11.0
+  simple-icons: 7.13.0
   typescript: ^4.7.3
   uppercamelcase: ^3.0.0
 
@@ -72,7 +72,7 @@ devDependencies:
   rollup-plugin-terser: 7.0.2_rollup@2.75.3
   rollup-plugin-typescript2: 0.31.2_ncz2wtzomenyewuplihdt2slpe
   signale: 1.4.0
-  simple-icons: 7.11.0
+  simple-icons: 7.13.0
   typescript: 4.7.3
   uppercamelcase: 3.0.0
 
@@ -4989,8 +4989,8 @@ packages:
       simple-concat: 1.0.1
     dev: true
 
-  /simple-icons/7.11.0:
-    resolution: {integrity: sha512-RpPJ8UHLOcsNHn1Ms+TP5fCUwv7xc+S/sZF9QilRP594PQ7bgjvhMwIHslx1kCOP09FDOo+LIelRFc55QHfojw==}
+  /simple-icons/7.13.0:
+    resolution: {integrity: sha512-JrZKIBE9nWkoRib8UISvY9Q1cBgfCAHRWO8bYXIObJ1tJcLPVKu9AzjjS+i6Hp5b3NXsFSrLIy4UxIJHbC5JIw==}
     engines: {node: '>=0.12.18'}
     dev: true
 

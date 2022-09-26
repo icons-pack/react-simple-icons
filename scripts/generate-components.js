@@ -1,9 +1,7 @@
 const path = require('path');
 const fs = require('fs');
 const upperCamelCase = require('uppercamelcase');
-
 const SimpleIcons = require('simple-icons');
-
 const { titleToFilename, outputFileFormat, signale } = require('./utils');
 
 const formatFile = 'utf-8';
@@ -55,36 +53,35 @@ ICONS.forEach(icon => {
     others: '...others',
   };
 
-  const element = `
-    import * as React from 'react';
+  const element = `import * as React from 'react';
 
-    export type ${componentName}Props = React.ComponentPropsWithoutRef<'svg'> & {
-      /**
-       * Hex color or color name
-       */
-      title?: string;
-      /**
-       * The size of the Icon.
-       */
-      color?: string;
-      /**
-       * The title provides an accessible short text description to the SVG
-       */
-      size?: string | number;
-    };
+export type ${componentName}Props = React.ComponentPropsWithoutRef<'svg'> & {
+  /**
+   * Hex color or color name
+   */
+  title?: string;
+  /**
+   * The size of the Icon.
+   */
+  color?: string;
+  /**
+   * The title provides an accessible short text description to the SVG
+   */
+  size?: string | number;
+};
 
-    const ${componentName} = React.forwardRef<SVGSVGElement, ${componentName}Props>(function ${componentName}({color = 'currentColor', size = 24, title = "${baseName}", ...others}, ref) {
+const ${componentName} = React.forwardRef<SVGSVGElement, ${componentName}Props>(function ${componentName}({color = 'currentColor', size = 24, title = "${baseName}", ...others}, ref) {
 
-      return (
-        <svg ${attrsToString(defaultAttrs)}>
-          <title>{title}</title>
-          <path d="${SimpleIcons[baseName].path}" />
-        </svg>
-      );
-    });
+  return (
+    <svg ${attrsToString(defaultAttrs)}>
+      <title>{title}</title>
+      <path d="${SimpleIcons[baseName].path}" />
+    </svg>
+  );
+});
 
-    export default ${componentName}
-  `;
+export default ${componentName};
+`;
 
    const component = element;
   //const component = outputFileFormat(element);
