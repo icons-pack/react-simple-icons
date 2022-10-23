@@ -92,7 +92,7 @@
     "rollup-plugin-terser": "7.0.2",
     "rollup-plugin-typescript2": "0.31.2",
     "signale": "^1.4.0",
-    "simple-icons": "7.16.0",
+    "simple-icons": "7.17.0",
     "typescript": "^4.7.3",
     "uppercamelcase": "^3.0.0"
   },
