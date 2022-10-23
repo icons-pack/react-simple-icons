@@ -1,5 +1,13 @@
 # Changelog
 
+## 5.11.0
+
+### Minor Changes
+
+- [#159](https://github.com/icons-pack/react-simple-icons/pull/159)
+  [`246e137`](https://github.com/icons-pack/react-simple-icons/commit/246e13767443166430b30dcd6a8796f05e6cbdaf) Thanks
+  [@LitoMore](https://github.com/LitoMore)! - Bump simple-icons@7.17.0
+
 ## 5.10.0
 
 ### Minor Changes
