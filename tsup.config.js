@@ -1,0 +1,12 @@
+import { defineConfig } from 'tsup';
+
+export default defineConfig({
+  entry: ['src/index.ts'],
+  platform: 'node',
+  minify: true,
+  bundle: true,
+  target: 'node16',
+  clean: true,
+  format: ['cjs'],
+  dts: true,
+});

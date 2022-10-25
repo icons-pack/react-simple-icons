@@ -8,3 +8,4 @@ scripts
 # Cruft
 .DS_Store
 npm-debug.log
+tsup.config.js
