@@ -28,7 +28,6 @@ jobs:
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
-          cache: 'pnpm'
 
       # We use week in the turbo cache key to keep the cache from infinitely growing
       - id: get-week
