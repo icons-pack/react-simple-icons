@@ -3,6 +3,9 @@
     "build": {
       "outputs": ["dist/**"]
     },
+    "generate:components": {
+      "outputs": ["src/**"]
+    },
     "lint": {
       "outputs": []
     }
