@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type SteamdbProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Steamdb = React.forwardRef<SVGSVGElement, SteamdbProps>(function Steamdb({color = 'currentColor', size = 24, title = "steamdb", ...others}, ref) {
+const Steamdb = React.forwardRef<SVGSVGElement, IconProps>(function Steamdb({color = 'currentColor', size = 24, title = "steamdb", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

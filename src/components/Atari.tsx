@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type AtariProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Atari = React.forwardRef<SVGSVGElement, AtariProps>(function Atari({color = 'currentColor', size = 24, title = "atari", ...others}, ref) {
+const Atari = React.forwardRef<SVGSVGElement, IconProps>(function Atari({color = 'currentColor', size = 24, title = "atari", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

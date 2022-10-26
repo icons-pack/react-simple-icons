@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type WechatProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Wechat = React.forwardRef<SVGSVGElement, WechatProps>(function Wechat({color = 'currentColor', size = 24, title = "wechat", ...others}, ref) {
+const Wechat = React.forwardRef<SVGSVGElement, IconProps>(function Wechat({color = 'currentColor', size = 24, title = "wechat", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type HootsuiteProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Hootsuite = React.forwardRef<SVGSVGElement, HootsuiteProps>(function Hootsuite({color = 'currentColor', size = 24, title = "hootsuite", ...others}, ref) {
+const Hootsuite = React.forwardRef<SVGSVGElement, IconProps>(function Hootsuite({color = 'currentColor', size = 24, title = "hootsuite", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

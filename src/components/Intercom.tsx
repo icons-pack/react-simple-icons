@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type IntercomProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Intercom = React.forwardRef<SVGSVGElement, IntercomProps>(function Intercom({color = 'currentColor', size = 24, title = "intercom", ...others}, ref) {
+const Intercom = React.forwardRef<SVGSVGElement, IconProps>(function Intercom({color = 'currentColor', size = 24, title = "intercom", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

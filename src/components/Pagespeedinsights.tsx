@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type PagespeedinsightsProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Pagespeedinsights = React.forwardRef<SVGSVGElement, PagespeedinsightsProps>(function Pagespeedinsights({color = 'currentColor', size = 24, title = "pagespeedinsights", ...others}, ref) {
+const Pagespeedinsights = React.forwardRef<SVGSVGElement, IconProps>(function Pagespeedinsights({color = 'currentColor', size = 24, title = "pagespeedinsights", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

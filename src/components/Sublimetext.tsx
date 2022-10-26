@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type SublimetextProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Sublimetext = React.forwardRef<SVGSVGElement, SublimetextProps>(function Sublimetext({color = 'currentColor', size = 24, title = "sublimetext", ...others}, ref) {
+const Sublimetext = React.forwardRef<SVGSVGElement, IconProps>(function Sublimetext({color = 'currentColor', size = 24, title = "sublimetext", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

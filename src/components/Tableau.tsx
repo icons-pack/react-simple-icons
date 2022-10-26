@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type TableauProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Tableau = React.forwardRef<SVGSVGElement, TableauProps>(function Tableau({color = 'currentColor', size = 24, title = "tableau", ...others}, ref) {
+const Tableau = React.forwardRef<SVGSVGElement, IconProps>(function Tableau({color = 'currentColor', size = 24, title = "tableau", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

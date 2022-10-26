@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type JamboardProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Jamboard = React.forwardRef<SVGSVGElement, JamboardProps>(function Jamboard({color = 'currentColor', size = 24, title = "jamboard", ...others}, ref) {
+const Jamboard = React.forwardRef<SVGSVGElement, IconProps>(function Jamboard({color = 'currentColor', size = 24, title = "jamboard", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

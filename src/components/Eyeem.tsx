@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type EyeemProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Eyeem = React.forwardRef<SVGSVGElement, EyeemProps>(function Eyeem({color = 'currentColor', size = 24, title = "eyeem", ...others}, ref) {
+const Eyeem = React.forwardRef<SVGSVGElement, IconProps>(function Eyeem({color = 'currentColor', size = 24, title = "eyeem", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type WoocommerceProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Woocommerce = React.forwardRef<SVGSVGElement, WoocommerceProps>(function Woocommerce({color = 'currentColor', size = 24, title = "woocommerce", ...others}, ref) {
+const Woocommerce = React.forwardRef<SVGSVGElement, IconProps>(function Woocommerce({color = 'currentColor', size = 24, title = "woocommerce", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

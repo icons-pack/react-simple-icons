@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type RubyProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Ruby = React.forwardRef<SVGSVGElement, RubyProps>(function Ruby({color = 'currentColor', size = 24, title = "ruby", ...others}, ref) {
+const Ruby = React.forwardRef<SVGSVGElement, IconProps>(function Ruby({color = 'currentColor', size = 24, title = "ruby", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

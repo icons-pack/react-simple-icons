@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type AewProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Aew = React.forwardRef<SVGSVGElement, AewProps>(function Aew({color = 'currentColor', size = 24, title = "aew", ...others}, ref) {
+const Aew = React.forwardRef<SVGSVGElement, IconProps>(function Aew({color = 'currentColor', size = 24, title = "aew", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

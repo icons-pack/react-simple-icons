@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type LitProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Lit = React.forwardRef<SVGSVGElement, LitProps>(function Lit({color = 'currentColor', size = 24, title = "lit", ...others}, ref) {
+const Lit = React.forwardRef<SVGSVGElement, IconProps>(function Lit({color = 'currentColor', size = 24, title = "lit", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

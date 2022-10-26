@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type TorprojectProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Torproject = React.forwardRef<SVGSVGElement, TorprojectProps>(function Torproject({color = 'currentColor', size = 24, title = "torproject", ...others}, ref) {
+const Torproject = React.forwardRef<SVGSVGElement, IconProps>(function Torproject({color = 'currentColor', size = 24, title = "torproject", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

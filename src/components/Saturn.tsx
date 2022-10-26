@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type SaturnProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Saturn = React.forwardRef<SVGSVGElement, SaturnProps>(function Saturn({color = 'currentColor', size = 24, title = "saturn", ...others}, ref) {
+const Saturn = React.forwardRef<SVGSVGElement, IconProps>(function Saturn({color = 'currentColor', size = 24, title = "saturn", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

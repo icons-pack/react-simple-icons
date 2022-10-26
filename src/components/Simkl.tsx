@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type SimklProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Simkl = React.forwardRef<SVGSVGElement, SimklProps>(function Simkl({color = 'currentColor', size = 24, title = "simkl", ...others}, ref) {
+const Simkl = React.forwardRef<SVGSVGElement, IconProps>(function Simkl({color = 'currentColor', size = 24, title = "simkl", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

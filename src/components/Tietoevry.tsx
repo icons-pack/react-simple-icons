@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type TietoevryProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Tietoevry = React.forwardRef<SVGSVGElement, TietoevryProps>(function Tietoevry({color = 'currentColor', size = 24, title = "tietoevry", ...others}, ref) {
+const Tietoevry = React.forwardRef<SVGSVGElement, IconProps>(function Tietoevry({color = 'currentColor', size = 24, title = "tietoevry", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

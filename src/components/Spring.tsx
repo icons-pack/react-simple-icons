@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type SpringProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Spring = React.forwardRef<SVGSVGElement, SpringProps>(function Spring({color = 'currentColor', size = 24, title = "spring", ...others}, ref) {
+const Spring = React.forwardRef<SVGSVGElement, IconProps>(function Spring({color = 'currentColor', size = 24, title = "spring", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

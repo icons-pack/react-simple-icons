@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type ObsidianProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Obsidian = React.forwardRef<SVGSVGElement, ObsidianProps>(function Obsidian({color = 'currentColor', size = 24, title = "obsidian", ...others}, ref) {
+const Obsidian = React.forwardRef<SVGSVGElement, IconProps>(function Obsidian({color = 'currentColor', size = 24, title = "obsidian", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

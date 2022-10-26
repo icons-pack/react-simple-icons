@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type CnnProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Cnn = React.forwardRef<SVGSVGElement, CnnProps>(function Cnn({color = 'currentColor', size = 24, title = "cnn", ...others}, ref) {
+const Cnn = React.forwardRef<SVGSVGElement, IconProps>(function Cnn({color = 'currentColor', size = 24, title = "cnn", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

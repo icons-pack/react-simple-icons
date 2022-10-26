@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type OnstarProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Onstar = React.forwardRef<SVGSVGElement, OnstarProps>(function Onstar({color = 'currentColor', size = 24, title = "onstar", ...others}, ref) {
+const Onstar = React.forwardRef<SVGSVGElement, IconProps>(function Onstar({color = 'currentColor', size = 24, title = "onstar", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

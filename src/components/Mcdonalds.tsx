@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type McdonaldsProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Mcdonalds = React.forwardRef<SVGSVGElement, McdonaldsProps>(function Mcdonalds({color = 'currentColor', size = 24, title = "mcdonalds", ...others}, ref) {
+const Mcdonalds = React.forwardRef<SVGSVGElement, IconProps>(function Mcdonalds({color = 'currentColor', size = 24, title = "mcdonalds", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

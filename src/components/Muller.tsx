@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type MullerProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Muller = React.forwardRef<SVGSVGElement, MullerProps>(function Muller({color = 'currentColor', size = 24, title = "muller", ...others}, ref) {
+const Muller = React.forwardRef<SVGSVGElement, IconProps>(function Muller({color = 'currentColor', size = 24, title = "muller", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

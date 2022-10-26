@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type HelpscoutProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Helpscout = React.forwardRef<SVGSVGElement, HelpscoutProps>(function Helpscout({color = 'currentColor', size = 24, title = "helpscout", ...others}, ref) {
+const Helpscout = React.forwardRef<SVGSVGElement, IconProps>(function Helpscout({color = 'currentColor', size = 24, title = "helpscout", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

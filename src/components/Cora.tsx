@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type CoraProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Cora = React.forwardRef<SVGSVGElement, CoraProps>(function Cora({color = 'currentColor', size = 24, title = "cora", ...others}, ref) {
+const Cora = React.forwardRef<SVGSVGElement, IconProps>(function Cora({color = 'currentColor', size = 24, title = "cora", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

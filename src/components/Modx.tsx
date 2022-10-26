@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type ModxProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Modx = React.forwardRef<SVGSVGElement, ModxProps>(function Modx({color = 'currentColor', size = 24, title = "modx", ...others}, ref) {
+const Modx = React.forwardRef<SVGSVGElement, IconProps>(function Modx({color = 'currentColor', size = 24, title = "modx", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

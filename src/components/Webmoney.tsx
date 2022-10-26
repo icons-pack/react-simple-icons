@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type WebmoneyProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Webmoney = React.forwardRef<SVGSVGElement, WebmoneyProps>(function Webmoney({color = 'currentColor', size = 24, title = "webmoney", ...others}, ref) {
+const Webmoney = React.forwardRef<SVGSVGElement, IconProps>(function Webmoney({color = 'currentColor', size = 24, title = "webmoney", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

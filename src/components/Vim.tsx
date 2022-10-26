@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type VimProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Vim = React.forwardRef<SVGSVGElement, VimProps>(function Vim({color = 'currentColor', size = 24, title = "vim", ...others}, ref) {
+const Vim = React.forwardRef<SVGSVGElement, IconProps>(function Vim({color = 'currentColor', size = 24, title = "vim", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

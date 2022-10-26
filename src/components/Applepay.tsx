@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type ApplepayProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Applepay = React.forwardRef<SVGSVGElement, ApplepayProps>(function Applepay({color = 'currentColor', size = 24, title = "applepay", ...others}, ref) {
+const Applepay = React.forwardRef<SVGSVGElement, IconProps>(function Applepay({color = 'currentColor', size = 24, title = "applepay", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type GulpProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Gulp = React.forwardRef<SVGSVGElement, GulpProps>(function Gulp({color = 'currentColor', size = 24, title = "gulp", ...others}, ref) {
+const Gulp = React.forwardRef<SVGSVGElement, IconProps>(function Gulp({color = 'currentColor', size = 24, title = "gulp", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

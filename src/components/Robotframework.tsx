@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type RobotframeworkProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Robotframework = React.forwardRef<SVGSVGElement, RobotframeworkProps>(function Robotframework({color = 'currentColor', size = 24, title = "robotframework", ...others}, ref) {
+const Robotframework = React.forwardRef<SVGSVGElement, IconProps>(function Robotframework({color = 'currentColor', size = 24, title = "robotframework", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

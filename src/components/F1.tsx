@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type F1Props = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const F1 = React.forwardRef<SVGSVGElement, F1Props>(function F1({color = 'currentColor', size = 24, title = "f1", ...others}, ref) {
+const F1 = React.forwardRef<SVGSVGElement, IconProps>(function F1({color = 'currentColor', size = 24, title = "f1", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

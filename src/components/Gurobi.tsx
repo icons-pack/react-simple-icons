@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type GurobiProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Gurobi = React.forwardRef<SVGSVGElement, GurobiProps>(function Gurobi({color = 'currentColor', size = 24, title = "gurobi", ...others}, ref) {
+const Gurobi = React.forwardRef<SVGSVGElement, IconProps>(function Gurobi({color = 'currentColor', size = 24, title = "gurobi", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

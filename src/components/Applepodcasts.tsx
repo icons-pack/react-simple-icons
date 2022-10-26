@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type ApplepodcastsProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Applepodcasts = React.forwardRef<SVGSVGElement, ApplepodcastsProps>(function Applepodcasts({color = 'currentColor', size = 24, title = "applepodcasts", ...others}, ref) {
+const Applepodcasts = React.forwardRef<SVGSVGElement, IconProps>(function Applepodcasts({color = 'currentColor', size = 24, title = "applepodcasts", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

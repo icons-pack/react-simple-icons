@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type DynamicsThreeHundredSixtyFiveProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const DynamicsThreeHundredSixtyFive = React.forwardRef<SVGSVGElement, DynamicsThreeHundredSixtyFiveProps>(function DynamicsThreeHundredSixtyFive({color = 'currentColor', size = 24, title = "dynamics365", ...others}, ref) {
+const DynamicsThreeHundredSixtyFive = React.forwardRef<SVGSVGElement, IconProps>(function DynamicsThreeHundredSixtyFive({color = 'currentColor', size = 24, title = "dynamics365", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

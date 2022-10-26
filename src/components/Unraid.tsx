@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type UnraidProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Unraid = React.forwardRef<SVGSVGElement, UnraidProps>(function Unraid({color = 'currentColor', size = 24, title = "unraid", ...others}, ref) {
+const Unraid = React.forwardRef<SVGSVGElement, IconProps>(function Unraid({color = 'currentColor', size = 24, title = "unraid", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

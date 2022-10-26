@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type UnicodeProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Unicode = React.forwardRef<SVGSVGElement, UnicodeProps>(function Unicode({color = 'currentColor', size = 24, title = "unicode", ...others}, ref) {
+const Unicode = React.forwardRef<SVGSVGElement, IconProps>(function Unicode({color = 'currentColor', size = 24, title = "unicode", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type EmbarcaderoProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Embarcadero = React.forwardRef<SVGSVGElement, EmbarcaderoProps>(function Embarcadero({color = 'currentColor', size = 24, title = "embarcadero", ...others}, ref) {
+const Embarcadero = React.forwardRef<SVGSVGElement, IconProps>(function Embarcadero({color = 'currentColor', size = 24, title = "embarcadero", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

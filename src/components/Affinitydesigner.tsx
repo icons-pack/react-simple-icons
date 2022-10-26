@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type AffinitydesignerProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Affinitydesigner = React.forwardRef<SVGSVGElement, AffinitydesignerProps>(function Affinitydesigner({color = 'currentColor', size = 24, title = "affinitydesigner", ...others}, ref) {
+const Affinitydesigner = React.forwardRef<SVGSVGElement, IconProps>(function Affinitydesigner({color = 'currentColor', size = 24, title = "affinitydesigner", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

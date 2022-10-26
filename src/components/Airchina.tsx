@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type AirchinaProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Airchina = React.forwardRef<SVGSVGElement, AirchinaProps>(function Airchina({color = 'currentColor', size = 24, title = "airchina", ...others}, ref) {
+const Airchina = React.forwardRef<SVGSVGElement, IconProps>(function Airchina({color = 'currentColor', size = 24, title = "airchina", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

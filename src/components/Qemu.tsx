@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type QemuProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Qemu = React.forwardRef<SVGSVGElement, QemuProps>(function Qemu({color = 'currentColor', size = 24, title = "qemu", ...others}, ref) {
+const Qemu = React.forwardRef<SVGSVGElement, IconProps>(function Qemu({color = 'currentColor', size = 24, title = "qemu", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

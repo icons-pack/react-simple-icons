@@ -10,6 +10,7 @@ const dir = path.join(rootDir, 'src/');
 const outputComponent = 'src/components';
 
 const pathIndexExport = path.join(rootDir, 'src', 'index.ts');
+const pathTypes = path.join(rootDir, 'src', 'types.ts');
 
 const ICONS = Object.keys(SimpleIcons);
 
@@ -22,6 +23,7 @@ if (!fs.existsSync(outputComponent)) {
 }
 
 fs.writeFileSync(pathIndexExport, '', formatFile);
+fs.writeFileSync(pathTypes, '', formatFile);
 
 const attrsToString = attrs => {
   return Object.keys(attrs)
@@ -55,22 +57,9 @@ ICONS.forEach(icon => {
 
   const element = `import * as React from 'react';
 
-export type ${componentName}Props = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const ${componentName} = React.forwardRef<SVGSVGElement, ${componentName}Props>(function ${componentName}({color = 'currentColor', size = 24, title = "${baseName}", ...others}, ref) {
+const ${componentName} = React.forwardRef<SVGSVGElement, IconProps>(function ${componentName}({color = 'currentColor', size = 24, title = "${baseName}", ...others}, ref) {
 
   return (
     <svg ${attrsToString(defaultAttrs)}>
@@ -91,11 +80,28 @@ export default ${componentName};
   signale.success(`${componentName}`);
 
   const exportComponent =  `export { default as ${componentName} } from './components/${componentName}';\n`
-  // const exportComponent = outputFileFormat(
-  //   `export { default as ${componentName} } from './components/${componentName}';\n`
-  // );
-
   fs.appendFileSync(pathIndexExport, exportComponent, formatFile);
 });
+
+const typesFile =
+`// types.ts
+import * as React from 'react';
+
+export type IconProps = React.ComponentPropsWithoutRef<'svg'> & {
+  /**
+   * Hex color or color name
+   */
+  title?: string;
+  /**
+   * The size of the Icon.
+   */
+  color?: string;
+  /**
+   * The title provides an accessible short text description to the SVG
+   */
+  size?: string | number;
+};`
+
+fs.appendFileSync(pathTypes, typesFile, formatFile);
 
 signale.complete({ prefix: '[Components]', message: 'Ready components', suffix: '(@wootsbot)' });

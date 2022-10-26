@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type XdadevelopersProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Xdadevelopers = React.forwardRef<SVGSVGElement, XdadevelopersProps>(function Xdadevelopers({color = 'currentColor', size = 24, title = "xdadevelopers", ...others}, ref) {
+const Xdadevelopers = React.forwardRef<SVGSVGElement, IconProps>(function Xdadevelopers({color = 'currentColor', size = 24, title = "xdadevelopers", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

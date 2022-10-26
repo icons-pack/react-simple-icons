@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type HabrProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Habr = React.forwardRef<SVGSVGElement, HabrProps>(function Habr({color = 'currentColor', size = 24, title = "habr", ...others}, ref) {
+const Habr = React.forwardRef<SVGSVGElement, IconProps>(function Habr({color = 'currentColor', size = 24, title = "habr", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

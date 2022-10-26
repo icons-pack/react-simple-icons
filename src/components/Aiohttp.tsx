@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type AiohttpProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Aiohttp = React.forwardRef<SVGSVGElement, AiohttpProps>(function Aiohttp({color = 'currentColor', size = 24, title = "aiohttp", ...others}, ref) {
+const Aiohttp = React.forwardRef<SVGSVGElement, IconProps>(function Aiohttp({color = 'currentColor', size = 24, title = "aiohttp", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type LinearProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Linear = React.forwardRef<SVGSVGElement, LinearProps>(function Linear({color = 'currentColor', size = 24, title = "linear", ...others}, ref) {
+const Linear = React.forwardRef<SVGSVGElement, IconProps>(function Linear({color = 'currentColor', size = 24, title = "linear", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type WeightsandbiasesProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Weightsandbiases = React.forwardRef<SVGSVGElement, WeightsandbiasesProps>(function Weightsandbiases({color = 'currentColor', size = 24, title = "weightsandbiases", ...others}, ref) {
+const Weightsandbiases = React.forwardRef<SVGSVGElement, IconProps>(function Weightsandbiases({color = 'currentColor', size = 24, title = "weightsandbiases", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

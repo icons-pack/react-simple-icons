@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type JetProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Jet = React.forwardRef<SVGSVGElement, JetProps>(function Jet({color = 'currentColor', size = 24, title = "jet", ...others}, ref) {
+const Jet = React.forwardRef<SVGSVGElement, IconProps>(function Jet({color = 'currentColor', size = 24, title = "jet", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

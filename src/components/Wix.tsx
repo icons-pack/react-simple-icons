@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type WixProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Wix = React.forwardRef<SVGSVGElement, WixProps>(function Wix({color = 'currentColor', size = 24, title = "wix", ...others}, ref) {
+const Wix = React.forwardRef<SVGSVGElement, IconProps>(function Wix({color = 'currentColor', size = 24, title = "wix", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

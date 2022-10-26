@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type ThreeMProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const ThreeM = React.forwardRef<SVGSVGElement, ThreeMProps>(function ThreeM({color = 'currentColor', size = 24, title = "3m", ...others}, ref) {
+const ThreeM = React.forwardRef<SVGSVGElement, IconProps>(function ThreeM({color = 'currentColor', size = 24, title = "3m", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type YarnProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Yarn = React.forwardRef<SVGSVGElement, YarnProps>(function Yarn({color = 'currentColor', size = 24, title = "yarn", ...others}, ref) {
+const Yarn = React.forwardRef<SVGSVGElement, IconProps>(function Yarn({color = 'currentColor', size = 24, title = "yarn", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

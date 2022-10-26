@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type EclipsecheProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Eclipseche = React.forwardRef<SVGSVGElement, EclipsecheProps>(function Eclipseche({color = 'currentColor', size = 24, title = "eclipseche", ...others}, ref) {
+const Eclipseche = React.forwardRef<SVGSVGElement, IconProps>(function Eclipseche({color = 'currentColor', size = 24, title = "eclipseche", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

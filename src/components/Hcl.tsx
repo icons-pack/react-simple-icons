@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type HclProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Hcl = React.forwardRef<SVGSVGElement, HclProps>(function Hcl({color = 'currentColor', size = 24, title = "hcl", ...others}, ref) {
+const Hcl = React.forwardRef<SVGSVGElement, IconProps>(function Hcl({color = 'currentColor', size = 24, title = "hcl", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

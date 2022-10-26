@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type RazorpayProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Razorpay = React.forwardRef<SVGSVGElement, RazorpayProps>(function Razorpay({color = 'currentColor', size = 24, title = "razorpay", ...others}, ref) {
+const Razorpay = React.forwardRef<SVGSVGElement, IconProps>(function Razorpay({color = 'currentColor', size = 24, title = "razorpay", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

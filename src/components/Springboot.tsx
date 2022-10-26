@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type SpringbootProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Springboot = React.forwardRef<SVGSVGElement, SpringbootProps>(function Springboot({color = 'currentColor', size = 24, title = "springboot", ...others}, ref) {
+const Springboot = React.forwardRef<SVGSVGElement, IconProps>(function Springboot({color = 'currentColor', size = 24, title = "springboot", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

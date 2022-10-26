@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type GooglestreetviewProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Googlestreetview = React.forwardRef<SVGSVGElement, GooglestreetviewProps>(function Googlestreetview({color = 'currentColor', size = 24, title = "googlestreetview", ...others}, ref) {
+const Googlestreetview = React.forwardRef<SVGSVGElement, IconProps>(function Googlestreetview({color = 'currentColor', size = 24, title = "googlestreetview", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

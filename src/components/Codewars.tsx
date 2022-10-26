@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type CodewarsProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Codewars = React.forwardRef<SVGSVGElement, CodewarsProps>(function Codewars({color = 'currentColor', size = 24, title = "codewars", ...others}, ref) {
+const Codewars = React.forwardRef<SVGSVGElement, IconProps>(function Codewars({color = 'currentColor', size = 24, title = "codewars", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

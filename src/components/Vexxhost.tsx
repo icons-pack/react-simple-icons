@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type VexxhostProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Vexxhost = React.forwardRef<SVGSVGElement, VexxhostProps>(function Vexxhost({color = 'currentColor', size = 24, title = "vexxhost", ...others}, ref) {
+const Vexxhost = React.forwardRef<SVGSVGElement, IconProps>(function Vexxhost({color = 'currentColor', size = 24, title = "vexxhost", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

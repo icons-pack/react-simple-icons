@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type GoogleplayProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Googleplay = React.forwardRef<SVGSVGElement, GoogleplayProps>(function Googleplay({color = 'currentColor', size = 24, title = "googleplay", ...others}, ref) {
+const Googleplay = React.forwardRef<SVGSVGElement, IconProps>(function Googleplay({color = 'currentColor', size = 24, title = "googleplay", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

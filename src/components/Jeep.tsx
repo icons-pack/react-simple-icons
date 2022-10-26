@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type JeepProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Jeep = React.forwardRef<SVGSVGElement, JeepProps>(function Jeep({color = 'currentColor', size = 24, title = "jeep", ...others}, ref) {
+const Jeep = React.forwardRef<SVGSVGElement, IconProps>(function Jeep({color = 'currentColor', size = 24, title = "jeep", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>

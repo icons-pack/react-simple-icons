@@ -1,21 +1,8 @@
 import * as React from 'react';
 
-export type AmazonalexaProps = React.ComponentPropsWithoutRef<'svg'> & {
-  /**
-   * Hex color or color name
-   */
-  title?: string;
-  /**
-   * The size of the Icon.
-   */
-  color?: string;
-  /**
-   * The title provides an accessible short text description to the SVG
-   */
-  size?: string | number;
-};
+import { IconProps } from '../types';
 
-const Amazonalexa = React.forwardRef<SVGSVGElement, AmazonalexaProps>(function Amazonalexa({color = 'currentColor', size = 24, title = "amazonalexa", ...others}, ref) {
+const Amazonalexa = React.forwardRef<SVGSVGElement, IconProps>(function Amazonalexa({color = 'currentColor', size = 24, title = "amazonalexa", ...others}, ref) {
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>
