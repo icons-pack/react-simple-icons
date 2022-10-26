@@ -25,12 +25,12 @@
   "author": "Jorge Luis Calleja <jorge.calleja@wootsbot.dev>",
   "source": "src/index.ts",
   "types": "dist/index.d.ts",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
   "umd:main": "dist/index.js",
   "unpkg": "dist/index.js",
   "jsdelivr": "dist/index.js",
-  "jsnext:main": "dist/index.js",
+  "jsnext:main": "dist/index.mjs",
   "sideEffects": false,
   "files": [
     "dist"

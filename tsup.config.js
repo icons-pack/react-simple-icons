@@ -7,6 +7,7 @@ export default defineConfig({
   bundle: true,
   target: 'node16',
   clean: true,
-  format: ['cjs'],
+  format: ['esm','cjs'],
   dts: true,
+  external: 'react'
 });
