@@ -1,15 +1,6 @@
-import * as React from 'react';
+import baseIcon from '../base';
 
-import { IconProps } from '../types';
+  const Pkgsrc = baseIcon('pkgsrc', 'm12.908 8.763 9.157-5.132L11.25 0 1.62 4.42Zm1.5 2.29 9-5.368-.948 11.84-8.191 6.382zM.593 6.712 1.619 18.79 11.922 24l-.12-12.788Z');
 
-const Pkgsrc = React.forwardRef<SVGSVGElement, IconProps>(function Pkgsrc({color = 'currentColor', size = 24, title = "pkgsrc", ...others}, ref) {
-
-  return (
-    <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>
-      <title>{title}</title>
-      <path d="m12.908 8.763 9.157-5.132L11.25 0 1.62 4.42Zm1.5 2.29 9-5.368-.948 11.84-8.191 6.382zM.593 6.712 1.619 18.79 11.922 24l-.12-12.788Z" />
-    </svg>
-  );
-});
-
-export default Pkgsrc;
+  export default Pkgsrc;
+  

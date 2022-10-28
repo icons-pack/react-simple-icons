@@ -1,15 +1,6 @@
-import * as React from 'react';
+import baseIcon from '../base';
 
-import { IconProps } from '../types';
+  const Platzi = baseIcon('platzi', 'M10.6392 1.127L2.486 9.282a3.842 3.842 0 000 5.4361l8.1552 8.1552a3.842 3.842 0 005.4361 0l2.719-2.718-2.719-2.7181-2.718 2.718-8.1562-8.1551 8.1552-8.1552 5.437 5.4371-5.437 5.4361 2.718 2.719 5.4371-5.437a3.842 3.842 0 000-5.4372l-5.448-5.436a3.828 3.828 0 00-5.4252 0z');
 
-const Platzi = React.forwardRef<SVGSVGElement, IconProps>(function Platzi({color = 'currentColor', size = 24, title = "platzi", ...others}, ref) {
-
-  return (
-    <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 24 24" ref={ref} {...others}>
-      <title>{title}</title>
-      <path d="M10.6392 1.127L2.486 9.282a3.842 3.842 0 000 5.4361l8.1552 8.1552a3.842 3.842 0 005.4361 0l2.719-2.718-2.719-2.7181-2.718 2.718-8.1562-8.1551 8.1552-8.1552 5.437 5.4371-5.437 5.4361 2.718 2.719 5.4371-5.437a3.842 3.842 0 000-5.4372l-5.448-5.436a3.828 3.828 0 00-5.4252 0z" />
-    </svg>
-  );
-});
-
-export default Platzi;
+  export default Platzi;
+  
