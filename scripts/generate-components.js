@@ -27,15 +27,14 @@ ICONS.forEach(icon => {
   const baseName = String(icon);
   const componentName = (baseName === 'React' || baseName === 'react') ? 'ReactJs' : upperCamelCase(titleToFilename(baseName));
 
-  const locationOutputComponent = path.join(rootDir, `${outputComponent}/`, `${componentName}.tsx`);
+  const locationOutputComponent = path.join(rootDir, `${outputComponent}/`, `${componentName}.ts`);
 
   const element =
   `import baseIcon from '../base';
+const ${componentName} = baseIcon('${baseName}', '${SimpleIcons[baseName].path}');
+export default ${componentName};
+`;
 
-  const ${componentName} = baseIcon('${baseName}', '${SimpleIcons[baseName].path}');
-
-  export default ${componentName};
-  `
   const component = element;
 
   fs.writeFileSync(locationOutputComponent, component, formatFile);

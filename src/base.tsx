@@ -1,7 +1,7 @@
 import * as React from 'react';
-import { IconProps } from '../templates/types';
+import { IconProps, IconType } from './types';
 
-const baseIcon = (iconTitle: string, iconPath: string) =>
+const baseIcon = (iconTitle: string, iconPath: string): IconType =>
   React.forwardRef<SVGSVGElement, IconProps>(function(
     { title = iconTitle, color = 'currentColor', size = 24, ...others },
     ref,
