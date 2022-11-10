@@ -3,7 +3,6 @@ dist
 .cache
 node_modules
 storybook
-scripts
 
 # Cruft
 .DS_Store

@@ -9,7 +9,7 @@ const options = {
     },
     success: {
       badge: '✨',
-      label: 'Component written successfully:',
+      label: 'File written successfully:',
     },
   },
 };
@@ -20,8 +20,10 @@ module.exports = {
    * Converts a brand title into a filename (not a full path)
    * @param {String} title The title to convert
    */
-  titleToFilename: title =>
-    title
+  titleToFilename: title => {
+    if (title === 'React' || title === 'react') return 'ReactJs';
+
+    return title
       .toLowerCase()
       .replace(/'/g, '')
       .replace(/\+/g, 'plus')
@@ -68,7 +70,8 @@ module.exports = {
       .replace(/^24/, 'twenty-four-')
       .replace(/24$/, '-twenty-four')
       .replace(/24/g, '-twenty-four-')
-      .replace(/tado°/, 'Tado'),
+      .replace(/tado°/, 'Tado');
+  },
 
   outputFileFormat: element =>
     format({
@@ -80,11 +83,11 @@ module.exports = {
         bracketSpacing: true,
         jsxSingleQuote: true,
         printWidth: 120,
-        proseWrap: "always",
+        proseWrap: 'always',
         semi: true,
         singleQuote: true,
         tabWidth: 2,
-        trailingComma: "all"
+        trailingComma: 'all',
       },
     }),
 };

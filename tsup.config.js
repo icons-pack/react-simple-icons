@@ -8,6 +8,6 @@ export default defineConfig({
   target: 'node16',
   clean: true,
   format: ['esm','cjs'],
-  dts: true,
+  dts: false,
   external: 'react'
 });
