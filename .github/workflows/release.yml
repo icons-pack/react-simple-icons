@@ -10,28 +10,54 @@ on:
   release:
     types: [created]
 
+env:
+  TURBO_VERSION: 1.6.1
+  PNPM_VERSION: 7.12.1
+
 jobs:
   publish-npm:
+    name: Release
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
 
+      # We use week in the turbo cache key to keep the cache from infinitely growing
+      - id: get-week
+        run: echo ::set-output name=WEEK::$(date +%U)
+
+      - name: Turbo Cache
+        id: turbo-cache
+        uses: actions/cache@v3
+        with:
+          path: .turbo
+          key: turbo-${{ github.job }}-${{ github.ref_name }}-${{ steps.get-week.outputs.WEEK }}-${{ github.sha }}
+          restore-keys: |
+            turbo-${{ github.job }}-${{ github.ref_name }}-${{ steps.get-week.outputs.WEEK }}-
+            turbo-${{ github.job }}-canary-${{ steps.get-week.outputs.WEEK }}-
+
       - name: 🔥 install pnpm
-        run: npm i pnpm@7.2.1 -g --force
+        run: npm i pnpm@${PNPM_VERSION} -g --force
+
+      - name: Setup TURBO
+        run: npm i -g turbo@${TURBO_VERSION}
 
       - name: 📦 Install Dependencies
         run: |
-          pnpm i
+          pnpm install
 
       - name: 🔥 generate:components
-        run: pnpm generate:components
+        run: pnpm turbo run generate:components
 
       - name: 💣 build
-        run: pnpm build
+        run: pnpm turbo run build
 
       - name: Create Release Pull Request or Publish to GitHub Packages 📦
         uses: changesets/action@v1

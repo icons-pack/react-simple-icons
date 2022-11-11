@@ -9,5 +9,4 @@ scripts
 .DS_Store
 npm-debug.log
 
-rollup.config.js
-rollup.esm.config.js
+tsup.config.js
