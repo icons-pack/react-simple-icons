@@ -92,12 +92,23 @@ function ChangeTitle() {
 }
 ```
 
+## Use default color
+
+Set color as `default` to use the default color for each icon
+
+```jsx
+import { ReactJs } from '@icons-pack/react-simple-icons';
+
+function DefaultColorExample() {
+  return <ReactJs color="default" size={24} />;
+}
+```
+
 ## Custom styles
 
 ```jsx
 import { ReactJs } from '@icons-pack/react-simple-icons';
 
-// title default "React"
 function CustomStyles() {
   return <ReactJs className='myStyle' />;
 }
