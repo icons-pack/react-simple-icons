@@ -1,5 +1,13 @@
 # Changelog
 
+## 6.0.0
+
+### Major Changes
+
+- [#161](https://github.com/icons-pack/react-simple-icons/pull/161)
+  [`282b51c`](https://github.com/icons-pack/react-simple-icons/commit/282b51c3ef783ff640c79333ec19592e44c821f8) Thanks
+  [@wootsbot](https://github.com/wootsbot)! - Use esbuild to generate buld components
+
 ## 5.11.0
 
 ### Minor Changes
