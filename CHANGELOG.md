@@ -1,5 +1,13 @@
 # Changelog
 
+## 6.1.0
+
+### Minor Changes
+
+- [#165](https://github.com/icons-pack/react-simple-icons/pull/165)
+  [`af313ed`](https://github.com/icons-pack/react-simple-icons/commit/af313ed0b62aded5cfd9fe7bcd5bd26de102ff9e) Thanks
+  [@wei](https://github.com/wei)! - Add default color support
+
 ## 6.0.0
 
 ### Major Changes
