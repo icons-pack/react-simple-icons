@@ -29,7 +29,7 @@ jobs:
 
       # We use week in the turbo cache key to keep the cache from infinitely growing
       - id: get-week
-        run: echo ::set-output name=WEEK::$(date +%U)
+        run: echo name=WEEK::$(date +%U) >> $GITHUB_OUTPUT
 
       - name: Turbo Cache
         id: turbo-cache
