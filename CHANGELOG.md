@@ -1,5 +1,12 @@
 # Changelog
 
+## 6.3.0
+
+### Minor Changes
+
+- [`aff5f02`](https://github.com/icons-pack/react-simple-icons/commit/aff5f02a673180bb5539d0bacb91026a1182d5b9) Thanks
+  [@wootsbot](https://github.com/wootsbot)! - Update pakage simple icons
+
 ## 6.2.0
 
 ### Minor Changes
