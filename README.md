@@ -3,7 +3,7 @@
 
 # react-simple-icons
 
-This package provides the [Simple Icons 7.19.0](https://github.com/simple-icons/simple-icons/releases/tag/7.19.0)
+This package provides the [Simple Icons 8.5.0"](https://github.com/simple-icons/simple-icons/releases/tag/8.5.0")
 packaged as a set of [React](https://facebook.github.io/react/) components.
 
   <a href="https://www.npmjs.com/package/@icons-pack/react-simple-icons" target="_blank">
@@ -100,7 +100,7 @@ Set color as `default` to use the default color for each icon
 import { ReactJs } from '@icons-pack/react-simple-icons';
 
 function DefaultColorExample() {
-  return <ReactJs color="default" size={24} />;
+  return <ReactJs color='default' size={24} />;
 }
 ```
 

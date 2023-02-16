@@ -9,8 +9,8 @@ on:
       - main
 
 env:
-  TURBO_VERSION: 1.6.1
-  PNPM_VERSION: 7.12.1
+  TURBO_VERSION: 1.7.4
+  PNPM_VERSION: 7.27.0
 
 jobs:
   check_pull_request:
