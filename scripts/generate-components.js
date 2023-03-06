@@ -25,14 +25,17 @@ if (!fs.existsSync(outputComponent)) {
 // Write `src/index.ts`
 fs.writeFileSync(
   indexFilePath,
-  iconTitles.map(baseName => iconExportTemplate(upperCamelCase(titleToFilename(baseName)))).join('\n') + '\n',
+  iconTitles.map((baseName) => iconExportTemplate(upperCamelCase(titleToFilename(baseName)))).join('\n') + '\n',
   formatFile,
 );
+
 signale.success('Write `src/index.ts`');
 
 // Write `src/components/[componentName].ts`
 Promise.all(
-  iconTitles.map(baseName => {
+  iconTitles.map((baseName) => {
+    //console.log('baseName', { baseName });
+
     const componentName = upperCamelCase(titleToFilename(baseName));
     const componentFilePath = path.join(rootDir, `${outputComponent}/`, `${componentName}.ts`);
 
@@ -43,5 +46,5 @@ Promise.all(
     );
   }),
 ).then(() => {
-  signale.success('Write `src/components/[componentName].ts`');
+  signale.success('Write src/components');
 });
