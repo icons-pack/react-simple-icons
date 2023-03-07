@@ -24,7 +24,7 @@ specifiers:
   react: ^18.2.0
   rimraf: ^3.0.2
   signale: ^1.4.0
-  simple-icons: 8.5.0
+  simple-icons: 8.6.0
   tsup: 6.3.0
   turbo: 1.7.4
   typescript: 4.7.3
@@ -54,7 +54,7 @@ devDependencies:
   react: 18.2.0
   rimraf: 3.0.2
   signale: 1.4.0
-  simple-icons: 8.5.0
+  simple-icons: 8.6.0
   tsup: 6.3.0_typescript@4.7.3
   turbo: 1.7.4
   typescript: 4.7.3
@@ -4656,8 +4656,8 @@ packages:
       simple-concat: 1.0.1
     dev: true
 
-  /simple-icons/8.5.0:
-    resolution: {integrity: sha512-OpRzQuj4HLZOQmGuYrO/4uZOyhHTFDnB5Xj/t0L2mIJbSa1bkMUJ7d5MppIJdwuiRnRiY767S6/EV99MKghThA==}
+  /simple-icons/8.6.0:
+    resolution: {integrity: sha512-A5rRhFdgsV+1LIdkzIuwa+ilYb1v+svDi1ojOcfnEXaYSsTAlYRpWcH+p0MM1XY7uIkiNJ8i9bkFRoysMbLopw==}
     engines: {node: '>=0.12.18'}
     dev: true
 
