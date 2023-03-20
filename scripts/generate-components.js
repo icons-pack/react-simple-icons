@@ -41,7 +41,12 @@ Promise.all(
 
     return fsPromise.writeFile(
       componentFilePath,
-      iconFileTemplate(componentName, baseName, `#${simpleIcons[baseName].hex}`, simpleIcons[baseName].path),
+      iconFileTemplate(
+        componentName,
+        simpleIcons[baseName].title,
+        `#${simpleIcons[baseName].hex}`,
+        simpleIcons[baseName].path,
+      ),
       formatFile,
     );
   }),
