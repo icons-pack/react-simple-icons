@@ -2,13 +2,13 @@
 This icon component file as `src/components/[componentName].ts`.
 */
 const iconFileTemplate = (componentName, baseName, hex, path) => `import baseIcon from '../base';
-const ${componentName} = baseIcon('${baseName}', '${hex}', '${path}');
+const ${componentName} = baseIcon("${baseName}", '${hex}', '${path}');
 export default ${componentName};\n`;
 
 /**
 The single line for exporting component in `src/index.ts`.
 */
-const iconExportTemplate = componentName =>
+const iconExportTemplate = (componentName) =>
   `export { default as ${componentName} } from './components/${componentName}';`;
 
 /**
@@ -25,7 +25,7 @@ type I = IconType;\n`;
 /**
 The single line for exporting component declaration in `dist/index.d.ts`
 */
-const iconDeclarationExportTemplate = componentName => `export const ${componentName}: I;`;
+const iconDeclarationExportTemplate = (componentName) => `export const ${componentName}: I;`;
 
 module.exports = {
   iconFileTemplate,
