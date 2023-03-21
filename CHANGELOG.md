@@ -1,5 +1,13 @@
 # Changelog
 
+## 7.1.1
+
+### Patch Changes
+
+- [#174](https://github.com/icons-pack/react-simple-icons/pull/174)
+  [`28ca25c`](https://github.com/icons-pack/react-simple-icons/commit/28ca25c7c36a0f0fc9577be3abd54d4ca268da7f) Thanks
+  [@samrobbins85](https://github.com/samrobbins85)! - Change title to match simpleicons svg titles
+
 ## 7.1.0
 
 ### Minor Changes
