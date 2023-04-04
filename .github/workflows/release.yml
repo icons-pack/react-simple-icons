@@ -11,8 +11,8 @@ on:
     types: [created]
 
 env:
-  TURBO_VERSION: 1.7.4
-  PNPM_VERSION: 7.27.0
+  TURBO_VERSION: ${{ vars.TURBO_VERSION }}
+  PNPM_VERSION: ${{ vars.PNPM_VERSION }}
 
 jobs:
   publish-npm:
