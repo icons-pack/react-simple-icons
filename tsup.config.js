@@ -9,5 +9,6 @@ export default defineConfig({
   clean: true,
   format: ['esm','cjs'],
   dts: false,
-  external: 'react'
+  external: 'react',
+  treeshake: true,
 });
