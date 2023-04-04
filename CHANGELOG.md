@@ -1,5 +1,20 @@
 # Changelog
 
+## 7.2.0
+
+### Minor Changes
+
+- [`b680c1b`](https://github.com/icons-pack/react-simple-icons/commit/b680c1bda4e23bbb8aa0e9d14ebeb3070a3f9971) Thanks
+  [@wootsbot](https://github.com/wootsbot)! - Fixed version
+
+- [#176](https://github.com/icons-pack/react-simple-icons/pull/176)
+  [`6949727`](https://github.com/icons-pack/react-simple-icons/commit/6949727999cbcd350bbfce1a360f3f895ee6d288) Thanks
+  [@wootsbot](https://github.com/wootsbot)! - Bump simple-icons@8.9.0
+
+- [#176](https://github.com/icons-pack/react-simple-icons/pull/176)
+  [`6949727`](https://github.com/icons-pack/react-simple-icons/commit/6949727999cbcd350bbfce1a360f3f895ee6d288) Thanks
+  [@wootsbot](https://github.com/wootsbot)! - Update `tsup`, `turbo`'
+
 ## 7.1.1
 
 ### Patch Changes
