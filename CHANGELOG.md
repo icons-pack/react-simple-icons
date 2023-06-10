@@ -1,5 +1,12 @@
 # Changelog
 
+## 8.0.0-beta.2
+
+### Patch Changes
+
+- [`1544e91`](https://github.com/icons-pack/react-simple-icons/commit/1544e91d01f0f11b48e5232739cae7451e0fc446) Thanks
+  [@wootsbot](https://github.com/wootsbot)! - Fixed publish
+
 ## 8.0.0-beta.1
 
 ### Minor Changes
