@@ -1,0 +1,8 @@
+{
+  "mode": "pre",
+  "tag": "beta",
+  "initialVersions": {
+    "@icons-pack/react-simple-icons": "7.2.0"
+  },
+  "changesets": []
+}

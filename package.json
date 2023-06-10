@@ -23,72 +23,75 @@
   },
   "license": "MIT",
   "author": "Jorge Luis Calleja <jorge.calleja@wootsbot.dev>",
-  "source": "src/index.ts",
-  "types": "dist/index.d.ts",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
-  "umd:main": "dist/index.js",
-  "unpkg": "dist/index.js",
-  "jsdelivr": "dist/index.js",
-  "jsnext:main": "dist/index.mjs",
+  "main": "./dist/react-simple-icons.umd.js",
+  "module": "./dist/react-simple-icons.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/react-simple-icons.mjs",
+      "require": "./dist/react-simple-icons.umd.js"
+    }
+  },
+  "types": "./dist/index.d.ts",
   "sideEffects": false,
   "files": [
     "dist"
   ],
   "scripts": {
+    "build:dist": "vite build",
     "clean": "rimraf dist",
     "clean:build": "rimraf -rf dist",
-    "build": "pnpm clean:build && tsup && pnpm generate:declarations",
-    "bundlesize": "bundlesize",
+    "build": "pnpm clean:build && pnpm build:dist && pnpm generate:declarations",
     "lint:types": "tsc --noEmit",
     "clean:components": "rimraf -rf ./src/components/**",
     "clean:files": "rimraf -rf ./src/index.ts",
     "generate:components": "pnpm clean:components && pnpm clean:files && node scripts/generate-components",
     "generate:declarations": "node scripts/generate-declarations",
-    "lint": "pnpm lint:eslint",
-    "lint:eslint": "eslint --fix .",
     "prettier": "prettier --config .prettierrc \"./**/*.+(js|json|ts|tsx)\" --write",
+    "bundlesize": "bundlesize",
     "changeset": "changeset",
     "version": "changeset version",
     "release": "changeset publish"
   },
   "lint-staged": {
-    "*.js": [
-      "eslint --fix"
-    ],
     "./**/*.+(js|json)": [
       "prettier --write"
     ]
   },
+  "bundlesize": [
+    {
+      "path": "./dist/index.d.ts",
+      "maxSize": "25 kB"
+    },
+    {
+      "path": "./dist/react-simple-icons.mjs",
+      "maxSize": "2 MB"
+    },
+    {
+      "path": "./dist/react-simple-icons.umd.js",
+      "maxSize": "2 MB"
+    }
+  ],
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.5",
     "@changesets/cli": "^2.22.0",
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
     "@types/react": "^18.0.12",
-    "@typescript-eslint/eslint-plugin": "^5.27.1",
-    "@typescript-eslint/parser": "^5.27.1",
+    "@vitejs/plugin-react": "^4.0.0",
     "bundlesize": "^0.18.1",
     "cross-env": "^6.0.3",
-    "eslint": "^8.17.0",
-    "eslint-config-airbnb-typescript": "^17.0.0",
-    "eslint-config-prettier": "8.6.0",
-    "eslint-import-resolver-webpack": "^0.11.1",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-prettier": "4.2.1",
-    "eslint-plugin-react": "^7.14.3",
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
     "prettier": "2.8.4",
-    "prettier-eslint": "15.0.1",
+    "prettier-eslint": "^15.0.1",
     "react": "^18.2.0",
     "rimraf": "^3.0.2",
     "signale": "^1.4.0",
-    "simple-icons": "8.9.0",
-    "tsup": "6.7.0",
-    "turbo": "1.8.8",
+    "simple-icons": "9.0.0",
+    "turbo": "1.10.3",
     "typescript": "4.7.3",
-    "uppercamelcase": "3.0.0"
+    "uppercamelcase": "3.0.0",
+    "vite": "^4.3.9"
   },
   "peerDependencies": {
     "react": "^16.13 || ^17 || ^18"
