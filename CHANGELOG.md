@@ -1,5 +1,12 @@
 # Changelog
 
+## 8.0.0-beta.0
+
+### Major Changes
+
+- [`9fd5698`](https://github.com/icons-pack/react-simple-icons/commit/9fd5698b72252be4523f7c3ec69a297ae5425ad2) Thanks
+  [@wootsbot](https://github.com/wootsbot)! - Migrate to Vite
+
 ## 7.2.0
 
 ### Minor Changes
