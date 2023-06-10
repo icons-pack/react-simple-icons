@@ -25,9 +25,8 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v3
         with:
-          node-version: 16.x
+          node-version: 18
           registry-url: https://registry.npmjs.org/
-          cache: 'pnpm'
 
       # We use week in the turbo cache key to keep the cache from infinitely growing
       - id: get-week
