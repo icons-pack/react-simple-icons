@@ -19,7 +19,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/icons-pack/react-simple-icons.git"
+    "url": "git+https://github.com/icons-pack/react-simple-icons.git",
+    "directory": "react-simple-icons"
   },
   "license": "MIT",
   "author": "Jorge Luis Calleja <jorge.calleja@wootsbot.dev>",
