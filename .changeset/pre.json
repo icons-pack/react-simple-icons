@@ -5,6 +5,7 @@
     "@icons-pack/react-simple-icons": "7.2.0"
   },
   "changesets": [
+    "green-horses-dress",
     "mighty-stingrays-add",
     "tasty-lamps-relax"
   ]
