@@ -10,18 +10,26 @@ module.exports = defineConfig({
     },
   },
   build: {
-    target: 'esnext',
+    target: 'ES6',
+    minify: 'terser',
     lib: {
       entry: path.resolve(__dirname, 'src/index.ts'),
       name: 'react-simple-icons',
     },
     rollupOptions: {
       external: ['react'],
-      output: {
-        globals: {
-          react: 'React',
+      output: [
+        {
+          format: 'umd',
+          name: 'reactSimpleIcons',
+          globals: {
+            react: 'React',
+          },
         },
-      },
+        {
+          format: 'esm',
+        },
+      ],
     },
   },
 });

@@ -25,10 +25,10 @@
   "license": "MIT",
   "author": "Jorge Luis Calleja <jorge.calleja@wootsbot.dev>",
   "main": "./dist/react-simple-icons.umd.js",
-  "module": "./dist/react-simple-icons.mjs",
+  "module": "./dist/react-simple-icons.esm.js",
   "exports": {
     ".": {
-      "import": "./dist/react-simple-icons.mjs",
+      "import": "./dist/react-simple-icons.esm.js",
       "require": "./dist/react-simple-icons.umd.js"
     }
   },
@@ -64,7 +64,7 @@
       "maxSize": "25 kB"
     },
     {
-      "path": "./dist/react-simple-icons.mjs",
+      "path": "./dist/react-simple-icons.esm.js",
       "maxSize": "2 MB"
     },
     {
@@ -90,6 +90,7 @@
     "rimraf": "^3.0.2",
     "signale": "^1.4.0",
     "simple-icons": "9.0.0",
+    "terser": "^5.17.7",
     "turbo": "1.10.3",
     "typescript": "4.7.3",
     "uppercamelcase": "3.0.0",
