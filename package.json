@@ -64,15 +64,15 @@
   },
   "bundlesize": [
     {
-      "path": "dist/index.cjs",
+      "path": "./index.cjs",
       "maxSize": "50 kB"
     },
     {
-      "path": "dist/index.mjs",
+      "path": "./index.mjs",
       "maxSize": "30 kB"
     },
     {
-      "path": "dist/index.d.ts",
+      "path": "./index.d.ts",
       "maxSize": "30 kB"
     }
   ],
