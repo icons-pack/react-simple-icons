@@ -7,6 +7,7 @@ on:
   pull_request:
     branches:
       - main
+      - v8
 
 env:
   TURBO_VERSION: ${{ vars.TURBO_VERSION }}
@@ -24,7 +25,7 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 18
           registry-url: https://registry.npmjs.org/
 
       # We use week in the turbo cache key to keep the cache from infinitely growing
@@ -41,18 +42,24 @@ jobs:
             turbo-${{ github.job }}-${{ github.ref_name }}-${{ steps.get-week.outputs.WEEK }}-
             turbo-${{ github.job }}-canary-${{ steps.get-week.outputs.WEEK }}-
 
-      - name: 🔥 install pnpm
-        run: npm i pnpm@${PNPM_VERSION} -g --force
+      - name: 🔥 Installing pnpm
+        run: |
+          corepack enable
+          corepack prepare pnpm@${PNPM_VERSION} --activate
 
       - name: Setup TURBO
-        run: npm i -g turbo@${TURBO_VERSION}
-
-      - name: 📦 Install Dependencies
         run: |
-          pnpm install
+          npm add -g turbo@${TURBO_VERSION}
+
+      - name: 📦 Install dependencies
+        run: |
+          pnpm install --no-frozen-lockfile
 
       - name: 🔥 generate:components
         run: pnpm turbo run generate:components
 
       - name: 💣 build
         run: pnpm turbo run build
+
+      - name: 🔥 bundlesize
+        run: pnpm bundlesize

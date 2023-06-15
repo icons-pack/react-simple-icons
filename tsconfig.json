@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
     "sourceMap": false,
-    "module": "es2015",
-    "target": "es2018",
+    "module": "esnext",
+    "target": "esnext",
     "moduleResolution": "node",
     "outDir": "./dist",
     "jsx": "react-jsx",
@@ -16,8 +16,12 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    }
   },
-  "include": ["src"],
-  "exclude": ["node_modules", "src/*.test.ts", "src/*.test.tsx"]
+  "include": ["src/*"],
+  "exclude": ["node_modules"]
 }

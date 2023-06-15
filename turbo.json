@@ -6,8 +6,8 @@
     "generate:components": {
       "outputs": ["src/**"]
     },
-    "lint": {
-      "outputs": []
+    "bundlesize": {
+      "dependsOn": ["generate:components", "build"]
     }
   }
 }
