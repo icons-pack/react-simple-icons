@@ -4,7 +4,7 @@
     "module": "esnext",
     "target": "esnext",
     "moduleResolution": "node",
-    "outDir": "./dist",
+    "outDir": ".",
     "jsx": "react-jsx",
     "skipLibCheck": true,
     "declaration": false,

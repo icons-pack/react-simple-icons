@@ -8,3 +8,8 @@ storybook
 .DS_Store
 npm-debug.log
 tsup.config.js
+icons
+.d.ts*
+.js
+.mjs
+.cjs

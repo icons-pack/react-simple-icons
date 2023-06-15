@@ -11,7 +11,8 @@
     "inline",
     "design",
     "component",
-    "codea"
+    "codea",
+    "wootsbot"
   ],
   "homepage": "https://github.com/icons-pack/react-simple-icons#readme",
   "bugs": {
@@ -24,30 +25,34 @@
   },
   "license": "MIT",
   "author": "Jorge Luis Calleja <jorge.calleja@wootsbot.dev>",
-  "main": "dist/index.cjs",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.cjs"
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
     },
     "./package.json": "./package.json"
   },
   "sideEffects": false,
   "files": [
-    "dist"
+    "icons",
+    "*.d.ts*",
+    "*.js",
+    "*.mjs",
+    "*.cjs"
   ],
   "scripts": {
     "clean": "rimraf dist",
     "clean:build": "rimraf -rf dist",
     "build": "pnpm clean:build && vite build",
     "lint:types": "tsc --noEmit",
-    "clean:components": "rimraf -rf ./src/components/**",
+    "clean:icons": "rimraf -rf ./src/icons/**",
     "clean:files": "rimraf -rf ./src/index.ts",
-    "generate:components": "pnpm clean:components && pnpm clean:files && node scripts/generate-components",
-    "prettier": "prettier --config .prettierrc \"./**/*.+(js|json|ts|tsx)\" --write",
+    "generate:icons": "pnpm clean:icons && pnpm clean:files && node scripts/generate-icons",
+    "prettier:format": "prettier --config .prettierrc \"./**/*.+(js|json|ts|tsx)\" --write",
     "bundlesize": "bundlesize",
     "changeset": "changeset",
     "version": "changeset version",

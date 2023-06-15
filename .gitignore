@@ -29,4 +29,11 @@ package-lock.json
 .turbo
 src/components
 
-.vscode
+icons
+base.cjs
+base.d.ts
+base.mjs
+index.cjs
+index.d.ts
+index.mjs
+types.d.ts

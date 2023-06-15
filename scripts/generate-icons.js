@@ -9,7 +9,7 @@ const { titleToFilename, signale } = require('./utils');
 const formatFile = 'utf-8';
 const rootDir = path.join(__dirname, '..');
 const dir = path.join(rootDir, 'src/');
-const outputComponent = 'src/components';
+const outputFolderIconsTs = 'src/icons';
 const indexFilePath = path.join(rootDir, 'src', 'index.ts');
 
 const iconTitles = Object.keys(simpleIcons);
@@ -18,8 +18,8 @@ if (!fs.existsSync(dir)) {
   fs.mkdirSync(dir);
 }
 
-if (!fs.existsSync(outputComponent)) {
-  fs.mkdirSync(outputComponent);
+if (!fs.existsSync(outputFolderIconsTs)) {
+  fs.mkdirSync(outputFolderIconsTs);
 }
 
 // Write `src/index.ts`
@@ -37,7 +37,7 @@ Promise.all(
     //console.log('baseName', { baseName });
 
     const componentName = upperCamelCase(titleToFilename(baseName));
-    const componentFilePath = path.join(rootDir, `${outputComponent}/`, `${componentName}.ts`);
+    const componentFilePath = path.join(rootDir, `${outputFolderIconsTs}/`, `${componentName}.ts`);
 
     return fsPromise.writeFile(
       componentFilePath,
