@@ -45,9 +45,8 @@
     "*.cjs"
   ],
   "scripts": {
-    "clean": "rimraf dist",
-    "clean:build": "rimraf -rf dist",
-    "build": "pnpm clean:build && vite build",
+    "clean": "rimraf -rf icons base.cjs base.d.ts base.mjs index.cjs index.d.ts index.mjs types.d.ts",
+    "build": "pnpm clean && vite build",
     "lint:types": "tsc --noEmit",
     "clean:icons": "rimraf -rf ./src/icons/**",
     "clean:files": "rimraf -rf ./src/index.ts",
