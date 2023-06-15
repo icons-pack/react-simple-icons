@@ -3,11 +3,11 @@
     "build": {
       "outputs": ["dist/**"]
     },
-    "generate:components": {
+    "generate:icons": {
       "outputs": ["src/**"]
     },
     "bundlesize": {
-      "dependsOn": ["generate:components", "build"]
+      "dependsOn": ["generate:icons", "build"]
     }
   }
 }

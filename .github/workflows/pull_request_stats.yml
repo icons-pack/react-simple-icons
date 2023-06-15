@@ -55,8 +55,8 @@ jobs:
         run: |
           pnpm install --no-frozen-lockfile
 
-      - name: 🔥 generate:components
-        run: pnpm turbo run generate:components
+      - name: 🔥 generate:icons
+        run: pnpm turbo run generate:icons
 
       - name: 💣 build
         run: pnpm turbo run build
