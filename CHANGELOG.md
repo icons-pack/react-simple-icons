@@ -1,5 +1,33 @@
 # Changelog
 
+## 8.0.0
+
+### Major Changes
+
+- [#184](https://github.com/icons-pack/react-simple-icons/pull/184)
+  [`9fd5698`](https://github.com/icons-pack/react-simple-icons/commit/9fd5698b72252be4523f7c3ec69a297ae5425ad2) Thanks
+  [@wootsbot](https://github.com/wootsbot)! - Migrate to Vite
+
+### Minor Changes
+
+- [#184](https://github.com/icons-pack/react-simple-icons/pull/184)
+  [`efe9fe1`](https://github.com/icons-pack/react-simple-icons/commit/efe9fe107e50e565b054d2a403392035d330ce1f) Thanks
+  [@wootsbot](https://github.com/wootsbot)! - Update docs
+
+### Patch Changes
+
+- [#184](https://github.com/icons-pack/react-simple-icons/pull/184)
+  [`1544e91`](https://github.com/icons-pack/react-simple-icons/commit/1544e91d01f0f11b48e5232739cae7451e0fc446) Thanks
+  [@wootsbot](https://github.com/wootsbot)! - Fixed publish
+
+- [#184](https://github.com/icons-pack/react-simple-icons/pull/184)
+  [`8df4cb7`](https://github.com/icons-pack/react-simple-icons/commit/8df4cb7ca578656dfe1b2f7af2288a78c5b6b86c) Thanks
+  [@wootsbot](https://github.com/wootsbot)! - Fixed build
+
+- [#184](https://github.com/icons-pack/react-simple-icons/pull/184)
+  [`36ff254`](https://github.com/icons-pack/react-simple-icons/commit/36ff2541a4c34554318dd85f4579913789536fb4) Thanks
+  [@wootsbot](https://github.com/wootsbot)! - Fixed tree-shaking
+
 ## 8.0.0-beta.4
 
 ### Patch Changes
