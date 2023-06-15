@@ -62,16 +62,16 @@
   },
   "bundlesize": [
     {
-      "path": "./dist/index.d.ts",
-      "maxSize": "25 kB"
+      "path": "dist/index.cjs",
+      "maxSize": "50 kB"
     },
     {
-      "path": "./dist/react-simple-icons.esm.js",
-      "maxSize": "2 MB"
+      "path": "dist/index.mjs",
+      "maxSize": "30 kB"
     },
     {
-      "path": "./dist/react-simple-icons.umd.js",
-      "maxSize": "2 MB"
+      "path": "dist/index.d.ts",
+      "maxSize": "30 kB"
     }
   ],
   "devDependencies": {
