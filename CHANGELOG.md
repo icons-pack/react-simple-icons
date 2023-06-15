@@ -1,5 +1,12 @@
 # Changelog
 
+## 8.0.1
+
+### Patch Changes
+
+- [`97014fa`](https://github.com/icons-pack/react-simple-icons/commit/97014fac4fd5e80746ca77af9ebf21b5e37fd6d0) Thanks
+  [@wootsbot](https://github.com/wootsbot)! - Fixed tree-shaking
+
 ## 8.0.0
 
 ### Major Changes
