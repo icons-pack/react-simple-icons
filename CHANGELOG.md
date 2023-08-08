@@ -1,5 +1,13 @@
 # Changelog
 
+## 9.0.0-v9.0
+
+### Major Changes
+
+- [`8560140`](https://github.com/icons-pack/react-simple-icons/commit/8560140369477f22a427a71ca9d581d8857255da) Thanks
+  [@wootsbot](https://github.com/wootsbot)! - The way of creating the components has been changed to better export the
+  types
+
 ## 8.0.1
 
 ### Patch Changes
