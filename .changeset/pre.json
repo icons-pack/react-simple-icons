@@ -1,0 +1,8 @@
+{
+  "mode": "pre",
+  "tag": "v9",
+  "initialVersions": {
+    "@icons-pack/react-simple-icons": "8.0.1"
+  },
+  "changesets": []
+}

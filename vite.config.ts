@@ -9,11 +9,12 @@ import pkg from './package.json';
 export default defineConfig({
   plugins: [
     dts({
-      skipDiagnostics: true,
+      insertTypesEntry: true,
       entryRoot: 'src',
-      staticImport: true,
-      rollupTypes: false,
-      outputDir: '.',
+      //outputDir: '.',
+      //skipDiagnostics: true,
+      //staticImport: true,
+      //rollupTypes: false,
     }),
     react(),
   ],

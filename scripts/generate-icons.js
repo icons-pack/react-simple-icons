@@ -3,7 +3,7 @@ const fs = require('fs');
 const fsPromise = require('fs/promises');
 const upperCamelCase = require('uppercamelcase');
 const simpleIcons = require('simple-icons');
-const { iconFileTemplate, iconExportTemplate } = require('./templates');
+const { iconExportTemplate, iconComponenteTemplate } = require('./templates');
 const { titleToFilename, signale } = require('./utils');
 
 const formatFile = 'utf-8';
@@ -31,19 +31,16 @@ fs.writeFileSync(
 
 signale.success('Write `src/index.ts`');
 
-// Write `src/components/[componentName].ts`
 Promise.all(
   iconTitles.map((baseName) => {
-    //console.log('baseName', { baseName });
-
     const componentName = upperCamelCase(titleToFilename(baseName));
-    const componentFilePath = path.join(rootDir, `${outputFolderIconsTs}/`, `${componentName}.ts`);
+    const componentFilePath = path.join(rootDir, `${outputFolderIconsTs}/`, `${componentName}.tsx`);
 
     return fsPromise.writeFile(
       componentFilePath,
-      iconFileTemplate(
+      iconComponenteTemplate(
         componentName,
-        simpleIcons[baseName].title,
+        titleToFilename(simpleIcons[baseName].title),
         `#${simpleIcons[baseName].hex}`,
         simpleIcons[baseName].path,
       ),
@@ -51,5 +48,5 @@ Promise.all(
     );
   }),
 ).then(() => {
-  signale.success('Write src/components');
+  signale.success('Write src/icons');
 });

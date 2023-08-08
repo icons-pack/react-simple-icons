@@ -21,8 +21,8 @@ module.exports = {
    * @param {String} title The title to convert
    */
   titleToFilename: (title) => {
-    const titleClear = title.replace(/si/, 'si_');
-    titleClear.replace(/'/g, '_');
+    const titleBase = title.replace(/'/g, '');
+    const titleClear = titleBase.replace(/\bsi\b/gi, '');
     return titleClear;
   },
 
