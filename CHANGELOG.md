@@ -1,5 +1,12 @@
 # Changelog
 
+## 9.0.0-beta.0
+
+### Major Changes
+
+- [`b5fdad8`](https://github.com/icons-pack/react-simple-icons/commit/b5fdad8bd2397c102e1b8faad8afafab1b55a7bf) Thanks
+  [@wootsbot](https://github.com/wootsbot)! - The way of creating the icons has been changed to better export the types.
+
 ## 9.0.0-v9.1
 
 ### Patch Changes
