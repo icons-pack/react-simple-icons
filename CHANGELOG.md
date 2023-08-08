@@ -1,5 +1,12 @@
 # Changelog
 
+## 9.0.0-v9.1
+
+### Patch Changes
+
+- [`aacd390`](https://github.com/icons-pack/react-simple-icons/commit/aacd390bfc4873d9994ff0bad0721e1ef657b842) Thanks
+  [@wootsbot](https://github.com/wootsbot)! - Fixed pnpm bum
+
 ## 9.0.0-v9.0
 
 ### Major Changes

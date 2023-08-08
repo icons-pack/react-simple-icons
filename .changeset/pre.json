@@ -5,6 +5,7 @@
     "@icons-pack/react-simple-icons": "8.0.1"
   },
   "changesets": [
-    "cold-beers-impress"
+    "cold-beers-impress",
+    "rude-penguins-crash"
   ]
 }
