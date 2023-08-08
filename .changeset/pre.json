@@ -1,11 +1,8 @@
 {
   "mode": "pre",
-  "tag": "v9",
+  "tag": "beta",
   "initialVersions": {
     "@icons-pack/react-simple-icons": "8.0.1"
   },
-  "changesets": [
-    "cold-beers-impress",
-    "rude-penguins-crash"
-  ]
+  "changesets": []
 }
