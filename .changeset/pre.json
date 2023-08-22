@@ -1,5 +1,5 @@
 {
-  "mode": "pre",
+  "mode": "exit",
   "tag": "beta",
   "initialVersions": {
     "@icons-pack/react-simple-icons": "8.0.1"
