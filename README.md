@@ -3,8 +3,8 @@
 
 # react-simple-icons
 
-This package provides the [Simple Icons 9.1.0](https://github.com/simple-icons/simple-icons/releases/tag/9.1.0) packaged
-as a set of [React](https://facebook.github.io/react/) components.
+This package provides the [Simple Icons 9.11.0](https://github.com/simple-icons/simple-icons/releases/tag/9.11.0)
+packaged as a set of [React](https://facebook.github.io/react/) components.
 
   <a href="https://www.npmjs.com/package/@icons-pack/react-simple-icons" target="_blank">
     <img src="https://img.shields.io/npm/v/@icons-pack/react-simple-icons?color=CB061D&style=flat-square" alt="www.npmjs.com!" />

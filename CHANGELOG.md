@@ -1,5 +1,27 @@
 # Changelog
 
+## 9.0.0-beta.0
+
+### Major Changes
+
+- [`b5fdad8`](https://github.com/icons-pack/react-simple-icons/commit/b5fdad8bd2397c102e1b8faad8afafab1b55a7bf) Thanks
+  [@wootsbot](https://github.com/wootsbot)! - The way of creating the icons has been changed to better export the types.
+
+## 9.0.0-v9.1
+
+### Patch Changes
+
+- [`aacd390`](https://github.com/icons-pack/react-simple-icons/commit/aacd390bfc4873d9994ff0bad0721e1ef657b842) Thanks
+  [@wootsbot](https://github.com/wootsbot)! - Fixed pnpm bum
+
+## 9.0.0-v9.0
+
+### Major Changes
+
+- [`8560140`](https://github.com/icons-pack/react-simple-icons/commit/8560140369477f22a427a71ca9d581d8857255da) Thanks
+  [@wootsbot](https://github.com/wootsbot)! - The way of creating the components has been changed to better export the
+  types
+
 ## 8.0.1
 
 ### Patch Changes
