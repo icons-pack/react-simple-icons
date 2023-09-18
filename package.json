@@ -35,7 +35,7 @@
       "require": "./index.cjs"
     },
     "./package.json": "./package.json",
-    "./icons/*": "./icons/*",
+    "./icons/*": "./icons/*"
   },
   "sideEffects": false,
   "files": [
