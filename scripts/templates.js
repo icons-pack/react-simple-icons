@@ -27,9 +27,11 @@ const iconComponenteTemplate = (componentName, title, colorHex, path) => {
       size?: string | number;
     }
 
+    const defaultColor = '${colorHex}';
+
     const ${componentName}: IconType = React.forwardRef<SVGSVGElement, ${componentName}Props>(function ${componentName}({title = '${title}', color = 'currentColor', size = 24, ...others }, ref) {
       if (color === 'default') {
-        color = '${colorHex}';
+        color = defaultColor;
       }
 
       return (
@@ -48,15 +50,14 @@ const iconComponenteTemplate = (componentName, title, colorHex, path) => {
       );
     });
 
-    export default ${componentName};
-
+    export { ${componentName} as default, defaultColor };
   `;
 };
 
 /**
 The single line for exporting component in `src/index.ts`.
 */
-const iconExportTemplate = (componentName) => `export { default as ${componentName} } from './icons/${componentName}';`;
+const iconExportTemplate = (componentName) => `export { default as ${componentName}, defaultColor as ${componentName}Hex } from './icons/${componentName}';`;
 
 
 module.exports = {

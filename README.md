@@ -91,6 +91,18 @@ function DefaultColorExample() {
 }
 ```
 
+### Use default color as hex
+
+Append `Hex` to the icon name to use the default color as hex string
+
+```jsx
+import { SiReact, SiReactHex } from '@icons-pack/react-simple-icons';
+
+function DefaultColorExample() {
+  return <SiReact color={SiReactHex} size={24} />;
+}
+```
+
 ## Custom styles
 
 ```jsx
