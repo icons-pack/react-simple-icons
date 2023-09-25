@@ -1,5 +1,13 @@
 # Changelog
 
+## 9.0.1
+
+### Patch Changes
+
+- [#196](https://github.com/icons-pack/react-simple-icons/pull/196)
+  [`c7887f7`](https://github.com/icons-pack/react-simple-icons/commit/c7887f7b1b69bd89b3d90a7766952cf925e7a6c6) Thanks
+  [@bodinsamuel](https://github.com/bodinsamuel)! - Declare all exported files in package.json
+
 ## 9.0.0
 
 ### Major Changes
