@@ -44,11 +44,11 @@ jobs:
       - name: 🔥 Installing pnpm
         run: |
           corepack enable
-          corepack prepare pnpm@${PNPM_VERSION} --activate
+          corepack prepare pnpm@${{ env.PNPM_VERSION }} --activate
 
       - name: Setup TURBO
         run: |
-          npm add -g turbo@${TURBO_VERSION}
+          npm add -g turbo@${{ env.TURBO_VERSION }}
 
       - name: 📦 Install dependencies
         run: |
