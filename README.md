@@ -3,7 +3,7 @@
 
 # react-simple-icons
 
-This package provides the [Simple Icons 9.11.0](https://github.com/simple-icons/simple-icons/releases/tag/9.11.0)
+This package provides the [Simple Icons 9.16.1](https://github.com/simple-icons/simple-icons/releases/tag/9.16.1)
 packaged as a set of [React](https://facebook.github.io/react/) components.
 
   <a href="https://www.npmjs.com/package/@icons-pack/react-simple-icons" target="_blank">
@@ -36,6 +36,9 @@ npm add @icons-pack/react-simple-icons
 
 // with pnpm
 pnpm add @icons-pack/react-simple-icons
+
+// with bun
+bun add @icons-pack/react-simple-icons
 ```
 
 > TypeScript Support
