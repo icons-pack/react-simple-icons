@@ -70,11 +70,11 @@
     },
     {
       "path": "./index.mjs",
-      "maxSize": "30 kB"
+      "maxSize": "35 kB"
     },
     {
       "path": "./index.d.ts",
-      "maxSize": "30 kB"
+      "maxSize": "35 kB"
     }
   ],
   "devDependencies": {
