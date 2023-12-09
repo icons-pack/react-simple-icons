@@ -25,7 +25,10 @@ if (!fs.existsSync(outputFolderIconsTs)) {
 // Write `src/index.ts`
 fs.writeFileSync(
   indexFilePath,
-  iconTitles.map((baseName) => iconExportTemplate(upperCamelCase(titleToFilename(baseName)))).join('\n') + '\n',
+  //iconTitles.map((baseName) => iconExportTemplate(upperCamelCase(titleToFilename(baseName)))).join('\n') + '\n',
+  iconTitles.map((baseName) => iconExportTemplate(upperCamelCase(titleToFilename(baseName)))).join('\n') +
+    '\n' +
+    'export type * from "./types";\n',
   formatFile,
 );
 
