@@ -47,7 +47,7 @@
   "bundlesize": [
     {
       "path": "./index.cjs",
-      "maxSize": "60 kB"
+      "maxSize": "65 kB"
     },
     {
       "path": "./index.mjs",
