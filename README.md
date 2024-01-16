@@ -3,7 +3,7 @@
 
 # react-simple-icons
 
-This package provides the [Simple Icons 11.1.0](https://github.com/simple-icons/simple-icons/releases/tag/11.1.0)
+This package provides the [Simple Icons 11.7.0](https://github.com/simple-icons/simple-icons/releases/tag/11.7.0)
 packaged as a set of [React](https://facebook.github.io/react/) components.
 
   <a href="https://www.npmjs.com/package/@icons-pack/react-simple-icons" target="_blank">
