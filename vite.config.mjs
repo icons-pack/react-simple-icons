@@ -26,7 +26,7 @@ export default defineConfig({
   build: {
     target: 'esnext',
     minify: false,
-    outDir: '.',
+    outDir: './',
     lib: {
       entry: 'src/index.ts',
       fileName: (format) => (format === 'es' ? 'index.mjs' : 'index.cjs'),
