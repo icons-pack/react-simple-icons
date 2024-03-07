@@ -1,5 +1,13 @@
 # Changelog
 
+## 9.4.0
+
+### Minor Changes
+
+- [#213](https://github.com/icons-pack/react-simple-icons/pull/213)
+  [`93c1465`](https://github.com/icons-pack/react-simple-icons/commit/93c1465163e6715d612dd8f70980b88cdd6941fa) Thanks
+  [@wootsbot](https://github.com/wootsbot)! - Bump simple-icons@11.1.0 and Bump vite@5.0.11
+
 ## 9.3.0
 
 ### Minor Changes
