@@ -69,15 +69,15 @@
   "bundlesize": [
     {
       "path": "./index.cjs",
-      "maxSize": "65 kB"
+      "maxSize": "70 kB"
     },
     {
       "path": "./index.mjs",
-      "maxSize": "35 kB"
+      "maxSize": "70 kB"
     },
     {
       "path": "./index.d.ts",
-      "maxSize": "35 kB"
+      "maxSize": "70 kB"
     }
   ],
   "devDependencies": {
@@ -96,12 +96,12 @@
     "react": "^18.2.0",
     "rimraf": "^3.0.2",
     "signale": "^1.4.0",
-    "simple-icons": "11.1.0",
-    "turbo": "1.11.3",
+    "simple-icons": "11.7.0",
+    "turbo": "1.12.5",
     "typescript": "4.7.3",
     "uppercamelcase": "3.0.0",
-    "vite": "5.0.11",
-    "vite-plugin-dts": "3.7.1"
+    "vite": "5.1.5",
+    "vite-plugin-dts": "3.7.3"
   },
   "peerDependencies": {
     "react": "^16.13 || ^17 || ^18"
