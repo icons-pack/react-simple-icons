@@ -1,5 +1,12 @@
 # Changelog
 
+## 9.4.1
+
+### Patch Changes
+
+- [`3807d23`](https://github.com/icons-pack/react-simple-icons/commit/3807d2379bfe3253b72454ac510f50b6fd04ed80) Thanks
+  [@wootsbot](https://github.com/wootsbot)! - fix: remove onPointerEnterCapture & onPointerLeaveCapture
+
 ## 9.4.0
 
 ### Minor Changes
