@@ -51,8 +51,8 @@ devDependencies:
     specifier: ^1.4.0
     version: 1.4.0
   simple-icons:
-    specifier: 11.7.0
-    version: 11.7.0
+    specifier: 11.14.0
+    version: 11.14.0
   turbo:
     specifier: 1.12.5
     version: 1.12.5
@@ -4486,8 +4486,8 @@ packages:
       simple-concat: 1.0.1
     dev: true
 
-  /simple-icons@11.7.0:
-    resolution: {integrity: sha512-ecsOO6vPi3tf21BMZDw4gYI8ouaSq9mfFlBxBU8WEfcA+8Pz217jxM29K6YkGfO0dszakrcfHK1rrAr9vIfpkQ==}
+  /simple-icons@11.14.0:
+    resolution: {integrity: sha512-KJ2R28d6tV+uu3GbRQTHizCGyjkI0QPhooYUcv4GjiE4XG0wSlqCFN/pUQK6gno46F0Fk2cyG5otFAK8EMaiYw==}
     engines: {node: '>=0.12.18'}
     dev: true
 

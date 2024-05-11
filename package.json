@@ -2,18 +2,7 @@
   "name": "@icons-pack/react-simple-icons",
   "version": "9.4.1",
   "description": "This package provides the Simple Icons packaged as a set of React components.",
-  "keywords": [
-    "react",
-    "simple-icons",
-    "brands",
-    "icons",
-    "svg",
-    "inline",
-    "design",
-    "component",
-    "codea",
-    "wootsbot"
-  ],
+  "keywords": ["react", "simple-icons", "brands", "icons", "svg", "inline", "design", "component", "codea", "wootsbot"],
   "homepage": "https://github.com/icons-pack/react-simple-icons#readme",
   "bugs": {
     "url": "https://github.com/icons-pack/react-simple-icons/issues"
@@ -38,16 +27,7 @@
     "./icons/*": "./icons/*"
   },
   "sideEffects": false,
-  "files": [
-    "./src/icons",
-    "icons",
-    "index.d.ts",
-    "types.d.ts",
-    "*.d.ts",
-    "*.js",
-    "*.mjs",
-    "*.cjs"
-  ],
+  "files": ["./src/icons", "icons", "index.d.ts", "types.d.ts", "*.d.ts", "*.js", "*.mjs", "*.cjs"],
   "scripts": {
     "clean": "rimraf -rf icons base.cjs base.d.ts base.mjs index.cjs index.d.ts index.mjs types.d.ts",
     "build": "pnpm clean && vite build",
@@ -62,9 +42,7 @@
     "release": "changeset publish"
   },
   "lint-staged": {
-    "./**/*.+(js|json)": [
-      "prettier --write"
-    ]
+    "./**/*.+(js|json)": ["prettier --write"]
   },
   "bundlesize": [
     {
@@ -96,7 +74,7 @@
     "react": "^18.2.0",
     "rimraf": "^3.0.2",
     "signale": "^1.4.0",
-    "simple-icons": "11.7.0",
+    "simple-icons": "11.14.0",
     "turbo": "1.12.5",
     "typescript": "4.7.3",
     "uppercamelcase": "3.0.0",
