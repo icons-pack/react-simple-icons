@@ -23,6 +23,7 @@
     "url": "git+https://github.com/icons-pack/react-simple-icons.git",
     "directory": "react-simple-icons"
   },
+  "packageManager": "pnpm@9.4.0",
   "license": "MIT",
   "author": "Jorge Luis Calleja <jorge.calleja@wootsbot.dev>",
   "main": "./index.cjs",
@@ -96,7 +97,7 @@
     "react": "^18.2.0",
     "rimraf": "^3.0.2",
     "signale": "^1.4.0",
-    "simple-icons": "11.14.0",
+    "simple-icons": "12.4.0",
     "turbo": "1.12.5",
     "typescript": "4.7.3",
     "uppercamelcase": "3.0.0",
