@@ -1,5 +1,12 @@
 # Changelog
 
+## 9.6.0
+
+### Minor Changes
+
+- [`a18c12c`](https://github.com/icons-pack/react-simple-icons/commit/a18c12c2e6ea514b0ec344af3ed95cb47f766d8b) Thanks
+  [@wootsbot](https://github.com/wootsbot)! - Bump simple-icons 12.4.0
+
 ## 9.5.0
 
 ### Minor Changes
