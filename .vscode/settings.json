@@ -1,5 +1,5 @@
 {
   "files.exclude": {
-    "{*.cjs,*.mjs,*.js,*.d.ts,*.d.ts.map}": false
+    "{*.cjs,*.mjs,*.js,*.d.ts,*.d.ts.map}": true
   }
 }
