@@ -1,5 +1,12 @@
 # Changelog
 
+## 9.6.1
+
+### Patch Changes
+
+- [`f5aa8a5`](https://github.com/icons-pack/react-simple-icons/commit/f5aa8a58918166e3ec4c090f1fee257e90f53032) Thanks
+  [@wootsbot](https://github.com/wootsbot)! - Revert simple-icons breaking change and publish patch version
+
 ## 9.6.0
 
 ### Minor Changes
