@@ -1,6 +1,6 @@
 {
 	"name": "@icons-pack/react-simple-icons",
-	"version": "10.1.0",
+	"version": "10.2.0",
 	"description": "This package provides the Simple Icons packaged as a set of React components.",
 	"keywords": [
 		"react",
@@ -63,7 +63,9 @@
 		"release": "changeset publish"
 	},
 	"lint-staged": {
-		"./**/*.+(js|json)": ["prettier --write"]
+		"./**/*.+(js|json)": [
+			"prettier --write"
+		]
 	},
 	"bundlesize": [
 		{
