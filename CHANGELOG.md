@@ -1,5 +1,12 @@
 # Changelog
 
+## 10.2.0
+
+### Minor Changes
+
+- [`f32ba0e`](https://github.com/icons-pack/react-simple-icons/commit/f32ba0e7d9018d05a540532fa2a45ffc5ad1ba3d) Thanks
+  [@wootsbot](https://github.com/wootsbot)! - Bump simple-icons@13.18.0
+
 ## 10.1.0
 
 ### Minor Changes
