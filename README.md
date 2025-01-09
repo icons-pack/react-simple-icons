@@ -10,10 +10,6 @@ packaged as a set of [React](https://facebook.github.io/react/) components.
     <img src="https://img.shields.io/npm/v/@icons-pack/react-simple-icons?color=CB061D&style=flat-square" alt="www.npmjs.com!" />
   </a>
 
-  <a href="https://travis-ci.com/github/icons-pack/react-simple-icons" target="_blank">
-    <img src="https://img.shields.io/travis/icons-pack/react-simple-icons?color=008660&style=flat-square" alt="builds!" />
-  </a>
-
   <a href="https://www.npmjs.com/package/@icons-pack/react-simple-icons" target="_blank">
     <img src="https://img.shields.io/npm/dw/@icons-pack/react-simple-icons?color=087BB4&style=flat-square" alt="downloads" />
   </a>
