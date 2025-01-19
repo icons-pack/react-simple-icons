@@ -1,5 +1,12 @@
 # Changelog
 
+## 11.1.0
+
+### Minor Changes
+
+- [`d335c27`](https://github.com/icons-pack/react-simple-icons/commit/d335c27e18325e869e4177c430831abdbfca0477) Thanks
+  [@LitoMore](https://github.com/LitoMore)! - Bump simple-icons@14.3.0
+
 ## 11.0.1
 
 ### Patch Changes
