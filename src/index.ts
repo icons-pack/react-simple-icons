@@ -1513,6 +1513,7 @@ export { default as SiKinsta, defaultColor as SiKinstaHex } from './icons/SiKins
 export { default as SiKirby, defaultColor as SiKirbyHex } from './icons/SiKirby';
 export { default as SiKit, defaultColor as SiKitHex } from './icons/SiKit';
 export { default as SiKitsu, defaultColor as SiKitsuHex } from './icons/SiKitsu';
+export { default as SiKiwix, defaultColor as SiKiwixHex } from './icons/SiKiwix';
 export { default as SiKlarna, defaultColor as SiKlarnaHex } from './icons/SiKlarna';
 export { default as SiKleinanzeigen, defaultColor as SiKleinanzeigenHex } from './icons/SiKleinanzeigen';
 export { default as SiKlm, defaultColor as SiKlmHex } from './icons/SiKlm';
@@ -2471,6 +2472,7 @@ export { default as SiS7airlines, defaultColor as SiS7airlinesHex } from './icon
 export { default as SiSabanci, defaultColor as SiSabanciHex } from './icons/SiSabanci';
 export { default as SiSafari, defaultColor as SiSafariHex } from './icons/SiSafari';
 export { default as SiSage, defaultColor as SiSageHex } from './icons/SiSage';
+export { default as SiSagemath, defaultColor as SiSagemathHex } from './icons/SiSagemath';
 export { default as SiSahibinden, defaultColor as SiSahibindenHex } from './icons/SiSahibinden';
 export { default as SiSailfishos, defaultColor as SiSailfishosHex } from './icons/SiSailfishos';
 export { default as SiSailsdotjs, defaultColor as SiSailsdotjsHex } from './icons/SiSailsdotjs';

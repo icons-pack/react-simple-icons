@@ -54,8 +54,8 @@ importers:
         specifier: 1.4.0
         version: 1.4.0
       simple-icons:
-        specifier: 14.7.0
-        version: 14.7.0
+        specifier: 14.8.0
+        version: 14.8.0
       turbo:
         specifier: 2.0.14
         version: 2.0.14
@@ -2254,8 +2254,8 @@ packages:
   simple-get@3.1.1:
     resolution: {integrity: sha512-CQ5LTKGfCpvE1K0n2us+kuMPbk/q0EKl82s4aheV9oXjFEz6W/Y7oQFVJuU6QG77hRT4Ghb5RURteF5vnWjupA==}
 
-  simple-icons@14.7.0:
-    resolution: {integrity: sha512-RTOYkdf1K38opKBgf3Vn3ztry+aUlS5DbLd+imbZhLr8ZgN7zyk4EalR8aWnxBtlBJJDo3qOLbpTnxhFIV8PZw==}
+  simple-icons@14.8.0:
+    resolution: {integrity: sha512-19UQ+az9qHSwgXuZLwJMTJLX5MfzYEaWUzoetkXMXrp2wXqKujh98SUF2jAEohahTU1FmNW46vDYomSkvynEuA==}
     engines: {node: '>=0.12.18'}
 
   slash@3.0.0:
@@ -4931,7 +4931,7 @@ snapshots:
       once: 1.4.0
       simple-concat: 1.0.1
 
-  simple-icons@14.7.0: {}
+  simple-icons@14.8.0: {}
 
   slash@3.0.0: {}
 
