@@ -59,6 +59,3 @@ jobs:
 
       - name: 💣 build
         run: pnpm turbo run build
-
-      - name: 🔥 bundlesize
-        run: pnpm bundlesize

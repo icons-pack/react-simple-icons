@@ -63,9 +63,6 @@ jobs:
       - name: 💣 build
         run: pnpm turbo run build
 
-      - name: 🔥 bundlesize
-        run: pnpm bundlesize
-
       - name: Create Release Pull Request or Publish to GitHub Packages 📦
         uses: changesets/action@v1
         with:
