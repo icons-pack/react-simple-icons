@@ -6,9 +6,6 @@
     },
     "generate:icons": {
       "outputs": ["src/**"]
-    },
-    "bundlesize": {
-      "dependsOn": ["generate:icons", "build"]
     }
   }
 }
