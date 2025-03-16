@@ -1100,6 +1100,7 @@ export { default as SiGitpod, defaultColor as SiGitpodHex } from './icons/SiGitp
 export { default as SiGitter, defaultColor as SiGitterHex } from './icons/SiGitter';
 export { default as SiGldotinet, defaultColor as SiGldotinetHex } from './icons/SiGldotinet';
 export { default as SiGlassdoor, defaultColor as SiGlassdoorHex } from './icons/SiGlassdoor';
+export { default as SiGleam, defaultColor as SiGleamHex } from './icons/SiGleam';
 export { default as SiGlide, defaultColor as SiGlideHex } from './icons/SiGlide';
 export { default as SiGlitch, defaultColor as SiGlitchHex } from './icons/SiGlitch';
 export { default as SiGlobus, defaultColor as SiGlobusHex } from './icons/SiGlobus';
@@ -2200,6 +2201,7 @@ export { default as SiPond5, defaultColor as SiPond5Hex } from './icons/SiPond5'
 export { default as SiPopos, defaultColor as SiPoposHex } from './icons/SiPopos';
 export { default as SiPorkbun, defaultColor as SiPorkbunHex } from './icons/SiPorkbun';
 export { default as SiPorsche, defaultColor as SiPorscheHex } from './icons/SiPorsche';
+export { default as SiPortableappsdotcom, defaultColor as SiPortableappsdotcomHex } from './icons/SiPortableappsdotcom';
 export { default as SiPortainer, defaultColor as SiPortainerHex } from './icons/SiPortainer';
 export { default as SiPortswigger, defaultColor as SiPortswiggerHex } from './icons/SiPortswigger';
 export { default as SiPosit, defaultColor as SiPositHex } from './icons/SiPosit';
