@@ -1060,6 +1060,7 @@ export { default as SiGamescience, defaultColor as SiGamescienceHex } from './ic
 export { default as SiGamebanana, defaultColor as SiGamebananaHex } from './icons/SiGamebanana';
 export { default as SiGameloft, defaultColor as SiGameloftHex } from './icons/SiGameloft';
 export { default as SiGamemaker, defaultColor as SiGamemakerHex } from './icons/SiGamemaker';
+export { default as SiGandi, defaultColor as SiGandiHex } from './icons/SiGandi';
 export { default as SiGarmin, defaultColor as SiGarminHex } from './icons/SiGarmin';
 export { default as SiGatling, defaultColor as SiGatlingHex } from './icons/SiGatling';
 export { default as SiGatsby, defaultColor as SiGatsbyHex } from './icons/SiGatsby';
@@ -1223,6 +1224,7 @@ export { default as SiGurobi, defaultColor as SiGurobiHex } from './icons/SiGuro
 export { default as SiGusto, defaultColor as SiGustoHex } from './icons/SiGusto';
 export { default as SiGutenberg, defaultColor as SiGutenbergHex } from './icons/SiGutenberg';
 export { default as SiHandm, defaultColor as SiHandmHex } from './icons/SiHandm';
+export { default as SiH2database, defaultColor as SiH2databaseHex } from './icons/SiH2database';
 export { default as SiH3, defaultColor as SiH3Hex } from './icons/SiH3';
 export { default as SiHabr, defaultColor as SiHabrHex } from './icons/SiHabr';
 export { default as SiHackclub, defaultColor as SiHackclubHex } from './icons/SiHackclub';
@@ -2044,6 +2046,7 @@ export { default as SiOsano, defaultColor as SiOsanoHex } from './icons/SiOsano'
 export { default as SiOsf, defaultColor as SiOsfHex } from './icons/SiOsf';
 export { default as SiOsgeo, defaultColor as SiOsgeoHex } from './icons/SiOsgeo';
 export { default as SiOshkosh, defaultColor as SiOshkoshHex } from './icons/SiOshkosh';
+export { default as SiOsmand, defaultColor as SiOsmandHex } from './icons/SiOsmand';
 export { default as SiOsmc, defaultColor as SiOsmcHex } from './icons/SiOsmc';
 export { default as SiOsu, defaultColor as SiOsuHex } from './icons/SiOsu';
 export { default as SiOtto, defaultColor as SiOttoHex } from './icons/SiOtto';
@@ -3249,6 +3252,7 @@ export { default as SiZebpay, defaultColor as SiZebpayHex } from './icons/SiZebp
 export { default as SiZebratechnologies, defaultColor as SiZebratechnologiesHex } from './icons/SiZebratechnologies';
 export { default as SiZedindustries, defaultColor as SiZedindustriesHex } from './icons/SiZedindustries';
 export { default as SiZelle, defaultColor as SiZelleHex } from './icons/SiZelle';
+export { default as SiZenbrowser, defaultColor as SiZenbrowserHex } from './icons/SiZenbrowser';
 export { default as SiZend, defaultColor as SiZendHex } from './icons/SiZend';
 export { default as SiZendesk, defaultColor as SiZendeskHex } from './icons/SiZendesk';
 export { default as SiZenn, defaultColor as SiZennHex } from './icons/SiZenn';
