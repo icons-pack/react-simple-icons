@@ -83,7 +83,7 @@
 		"turbo": "2.0.14",
 		"typescript": "5.5.4",
 		"uppercamelcase": "3.0.0",
-		"vite": "5.4.1",
+		"vite": "5.4.16",
 		"vite-plugin-dts": "4.0.3"
 	},
 	"peerDependencies": {
