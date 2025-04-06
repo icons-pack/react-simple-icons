@@ -1,0 +1,5 @@
+---
+'@icons-pack/react-simple-icons': minor
+---
+
+Bump simple-icons@14.12.1
