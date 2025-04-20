@@ -51,8 +51,8 @@ importers:
         specifier: 1.4.0
         version: 1.4.0
       simple-icons:
-        specifier: 14.12.2
-        version: 14.12.2
+        specifier: 14.12.3
+        version: 14.12.3
       turbo:
         specifier: 2.0.14
         version: 2.0.14
@@ -1989,8 +1989,8 @@ packages:
     resolution: {integrity: sha512-iuh+gPf28RkltuJC7W5MRi6XAjTDCAPC/prJUpQoG4vIP3MJZ+GTydVnodXA7pwvTKb2cA0m9OFZW/cdWy/I/w==}
     engines: {node: '>=6'}
 
-  simple-icons@14.12.2:
-    resolution: {integrity: sha512-8lPw9eWujv+zoSJWOuO3ZGTCV/n6KAGchj05+f83YPFg1rDjixziq39QvgUQJtiqiuDbY+d2sqaBf4R+Pygh9g==}
+  simple-icons@14.12.3:
+    resolution: {integrity: sha512-P85Pqak4picfTzdujmGL7+pFfsd32K/tDjHPQ8vvJcr2Xk380A9kBVIW5QH86qWqa+YJgFa5huLcUuwmW+YBPQ==}
     engines: {node: '>=0.12.18'}
 
   slash@3.0.0:
@@ -4343,7 +4343,7 @@ snapshots:
       figures: 2.0.0
       pkg-conf: 2.1.0
 
-  simple-icons@14.12.2: {}
+  simple-icons@14.12.3: {}
 
   slash@3.0.0: {}
 
