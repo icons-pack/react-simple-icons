@@ -1780,6 +1780,7 @@ export { default as SiMicrostation, defaultColor as SiMicrostationHex } from './
 export { default as SiMicrostrategy, defaultColor as SiMicrostrategyHex } from './icons/SiMicrostrategy';
 export { default as SiMidi, defaultColor as SiMidiHex } from './icons/SiMidi';
 export { default as SiMigadu, defaultColor as SiMigaduHex } from './icons/SiMigadu';
+export { default as SiMihon, defaultColor as SiMihonHex } from './icons/SiMihon';
 export { default as SiMihoyo, defaultColor as SiMihoyoHex } from './icons/SiMihoyo';
 export { default as SiMikrotik, defaultColor as SiMikrotikHex } from './icons/SiMikrotik';
 export { default as SiMilanote, defaultColor as SiMilanoteHex } from './icons/SiMilanote';
@@ -2333,6 +2334,7 @@ export { default as SiRadixui, defaultColor as SiRadixuiHex } from './icons/SiRa
 export { default as SiRailway, defaultColor as SiRailwayHex } from './icons/SiRailway';
 export { default as SiRainmeter, defaultColor as SiRainmeterHex } from './icons/SiRainmeter';
 export { default as SiRakuten, defaultColor as SiRakutenHex } from './icons/SiRakuten';
+export { default as SiRakutenkobo, defaultColor as SiRakutenkoboHex } from './icons/SiRakutenkobo';
 export { default as SiRam, defaultColor as SiRamHex } from './icons/SiRam';
 export { default as SiRancher, defaultColor as SiRancherHex } from './icons/SiRancher';
 export { default as SiRapid, defaultColor as SiRapidHex } from './icons/SiRapid';
