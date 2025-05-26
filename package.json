@@ -1,8 +1,19 @@
 {
 	"name": "@icons-pack/react-simple-icons",
-	"version": "12.8.0",
+	"version": "12.9.0",
 	"description": "This package provides the Simple Icons packaged as a set of React components.",
-	"keywords": ["react", "simple-icons", "brands", "icons", "svg", "inline", "design", "component", "codea", "wootsbot"],
+	"keywords": [
+		"react",
+		"simple-icons",
+		"brands",
+		"icons",
+		"svg",
+		"inline",
+		"design",
+		"component",
+		"codea",
+		"wootsbot"
+	],
 	"homepage": "https://github.com/icons-pack/react-simple-icons#readme",
 	"bugs": {
 		"url": "https://github.com/icons-pack/react-simple-icons/issues"
@@ -28,7 +39,16 @@
 		"./icons/*": "./icons/*"
 	},
 	"sideEffects": false,
-	"files": ["./src/icons", "icons", "index.d.ts", "types.d.ts", "*.d.ts", "*.js", "*.mjs", "*.cjs"],
+	"files": [
+		"./src/icons",
+		"icons",
+		"index.d.ts",
+		"types.d.ts",
+		"*.d.ts",
+		"*.js",
+		"*.mjs",
+		"*.cjs"
+	],
 	"scripts": {
 		"clean": "rimraf -rf icons base.cjs base.d.ts base.mjs index.cjs index.d.ts index.mjs types.d.ts",
 		"build": "pnpm clean && vite build",
@@ -43,7 +63,9 @@
 		"release": "changeset publish"
 	},
 	"lint-staged": {
-		"./**/*.+(js|json)": ["prettier --write"]
+		"./**/*.+(js|json)": [
+			"prettier --write"
+		]
 	},
 	"devDependencies": {
 		"@changesets/changelog-github": "0.5.0",
