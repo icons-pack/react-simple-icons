@@ -1,5 +1,12 @@
 # Changelog
 
+## 12.9.0
+
+### Minor Changes
+
+- [`3d24bf9`](https://github.com/icons-pack/react-simple-icons/commit/3d24bf923464861ba1c47ce29f5a6488be30a3e7) Thanks
+  [@wootsbot](https://github.com/wootsbot)! - Bump simple icons to version `14.15.0`'
+
 ## 12.8.0
 
 ### Minor Changes
