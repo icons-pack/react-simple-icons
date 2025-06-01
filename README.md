@@ -3,7 +3,7 @@
 
 # react-simple-icons
 
-This package provides the [Simple Icons 14.15.0](https://github.com/simple-icons/simple-icons/releases/tag/14.15.0)
+This package provides the [Simple Icons 15.0.0](https://github.com/simple-icons/simple-icons/releases/tag/15.0.0)
 packaged as a set of [React](https://facebook.github.io/react/) components.
 
   <a href="https://www.npmjs.com/package/@icons-pack/react-simple-icons" target="_blank">
@@ -19,7 +19,7 @@ packaged as a set of [React](https://facebook.github.io/react/) components.
   </a>
 </div>
 
-## Installation
+## Inestallation
 
 Install the package in your project directory with:
 
