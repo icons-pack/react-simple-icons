@@ -848,6 +848,7 @@ export { default as SiEmirates, defaultColor as SiEmiratesHex } from './icons/Si
 export { default as SiEmlakjet, defaultColor as SiEmlakjetHex } from './icons/SiEmlakjet';
 export { default as SiEndeavouros, defaultColor as SiEndeavourosHex } from './icons/SiEndeavouros';
 export { default as SiEnpass, defaultColor as SiEnpassHex } from './icons/SiEnpass';
+export { default as SiEns, defaultColor as SiEnsHex } from './icons/SiEns';
 export { default as SiEnterprisedb, defaultColor as SiEnterprisedbHex } from './icons/SiEnterprisedb';
 export { default as SiEnvato, defaultColor as SiEnvatoHex } from './icons/SiEnvato';
 export { default as SiEnvoyproxy, defaultColor as SiEnvoyproxyHex } from './icons/SiEnvoyproxy';
@@ -1384,6 +1385,7 @@ export { default as SiInternetarchive, defaultColor as SiInternetarchiveHex } fr
 export { default as SiInternetcomputer, defaultColor as SiInternetcomputerHex } from './icons/SiInternetcomputer';
 export { default as SiIntigriti, defaultColor as SiIntigritiHex } from './icons/SiIntigriti';
 export { default as SiIntuit, defaultColor as SiIntuitHex } from './icons/SiIntuit';
+export { default as SiInvidious, defaultColor as SiInvidiousHex } from './icons/SiInvidious';
 export { default as SiInvision, defaultColor as SiInvisionHex } from './icons/SiInvision';
 export { default as SiInvoiceninja, defaultColor as SiInvoiceninjaHex } from './icons/SiInvoiceninja';
 export { default as SiIobroker, defaultColor as SiIobrokerHex } from './icons/SiIobroker';
@@ -2959,6 +2961,7 @@ export { default as SiTurbosquid, defaultColor as SiTurbosquidHex } from './icon
 export { default as SiTurkishairlines, defaultColor as SiTurkishairlinesHex } from './icons/SiTurkishairlines';
 export { default as SiTurso, defaultColor as SiTursoHex } from './icons/SiTurso';
 export { default as SiTuta, defaultColor as SiTutaHex } from './icons/SiTuta';
+export { default as SiTuxedocomputers, defaultColor as SiTuxedocomputersHex } from './icons/SiTuxedocomputers';
 export { default as SiTvtime, defaultColor as SiTvtimeHex } from './icons/SiTvtime';
 export { default as SiTv4play, defaultColor as SiTv4playHex } from './icons/SiTv4play';
 export { default as SiTwenty, defaultColor as SiTwentyHex } from './icons/SiTwenty';
