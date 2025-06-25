@@ -1,12 +1,11 @@
 /**
 This icon component file as `src/icons/[componentName].ts`.
 */
-const iconFileTemplate = (componentName, baseName, hex, path) => `import baseIcon from '../base';
+export const iconFileTemplate = (componentName, baseName, hex, path) => `import baseIcon from '../base';
 const ${componentName} = baseIcon("${baseName}", '${hex}', '${path}');
 export default ${componentName};\n`;
 
-
-const iconComponenteTemplate = (componentName, title, colorHex, path) => {
+export const iconComponenteTemplate = (componentName, title, colorHex, path) => {
   return `
     import * as React from 'react';
 
@@ -57,11 +56,5 @@ const iconComponenteTemplate = (componentName, title, colorHex, path) => {
 /**
 The single line for exporting component in `src/index.ts`.
 */
-const iconExportTemplate = (componentName) => `export { default as ${componentName}, defaultColor as ${componentName}Hex } from './icons/${componentName}';`;
-
-
-module.exports = {
-  iconFileTemplate,
-  iconExportTemplate,
-  iconComponenteTemplate
-};
+export const iconExportTemplate = (componentName) =>
+  `export { default as ${componentName}, defaultColor as ${componentName}Hex } from './icons/${componentName}';`;
