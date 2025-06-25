@@ -55,7 +55,7 @@
     "lint:types": "tsc --noEmit",
     "clean:icons": "rimraf -rf ./src/icons/**",
     "clean:files": "rimraf -rf ./src/index.ts",
-    "bump": "pnpm install -D simple-icons@latest",
+    "bump": "pnpm install -D simple-icons@latest && node scripts/update-readme.mjs",
     "generate:icons": "pnpm clean:icons && pnpm clean:files && node scripts/generate-icons",
     "prettier:format": "prettier --config .prettierrc \"./**/*.+(js|json|ts|tsx)\" --write",
     "changeset": "changeset",
