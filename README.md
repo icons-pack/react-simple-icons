@@ -23,17 +23,17 @@ packaged as a set of [React](https://facebook.github.io/react/) components.
 
 Install the package in your project directory with:
 
-```sh
-// with yarn
+```shell
+# with yarn
 yarn add @icons-pack/react-simple-icons
 
-// with npm
+# with npm
 npm add @icons-pack/react-simple-icons
 
-// with pnpm
+# with pnpm
 pnpm add @icons-pack/react-simple-icons
 
-// with bun
+# with bun
 bun add @icons-pack/react-simple-icons
 ```
 
