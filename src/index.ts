@@ -991,6 +991,7 @@ export { default as SiFlyway, defaultColor as SiFlywayHex } from './icons/SiFlyw
 export { default as SiFmod, defaultColor as SiFmodHex } from './icons/SiFmod';
 export { default as SiFnac, defaultColor as SiFnacHex } from './icons/SiFnac';
 export { default as SiFolium, defaultColor as SiFoliumHex } from './icons/SiFolium';
+export { default as SiFolo, defaultColor as SiFoloHex } from './icons/SiFolo';
 export { default as SiFonoma, defaultColor as SiFonomaHex } from './icons/SiFonoma';
 export { default as SiFontawesome, defaultColor as SiFontawesomeHex } from './icons/SiFontawesome';
 export { default as SiFontbase, defaultColor as SiFontbaseHex } from './icons/SiFontbase';
@@ -1823,6 +1824,7 @@ export { default as SiMobxstatetree, defaultColor as SiMobxstatetreeHex } from '
 export { default as SiMocha, defaultColor as SiMochaHex } from './icons/SiMocha';
 export { default as SiMockserviceworker, defaultColor as SiMockserviceworkerHex } from './icons/SiMockserviceworker';
 export { default as SiModal, defaultColor as SiModalHex } from './icons/SiModal';
+export { default as SiModelcontextprotocol, defaultColor as SiModelcontextprotocolHex } from './icons/SiModelcontextprotocol';
 export { default as SiModin, defaultColor as SiModinHex } from './icons/SiModin';
 export { default as SiModrinth, defaultColor as SiModrinthHex } from './icons/SiModrinth';
 export { default as SiModx, defaultColor as SiModxHex } from './icons/SiModx';
@@ -2928,6 +2930,7 @@ export { default as SiTmux, defaultColor as SiTmuxHex } from './icons/SiTmux';
 export { default as SiTodoist, defaultColor as SiTodoistHex } from './icons/SiTodoist';
 export { default as SiToggl, defaultColor as SiTogglHex } from './icons/SiToggl';
 export { default as SiToggltrack, defaultColor as SiToggltrackHex } from './icons/SiToggltrack';
+export { default as SiTokio, defaultColor as SiTokioHex } from './icons/SiTokio';
 export { default as SiTokyometro, defaultColor as SiTokyometroHex } from './icons/SiTokyometro';
 export { default as SiToll, defaultColor as SiTollHex } from './icons/SiToll';
 export { default as SiToml, defaultColor as SiTomlHex } from './icons/SiToml';
