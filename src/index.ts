@@ -1079,6 +1079,7 @@ export { default as SiGin, defaultColor as SiGinHex } from './icons/SiGin';
 export { default as SiGiphy, defaultColor as SiGiphyHex } from './icons/SiGiphy';
 export { default as SiGit, defaultColor as SiGitHex } from './icons/SiGit';
 export { default as SiGitbook, defaultColor as SiGitbookHex } from './icons/SiGitbook';
+export { default as SiGitcode, defaultColor as SiGitcodeHex } from './icons/SiGitcode';
 export { default as SiGitconnected, defaultColor as SiGitconnectedHex } from './icons/SiGitconnected';
 export { default as SiGitea, defaultColor as SiGiteaHex } from './icons/SiGitea';
 export { default as SiGitee, defaultColor as SiGiteeHex } from './icons/SiGitee';
@@ -2372,6 +2373,7 @@ export { default as SiRapid, defaultColor as SiRapidHex } from './icons/SiRapid'
 export { default as SiRarible, defaultColor as SiRaribleHex } from './icons/SiRarible';
 export { default as SiRasa, defaultColor as SiRasaHex } from './icons/SiRasa';
 export { default as SiRaspberrypi, defaultColor as SiRaspberrypiHex } from './icons/SiRaspberrypi';
+export { default as SiRatatui, defaultColor as SiRatatuiHex } from './icons/SiRatatui';
 export { default as SiRavelry, defaultColor as SiRavelryHex } from './icons/SiRavelry';
 export { default as SiRay, defaultColor as SiRayHex } from './icons/SiRay';
 export { default as SiRaycast, defaultColor as SiRaycastHex } from './icons/SiRaycast';
