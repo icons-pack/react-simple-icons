@@ -24,17 +24,7 @@ packaged as a set of [React](https://facebook.github.io/react/) components.
 Install the package in your project directory with:
 
 ```shell
-# with yarn
-yarn add @icons-pack/react-simple-icons
-
-# with npm
-npm add @icons-pack/react-simple-icons
-
-# with pnpm
-pnpm add @icons-pack/react-simple-icons
-
-# with bun
-bun add @icons-pack/react-simple-icons
+npm i @icons-pack/react-simple-icons
 ```
 
 > TypeScript Support
