@@ -7,11 +7,8 @@ This package provides the [Simple Icons 15.7.0](https://github.com/simple-icons/
 packaged as a set of [React](https://facebook.github.io/react/) components.
 
   <a href="https://www.npmjs.com/package/@icons-pack/react-simple-icons" target="_blank"><img src="https://img.shields.io/npm/v/@icons-pack/react-simple-icons?color=CB061D&style=flat-square" alt="www.npmjs.com!" /></a>
-
   <a href="https://dependents.info/icons-pack/react-simple-icons" target="_blank"><img src="https://dependents.info/icons-pack/react-simple-icons/badge?label=users&color=087BB4&style=flat-square" alt="network dependents" /></a>
-
   <a href="https://www.npmjs.com/package/@icons-pack/react-simple-icons" target="_blank"><img src="https://img.shields.io/npm/dw/@icons-pack/react-simple-icons?color=087BB4&style=flat-square" alt="downloads" /></a>
-
   <a href="https://github.com/icons-pack/react-simple-icons/blob/canary/LICENSE" target="_blank"><img src="https://img.shields.io/npm/l/@icons-pack/react-simple-icons?color=008660&style=flat-square" alt="licence" /></a>
 </div>
 
