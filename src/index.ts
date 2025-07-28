@@ -267,6 +267,7 @@ export { default as SiAutomattic, defaultColor as SiAutomatticHex } from './icon
 export { default as SiAutoprefixer, defaultColor as SiAutoprefixerHex } from './icons/SiAutoprefixer';
 export { default as SiAutozone, defaultColor as SiAutozoneHex } from './icons/SiAutozone';
 export { default as SiAvajs, defaultColor as SiAvajsHex } from './icons/SiAvajs';
+export { default as SiAvaloniaui, defaultColor as SiAvaloniauiHex } from './icons/SiAvaloniaui';
 export { default as SiAvast, defaultColor as SiAvastHex } from './icons/SiAvast';
 export { default as SiAvianca, defaultColor as SiAviancaHex } from './icons/SiAvianca';
 export { default as SiAvira, defaultColor as SiAviraHex } from './icons/SiAvira';
@@ -2269,6 +2270,7 @@ export { default as SiPrivatedivision, defaultColor as SiPrivatedivisionHex } fr
 export { default as SiPrivateinternetaccess, defaultColor as SiPrivateinternetaccessHex } from './icons/SiPrivateinternetaccess';
 export { default as SiProbot, defaultColor as SiProbotHex } from './icons/SiProbot';
 export { default as SiProcessingfoundation, defaultColor as SiProcessingfoundationHex } from './icons/SiProcessingfoundation';
+export { default as SiProcesson, defaultColor as SiProcessonHex } from './icons/SiProcesson';
 export { default as SiProcesswire, defaultColor as SiProcesswireHex } from './icons/SiProcesswire';
 export { default as SiProducthunt, defaultColor as SiProducthuntHex } from './icons/SiProducthunt';
 export { default as SiProgate, defaultColor as SiProgateHex } from './icons/SiProgate';
