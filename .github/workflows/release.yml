@@ -73,7 +73,8 @@ jobs:
           publish: pnpm release
           commit: 'ci(Release): version icons-pack/react-simple-icons'
           title: 'ci(Release): version icons-pack/react-simple-icons'
-        # env:
-        #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
         #   NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         #   NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
