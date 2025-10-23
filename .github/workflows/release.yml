@@ -11,6 +11,10 @@ on:
   release:
     types: [created]
 
+permissions:
+  id-token: write  # Required for OIDC
+  contents: read
+
 env:
   TURBO_VERSION: ${{ vars.TURBO_VERSION }}
   PNPM_VERSION: ${{ vars.PNPM_VERSION }}
@@ -69,7 +73,7 @@ jobs:
           publish: pnpm release
           commit: 'ci(Release): version icons-pack/react-simple-icons'
           title: 'ci(Release): version icons-pack/react-simple-icons'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        # env:
+        #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        #   NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        #   NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
