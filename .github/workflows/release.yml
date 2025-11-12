@@ -13,11 +13,7 @@ on:
 
 permissions:
   id-token: write  # Required for OIDC
-  contents: read
-
-env:
-  TURBO_VERSION: ${{ vars.TURBO_VERSION }}
-  PNPM_VERSION: ${{ vars.PNPM_VERSION }}
+  contents: write
 
 jobs:
   publish-npm:
@@ -35,19 +31,15 @@ jobs:
           node-version-file: package.json
           registry-url: https://registry.npmjs.org/
 
-      - name: Setup TURBO
-        run: |
-          npm add -g turbo@${{ env.TURBO_VERSION }}
-
       - name: Install dependencies
         shell: bash
         run: pnpm install --no-frozen-lockfile
 
       - name: 🔥 generate:icons
-        run: pnpm turbo run generate:icons
+        run: pnpm generate:icons
 
       - name: 💣 build
-        run: pnpm turbo run build
+        run: pnpm build
 
       - name: Create Release Pull Request or Publish to GitHub Packages 📦
         uses: changesets/action@v1
