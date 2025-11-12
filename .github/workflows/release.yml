@@ -49,7 +49,7 @@ jobs:
         run: pnpm build
 
       - name: Create Release Pull Request or Publish to GitHub Packages 📦
-        uses: changesets/action@master
+        uses: changesets/action@v1
         with:
           publish: pnpm release
           commit: 'ci(Release): version icons-pack/react-simple-icons'
