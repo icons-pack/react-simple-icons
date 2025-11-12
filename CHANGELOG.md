@@ -1,5 +1,17 @@
 # Changelog
 
+## 13.9.0
+
+### Minor Changes
+
+- [`79da89a`](https://github.com/icons-pack/react-simple-icons/commit/79da89a3649b28b963b1648956710090dc85e2f1) Thanks
+  [@wootsbot](https://github.com/wootsbot)! - Bump simple-icons
+
+### Patch Changes
+
+- [`79da89a`](https://github.com/icons-pack/react-simple-icons/commit/79da89a3649b28b963b1648956710090dc85e2f1) Thanks
+  [@wootsbot](https://github.com/wootsbot)! - Use Connect (OIDC)
+
 ## 13.8.0
 
 ### Minor Changes
