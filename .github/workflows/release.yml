@@ -25,41 +25,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 2
+
+      - name: Install manager packages 📦
+        uses: pnpm/action-setup@v4
 
       - name: Setup Node.js environment
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
-          node-version: 24
+          node-version-file: package.json
           registry-url: https://registry.npmjs.org/
-
-      # We use week in the turbo cache key to keep the cache from infinitely growing
-      - id: get-week
-        run: echo name=WEEK::$(date +%U) >> $GITHUB_OUTPUT
-
-      - name: Turbo Cache
-        id: turbo-cache
-        uses: actions/cache@v4
-        with:
-          path: .turbo
-          key: turbo-${{ github.job }}-${{ github.ref_name }}-${{ steps.get-week.outputs.WEEK }}-${{ github.sha }}
-          restore-keys: |
-            turbo-${{ github.job }}-${{ github.ref_name }}-${{ steps.get-week.outputs.WEEK }}-
-            turbo-${{ github.job }}-canary-${{ steps.get-week.outputs.WEEK }}-
-
-      - name: 🔥 Installing pnpm
-        run: |
-          corepack enable
-          corepack prepare pnpm@${{ env.PNPM_VERSION }} --activate
 
       - name: Setup TURBO
         run: |
           npm add -g turbo@${{ env.TURBO_VERSION }}
 
-      - name: 📦 Install dependencies
-        run: |
-          pnpm install --no-frozen-lockfile
+      - name: Install dependencies
+        shell: bash
+        run: pnpm install --no-frozen-lockfile
 
       - name: 🔥 generate:icons
         run: pnpm turbo run generate:icons
