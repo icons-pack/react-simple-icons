@@ -93,7 +93,6 @@
 		"react": "^16.13 || ^17 || ^18 || ^19"
 	},
 	"publishConfig": {
-		"access": "public",
-		"provenance": true
+		"access": "public"
 	}
 }

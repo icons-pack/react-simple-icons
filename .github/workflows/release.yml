@@ -12,6 +12,10 @@ on:
     types: [created]
 
 permissions:
+  # contents: write
+  # pull-requests: write
+  # id-token: write
+  # packages: write
   id-token: write  # Required for OIDC
   contents: write
   packages: write
