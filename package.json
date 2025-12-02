@@ -82,7 +82,7 @@
 		"react": "^18",
 		"rimraf": "6.0.1",
 		"signale": "1.4.0",
-		"simple-icons": "15.20.0",
+		"simple-icons": "16.0.0",
 		"turbo": "2.0.14",
 		"typescript": "5.5.4",
 		"uppercamelcase": "3.0.0",
