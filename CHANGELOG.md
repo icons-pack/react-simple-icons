@@ -1,5 +1,12 @@
 # Changelog
 
+## 13.10.1
+
+### Patch Changes
+
+- [`479f324`](https://github.com/icons-pack/react-simple-icons/commit/479f324adbfc4ae34512185d22a7894e5ad2c59b) Thanks
+  [@wootsbot](https://github.com/wootsbot)! - Fixed config OIDC
+
 ## 13.10.0
 
 ### Minor Changes
