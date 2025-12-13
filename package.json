@@ -23,7 +23,7 @@
 		"url": "git+https://github.com/icons-pack/react-simple-icons.git",
 		"directory": "react-simple-icons"
 	},
-	"packageManager": "pnpm@10.21.0+sha512.da3337267e400fdd3d479a6c68079ac6db01d8ca4f67572083e722775a796788a7a9956613749e000fac20d424b594f7a791a5f4e2e13581c5ef947f26968a40",
+	"packageManager": "pnpm@10.25.0+sha512.5e82639027af37cf832061bcc6d639c219634488e0f2baebe785028a793de7b525ffcd3f7ff574f5e9860654e098fe852ba8ac5dd5cefe1767d23a020a92f501",
 	"license": "MIT",
 	"author": "Jorge Luis Calleja <jorge.calleja@wootsbot.dev>",
 	"main": "./index.cjs",
@@ -68,8 +68,8 @@
 		]
 	},
 	"devDependencies": {
-		"@changesets/changelog-github": "0.5.0",
-		"@changesets/cli": "2.27.7",
+		"@changesets/changelog-github": "0.5.2",
+		"@changesets/cli": "2.29.8",
 		"@commitlint/cli": "19.4.0",
 		"@commitlint/config-conventional": "19.2.2",
 		"@types/node": "22.3.0",
@@ -82,7 +82,7 @@
 		"react": "^18",
 		"rimraf": "6.0.1",
 		"signale": "1.4.0",
-		"simple-icons": "16.0.0",
+		"simple-icons": "16.1.0",
 		"turbo": "2.0.14",
 		"typescript": "5.5.4",
 		"uppercamelcase": "3.0.0",
