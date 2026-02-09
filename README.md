@@ -3,7 +3,7 @@
 
 # react-simple-icons
 
-This package provides the [Simple Icons 16.1.0](https://github.com/simple-icons/simple-icons/releases/tag/16.1.0)
+This package provides the [Simple Icons 16.8.0](https://github.com/simple-icons/simple-icons/releases/tag/16.8.0)
 packaged as a set of [React](https://facebook.github.io/react/) components.
 
   [![www.npmjs.com!](https://img.shields.io/npm/v/@icons-pack/react-simple-icons?color=CB061D&style=flat-square)](https://www.npmjs.com/package/@icons-pack/react-simple-icons)
@@ -16,10 +16,8 @@ packaged as a set of [React](https://facebook.github.io/react/) components.
 Install the package in your project directory with:
 
 ```shell
-npm i @icons-pack/react-simple-icons
+npm add @icons-pack/react-simple-icons
 ```
-
-> TypeScript Support
 
 ## Usage
 
@@ -30,10 +28,6 @@ that the names of the icons are [upperCamelCase](https://github.com/samverschuer
   `{ SiMaterialdesign } from @icons-pack/react-simple-icons`
 - [`azure devOps`](https://simpleicons.org/?q=azure%20devOps) is exposed as
   `{ SiAzuredevops } from @icons-pack/react-simple-icons`
-
-## Demo
-
-[Edit codesandbox](https://codesandbox.io/s/interesting-yonath-x7o7g?file=/src/App.js)
 
 ## Basic example
 

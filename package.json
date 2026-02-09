@@ -23,7 +23,6 @@
 		"url": "git+https://github.com/icons-pack/react-simple-icons.git",
 		"directory": "react-simple-icons"
 	},
-	"packageManager": "pnpm@10.25.0+sha512.5e82639027af37cf832061bcc6d639c219634488e0f2baebe785028a793de7b525ffcd3f7ff574f5e9860654e098fe852ba8ac5dd5cefe1767d23a020a92f501",
 	"license": "MIT",
 	"author": "Jorge Luis Calleja <jorge.calleja@wootsbot.dev>",
 	"main": "./index.cjs",
@@ -39,6 +38,10 @@
 		"./icons/*": "./icons/*"
 	},
 	"sideEffects": false,
+	"engines": {
+		"node": ">=24",
+		"pnpm": ">=10"
+	},
 	"files": [
 		"./src/icons",
 		"icons",
@@ -50,35 +53,26 @@
 		"*.cjs"
 	],
 	"scripts": {
+		"prepare": "prek install",
 		"clean": "rimraf -rf icons base.cjs base.d.ts base.mjs index.cjs index.d.ts index.mjs types.d.ts",
 		"build": "pnpm clean && vite build",
-		"lint:types": "tsc --noEmit",
 		"clean:icons": "rimraf -rf ./src/icons/**",
 		"clean:files": "rimraf -rf ./src/index.ts",
 		"bump": "pnpm install -D simple-icons@latest && node scripts/update-readme.mjs",
 		"generate:icons": "pnpm clean:icons && pnpm clean:files && node scripts/generate-icons.mjs",
-		"prettier:format": "prettier --config .prettierrc \"./**/*.+(js|json|ts|tsx)\" --write",
 		"changeset": "changeset",
 		"version": "changeset version",
 		"release": "changeset publish"
-	},
-	"lint-staged": {
-		"./**/*.+(js|json)": [
-			"prettier --write"
-		]
 	},
 	"devDependencies": {
 		"@changesets/changelog-github": "0.5.2",
 		"@changesets/cli": "2.29.8",
 		"@commitlint/cli": "19.4.0",
 		"@commitlint/config-conventional": "19.2.2",
+		"@j178/prek": "0.3.2",
 		"@types/node": "22.3.0",
 		"@types/react": "^18",
 		"@vitejs/plugin-react": "4.3.1",
-		"husky": "9.1.4",
-		"lint-staged": "15.2.9",
-		"prettier": "3.3.3",
-		"prettier-eslint": "16.3.0",
 		"react": "^18",
 		"rimraf": "6.0.1",
 		"signale": "1.4.0",
@@ -94,5 +88,6 @@
 	},
 	"publishConfig": {
 		"access": "public"
-	}
+	},
+	"packageManager": "pnpm@10.29.2+sha512.bef43fa759d91fd2da4b319a5a0d13ef7a45bb985a3d7342058470f9d2051a3ba8674e629672654686ef9443ad13a82da2beb9eeb3e0221c87b8154fff9d74b8"
 }

@@ -123,6 +123,7 @@ export { default as SiAndroid, defaultColor as SiAndroidHex } from './icons/SiAn
 export { default as SiAndroidauto, defaultColor as SiAndroidautoHex } from './icons/SiAndroidauto';
 export { default as SiAndroidstudio, defaultColor as SiAndroidstudioHex } from './icons/SiAndroidstudio';
 export { default as SiAngular, defaultColor as SiAngularHex } from './icons/SiAngular';
+export { default as SiAnichart, defaultColor as SiAnichartHex } from './icons/SiAnichart';
 export { default as SiAnilist, defaultColor as SiAnilistHex } from './icons/SiAnilist';
 export { default as SiAnimalplanet, defaultColor as SiAnimalplanetHex } from './icons/SiAnimalplanet';
 export { default as SiAnimedotjs, defaultColor as SiAnimedotjsHex } from './icons/SiAnimedotjs';
@@ -168,6 +169,7 @@ export { default as SiApachenetbeanside, defaultColor as SiApachenetbeansideHex 
 export { default as SiApachenifi, defaultColor as SiApachenifiHex } from './icons/SiApachenifi';
 export { default as SiApacheopenoffice, defaultColor as SiApacheopenofficeHex } from './icons/SiApacheopenoffice';
 export { default as SiApacheparquet, defaultColor as SiApacheparquetHex } from './icons/SiApacheparquet';
+export { default as SiApachepdfbox, defaultColor as SiApachepdfboxHex } from './icons/SiApachepdfbox';
 export { default as SiApachepulsar, defaultColor as SiApachepulsarHex } from './icons/SiApachepulsar';
 export { default as SiApacherocketmq, defaultColor as SiApacherocketmqHex } from './icons/SiApacherocketmq';
 export { default as SiApachesolr, defaultColor as SiApachesolrHex } from './icons/SiApachesolr';
@@ -182,6 +184,7 @@ export { default as SiApollographql, defaultColor as SiApollographqlHex } from '
 export { default as SiApostrophe, defaultColor as SiApostropheHex } from './icons/SiApostrophe';
 export { default as SiAppgallery, defaultColor as SiAppgalleryHex } from './icons/SiAppgallery';
 export { default as SiAppian, defaultColor as SiAppianHex } from './icons/SiAppian';
+export { default as SiAppimage, defaultColor as SiAppimageHex } from './icons/SiAppimage';
 export { default as SiAppium, defaultColor as SiAppiumHex } from './icons/SiAppium';
 export { default as SiApple, defaultColor as SiAppleHex } from './icons/SiApple';
 export { default as SiApplearcade, defaultColor as SiApplearcadeHex } from './icons/SiApplearcade';
@@ -326,6 +329,7 @@ export { default as SiBilibili, defaultColor as SiBilibiliHex } from './icons/Si
 export { default as SiBillboard, defaultColor as SiBillboardHex } from './icons/SiBillboard';
 export { default as SiBim, defaultColor as SiBimHex } from './icons/SiBim';
 export { default as SiBinance, defaultColor as SiBinanceHex } from './icons/SiBinance';
+export { default as SiBioconductor, defaultColor as SiBioconductorHex } from './icons/SiBioconductor';
 export { default as SiBiolink, defaultColor as SiBiolinkHex } from './icons/SiBiolink';
 export { default as SiBiome, defaultColor as SiBiomeHex } from './icons/SiBiome';
 export { default as SiBisecthosting, defaultColor as SiBisecthostingHex } from './icons/SiBisecthosting';
@@ -338,6 +342,7 @@ export { default as SiBitcomet, defaultColor as SiBitcometHex } from './icons/Si
 export { default as SiBitdefender, defaultColor as SiBitdefenderHex } from './icons/SiBitdefender';
 export { default as SiBitly, defaultColor as SiBitlyHex } from './icons/SiBitly';
 export { default as SiBitrise, defaultColor as SiBitriseHex } from './icons/SiBitrise';
+export { default as SiBitsy, defaultColor as SiBitsyHex } from './icons/SiBitsy';
 export { default as SiBittorrent, defaultColor as SiBittorrentHex } from './icons/SiBittorrent';
 export { default as SiBitwarden, defaultColor as SiBitwardenHex } from './icons/SiBitwarden';
 export { default as SiBitwig, defaultColor as SiBitwigHex } from './icons/SiBitwig';
@@ -487,6 +492,7 @@ export { default as SiChessdotcom, defaultColor as SiChessdotcomHex } from './ic
 export { default as SiChevrolet, defaultColor as SiChevroletHex } from './icons/SiChevrolet';
 export { default as SiChianetwork, defaultColor as SiChianetworkHex } from './icons/SiChianetwork';
 export { default as SiChinaeasternairlines, defaultColor as SiChinaeasternairlinesHex } from './icons/SiChinaeasternairlines';
+export { default as SiChinarailway, defaultColor as SiChinarailwayHex } from './icons/SiChinarailway';
 export { default as SiChinasouthernairlines, defaultColor as SiChinasouthernairlinesHex } from './icons/SiChinasouthernairlines';
 export { default as SiChocolatey, defaultColor as SiChocolateyHex } from './icons/SiChocolatey';
 export { default as SiChromatic, defaultColor as SiChromaticHex } from './icons/SiChromatic';
@@ -607,6 +613,7 @@ export { default as SiContinente, defaultColor as SiContinenteHex } from './icon
 export { default as SiContributorcovenant, defaultColor as SiContributorcovenantHex } from './icons/SiContributorcovenant';
 export { default as SiConventionalcommits, defaultColor as SiConventionalcommitsHex } from './icons/SiConventionalcommits';
 export { default as SiConvertio, defaultColor as SiConvertioHex } from './icons/SiConvertio';
+export { default as SiConvex, defaultColor as SiConvexHex } from './icons/SiConvex';
 export { default as SiCookiecutter, defaultColor as SiCookiecutterHex } from './icons/SiCookiecutter';
 export { default as SiCoolermaster, defaultColor as SiCoolermasterHex } from './icons/SiCoolermaster';
 export { default as SiCoolify, defaultColor as SiCoolifyHex } from './icons/SiCoolify';
@@ -614,6 +621,7 @@ export { default as SiCoop, defaultColor as SiCoopHex } from './icons/SiCoop';
 export { default as SiCopaairlines, defaultColor as SiCopaairlinesHex } from './icons/SiCopaairlines';
 export { default as SiCoppel, defaultColor as SiCoppelHex } from './icons/SiCoppel';
 export { default as SiCora, defaultColor as SiCoraHex } from './icons/SiCora';
+export { default as SiCoreboot, defaultColor as SiCorebootHex } from './icons/SiCoreboot';
 export { default as SiCoreldraw, defaultColor as SiCoreldrawHex } from './icons/SiCoreldraw';
 export { default as SiCoronaengine, defaultColor as SiCoronaengineHex } from './icons/SiCoronaengine';
 export { default as SiCoronarenderer, defaultColor as SiCoronarendererHex } from './icons/SiCoronarenderer';
@@ -709,6 +717,7 @@ export { default as SiDeepin, defaultColor as SiDeepinHex } from './icons/SiDeep
 export { default as SiDeepl, defaultColor as SiDeeplHex } from './icons/SiDeepl';
 export { default as SiDeepmind, defaultColor as SiDeepmindHex } from './icons/SiDeepmind';
 export { default as SiDeepnote, defaultColor as SiDeepnoteHex } from './icons/SiDeepnote';
+export { default as SiDeezer, defaultColor as SiDeezerHex } from './icons/SiDeezer';
 export { default as SiDeliveroo, defaultColor as SiDeliverooHex } from './icons/SiDeliveroo';
 export { default as SiDell, defaultColor as SiDellHex } from './icons/SiDell';
 export { default as SiDelonghi, defaultColor as SiDelonghiHex } from './icons/SiDelonghi';
@@ -716,6 +725,7 @@ export { default as SiDelphi, defaultColor as SiDelphiHex } from './icons/SiDelp
 export { default as SiDelta, defaultColor as SiDeltaHex } from './icons/SiDelta';
 export { default as SiDeluge, defaultColor as SiDelugeHex } from './icons/SiDeluge';
 export { default as SiDeno, defaultColor as SiDenoHex } from './icons/SiDeno';
+export { default as SiDenodeploy, defaultColor as SiDenodeployHex } from './icons/SiDenodeploy';
 export { default as SiDenon, defaultColor as SiDenonHex } from './icons/SiDenon';
 export { default as SiDependabot, defaultColor as SiDependabotHex } from './icons/SiDependabot';
 export { default as SiDependencycheck, defaultColor as SiDependencycheckHex } from './icons/SiDependencycheck';
@@ -728,10 +738,12 @@ export { default as SiDeutschetelekom, defaultColor as SiDeutschetelekomHex } fr
 export { default as SiDeutschewelle, defaultColor as SiDeutschewelleHex } from './icons/SiDeutschewelle';
 export { default as SiDevbox, defaultColor as SiDevboxHex } from './icons/SiDevbox';
 export { default as SiDevdotto, defaultColor as SiDevdottoHex } from './icons/SiDevdotto';
+export { default as SiDevelopmentcontainers, defaultColor as SiDevelopmentcontainersHex } from './icons/SiDevelopmentcontainers';
 export { default as SiDevexpress, defaultColor as SiDevexpressHex } from './icons/SiDevexpress';
 export { default as SiDeviantart, defaultColor as SiDeviantartHex } from './icons/SiDeviantart';
 export { default as SiDevpost, defaultColor as SiDevpostHex } from './icons/SiDevpost';
 export { default as SiDevrant, defaultColor as SiDevrantHex } from './icons/SiDevrant';
+export { default as SiDevuan, defaultColor as SiDevuanHex } from './icons/SiDevuan';
 export { default as SiDgraph, defaultColor as SiDgraphHex } from './icons/SiDgraph';
 export { default as SiDhl, defaultColor as SiDhlHex } from './icons/SiDhl';
 export { default as SiDiagramsdotnet, defaultColor as SiDiagramsdotnetHex } from './icons/SiDiagramsdotnet';
@@ -828,6 +840,7 @@ export { default as SiEditorconfig, defaultColor as SiEditorconfigHex } from './
 export { default as SiEdotleclerc, defaultColor as SiEdotleclercHex } from './icons/SiEdotleclerc';
 export { default as SiEducative, defaultColor as SiEducativeHex } from './icons/SiEducative';
 export { default as SiEdx, defaultColor as SiEdxHex } from './icons/SiEdx';
+export { default as SiEffect, defaultColor as SiEffectHex } from './icons/SiEffect';
 export { default as SiEgghead, defaultColor as SiEggheadHex } from './icons/SiEgghead';
 export { default as SiEgnyte, defaultColor as SiEgnyteHex } from './icons/SiEgnyte';
 export { default as SiEight, defaultColor as SiEightHex } from './icons/SiEight';
@@ -849,6 +862,7 @@ export { default as SiElevenlabs, defaultColor as SiElevenlabsHex } from './icon
 export { default as SiEleventy, defaultColor as SiEleventyHex } from './icons/SiEleventy';
 export { default as SiElgato, defaultColor as SiElgatoHex } from './icons/SiElgato';
 export { default as SiElixir, defaultColor as SiElixirHex } from './icons/SiElixir';
+export { default as SiElk, defaultColor as SiElkHex } from './icons/SiElk';
 export { default as SiElm, defaultColor as SiElmHex } from './icons/SiElm';
 export { default as SiElsevier, defaultColor as SiElsevierHex } from './icons/SiElsevier';
 export { default as SiEmbarcadero, defaultColor as SiEmbarcaderoHex } from './icons/SiEmbarcadero';
@@ -949,6 +963,7 @@ export { default as SiFiledotio, defaultColor as SiFiledotioHex } from './icons/
 export { default as SiFilen, defaultColor as SiFilenHex } from './icons/SiFilen';
 export { default as SiFiles, defaultColor as SiFilesHex } from './icons/SiFiles';
 export { default as SiFilezilla, defaultColor as SiFilezillaHex } from './icons/SiFilezilla';
+export { default as SiFillout, defaultColor as SiFilloutHex } from './icons/SiFillout';
 export { default as SiFineco, defaultColor as SiFinecoHex } from './icons/SiFineco';
 export { default as SiFing, defaultColor as SiFingHex } from './icons/SiFing';
 export { default as SiFirebase, defaultColor as SiFirebaseHex } from './icons/SiFirebase';
@@ -976,6 +991,7 @@ export { default as SiFlipboard, defaultColor as SiFlipboardHex } from './icons/
 export { default as SiFloatplane, defaultColor as SiFloatplaneHex } from './icons/SiFloatplane';
 export { default as SiFlood, defaultColor as SiFloodHex } from './icons/SiFlood';
 export { default as SiFloorp, defaultColor as SiFloorpHex } from './icons/SiFloorp';
+export { default as SiFlower, defaultColor as SiFlowerHex } from './icons/SiFlower';
 export { default as SiFluentbit, defaultColor as SiFluentbitHex } from './icons/SiFluentbit';
 export { default as SiFluentd, defaultColor as SiFluentdHex } from './icons/SiFluentd';
 export { default as SiFluke, defaultColor as SiFlukeHex } from './icons/SiFluke';
@@ -1071,6 +1087,7 @@ export { default as SiGerrit, defaultColor as SiGerritHex } from './icons/SiGerr
 export { default as SiGetx, defaultColor as SiGetxHex } from './icons/SiGetx';
 export { default as SiGhost, defaultColor as SiGhostHex } from './icons/SiGhost';
 export { default as SiGhostery, defaultColor as SiGhosteryHex } from './icons/SiGhostery';
+export { default as SiGhostty, defaultColor as SiGhosttyHex } from './icons/SiGhostty';
 export { default as SiGimp, defaultColor as SiGimpHex } from './icons/SiGimp';
 export { default as SiGin, defaultColor as SiGinHex } from './icons/SiGin';
 export { default as SiGiphy, defaultColor as SiGiphyHex } from './icons/SiGiphy';
@@ -1157,6 +1174,7 @@ export { default as SiGooglefonts, defaultColor as SiGooglefontsHex } from './ic
 export { default as SiGoogleforms, defaultColor as SiGoogleformsHex } from './icons/SiGoogleforms';
 export { default as SiGooglegemini, defaultColor as SiGooglegeminiHex } from './icons/SiGooglegemini';
 export { default as SiGooglehome, defaultColor as SiGooglehomeHex } from './icons/SiGooglehome';
+export { default as SiGooglejules, defaultColor as SiGooglejulesHex } from './icons/SiGooglejules';
 export { default as SiGooglekeep, defaultColor as SiGooglekeepHex } from './icons/SiGooglekeep';
 export { default as SiGooglelens, defaultColor as SiGooglelensHex } from './icons/SiGooglelens';
 export { default as SiGooglemaps, defaultColor as SiGooglemapsHex } from './icons/SiGooglemaps';
@@ -1190,6 +1208,7 @@ export { default as SiGrammarly, defaultColor as SiGrammarlyHex } from './icons/
 export { default as SiGrandfrais, defaultColor as SiGrandfraisHex } from './icons/SiGrandfrais';
 export { default as SiGrapheneos, defaultColor as SiGrapheneosHex } from './icons/SiGrapheneos';
 export { default as SiGraphite, defaultColor as SiGraphiteHex } from './icons/SiGraphite';
+export { default as SiGraphiteEditor, defaultColor as SiGraphiteEditorHex } from './icons/SiGraphiteEditor';
 export { default as SiGraphql, defaultColor as SiGraphqlHex } from './icons/SiGraphql';
 export { default as SiGrav, defaultColor as SiGravHex } from './icons/SiGrav';
 export { default as SiGravatar, defaultColor as SiGravatarHex } from './icons/SiGravatar';
@@ -1230,6 +1249,7 @@ export { default as SiHackerearth, defaultColor as SiHackerearthHex } from './ic
 export { default as SiHackernoon, defaultColor as SiHackernoonHex } from './icons/SiHackernoon';
 export { default as SiHackerone, defaultColor as SiHackeroneHex } from './icons/SiHackerone';
 export { default as SiHackerrank, defaultColor as SiHackerrankHex } from './icons/SiHackerrank';
+export { default as SiHackmd, defaultColor as SiHackmdHex } from './icons/SiHackmd';
 export { default as SiHackster, defaultColor as SiHacksterHex } from './icons/SiHackster';
 export { default as SiHackthebox, defaultColor as SiHacktheboxHex } from './icons/SiHackthebox';
 export { default as SiHal, defaultColor as SiHalHex } from './icons/SiHal';
@@ -1360,6 +1380,7 @@ export { default as SiIledefrancemobilites, defaultColor as SiIledefrancemobilit
 export { default as SiIlovepdf, defaultColor as SiIlovepdfHex } from './icons/SiIlovepdf';
 export { default as SiImagedotsc, defaultColor as SiImagedotscHex } from './icons/SiImagedotsc';
 export { default as SiImagej, defaultColor as SiImagejHex } from './icons/SiImagej';
+export { default as SiImagetoolbox, defaultColor as SiImagetoolboxHex } from './icons/SiImagetoolbox';
 export { default as SiImdb, defaultColor as SiImdbHex } from './icons/SiImdb';
 export { default as SiImessage, defaultColor as SiImessageHex } from './icons/SiImessage';
 export { default as SiImgur, defaultColor as SiImgurHex } from './icons/SiImgur';
@@ -1381,6 +1402,7 @@ export { default as SiInfomaniak, defaultColor as SiInfomaniakHex } from './icon
 export { default as SiInfoq, defaultColor as SiInfoqHex } from './icons/SiInfoq';
 export { default as SiInfosys, defaultColor as SiInfosysHex } from './icons/SiInfosys';
 export { default as SiInfracost, defaultColor as SiInfracostHex } from './icons/SiInfracost';
+export { default as SiInfuse, defaultColor as SiInfuseHex } from './icons/SiInfuse';
 export { default as SiIngress, defaultColor as SiIngressHex } from './icons/SiIngress';
 export { default as SiInkdrop, defaultColor as SiInkdropHex } from './icons/SiInkdrop';
 export { default as SiInkscape, defaultColor as SiInkscapeHex } from './icons/SiInkscape';
@@ -1475,6 +1497,7 @@ export { default as SiJulia, defaultColor as SiJuliaHex } from './icons/SiJulia'
 export { default as SiJunipernetworks, defaultColor as SiJunipernetworksHex } from './icons/SiJunipernetworks';
 export { default as SiJunit5, defaultColor as SiJunit5Hex } from './icons/SiJunit5';
 export { default as SiJupyter, defaultColor as SiJupyterHex } from './icons/SiJupyter';
+export { default as SiJust, defaultColor as SiJustHex } from './icons/SiJust';
 export { default as SiJusteat, defaultColor as SiJusteatHex } from './icons/SiJusteat';
 export { default as SiJustgiving, defaultColor as SiJustgivingHex } from './icons/SiJustgiving';
 export { default as SiK3s, defaultColor as SiK3sHex } from './icons/SiK3s';
@@ -1543,6 +1566,7 @@ export { default as SiKoa, defaultColor as SiKoaHex } from './icons/SiKoa';
 export { default as SiKoc, defaultColor as SiKocHex } from './icons/SiKoc';
 export { default as SiKodak, defaultColor as SiKodakHex } from './icons/SiKodak';
 export { default as SiKodi, defaultColor as SiKodiHex } from './icons/SiKodi';
+export { default as SiKodular, defaultColor as SiKodularHex } from './icons/SiKodular';
 export { default as SiKoenigsegg, defaultColor as SiKoenigseggHex } from './icons/SiKoenigsegg';
 export { default as SiKofax, defaultColor as SiKofaxHex } from './icons/SiKofax';
 export { default as SiKofi, defaultColor as SiKofiHex } from './icons/SiKofi';
@@ -1721,6 +1745,7 @@ export { default as SiMambaui, defaultColor as SiMambauiHex } from './icons/SiMa
 export { default as SiMamp, defaultColor as SiMampHex } from './icons/SiMamp';
 export { default as SiMan, defaultColor as SiManHex } from './icons/SiMan';
 export { default as SiManageiq, defaultColor as SiManageiqHex } from './icons/SiManageiq';
+export { default as SiMangacollec, defaultColor as SiMangacollecHex } from './icons/SiMangacollec';
 export { default as SiMangaupdates, defaultColor as SiMangaupdatesHex } from './icons/SiMangaupdates';
 export { default as SiManjaro, defaultColor as SiManjaroHex } from './icons/SiManjaro';
 export { default as SiMantine, defaultColor as SiMantineHex } from './icons/SiMantine';
@@ -1830,6 +1855,7 @@ export { default as SiMocha, defaultColor as SiMochaHex } from './icons/SiMocha'
 export { default as SiMockserviceworker, defaultColor as SiMockserviceworkerHex } from './icons/SiMockserviceworker';
 export { default as SiModal, defaultColor as SiModalHex } from './icons/SiModal';
 export { default as SiModelcontextprotocol, defaultColor as SiModelcontextprotocolHex } from './icons/SiModelcontextprotocol';
+export { default as SiModelscope, defaultColor as SiModelscopeHex } from './icons/SiModelscope';
 export { default as SiModin, defaultColor as SiModinHex } from './icons/SiModin';
 export { default as SiModrinth, defaultColor as SiModrinthHex } from './icons/SiModrinth';
 export { default as SiModx, defaultColor as SiModxHex } from './icons/SiModx';
@@ -1899,6 +1925,7 @@ export { default as SiNaver, defaultColor as SiNaverHex } from './icons/SiNaver'
 export { default as SiNba, defaultColor as SiNbaHex } from './icons/SiNba';
 export { default as SiNbb, defaultColor as SiNbbHex } from './icons/SiNbb';
 export { default as SiNbc, defaultColor as SiNbcHex } from './icons/SiNbc';
+export { default as SiNdi, defaultColor as SiNdiHex } from './icons/SiNdi';
 export { default as SiNdr, defaultColor as SiNdrHex } from './icons/SiNdr';
 export { default as SiNear, defaultColor as SiNearHex } from './icons/SiNear';
 export { default as SiNebula, defaultColor as SiNebulaHex } from './icons/SiNebula';
@@ -1949,11 +1976,13 @@ export { default as SiNiconico, defaultColor as SiNiconicoHex } from './icons/Si
 export { default as SiNike, defaultColor as SiNikeHex } from './icons/SiNike';
 export { default as SiNikon, defaultColor as SiNikonHex } from './icons/SiNikon';
 export { default as SiNim, defaultColor as SiNimHex } from './icons/SiNim';
+export { default as SiNiri, defaultColor as SiNiriHex } from './icons/SiNiri';
 export { default as SiNissan, defaultColor as SiNissanHex } from './icons/SiNissan';
 export { default as SiNixos, defaultColor as SiNixosHex } from './icons/SiNixos';
 export { default as SiNobaralinux, defaultColor as SiNobaralinuxHex } from './icons/SiNobaralinux';
 export { default as SiNodebb, defaultColor as SiNodebbHex } from './icons/SiNodebb';
 export { default as SiNodedotjs, defaultColor as SiNodedotjsHex } from './icons/SiNodedotjs';
+export { default as SiNodegui, defaultColor as SiNodeguiHex } from './icons/SiNodegui';
 export { default as SiNodemon, defaultColor as SiNodemonHex } from './icons/SiNodemon';
 export { default as SiNodered, defaultColor as SiNoderedHex } from './icons/SiNodered';
 export { default as SiNokia, defaultColor as SiNokiaHex } from './icons/SiNokia';
@@ -2006,6 +2035,7 @@ export { default as SiOctobercms, defaultColor as SiOctobercmsHex } from './icon
 export { default as SiOctoprint, defaultColor as SiOctoprintHex } from './icons/SiOctoprint';
 export { default as SiOctopusdeploy, defaultColor as SiOctopusdeployHex } from './icons/SiOctopusdeploy';
 export { default as SiOculus, defaultColor as SiOculusHex } from './icons/SiOculus';
+export { default as SiOdido, defaultColor as SiOdidoHex } from './icons/SiOdido';
 export { default as SiOdin, defaultColor as SiOdinHex } from './icons/SiOdin';
 export { default as SiOdnoklassniki, defaultColor as SiOdnoklassnikiHex } from './icons/SiOdnoklassniki';
 export { default as SiOdoo, defaultColor as SiOdooHex } from './icons/SiOdoo';
@@ -2016,6 +2046,7 @@ export { default as SiOkta, defaultColor as SiOktaHex } from './icons/SiOkta';
 export { default as SiOkx, defaultColor as SiOkxHex } from './icons/SiOkx';
 export { default as SiOllama, defaultColor as SiOllamaHex } from './icons/SiOllama';
 export { default as SiOmadacloud, defaultColor as SiOmadacloudHex } from './icons/SiOmadacloud';
+export { default as SiOmarchy, defaultColor as SiOmarchyHex } from './icons/SiOmarchy';
 export { default as SiOneplus, defaultColor as SiOneplusHex } from './icons/SiOneplus';
 export { default as SiOnestream, defaultColor as SiOnestreamHex } from './icons/SiOnestream';
 export { default as SiOnlyfans, defaultColor as SiOnlyfansHex } from './icons/SiOnlyfans';
@@ -2030,6 +2061,7 @@ export { default as SiOpenapiinitiative, defaultColor as SiOpenapiinitiativeHex 
 export { default as SiOpenbadges, defaultColor as SiOpenbadgesHex } from './icons/SiOpenbadges';
 export { default as SiOpenbsd, defaultColor as SiOpenbsdHex } from './icons/SiOpenbsd';
 export { default as SiOpenbugbounty, defaultColor as SiOpenbugbountyHex } from './icons/SiOpenbugbounty';
+export { default as SiOpencage, defaultColor as SiOpencageHex } from './icons/SiOpencage';
 export { default as SiOpencollective, defaultColor as SiOpencollectiveHex } from './icons/SiOpencollective';
 export { default as SiOpencontainersinitiative, defaultColor as SiOpencontainersinitiativeHex } from './icons/SiOpencontainersinitiative';
 export { default as SiOpencritic, defaultColor as SiOpencriticHex } from './icons/SiOpencritic';
@@ -2077,6 +2109,7 @@ export { default as SiOreilly, defaultColor as SiOreillyHex } from './icons/SiOr
 export { default as SiOrg, defaultColor as SiOrgHex } from './icons/SiOrg';
 export { default as SiOrganicmaps, defaultColor as SiOrganicmapsHex } from './icons/SiOrganicmaps';
 export { default as SiOrigin, defaultColor as SiOriginHex } from './icons/SiOrigin';
+export { default as SiOry, defaultColor as SiOryHex } from './icons/SiOry';
 export { default as SiOsano, defaultColor as SiOsanoHex } from './icons/SiOsano';
 export { default as SiOsf, defaultColor as SiOsfHex } from './icons/SiOsf';
 export { default as SiOsgeo, defaultColor as SiOsgeoHex } from './icons/SiOsgeo';
@@ -2111,6 +2144,7 @@ export { default as SiPaloaltonetworks, defaultColor as SiPaloaltonetworksHex } 
 export { default as SiPaloaltosoftware, defaultColor as SiPaloaltosoftwareHex } from './icons/SiPaloaltosoftware';
 export { default as SiPanasonic, defaultColor as SiPanasonicHex } from './icons/SiPanasonic';
 export { default as SiPandas, defaultColor as SiPandasHex } from './icons/SiPandas';
+export { default as SiPandoc, defaultColor as SiPandocHex } from './icons/SiPandoc';
 export { default as SiPandora, defaultColor as SiPandoraHex } from './icons/SiPandora';
 export { default as SiPantheon, defaultColor as SiPantheonHex } from './icons/SiPantheon';
 export { default as SiPaperlessngx, defaultColor as SiPaperlessngxHex } from './icons/SiPaperlessngx';
@@ -2187,6 +2221,7 @@ export { default as SiPinia, defaultColor as SiPiniaHex } from './icons/SiPinia'
 export { default as SiPino, defaultColor as SiPinoHex } from './icons/SiPino';
 export { default as SiPinterest, defaultColor as SiPinterestHex } from './icons/SiPinterest';
 export { default as SiPioneerdj, defaultColor as SiPioneerdjHex } from './icons/SiPioneerdj';
+export { default as SiPipecat, defaultColor as SiPipecatHex } from './icons/SiPipecat';
 export { default as SiPiped, defaultColor as SiPipedHex } from './icons/SiPiped';
 export { default as SiPipx, defaultColor as SiPipxHex } from './icons/SiPipx';
 export { default as SiPivotaltracker, defaultColor as SiPivotaltrackerHex } from './icons/SiPivotaltracker';
@@ -2197,6 +2232,7 @@ export { default as SiPixelfed, defaultColor as SiPixelfedHex } from './icons/Si
 export { default as SiPixiv, defaultColor as SiPixivHex } from './icons/SiPixiv';
 export { default as SiPixlr, defaultColor as SiPixlrHex } from './icons/SiPixlr';
 export { default as SiPkgsrc, defaultColor as SiPkgsrcHex } from './icons/SiPkgsrc';
+export { default as SiPlane, defaultColor as SiPlaneHex } from './icons/SiPlane';
 export { default as SiPlanet, defaultColor as SiPlanetHex } from './icons/SiPlanet';
 export { default as SiPlanetscale, defaultColor as SiPlanetscaleHex } from './icons/SiPlanetscale';
 export { default as SiPlangrid, defaultColor as SiPlangridHex } from './icons/SiPlangrid';
@@ -2237,6 +2273,7 @@ export { default as SiPoly, defaultColor as SiPolyHex } from './icons/SiPoly';
 export { default as SiPolygon, defaultColor as SiPolygonHex } from './icons/SiPolygon';
 export { default as SiPolymerproject, defaultColor as SiPolymerprojectHex } from './icons/SiPolymerproject';
 export { default as SiPolywork, defaultColor as SiPolyworkHex } from './icons/SiPolywork';
+export { default as SiPomerium, defaultColor as SiPomeriumHex } from './icons/SiPomerium';
 export { default as SiPond5, defaultColor as SiPond5Hex } from './icons/SiPond5';
 export { default as SiPopos, defaultColor as SiPoposHex } from './icons/SiPopos';
 export { default as SiPorkbun, defaultColor as SiPorkbunHex } from './icons/SiPorkbun';
@@ -2256,6 +2293,7 @@ export { default as SiPrdotco, defaultColor as SiPrdotcoHex } from './icons/SiPr
 export { default as SiPreact, defaultColor as SiPreactHex } from './icons/SiPreact';
 export { default as SiPrecommit, defaultColor as SiPrecommitHex } from './icons/SiPrecommit';
 export { default as SiPrefect, defaultColor as SiPrefectHex } from './icons/SiPrefect';
+export { default as SiPrek, defaultColor as SiPrekHex } from './icons/SiPrek';
 export { default as SiPremid, defaultColor as SiPremidHex } from './icons/SiPremid';
 export { default as SiPremierleague, defaultColor as SiPremierleagueHex } from './icons/SiPremierleague';
 export { default as SiPrepbytes, defaultColor as SiPrepbytesHex } from './icons/SiPrepbytes';
@@ -2424,6 +2462,7 @@ export { default as SiRedwoodjs, defaultColor as SiRedwoodjsHex } from './icons/
 export { default as SiReebok, defaultColor as SiReebokHex } from './icons/SiReebok';
 export { default as SiRefine, defaultColor as SiRefineHex } from './icons/SiRefine';
 export { default as SiRefinedgithub, defaultColor as SiRefinedgithubHex } from './icons/SiRefinedgithub';
+export { default as SiReflex, defaultColor as SiReflexHex } from './icons/SiReflex';
 export { default as SiRekaui, defaultColor as SiRekauiHex } from './icons/SiRekaui';
 export { default as SiRelay, defaultColor as SiRelayHex } from './icons/SiRelay';
 export { default as SiRelianceindustrieslimited, defaultColor as SiRelianceindustrieslimitedHex } from './icons/SiRelianceindustrieslimited';
@@ -2553,6 +2592,7 @@ export { default as SiSaudia, defaultColor as SiSaudiaHex } from './icons/SiSaud
 export { default as SiScala, defaultColor as SiScalaHex } from './icons/SiScala';
 export { default as SiScalar, defaultColor as SiScalarHex } from './icons/SiScalar';
 export { default as SiScaleway, defaultColor as SiScalewayHex } from './icons/SiScaleway';
+export { default as SiScan, defaultColor as SiScanHex } from './icons/SiScan';
 export { default as SiScania, defaultColor as SiScaniaHex } from './icons/SiScania';
 export { default as SiSchneiderelectric, defaultColor as SiSchneiderelectricHex } from './icons/SiSchneiderelectric';
 export { default as SiScikitlearn, defaultColor as SiScikitlearnHex } from './icons/SiScikitlearn';
@@ -2599,6 +2639,7 @@ export { default as SiServerless, defaultColor as SiServerlessHex } from './icon
 export { default as SiSession, defaultColor as SiSessionHex } from './icons/SiSession';
 export { default as SiSessionize, defaultColor as SiSessionizeHex } from './icons/SiSessionize';
 export { default as SiSetapp, defaultColor as SiSetappHex } from './icons/SiSetapp';
+export { default as SiSetuptools, defaultColor as SiSetuptoolsHex } from './icons/SiSetuptools';
 export { default as SiSfml, defaultColor as SiSfmlHex } from './icons/SiSfml';
 export { default as SiShadcnui, defaultColor as SiShadcnuiHex } from './icons/SiShadcnui';
 export { default as SiShadow, defaultColor as SiShadowHex } from './icons/SiShadow';
@@ -2912,6 +2953,7 @@ export { default as SiThestorygraph, defaultColor as SiThestorygraphHex } from '
 export { default as SiThewashingtonpost, defaultColor as SiThewashingtonpostHex } from './icons/SiThewashingtonpost';
 export { default as SiTheweatherchannel, defaultColor as SiTheweatherchannelHex } from './icons/SiTheweatherchannel';
 export { default as SiThingiverse, defaultColor as SiThingiverseHex } from './icons/SiThingiverse';
+export { default as SiThings, defaultColor as SiThingsHex } from './icons/SiThings';
 export { default as SiThinkpad, defaultColor as SiThinkpadHex } from './icons/SiThinkpad';
 export { default as SiThirdweb, defaultColor as SiThirdwebHex } from './icons/SiThirdweb';
 export { default as SiThreadless, defaultColor as SiThreadlessHex } from './icons/SiThreadless';
@@ -3188,6 +3230,7 @@ export { default as SiWeasyl, defaultColor as SiWeasylHex } from './icons/SiWeas
 export { default as SiWeb3dotjs, defaultColor as SiWeb3dotjsHex } from './icons/SiWeb3dotjs';
 export { default as SiWebassembly, defaultColor as SiWebassemblyHex } from './icons/SiWebassembly';
 export { default as SiWebauthn, defaultColor as SiWebauthnHex } from './icons/SiWebauthn';
+export { default as SiWebawesome, defaultColor as SiWebawesomeHex } from './icons/SiWebawesome';
 export { default as SiWebcomponentsdotorg, defaultColor as SiWebcomponentsdotorgHex } from './icons/SiWebcomponentsdotorg';
 export { default as SiWebdotde, defaultColor as SiWebdotdeHex } from './icons/SiWebdotde';
 export { default as SiWebdriverio, defaultColor as SiWebdriverioHex } from './icons/SiWebdriverio';
