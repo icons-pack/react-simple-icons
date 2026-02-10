@@ -25,18 +25,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install manager packages 📦
-        uses: pnpm/action-setup@v4
-
       - name: Setup Node.js environment
-        uses: actions/setup-node@v5
+        uses: actions/setup-node@v4
         with:
-          node-version: 24
-          registry-url: https://registry.npmjs.org/
+          node-version-file: package.json
 
-      - name: Install dependencies
-        shell: bash
-        run: pnpm install --no-frozen-lockfile
+      - name: Install Dependencies 📦
+        uses: ./.github/actions/install
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: 🔥 generate:icons
         run: pnpm generate:icons

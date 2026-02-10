@@ -8,10 +8,6 @@ on:
     branches:
       - main
 
-env:
-  TURBO_VERSION: ${{ vars.TURBO_VERSION }}
-  PNPM_VERSION: ${{ vars.PNPM_VERSION }}
-
 jobs:
   check_pull_request:
     name: PR Stats
@@ -22,40 +18,17 @@ jobs:
           fetch-depth: 2
 
       - name: Setup Node.js environment
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 24
-          registry-url: https://registry.npmjs.org/
+          node-version-file: package.json
 
-      # We use week in the turbo cache key to keep the cache from infinitely growing
-      - id: get-week
-        run: echo name=WEEK::$(date +%U) >> $GITHUB_OUTPUT
-
-      - name: Turbo Cache
-        id: turbo-cache
-        uses: actions/cache@v4
-        with:
-          path: .turbo
-          key: turbo-${{ github.job }}-${{ github.ref_name }}-${{ steps.get-week.outputs.WEEK }}-${{ github.sha }}
-          restore-keys: |
-            turbo-${{ github.job }}-${{ github.ref_name }}-${{ steps.get-week.outputs.WEEK }}-
-            turbo-${{ github.job }}-canary-${{ steps.get-week.outputs.WEEK }}-
-
-      - name: 🔥 Installing pnpm
-        run: |
-          corepack enable
-          corepack prepare pnpm@${{ env.PNPM_VERSION }} --activate
-
-      - name: Setup TURBO
-        run: |
-          npm add -g turbo@${{ env.TURBO_VERSION }}
-
-      - name: 📦 Install dependencies
-        run: |
-          pnpm install --no-frozen-lockfile
+      - name: Install Dependencies 📦
+        uses: ./.github/actions/install
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: 🔥 generate:icons
-        run: pnpm turbo run generate:icons
+        run: pnpm generate:icons
 
       - name: 💣 build
-        run: pnpm turbo run build
+        run: pnpm build
