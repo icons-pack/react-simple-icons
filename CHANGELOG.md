@@ -1,5 +1,11 @@
 # Changelog
 
+## 13.11.2
+
+### Patch Changes
+
+- [`4cb0fcf`](https://github.com/icons-pack/react-simple-icons/commit/4cb0fcf6fb81b795c93245d171e4eb203488a60c) Thanks [@wootsbot](https://github.com/wootsbot)! - Fixed docs Bump simple icons
+
 ## 13.11.1
 
 ### Patch Changes
