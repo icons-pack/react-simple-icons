@@ -1,5 +1,11 @@
 # Changelog
 
+## 13.14.0
+
+### Minor Changes
+
+- [`ac121ca`](https://github.com/icons-pack/react-simple-icons/commit/ac121ca52cfe292bf3e2a9db1814242df0fa4bf8) Thanks [@wootsbot](https://github.com/wootsbot)! - Bump simple icons
+
 ## 13.13.0
 
 ### Minor Changes
