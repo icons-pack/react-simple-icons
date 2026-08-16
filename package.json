@@ -35,7 +35,13 @@
 			"require": "./index.cjs"
 		},
 		"./package.json": "./package.json",
-		"./icons/*": "./icons/*"
+		"./icons/*.mjs": "./icons/*.mjs",
+		"./icons/*.cjs": "./icons/*.cjs",
+		"./icons/*": {
+			"types": "./icons/*.d.ts",
+			"import": "./icons/*.mjs",
+			"require": "./icons/*.cjs"
+		}
 	},
 	"sideEffects": false,
 	"files": [
