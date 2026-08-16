@@ -1,2 +1,5 @@
+allowBuilds:
+  '@j178/prek': true
+  esbuild: false
 onlyBuiltDependencies:
   - '@j178/prek'

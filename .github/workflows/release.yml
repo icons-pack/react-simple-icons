@@ -28,7 +28,7 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v4
         with:
-          node-version-file: package.json
+          node-version-file: .nvmrc
 
       - name: Install Dependencies 📦
         uses: ./.github/actions/install
@@ -40,6 +40,12 @@ jobs:
 
       - name: 💣 build
         run: pnpm build
+
+      # pnpm 11 performs the OIDC exchange for trusted publishing itself, so nothing
+      # else in the chain needs to authenticate. Logged to make the active versions
+      # obvious if a publish ever fails again.
+      - name: Toolchain versions 🔎
+        run: node -v && pnpm -v
 
       - name: Create Release Pull Request or Publish to npm 📦
         uses: changesets/action@v1
