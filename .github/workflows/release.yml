@@ -20,7 +20,7 @@ jobs:
       contents: write # to create release (changesets/action)
       issues: write # to post issue comments (changesets/action)
       pull-requests: write # to create pull request (changesets/action)
-      id-token: write # to use OpenID Connect token for provenance (changesets/action)
+      id-token: write # to mint the OIDC token used by npm trusted publishing (auth + provenance)
 
     steps:
       - uses: actions/checkout@v4
@@ -47,6 +47,8 @@ jobs:
           publish: pnpm release
           commit: 'ci(release): version @icons-pack/react-simple-icons'
           title: 'ci(release): version @icons-pack/react-simple-icons'
+        # Auth to npm is handled by trusted publishing (OIDC), configured on npmjs.com
+        # against this repo + workflow filename. No NPM_TOKEN needed, and provenance
+        # attestations are generated automatically, so NPM_CONFIG_PROVENANCE is not set.
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_CONFIG_PROVENANCE: true
