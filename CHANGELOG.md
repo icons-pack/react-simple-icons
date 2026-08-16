@@ -1,5 +1,11 @@
 # Changelog
 
+## 13.15.1
+
+### Patch Changes
+
+- [`d0fe2d0`](https://github.com/icons-pack/react-simple-icons/commit/d0fe2d05113da5ad2ef3a37256612acbeaaf3f3b) Thanks [@wootsbot](https://github.com/wootsbot)! - ci: read node version from .nvmrc and upgrade pnpm to 11
+
 ## 13.15.0
 
 ### Minor Changes
