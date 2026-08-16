@@ -1,5 +1,17 @@
 # Changelog
 
+## 13.15.0
+
+### Minor Changes
+
+- [`b300430`](https://github.com/icons-pack/react-simple-icons/commit/b300430f7aa7659e933f3355890f9e36b3b388b9) Thanks [@wootsbot](https://github.com/wootsbot)! - chore(deps): update simple-icons to 16.28.0
+
+### Patch Changes
+
+- [`0f89703`](https://github.com/icons-pack/react-simple-icons/commit/0f897039b9de449adb3f9cacd54f1ee717513f41) Thanks [@wootsbot](https://github.com/wootsbot)! - ci: switch release workflow to npm trusted publishing
+
+- [`b51329f`](https://github.com/icons-pack/react-simple-icons/commit/b51329fdeefb8e364649fbaf57542de21f4ee5d8) Thanks [@wootsbot](https://github.com/wootsbot)! - fix: add types/import/require conditions to ./icons/\* exports so per-icon imports resolve (#299)
+
 ## 13.14.0
 
 ### Minor Changes
