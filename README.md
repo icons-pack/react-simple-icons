@@ -3,7 +3,7 @@
 
 # react-simple-icons
 
-This package provides the [Simple Icons 16.28.0](https://github.com/simple-icons/simple-icons/releases/tag/16.28.0)
+This package provides the [Simple Icons 16.38.1](https://github.com/simple-icons/simple-icons/releases/tag/16.38.1)
 packaged as a set of [React](https://facebook.github.io/react/) components.
 
   [![www.npmjs.com!](https://img.shields.io/npm/v/@icons-pack/react-simple-icons?color=CB061D&style=flat-square)](https://www.npmjs.com/package/@icons-pack/react-simple-icons)
